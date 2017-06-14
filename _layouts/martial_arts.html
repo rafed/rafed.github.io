@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include common_head.html %}
+		<meta name="description" content="Martial Arts">
+		<meta name="keywords" content="Martial arts, Karate,Judo,Taekwondo,Muay Thai">
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				{% include common_menu.html %}
+				<div class="col-md-2" id="leftPanel">
+					<div>
+						{% include martial_arts_toc.html %}
+					</div>
+				</div>
+				<div class="col-md-8" id="contentPanel"> <!-- class="lead" -->
+					<!--<div class="container-fluid">-->
+						{{ content }}
+					<!--</div>-->
+				</div>
+				<div class="col-md-2" id="rightPanel">
+					<p>Ekhane onek add thakbe</p>
+					<p>Ekhane onek add thakbe</p>
+					<p>Ekhane onek add thakbe</p>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>

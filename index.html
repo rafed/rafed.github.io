@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+	<head>
+		<title>Rafed's site</title>
+		<link rel="stylesheet" type="text/css" href="css.css">
+		
+		<script>
+			function loadPoem() {
+				var xmlhttp = new XMLHttpRequest();
+				
+				xmlhttp.onreadystatechange = function () {
+					if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+						document.getElementById("one").innerHTML = xmlhttp.responseText;
+					}
+				}						
+				
+				xmlhttp.open("GET", "ajax.txt", true);
+				xmlhttp.send();				
+			}		
+		</script>
+		
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<script>
+		  (adsbygoogle = window.adsbygoogle || []).push({
+			google_ad_client: "ca-pub-1173103415440120",
+			enable_page_level_ads: true
+		  });
+		</script>
+		
+	</head>
+	<body>
+		<h1>Welcome to my site!</h1>
+		<p>My first github website! ^_^</p>
+		<p id="one">Just playing with these stuff</p>
+		
+		<button type="button" onclick="loadPoem()">Load Poem!</button>
+		
+		
+	</body>
+</html>

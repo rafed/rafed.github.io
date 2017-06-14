@@ -1,0 +1,47 @@
+---
+permalink: common.css
+---
+
+h2 {
+	color:green;
+}
+
+body {
+	font-size: 16px;
+}
+
+.navbar {
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+#leftPanel {
+	//position: absolute;
+	overflow-y: scroll;
+	max-height: 100vh; // 50px height of navbar
+	padding: 0;
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		
+		a {
+			display: block;
+			padding: 10px;
+			width: 100%;
+		}
+		
+		a:hover {
+			text-decoration: none;
+			background-color: #FFFFBB;
+		}
+	}
+}
+
+#contentPanel {
+	background-color: #FFFFAA;
+	text-align: justify;
+	text-justify: inter-word;
+}
+

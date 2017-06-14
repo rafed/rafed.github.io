@@ -1,0 +1,5 @@
+---
+permalink: /common.js
+---
+
+
