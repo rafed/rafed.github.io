@@ -3,7 +3,7 @@ layout: martial_arts
 title: "Martial arts: Karate"
 permalink: martial_arts/karate
 ---
-## Karate
+# Karate
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ultrices ligula at diam vestibulum porttitor. Aliquam erat volutpat. Proin aliquet dui non rutrum viverra. Curabitur ac diam nisi. Proin nunc justo, ultrices eget vehicula eu, tempor eu libero. Donec non ex sit amet ex interdum sodales ut ut dui. Fusce tempor neque id placerat ultrices. Nam tincidunt tellus nisl, vel tincidunt dolor finibus vitae. Donec mattis egestas urna sit amet hendrerit.
 

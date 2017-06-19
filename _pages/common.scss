@@ -2,12 +2,8 @@
 permalink: common.css
 ---
 
-h2 {
-	color:green;
-}
-
 body {
-	font-size: 16px;
+	font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
 }
 
 .navbar {
@@ -15,33 +11,84 @@ body {
 	margin-bottom: 0;
 }
 
+#content {
+	margin-top: 50px;
+}
+
 #leftPanel {
-	//position: absolute;
-	overflow-y: scroll;
-	max-height: 100vh; // 50px height of navbar
-	padding: 0;
-	
+	font-size: 16px;
 	ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;
+		overflow: hidden;
 		
 		a {
 			display: block;
 			padding: 10px;
 			width: 100%;
+			
+			&:hover {
+				text-decoration: none;
+				background-color: #FFF0BB;///////////////////////
+			}
 		}
-		
-		a:hover {
-			text-decoration: none;
-			background-color: #FFFFBB;
-		}
+	}
+	
+	z-index: 1000;
+}
+
+#writing {
+	text-align: justify;
+	font-size: 16px;
+}
+
+
+/***** css for large devices ******/
+@media screen and (min-width: 769px) {
+	#innerTopPanel {
+		//position: fixed;
+		//top: 0;
+	}
+	
+	#innerLeftPanel {
+		position: fixed;
+		max-height: calc(100vh - 50px);
+		overflow-y: auto;
+	}
+
+	#innerRightPanel {
+		position: fixed;
+		max-height: calc(100vh - 50px);
+		overflow-y: auto;
 	}
 }
 
-#contentPanel {
-	background-color: #FFFFAA;
-	text-align: justify;
-	text-justify: inter-word;
+/***** css for small devices ******/
+@media screen and (max-width: 768px) {
+	#leftPanel {
+		text-align: center;
+		max-height: 100%;
+		ul {
+			columns: 2;
+			-webkit-columns: 2;
+			-moz-columns: 2;
+		}
+	}
+
+    #contentPanel {
+        max-height: 100%;
+    }
+}
+
+/**** share bar *****/
+#share-bar {
+	text-align: center;
+
+	a {
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }
 
