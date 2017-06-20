@@ -79,6 +79,13 @@ body {
     #contentPanel {
         max-height: 100%;
     }
+    
+    #writing {
+    	padding: {
+    		left: 0;
+    		right: 0;
+    	}
+    }
 }
 
 /**** share bar *****/
@@ -89,6 +96,10 @@ body {
 		&:hover {
 			text-decoration: none;
 		}
+	}
+	
+	img {
+		padding-bottom: 5px;
 	}
 }
 
