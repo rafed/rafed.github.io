@@ -1,0 +1,37 @@
+---
+comments: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include common_head.html %}
+		<meta name="description" content="About">
+		<meta name="keywords" content="About us, Contact us, Privacy policy">
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row" id="topBar">
+				{% include common_menu.html %}
+			</div>
+			<div class="row" id="content">
+				<div class="col-sm-2" id="leftPanel">
+					<div class="col-sm-2" id="innerLeftPanel">
+						{% include info_toc.html %}
+					</div>
+				</div>
+				<div class="col-sm-8" id="contentPanel">
+					<div class="col-sm-12" id="writing">
+						{{ content }}
+					</div>
+				</div>
+				<div class="col-sm-2" id="rightPanel">
+					<div class="col-sm-12" id="innerRightPanel">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

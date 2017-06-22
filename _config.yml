@@ -16,7 +16,7 @@ email: rafed123@yahoo.com
 
 description: > # this means to ignore newlines until "baseurl:"
   Akta description dilam
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "rafed123.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 facebook_username: Rafed Muhammad Yasir
