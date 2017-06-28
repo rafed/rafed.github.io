@@ -1,5 +1,7 @@
 ---
-comments: true
+permalink: 404.html
+title: Oops! 404, Not found!
+description: The page you requested was not found.
 ---
 
 <!DOCTYPE html>
@@ -7,7 +9,6 @@ comments: true
 	<head>
 		{% include common_head.html %}
 		{% seo %}
-		<meta name="keywords" content="About us, Contact us, Privacy policy">
 	</head>
 
 	<body>
@@ -18,12 +19,16 @@ comments: true
 			<div class="row" id="content">
 				<div class="col-sm-2" id="leftPanel">
 					<div class="col-sm-2" id="innerLeftPanel">
-						{% include info_toc.html %}
+						
 					</div>
 				</div>
 				<div class="col-sm-8" id="contentPanel">
 					<div class="col-sm-12" id="writing">
-						{{ content }}
+						<div class="jumbotron">
+							<h1>Oops! 404, not found</h1>
+							<p>You have come a long way my friend...  :cry: The page you requested does not exist.</p>
+							<p>If you came from a link or a bookmark, the page may have been moved to another location. You can check it out from the site or blog links on the top menubar.</p>
+						</div>
 					</div>
 				</div>
 				<div class="col-sm-2" id="rightPanel">

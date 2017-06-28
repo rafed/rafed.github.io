@@ -11,15 +11,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Rafed giving a title
-email: rafed123@yahoo.com
+
+# title: Rafed giving a title
+email: rafed123@gmail.com
 
 description: > # this means to ignore newlines until "baseurl:"
-  Akta description dilam
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "rafed123.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rafed123.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-facebook_username: Rafed Muhammad Yasir
+author: Rafed Muhammad Yasir
+facebook_username: rafed.yasir
 github_username: rafed123
 
 # Build settings
@@ -27,9 +28,18 @@ github_username: rafed123
 # theme: minima
 # gems:
 #  - jekyll-feed
+
+gems:
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-seo-tag
+
 exclude:
   - Gemfile
   - Gemfile.lock
+  
 include: ['_pages']
+
+permalink: /blog/:title
 #kramdown:
 #  input: GFM

@@ -2,6 +2,7 @@
 layout: info
 title: "Privacy policy"
 permalink: /info/privacy.html
+description: Privacy policy of rafed123.github.io
 ---
 
 # Privacy Policy
