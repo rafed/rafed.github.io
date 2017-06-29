@@ -37,4 +37,4 @@ Martial arts are classified in mainly two types:
 
 A martial art may have different styles. Think of it like this, English is spoken in USA, UK and Australia. Although the language is same, the pronunciation in each country is different. This happens to martial arts as well. For example **Karate** is a martial art, but it has several styles- **Shotokan, Kyokushin, Goju ryu**. Although they may seem similar at first, there are slight differences.
 
-Now lock your seatbelts as we fly to Japan to know about [Karate!](karate.html) :airplane:
+Now fasten your seatbelts as we fly to Japan to know about [Karate!](karate.html) :airplane:
