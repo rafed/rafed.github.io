@@ -1,43 +1,94 @@
 ---
 permalink: index.html
+title: Home
+description: Welcome to Rafed's den. Take a peek around to know more about me and more about the world.
 ---
 
 <!DOCTYPE html>
+<html lang="en">
 	<head>
-		<title>Rafed's site</title>
-		<link rel="stylesheet" type="text/css" href="css.css">
+		{% include common_head.html %}
+		{% seo %}
+		<meta name="keywords" content="Home page, Landing page">
 		
-		<script>
-			function loadPoem() {
-				var xmlhttp = new XMLHttpRequest();
+		<style>
+			body {
+				text-align: center;
+			}
+
+			.container-fluid .jumbotron {
+				margin: 0;
+   				border-radius: 0;
+			}
+			
+			.container-fluid {
+				padding: 0;
+			}
+			
+			.jumbotron {
+				margin: 0;
+			}
+			
+			#content {
+				padding: 0;
+			}
+
+			#top-box {
+				text-align: center;
 				
-				xmlhttp.onreadystatechange = function () {
-					if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-						document.getElementById("one").innerHTML = xmlhttp.responseText;
-					}
-				}						
-				
-				xmlhttp.open("GET", "ajax.txt", true);
-				xmlhttp.send();				
-			}		
-		</script>
-		
-		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-		<script>
-		  (adsbygoogle = window.adsbygoogle || []).push({
-			google_ad_client: "ca-pub-1173103415440120",
-			enable_page_level_ads: true
-		  });
-		</script>
-		
+				background-color: #101010;
+				color: white;
+				height: 100vh;
+			}
+			
+			#propic {
+				border-radius: 100%;
+				max-width: 300px;
+				display: inline-block;
+			}
+			
+			.box {
+				padding: 0;
+				margin: 0;				
+			}
+			
+			ul {
+				padding: 0;
+				list-style-type: none;
+				font-size: 22px;
+			}			
+		</style>
 	</head>
+
 	<body>
-		<h1>Welcome to my site!</h1>
-		<p>My first github website! ^_^</p>
-		<p id="one">Just playing with these stuff</p>
+		<div class="jumbotron" id="top-box">
+			<h1>Welcome to Rafed's den!</h1><br>
+			<img id="propic" alt="Profile picture" src="/img/profile/me.jpg">
+		</div>
 		
-		<button type="button" onclick="loadPoem()">Load Poem!</button>
-		
-		
+		<div class="container-fluid" id="#content">
+			<div class="col-sm-6 box">
+				<div class="jumbotron" style="background-color:#989898">
+					<h2>Visit my <a href="/blog/index.html">blog</a></h2>
+				</div>
+			</div>
+			<div class="col-sm-6 box">
+				<div class="jumbotron" style="background-color:#c1c1c1">
+					<h2>See my <a href="/profile/index.html">profile</a>/<a href="https://www.github.com/rafed123">github</a></h2>
+				</div>
+			</div>
+			<div class="col-sm-12 box">
+				<div class="jumbotron">
+					<h2 style="color:green">My sites</h2>
+					
+					<ul>
+						{% include sites.html %}
+					</ul>
+					
+					<h4><i>More coming soon!</i></h4>
+				</div>
+			</div>
+			
+		</div>
 	</body>
 </html>
