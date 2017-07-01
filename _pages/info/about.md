@@ -13,4 +13,4 @@ I learnt music and singing and now I play the :musical_note: piano. After that I
 
 I built this site just to share my personal experiences and things that I've learnt over the years. Hope it will be of help to somebody in the world!
 
-If you would like to know more about me, go [here](/profile).
+If you would like to know more about me, visit my [profile](/profile).
