@@ -17,9 +17,9 @@ description: All about my professional life, from education to practical work ex
 	</thead>	
 	<tbody>
 		<tr>
-			<td>School</td>
-			<td>Scholars School and College</td>
-			<td>2012</td>
+			<td>Honors</td>
+			<td>Institute of Information Technology, University of Dhaka</td>
+			<td>2018 (expected)</td>
 		</tr>
 		<tr>
 			<td>College</td>
@@ -27,9 +27,9 @@ description: All about my professional life, from education to practical work ex
 			<td>2014</td>
 		</tr>
 		<tr>
-			<td>Honors degree</td>
-			<td>Institute of Information Technology, University of Dhaka</td>
-			<td>2018 (expected)</td>
+			<td>School</td>
+			<td>Scholars School and College</td>
+			<td>2012</td>
 		</tr>
 	</tbody>
 </table>
@@ -94,14 +94,14 @@ description: All about my professional life, from education to practical work ex
 	</thead>	
 	<tbody>
 		<tr>
-			<td>Law firm SRS</td>
-			<td>2016</td>
-			<td>Did a software requirement analysis for the law firm - "The law sanctuary", under the request of SoftCell Company Ltd</td>
-		</tr>
-		<tr>
 			<td>Army land use office SRS</td>
 			<td>2017</td>
 			<td>Did a software requirement analysis an army office, under the request of Glitra company</td>
+		</tr>
+		<tr>
+			<td>Law firm SRS</td>
+			<td>2016</td>
+			<td>Did a software requirement analysis for the law firm - "The law sanctuary", under the request of SoftCell Company Ltd</td>
 		</tr>
 	</tbody>
 </table>
