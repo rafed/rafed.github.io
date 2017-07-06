@@ -41,5 +41,7 @@ exclude:
 include: ['_pages']
 
 permalink: /blog/:title
-#kramdown:
-#  input: GFM
+
+markdown: kramdown
+highlighter: rouge
+
