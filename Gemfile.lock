@@ -77,7 +77,6 @@ DEPENDENCIES
   jekyll-sitemap
   jemoji
   minima (~> 2.0)
-  rouge
   tzinfo-data
 
 RUBY VERSION

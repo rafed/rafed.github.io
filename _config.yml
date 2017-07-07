@@ -37,11 +37,16 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  
-include: ['_pages']
+
+sass:
+  sass_dir: _sass
+
+include: ['_pages', '_cssJS']
 
 permalink: /blog/:title
 
 markdown: kramdown
+kramdown:
+  input: GFM
 highlighter: rouge
 
