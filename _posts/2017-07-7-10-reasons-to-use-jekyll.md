@@ -4,7 +4,9 @@ title: 10 reasons to use Jekyll
 description: Why should you use Jekyll? Jekyll is a really really cool blog management system. Read more to find out why you should use it and why not.
 ---
 
-# 10 reasons to use Jekyll for your site/blog
+<img class="pic" alt="Jekyll logo" src="/img/blog/jekyll.png">
+
+# 10 practical reasons to use Jekyll for your site/blog
 
 I wanted to make a site. But I could not decide which platform to choose from, Wordpress or Jekyll? On one hand I had the incredible power of Wordpress and on the other hand my love for GitHub pages which supports Jekyll. Finally, I thought I would love to push content to my repo in Github with the terminal. So I went with Jekyll.
 
