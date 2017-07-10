@@ -2,7 +2,7 @@
 layout: info
 title: "Contact me"
 permalink: /info/contact.html
-description: Contact rafed123.github.io
+description: Contact the author of rafed123.github.io
 ---
 
 # Contact me

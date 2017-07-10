@@ -2,7 +2,7 @@
 layout: info
 permalink: /info/index.html
 title: "About me"
-description: About this page.
+description: About the author of this site.
 ---
 
 # About me
