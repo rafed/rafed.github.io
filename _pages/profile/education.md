@@ -96,12 +96,12 @@ description: All about my professional life, from education to practical work ex
 		<tr>
 			<td>Army land use office SRS</td>
 			<td>2017</td>
-			<td>Did a software requirement analysis an army office, under the request of Glitra company</td>
+			<td>Did a software requirement analysis an army office, on the request of Glitra company</td>
 		</tr>
 		<tr>
 			<td>Law firm SRS</td>
 			<td>2016</td>
-			<td>Did a software requirement analysis for the law firm - "The law sanctuary", under the request of SoftCell Company Ltd</td>
+			<td>Did a software requirement analysis for the law firm - "The law sanctuary", on the request of SoftCell Company Ltd</td>
 		</tr>
 	</tbody>
 </table>
