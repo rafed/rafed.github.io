@@ -36,7 +36,7 @@ The code that makes Linux is open source. Anyone can see it, modify it or contri
 
 ### So, with Linux I cannot be infected?
 
-Of course, you can. You can install a virus on purpose. You can install a virus by mistake. Someone else can install one on your PC f you leave it unattended. If you put weak passwords for user accounts then someone could remotely install a virus. 
+Of course, you can. You can install a virus on purpose. You can install a virus by mistake. Someone else can install one on your PC if you leave it unattended. If you put weak passwords for user accounts then someone could remotely install a virus. 
 
 ###  There are antiviruses for Linux!!
 
