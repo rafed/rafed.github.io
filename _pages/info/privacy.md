@@ -1,7 +1,7 @@
 ---
 layout: info
 title: "Privacy policy"
-permalink: /info/privacy.html
+permalink: /info/privacy
 description: Privacy policy of rafed123.github.io
 ---
 

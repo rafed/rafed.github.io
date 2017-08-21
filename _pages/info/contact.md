@@ -1,7 +1,7 @@
 ---
 layout: info
 title: "Contact me"
-permalink: /info/contact.html
+permalink: /info/contact
 description: Contact the author of rafed123.github.io
 ---
 

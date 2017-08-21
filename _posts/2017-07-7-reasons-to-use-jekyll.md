@@ -6,9 +6,9 @@ description: Why should you use Jekyll? Jekyll is a really really cool blog mana
 
 <img class="pic" alt="Jekyll logo" src="/img/blog/jekyll.png">
 
-# 10 practical reasons to use Jekyll for your site/blog
+## 10 practical reasons to use Jekyll for your site/blog
 
-I wanted to make a site. But I could not decide which platform to choose from, Wordpress or Jekyll? On one hand I had the incredible power of Wordpress and on the other hand my love for GitHub pages which supports Jekyll. Finally, I thought I would love to push content to my repo in Github with the terminal. So I went with Jekyll.
+I wanted to make a site but I could not decide which building platform to choose from, Wordpress or Jekyll? On one hand I had the incredible power of Wordpress and on the other hand my love for GitHub pages with Jekyll. Finally, I thought I would love to push content to my repo in Github with the terminal. So I went with Jekyll.
 
 But Jekyll seemed complicated. It was difficult to start with. At one point I even thought of making my own static site generator. But in the end, I continued struggling to understand Jekyll. And when I finally got it, I realized that sticking to Jekyll was the best decision I ever made. Read more to know why.
 
@@ -34,7 +34,7 @@ If you are a **Github** user you will definitely love Jekyll. It is officially s
 
 ### 6. Support for SASS and CoffeeScript
 
-**SASS** makes CSS so easy. Jekyll has inbuilt support for Sass. That is, no need to compile your sass anymore. Just upload it and Jekyll will compile it to make the CSS. Just like SASS, Coffeescript is also supported. It requires the **jekyll-coffeescript** gem. I have never used it. But I am sure, if you are a Coffeescript fan you will want to use it.
+**SASS** makes CSS so easy. Jekyll has inbuilt support for Sass. That is, no need to compile your SASS anymore. Just upload it and Jekyll will compile it to make the CSS. Just like SASS, Coffeescript is also supported. It requires the **jekyll-coffeescript** gem. I have never used it. But I am sure, if you are a Coffeescript fan you will want to use it.
 
 ### 7. Automatic SEO
 

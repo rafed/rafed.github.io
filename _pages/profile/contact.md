@@ -1,6 +1,6 @@
 ---
 layout: profile
-permalink: profile/contact.html
+permalink: profile/contact
 title: Contact me
 description: Information that you will need to contact me.
 ---

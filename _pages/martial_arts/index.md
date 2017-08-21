@@ -7,7 +7,7 @@ description: The only site you need to visit to know about martial arts all arou
 
 <img class="pic" alt="Karate stick figure" src="/img/martial_arts/karate-stick.png">
 
-# Deadliest martial arts
+## Deadliest martial arts
 
 Since the ancient times, people have dueled and engaged in war. For combats, they devised techniques to take leverage over their opponents. And thus martial arts were born. But not all martial arts were designed to only fight. Some were made to discover the wonders of the human body. Now, whether they were designed to kill or understand more of the human body, I will take you on a tour to some of the renowned and deadliest martial arts on the planet.
 

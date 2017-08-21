@@ -1,6 +1,6 @@
 ---
 layout: profile
-permalink: profile/index.html
+permalink: profile/index
 title: Personal info
 description: My personal informations
 ---

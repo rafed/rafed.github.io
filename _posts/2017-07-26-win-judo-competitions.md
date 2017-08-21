@@ -6,7 +6,7 @@ description: Whether it's a friendly fight in the dojo or a muscle cracking comb
 
 <img class="pic" alt="Judo fight" src="/img/blog/judo_fight.jpg">
 
-# How to win Judo competitions
+## How to win Judo competitions
 
 If you have a competition ahead and you have no idea how you should train, this guide is for you. These tips apply whether its for a dojo fight or a competition. However, it is mostly intended for people who are not so experienced with Judo fights and have upcoming contests.
 
@@ -24,6 +24,7 @@ Before daydreaming that you are getting the gold make sure you know the followin
 **Strength** and **techniques** are the two areas you need to work on concurrently. Remember that strength without technique is useless and technique without strength is futile.
 
 ### Strength training
+
 If you look closely, a Judo throw has three crucial parts:
 1. **The grip:** The person having the greater grip strength will control his opponent. Without control on your opponent, you won't get a single chance to even attempt a throw.
 2. **The pull (kuzushi):** A pull must be strong and firm. If your pull is not good, you'll be thrown off balance and your imbalances will be used against you.
@@ -38,6 +39,7 @@ For a strong **pull**, do as much pull ups and push ups you can. Try increasing 
 For a strong **lift**, do squats. Do at least 100 squats every day and do them with speed. You will notice a huge improvement in your balance.
 
 ### Throwing techniques (Nage-waza)
+
 Selecting the right technique is crucial. If you're taller than your opponent then you'll have a hard time bending down for doing throws. For a tall person, leg techniques are more suitable. Being tall, you should consider the following techniques:
 1. Tai otoshi
 2. Osotogari

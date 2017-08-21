@@ -1,6 +1,6 @@
 ---
 layout: info
-permalink: /info/index.html
+permalink: /info/index
 title: "About me"
 description: About the author of this site.
 ---

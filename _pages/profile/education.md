@@ -1,6 +1,6 @@
 ---
 layout: profile
-permalink: profile/education.html
+permalink: profile/education
 title: Education and work experience
 description: All about my professional life, from education to practical work experiences.
 ---

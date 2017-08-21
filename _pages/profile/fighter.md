@@ -1,6 +1,6 @@
 ---
 layout: profile
-permalink: profile/fighter.html
+permalink: profile/fighter
 title: Fighter me
 description: All about my martial arts experiences.
 ---

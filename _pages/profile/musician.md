@@ -1,6 +1,6 @@
 ---
 layout: profile
-permalink: profile/musician.html
+permalink: profile/musician
 title: Musician me
 description: All about my music experiences
 ---

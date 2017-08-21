@@ -6,7 +6,7 @@ description: They say Linux computers do not need antivirus. Have you ever wonde
 
 <img class="pic" alt="Jekyll logo" src="/img/blog/linuxVirusProtected.png">
 
-# 5 reasons why Linux needs no antivirus
+## 5 reasons why Linux needs no antivirus
 
 So, maybe you have heard Linux PCs are super safe because they are not affected by viruses. Linux computers are almost immune to virus. Yes, I said "almost" immune. But the percentage of being affected is very less, even less than 1%. That is why people say that Linux does not need any antivirus. But why is that have you ever wondered? Here are the top 5 reasons why viruses do not affect Linux.
 

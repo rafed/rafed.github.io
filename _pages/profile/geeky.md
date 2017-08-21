@@ -1,6 +1,6 @@
 ---
 layout: profile
-permalink: profile/geeky.html
+permalink: profile/geeky
 title: Geeky me
 description: All about my experiemnts and the extra technical things that I do.
 ---

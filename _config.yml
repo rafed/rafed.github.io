@@ -30,8 +30,8 @@ github_username: rafed123
 #  - jekyll-feed
 
 gems:
-  - jekyll-sitemap
   - jemoji
+  - jekyll-sitemap
   - jekyll-seo-tag
 
 exclude:
