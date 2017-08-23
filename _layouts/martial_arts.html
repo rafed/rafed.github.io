@@ -1,42 +1,9 @@
 ---
-comments: true
+layout: master
+toc: martial_arts_toc.html
+social: true
+
+meta: Martial arts, Karate, Judo, Taekwondo, Muay Thai
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		{% include common_head.html %}
-		{% seo %}
-		<meta name="keywords" content="Martial arts, Karate, Judo, Taekwondo, Muay Thai">
-	</head>
-
-	<body>
-		<div class="container-fluid">
-			<div class="row" id="topBar">
-				{% include common_menu.html %}
-			</div>
-			<div class="row" id="content">
-				<div class="col-sm-2" id="leftPanel">
-					<div class="col-sm-2" id="innerLeftPanel">
-						{% include martial_arts_toc.html %}
-					</div>
-				</div>
-				<div class="col-sm-8" id="contentPanel">
-					<div class="col-sm-12" id="writing">
-						{{ content }}
-						{% include share_bar.html %}
-						{% include disqus.html %}
-					</div>
-					<script type="text/javascript">
-						document.write("<gcse:searchresults-only></gcse:searchresults-only>");
-					</script>
-				</div>
-				<div class="col-sm-2" id="rightPanel">
-					<div class="col-sm-12" id="innerRightPanel">
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
+{{ content }}

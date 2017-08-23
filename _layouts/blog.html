@@ -1,43 +1,10 @@
 ---
-comments: true
+layout: master
+toc: blog_toc.html
+social: true
+
+meta: Technology, computer science, software engineering, martial arts, music, keyboard, piano, music theory, instruments, computer, codes, programming, psychology, software engineering, blogging, money
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<link rel="stylesheet" href="/code.css">
-		{% include common_head.html %}
-		{% seo %}
-		<meta name="keywords" content="Technology, computer science, software engineering, martial arts, music, keyboard, piano, music theory, instruments, computer, codes, blogging, money">
-	</head>
+{{ content }}
 
-	<body>
-		<div class="container-fluid">
-			<div class="row" id="topBar">
-				{% include common_menu.html %}
-			</div>
-			<div class="row" id="content">
-				<div class="col-sm-2" id="leftPanel">
-					<div class="col-sm-2" id="innerLeftPanel">
-						{% include blog_toc.html %}
-					</div>
-				</div>
-				<div class="col-sm-8" id="contentPanel">
-					<div class="col-sm-12" id="writing">
-						{{ content }}
-						{% include share_bar.html %}
-						{% include disqus.html %}
-					</div>
-					<script type="text/javascript">
-						document.write("<gcse:searchresults-only></gcse:searchresults-only>");
-					</script>
-				</div>
-				<div class="col-sm-2" id="rightPanel">
-					<div class="col-sm-12" id="innerRightPanel">
-						
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
