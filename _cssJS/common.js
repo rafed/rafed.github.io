@@ -9,7 +9,7 @@ function socialMediaPopUp(url, title, width, height) {
 } 
 
 (function() {
-	var cx = '009503574265927097730:9gjoag2safo';
+	var cx = '000151824860492892407:kd5zijxwj6a';
 	var gcse = document.createElement('script');
 	gcse.type = 'text/javascript';
 	gcse.async = true;
@@ -17,7 +17,6 @@ function socialMediaPopUp(url, title, width, height) {
 	var s = document.getElementsByTagName('script')[0];
 	s.parentNode.insertBefore(gcse, s);
 })();
-
 
 function executeQuery() {
 	var input = document.getElementById('cse-search-input-box-id');
@@ -29,3 +28,5 @@ function executeQuery() {
 	}
 	return false;
 }
+
+
