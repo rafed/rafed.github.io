@@ -5,7 +5,10 @@ comments: true
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<link rel="stylesheet" href="/code.css">
+		{% if page.coding %}
+			<link rel="stylesheet" href="/code.css">
+		{% endif %}
+		
 		{% include common_head.html %}
 		{% seo %}
 		<meta name="keywords" content= "{{ layout.meta }}" />

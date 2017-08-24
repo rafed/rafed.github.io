@@ -2,6 +2,7 @@
 layout: blog
 title: 10 reasons to use Jekyll
 description: Why should you use Jekyll? Jekyll is a really really cool blog management system. Read more to find out why you should use it and why not.
+coding: true
 ---
 
 <img class="pic" alt="Jekyll logo" src="/img/blog/jekyll.png">
