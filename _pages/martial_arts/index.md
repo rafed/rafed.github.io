@@ -25,7 +25,7 @@ And then there were some guys who said, "Hey, let's take all the good stuff from
 
 ### Martial arts and philosophy
 
-Most martial arts have a vision of their own, especially the eastern martial arts. Apart from teaching to fight, they also teach the purpose of life, medicines, bone setting and spirituality. In fact, eastern martial arts are seen as more of a lifestyle. If you observe their names closely you will find one thing in common. Karate-**do**, Ju**do**, Taekwo**do**, Aiki**do**, they all have "_do_" in common. **Do** means lifestyle. These martial arts not only taught people how to fight, they taught them how to live. 
+Most martial arts have a vision of their own, especially the eastern martial arts. Apart from teaching to fight, they also teach the purpose of life, medicines, bone setting and spirituality. In fact, eastern martial arts are seen as more of a lifestyle. If you observe their names closely you will find one thing in common. Karate-**do**, Ju**do**, Taekwo**do**, Aiki**do**, they all have "_do_" in common. **Do** means lifestyle. These martial arts not only taught people how to fight, it taught them how to live. 
 
 ### Types of martial arts
 
