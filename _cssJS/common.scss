@@ -22,40 +22,60 @@ body {
 }
 
 #leftPanel {
+	// this is just a holder for inner fixed div
+	// remove all padding
+	padding:{
+		left: 0;
+		right: 0;
+	}
+}
+
+#innerLeftPanel {
+	// remove all padding
+	padding: {
+		left: 0;
+		right: 0;
+	}
+	
 	font-size: 16px;
 	ul {
 		list-style-type: none;
 		margin: 0;
-		padding: 0;
+		padding: 0px;
 		overflow: hidden;
+		width: 100%;
 		
 		a {
 			display: block;
-			padding: 10px;
-			width: 100%;
+			padding: {
+				top: 10px;
+				bottom: 10px;
+				left: 20px;
+				right: 20px;
+			}
 			
 			&:hover {
 				text-decoration: none;
-				background-color: #FFFBBA;///////////////////////
+				background-color: #FFFBBA;
 			}
 		}
 	}
-	
-	z-index: 1000;
+}
+
+#rightPanel {
+	// remove all padding
+	padding:{
+		left: 0;
+		right: 0;
+	}
 }
 
 #writing {
 	font-size: 18px;
-	font-weight: 560;
 	line-height: 1.7;
 	
 	h1,h2,h3,h4 {
 		color:green;
-	}
-	
-	padding: {
-		left: 50px;
-		right: 50px;
 	}
 }
 
@@ -72,40 +92,55 @@ body {
 }
 
 /***** css for large devices ******/
-@media screen and (min-width: 769px) {
-	#innerTopPanel {
-		//position: fixed;
-		//top: 0;
-	}
-	
+$navbarHeight: 50px;
+@media screen and (min-width: 993px) {
 	#innerLeftPanel {
 		position: fixed;
-		max-height: calc(100vh - 50px);
+		max-height: calc(100vh - #{$navbarHeight});
 		overflow-y: auto;
 	}
-
+	
+	#writing {
+		padding: {
+			left: 40px;
+			right: 40px;
+		}
+	}
+	
 	#innerRightPanel {
 		position: fixed;
-		max-height: calc(100vh - 50px);
+		max-height: calc(100vh - #{$navbarHeight});
 		overflow-y: auto;
 	}
 }
 
-/***** css for small devices ******/
-@media screen and (max-width: 768px) {
+/***** css for tabs ******/
+@media screen and (max-width: 992px) {
 	#leftPanel {
 		text-align: center;
 		max-height: 100%;
 	}
 
-    #contentPanel {
-        max-height: 100%;
-    }
     
     #writing {
     	padding: {
-    		left: 0;
-    		right: 0;
+    		left: 30px;
+    		right: 30px;
+    	}
+    }
+}
+
+/***** css for mobiles ******/
+@media screen and (max-width: 480px) {
+	#leftPanel {
+		text-align: center;
+		max-height: 100%;
+	}
+    
+    #writing {
+    	padding: {
+    		left: 15px;
+    		right: 15px;
     	}
     }
 }

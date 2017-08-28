@@ -20,27 +20,25 @@ comments: true
 				{% include common_menu.html %}
 			</div>
 			<div class="row" id="content">
-				<div class="col-sm-2" id="leftPanel">
-					<div class="col-sm-2" id="innerLeftPanel">
-						{% include {{ layout.toc }} %}
-					</div>
-				</div>
-				<div class="col-sm-8" id="contentPanel">
-					<div class="col-sm-12" id="writing">
-						{{ content }}
-						
-						{% if layout.social %}
-							{% include share_bar.html %}
-							{% include disqus.html %}
-						{% endif %}
-					</div>
+				<div class="col-lg-8 col-lg-push-2   col-md-7 col-md-push-2" id="writing">
+					{{ content }}
+					
+					{% if layout.social %}
+						{% include share_bar.html %}
+						{% include disqus.html %}
+					{% endif %}
 					<script type="text/javascript">
 						document.write("<gcse:searchresults-only></gcse:searchresults-only>");
 					</script>
 				</div>
-				<div class="col-sm-2" id="rightPanel">
-					<div class="col-sm-12" id="innerRightPanel">
-
+				<div class="col-lg-2 col-lg-push-2   col-md-3 col-md-push-2" id="rightPanel">
+					<div class="col-lg-2 col-md-3" id="innerRightPanel">
+						<p>balsa.</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-lg-pull-10   col-md-2 col-md-pull-10" id="leftPanel">
+					<div class="col-lg-2 col-md-2" id="innerLeftPanel">
+						{% include {{ layout.toc }} %}
 					</div>
 				</div>
 			</div>
