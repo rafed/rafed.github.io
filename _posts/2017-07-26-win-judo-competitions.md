@@ -4,9 +4,9 @@ title: How to win Judo competitions
 description: Whether it's a friendly fight in the dojo or a muscle cracking combat in a competition, these tips and tricks will help you all the way to get the gold!
 ---
 
-<img class="pic" alt="Judo fight" src="/img/blog/judo_fight.jpg">
-
 ## How to win Judo competitions
+
+<img class="pic" alt="Judo fight" src="/img/blog/judo_fight.jpg">
 
 If you have a competition ahead and you have no idea how you should train, this guide is for you. These tips apply whether its for a dojo fight or a competition. However, it is mostly intended for people who are not so experienced with Judo fights and have upcoming contests.
 

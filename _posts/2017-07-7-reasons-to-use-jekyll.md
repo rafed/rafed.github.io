@@ -5,9 +5,9 @@ description: Why should you use Jekyll? Jekyll is a really really cool blog mana
 coding: true
 ---
 
-<img class="pic" alt="Jekyll logo" src="/img/blog/jekyll.png">
-
 ## 10 practical reasons to use Jekyll for your site/blog
+
+<img class="pic" alt="Jekyll logo" src="/img/blog/jekyll.png">
 
 I wanted to make a site but I could not decide which building platform to choose from, Wordpress or Jekyll? On one hand I had the incredible power of Wordpress and on the other hand my love for GitHub pages with Jekyll. Finally, I thought I would love to push content to my repo in Github with the terminal. So I went with Jekyll.
 

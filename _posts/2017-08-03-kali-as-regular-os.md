@@ -4,9 +4,9 @@ title: Kali as a regular OS
 description: Kali is a wonderful pentesting OS and it is also pretty good for your regular day to day jobs. Here is my personal experiences about using it.
 ---
 
-<img class="pic" alt="Kali dragon" src="/img/blog/kali.png">
-
 ## Kali as a regular operating system
+
+<img class="pic" alt="Kali dragon" src="/img/blog/kali.png">
 
 Kali Linux comes with hundreds of pre-installed pentesting tools. If you are an aspiring pentester you will definitely want use Kali Linux and make it your primary OS. Shifting to a completely new OS is a daunting task especially when you worry whether you can do your regular work. It has been quite a while since I am using Kali as my primary OS and I'm here to share my experience with you.
 
