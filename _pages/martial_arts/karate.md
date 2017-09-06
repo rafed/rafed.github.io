@@ -6,9 +6,9 @@ title: "Martial arts: Karate"
 
 ## Karate
 
-Karate is an unarmed martial arts discipline employing kicking, striking, and defensive blocking with arms and legs. It is practiced as an art (budo), self-defense or as a combat sport. 
+Karate is an unarmed martial arts discipline that involves kicking, striking, and defensive blocking. It is practiced as an art (budo), self-defense or as a sport. 
 
-Originating from **Japan**, Karate was founded by **Gichin Funakoshi**. Karate means **Empty hand**. Although most techniques are empty handed, sometimes weapons are also practiced. Famous practitioners include **Jean-Claude Van Damme, Luca Valdesi, Bill (superfoot) Wallace**.
+Originating from **Japan**, Karate was founded by **Gichin Funakoshi**. Karate means **Empty hand**. Although most techniques are empty handed, occasionally weapons are also practiced. Famous practitioners include **Jean-Claude Van Damme, Luca Valdesi, Bill (superfoot) Wallace**.
 
 <div class="embed-responsive embed-responsive-16by9">
 	<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nz12z9___DU"></iframe> 
@@ -22,7 +22,7 @@ In 1875, Okinawa officially became a part of Japan and the ban was lifted. Soon 
 
 ### Styles
 
-Although Gichin Funakoshi is credited to be the founder of Karate, there were many other practitioners who taught as well. This gave rise to different dialects of Karate. Only four styles of Karate are officially recognized by The World Karate Federation (WKF). There are more than 10 other unofficial styles that exist.
+Although Gichin Funakoshi is credited to be the founder of Karate, there were many other practitioners who taught Karate in their own flavor. This gave rise to different dialects of Karate. Only four styles of Karate are officially recognized by The World Karate Federation (WKF). There are more than 10 other unofficial styles that exist.
 
 #### Official styles
 
@@ -76,6 +76,24 @@ The other aspect is Kumite. Literally, it means "meeting of hands." It is just t
 3. Sotto Uke
 4. Gedam Barai
 5. Shitto Uke
+
+### Ranking
+
+Karate students were belts of different colors which determine their ranks. The belting system in Karate is adopted from Judo. There are 10 levels of colored belts (Kyu) and 10 levels of black belts (Dan). To get promoted to the next rank, a student has to acquire a certain skill level and pass an exam. The exams are usually taken in an interval of 3-4 months.
+
+White - 10th Kyu  
+<span style="color:#f4fc00">Yellow</span> - 9th Kyu  
+<span style="color:orange">Orange</span> - 8th Kyu  
+<span style="color:red">Red</span> - 7th Kyu  
+<span style="color:green">Green</span> - 6th Kyu  
+<span style="color:violet">Violet</span> - 5th  
+<span style="color:blue">Blue</span> - 4th Kyu  
+<span style="color:brown">Brown</span>(1) - 3rd Kyu  
+<span style="color:brown">Brown</span>(2) - 2nd Kyu  
+<span style="color:brown">Brown</span>(3) - 1st Kyu  
+Black - 1st Dan to 10th Dan
+
+Not all dojos follow the exact ranking. Some dojos may add or omit some colored belts.
 
 ### Personal opinion
 
