@@ -86,7 +86,7 @@ White - 10th Kyu
 <span style="color:orange">Orange</span> - 8th Kyu  
 <span style="color:red">Red</span> - 7th Kyu  
 <span style="color:green">Green</span> - 6th Kyu  
-<span style="color:violet">Violet</span> - 5th  
+<span style="color:violet">Violet</span> - 5th Kyu
 <span style="color:blue">Blue</span> - 4th Kyu  
 <span style="color:brown">Brown</span>(1) - 3rd Kyu  
 <span style="color:brown">Brown</span>(2) - 2nd Kyu  
