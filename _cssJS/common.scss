@@ -24,7 +24,7 @@ body {
 #leftPanel {
 	// this is just a holder for inner fixed div
 	// remove all padding
-	padding:{
+	padding: {
 		left: 0;
 		right: 0;
 	}
@@ -64,7 +64,7 @@ body {
 
 #rightPanel {
 	// remove all padding
-	padding:{
+	padding: {
 		left: 0;
 		right: 0;
 	}
@@ -74,7 +74,7 @@ body {
 	font-size: 18px;
 	line-height: 1.7;
 	
-	h1,h2,h3,h4 {
+	h1,h2,h3,h4,h5,h6 {
 		color:green;
 	}
 	
