@@ -44,7 +44,7 @@ Among the unofficial styles, these are the most popular ones-
 3. Uechi-Ryu
 4. Shorin-Ryu
 
-### practice
+### Practice
 
 A Karate practice place is called **Dojo**. There are two main aspects of Karate- **Kata** and **Kumite**. **Kata** literally means "shape" or "model." Basically, it is a formalized sequence of movements which represent various offensive and defensive postures. It can be performed alone or in groups. Check out this wonderful kid performing Kankudai!
 

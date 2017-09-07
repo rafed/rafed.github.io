@@ -24,7 +24,7 @@ Finding a teacher of Jujutsu wasn't easy because after the Meiji restoration Juj
 
 Not only did Jigoro Kano establish Judo, he also saved Jujutsu from extinction. It was due to him Jujutsu gained its popularity when it was supposed to die out.
 
-### practice
+### Practice
 
 A Judo practice place is called **Dojo**. There are 6 groups of techniques in Judo.
 1. Nage-waza (67 throwing techniques)
