@@ -95,6 +95,20 @@ body {
 	margin: auto;
 }
 
+.picwrapper {
+    width: 100%;
+	text-align: center;
+	
+	figure {
+		display: inline-block;
+	}
+}
+
+.caption {
+	font-size: 80%;
+	text-align: center; 
+}
+
 /***** css for large devices ******/
 $navbarHeight: 50px;
 @media screen and (min-width: 993px) {
