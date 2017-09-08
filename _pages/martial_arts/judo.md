@@ -8,7 +8,7 @@ title: "Martial arts: Judo"
 
 Judo is an unarmed martial art discipline that involves using holds and leverage to unbalance the opponent. 
 
-Originating from **Japan**, Judo was founded by **Jigoro Kano** in **1882**. Judo means **gentle way**. A Judo practitioner is called a **Judoka**. Famous practitioners include **Jack Black, Guy Ritchie, Naomi Watts, Theodore Roosevelt**.
+Originating from **Japan**, Judo was founded by **Jigoro Kano** in **1882**. Judo means **gentle way**. A Judo practitioner is called a **Judoka**. Famous practitioners include **Jack Black, Vladimir Putin, Naomi Watts, Theodore Roosevelt**.
 
 Judo is gentle because its techniques were designed keeping in mind the safety of the opponent. No throws in Judo are done against the body joints of the body. Beginners are often intimidated by seeing people being thrown around and the thumping sound it makes. But interestingly, a perfect throw in Judo is less painful. 
 
