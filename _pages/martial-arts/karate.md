@@ -1,6 +1,6 @@
 ---
 layout: martial_arts
-permalink: /martial_arts/karate
+permalink: /martial-arts/karate
 title: "Martial arts: Karate"
 ---
 

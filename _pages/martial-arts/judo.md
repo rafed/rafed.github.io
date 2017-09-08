@@ -1,6 +1,6 @@
 ---
 layout: martial_arts
-permalink: /martial_arts/judo
+permalink: /martial-arts/judo
 title: "Martial arts: Judo"
 ---
 

@@ -1,11 +1,11 @@
 ---
 layout: martial_arts
-permalink: martial_arts/index
+permalink: /martial-arts/index
 title: "Martial arts"
 description: The only site you need to visit to know about martial arts all around the world.
 ---
 
-<img class="pic" alt="Karate stick figure" src="/img/martial_arts/karate-stick.png">
+<img class="pic" alt="Karate stick figure" src="/img/martial-arts/karate-stick.png">
 
 ## Deadliest martial arts
 
