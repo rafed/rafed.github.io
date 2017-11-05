@@ -10,7 +10,7 @@ description: Has it ever occured to you, that you've seen a new programming lang
 
 Has it ever occured to you, that you see a new programming language and you feel an urge to learn it? With so many programming languages on the block today, it is very tempting to learn a new one so that you don't feel you're missing out. There's so many machine learning stuff in Python, let's learn Python! Kotlin is an official language for Android now, Let's learn Kotlin! Statistics and data mining is so cool with R, Let's learn R! The list can go on. But how many languages do you actually need to learn?
 
-Every language out there has its own advantages that make it worth learning. But here's what you should really keep in mind before starting out a new language that is <mark>goal-based learning.</mark>
+Every language out there has its own advantages that make it worth learning. But here's what you should really keep in mind before starting out a new language - that is,  <mark>goal-based learning.</mark>
 
 You should focus on the goal you'd like to achieve not the language itself. Just knowing a language wouldn't really benefit you. After all, it is just a tool and having a tool is useless unless you're using it. Also, a tool not being used will get rusty and you'll forget the language on which you have wasted so many hours.
 
