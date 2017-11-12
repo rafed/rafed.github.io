@@ -14,7 +14,7 @@ The best martial art gym you can choose is the one closest to your home. Most pe
 
 If you are a heavy person, don't like to move around very much and would like to play with strength, go for **Judo**. Judo is all about throwing and grappling. There is no kicking or punching. You'll enjoy throwing people around. If you are interested in grappling more than throws then you can consider **Jujutsu**. Originating in Japan, Judo and Jujutsu are very similar. It's just, Judo is more involved with throws and Jujutsu is more involved with ground grappling.
 
-Are you a self-defense maniac? Then **Krav Maga** is just for you. Designed in Israel, it was made with only one intent- survive at any cost. Krav Maga can teach self-defense better than any other martial art. Focusing on attacking weak points and being able to withstand blows to the body, Krav Maga will make you a survival machine.
+Are you a self-defense maniac? Then **Krav Maga** is just for you. Designed in Israel, it was made with the one intent- survive at any cost. Krav Maga can teach self-defense better than any other martial art. Focusing on attacking weak points and being able to withstand blows to the body, Krav Maga will make you a survival machine.
 
 Do you want to know about all the ways you can kick? Then **Taekwondo** is just for you. From roundhouses to 900-degree spinning kicks, you'll discover everything you can do with your legs. This Korean martial art will make your legs very strong and you can practically fly with those legs.
 

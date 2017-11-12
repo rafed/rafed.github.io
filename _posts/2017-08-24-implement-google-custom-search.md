@@ -14,10 +14,10 @@ Look at the top-right side of this page, you'll see a **Google custom search bar
 At first go to [cse.google.com/cse/](https://cse.google.com/cse/) and click on **Create a custom search engine**.
 
 Fill up:
-1. sites to search (URL of your site/sites)
+1. sites to search (the URL of your site)
 2. name of the search engine (name it whatever you like) and click on **Create**.
 
-When it is successfully created click on **Get code**. You'll get something like this.
+When successfully created, click on **Get code**. You'll get something like this.
 
 {% highlight javascript linenos %}
 <script>
