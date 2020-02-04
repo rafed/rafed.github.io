@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+			<link rel="stylesheet" href="/code.css">
+		
+		
+		<link rel="canonical" href="http://localhost:4000/fun-codes/image-clustering">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+<link rel="stylesheet" href="/common.css">
+<script defer src="/common.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="theme-color" content="#222">
+
+		<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Image clustering</title>
+<meta name="generator" content="Jekyll v3.6.3" />
+<meta property="og:title" content="Image clustering" />
+<meta name="author" content="Rafed Muhammad Yasir" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Explore the wonderful world of image processing with this image clustering algorithm." />
+<meta property="og:description" content="Explore the wonderful world of image processing with this image clustering algorithm." />
+<link rel="canonical" href="http://localhost:4000/fun-codes/image-clustering" />
+<meta property="og:url" content="http://localhost:4000/fun-codes/image-clustering" />
+<script type="application/ld+json">
+{"@type":"WebPage","headline":"Image clustering","url":"http://localhost:4000/fun-codes/image-clustering","author":{"@type":"Person","name":"Rafed Muhammad Yasir"},"description":"Explore the wonderful world of image processing with this image clustering algorithm.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<meta name="keywords" content= "C, C++, Java, Python, MIPS, Assembly, Shell, fun, codes, cool, awesome" />
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row" id="topBar">
+				<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/index"><b>RA</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="/info/">About me</a></li>
+        <li><a href="/info/contact">Contact me</a></li>
+        <li><a href="/info/privacy">Privacy policy</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Series articles<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/martial-arts/">Deadliest martial arts</a></li>
+<li><a href="/fun-codes/">Fun codes</a></li>
+
+          </ul>
+        </li>
+        <li><a href="/blog/">My blog</a></li>
+      </ul>
+      
+      <form class="navbar-form navbar-right" id="cse-search-box-form-id" onsubmit="return executeQuery();" role="search">
+	<div class="input-group"> 
+		<input type="text" class="form-control" id="cse-search-input-box-id" size="20" autocomplete="off">
+		<script async type="text/javascript" src="//cse.google.com/cse/brand?form=cse-search-box-form-id&amp;inputbox=cse-search-input-box-id">
+		</script>
+		<span class="input-group-btn">
+			<button type="submit" class="btn btn-default">
+				<span class="glyphicon glyphicon-search"></span>
+			</button>
+		</span>
+	</div>
+</form>
+
+      
+    </div>
+  </div>
+</nav>
+
+			</div>
+			<div class="row" id="content">
+				<div class="col-lg-8 col-lg-push-2   col-md-7 col-md-push-2" id="writing">
+					<h2 id="image-clustering">Image clustering</h2>
+
+<p>Clustering is basically grouping elements that are similar. This codebase is a small attempt to cluster colors in images.</p>
+
+<p>At the heart of the program lies the <strong>K-Means algorithm</strong>. The source is available at <a href="https://github.com/rafed123/Image-clustering">github.com/rafed123/Image-clustering</a>.</p>
+
+<div class="picwrapper">
+    <figure>
+        <img alt="Original image" src="/img/fun-codes/image-clustering/original.png">
+        <figcaption>Original image</figcaption>
+    </figure>
+    <figure>
+        <img alt="Averaged - 2 clusters" src="/img/fun-codes/image-clustering/avg2.jpg">
+        <figcaption>Averaged - 2 clusters</figcaption>
+    </figure>
+    <figure>
+        <img alt="Averaged - 6 clusters" src="/img/fun-codes/image-clustering/avg6.jpg">
+        <figcaption>Averaged - 6 clusters</figcaption>
+    </figure>
+</div>
+<p><br>
+Look at the “original image” above. There are pixels of many different colors. How many different colors exist is not of our interest. What we’re interested in is that we’ll create color groups in the image that are similar. We will specify how many clusters we want and the program will output an image with that many clusters. In the second image, the first image is represented using only 2 colors! The third image with only 6 colors! <img class="emoji" title=":open_mouth:" alt=":open_mouth:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f62e.png" height="20" width="20"></p>
+
+<div class="picwrapper">
+    <figure>
+        <img alt="Original image Lenna" src="/img/fun-codes/image-clustering/lenna.png">
+        <figcaption>Original image (Lenna)</figcaption>
+    </figure>
+    <figure>
+        <img alt="Colored - 2 clusters" src="/img/fun-codes/image-clustering/len2.jpg">
+        <figcaption>Colored - 2 clusters</figcaption>
+    </figure>
+    <figure>
+        <img alt="Colored - 10 clusters" src="/img/fun-codes/image-clustering/len10.jpg">
+        <figcaption>Colored - 10 clusters</figcaption>
+    </figure>
+</div>
+
+<h3 id="features-of-the-program">Features of the program</h3>
+
+<ul>
+  <li>Cluster (by averaging) - averages the color in a particular group (1st example)</li>
+  <li>Cluster (by color) - select a random color for a particular group (2nd example)</li>
+  <li>increase/decrease brightness and contrast</li>
+</ul>
+
+<h3 id="running-the-project">Running the project</h3>
+
+<p>Download the source code <a href="https://github.com/rafed123/Image-clustering">here</a>. It is a Java project you can directly import to eclipse IDE.</p>
+
+<p>In Main.java, tweak the following:</p>
+
+<figure class="highlight"><pre><code class="language-java" data-lang="java"><span class="kt">int</span> <span class="n">numOfClusters</span> <span class="o">=</span> <span class="mi">10</span><span class="o">;</span>         <span class="c1">// num of clusters to make</span>
+<span class="kt">int</span> <span class="n">numOfKmeansIteration</span> <span class="o">=</span> <span class="mi">5</span><span class="o">;</span>   
+<span class="kt">int</span> <span class="n">type</span> <span class="o">=</span> <span class="n">averaged</span><span class="o">;</span>            <span class="c1">// (averaged/colored)</span>
+<span class="kt">int</span> <span class="n">comparisonOn</span> <span class="o">=</span> <span class="n">hue</span><span class="o">;</span>         <span class="c1">// (comparison color based on hue/brightness/saturation)</span>
+<span class="kt">int</span> <span class="n">contrast</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>               <span class="c1">// +/- contrast</span>
+<span class="kt">int</span> <span class="n">brightness</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>             <span class="c1">// +/- brightness</span></code></pre></figure>
+
+<p>First try out <strong>numOfClusters</strong> and <strong>type</strong> to have some fun. Then play with brightness and contrast to fine-tune the image. Specify your path to the input file and output path and you’re ready to go!</p>
+
+<h3 id="k-means">K-Means</h3>
+
+<p>K-means is an <strong>unsupervised machine learning</strong> algorithm.  Which basically means it can describe a hidden structure from unlabeled data. In our case, it finds clusters, without us providing info on where to look for it. It is one of the easiest machine learning algorithms to implement. If you’re into machine learning you may want to look more into this algorithm.</p>
+
+
+					
+					
+						<div id="share-bar">
+	<br>
+	<p><i>Sharing is caring!</i></p>
+	
+	<div class="share-buttons">
+	    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/fun-codes/image-clustering" onclick="socialMediaPopUp(this.href, '', 500, 500); return false;" title="Share on Facebook. Opens in a new window.">
+	        <img src="/img/icons/45px/facebook.png">
+	    </a>
+
+	    <a href="https://twitter.com/intent/tweet?text=Image%20clustering&amp;url=http://localhost:4000/fun-codes/image-clustering" onclick="socialMediaPopUp(this.href, '', 500, 500); return false;" title="Share on Twitter. Opens in a new window.">
+	        <img src="/img/icons/45px/twitter.png">
+	    </a>
+
+	    <a href="https://plus.google.com/share?url=http://localhost:4000/fun-codes/image-clustering" onclick="socialMediaPopUp(this.href, '', 500, 500); return false;" title="Share on Google+. Opens in a new window.">
+	        <img src="/img/icons/45px/googleplus.png">
+	    </a>
+
+	    <a href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/fun-codes/image-clustering" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on Pinterest. Opens in a new window.">
+	        <img src="/img/icons/45px/pinterest.png">
+	    </a>
+
+	    <a href="http://www.tumblr.com/share/link?url=http://localhost:4000/fun-codes/image-clustering" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on Tumblr. Opens in a new window.">
+	        <img src="/img/icons/45px/tumblr.png">
+	    </a>
+
+	    <a href="http://www.reddit.com/submit?url=http://localhost:4000/fun-codes/image-clustering" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on Reddit. Opens in a new window.">
+	        <img src="/img/icons/45px/reddit.png">
+	    </a>
+
+	    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/fun-codes/image-clustering&amp;title=Image%20clustering&amp;summary=Explore%20the%20wonderful%20world%20of%20image%20processing%20with%20this%20image%20clustering%20algorithm.&amp;source=rafed123.github.io" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on LinkedIn. Opens in a new window.">
+	        <img src="/img/icons/45px/linkedin.png">
+	    </a>
+
+	    <a href="mailto:?subject=Image%20clustering&amp;body=Check%20out%20this%20site%20http://localhost:4000/fun-codes/image-clustering" title="Share via Email. Opens in a new window.">
+	        <img src="/img/icons/45px/mail.png">
+	    </a>
+	</div>
+	<br>
+	<br>
+</div>
+
+
+
+						<div id="disqus_thread"></div>
+<script async>
+var disqus_config = function () {
+this.page.url = "http://localhost:4000/fun-codes/image-clustering";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/fun-codes/image-clustering"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://rafed123.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>			
+
+					
+					
+					<script type="text/javascript">
+	document.write("<gcse:searchresults-only></gcse:searchresults-only>");
+</script>
+<style>
+	.gsc-result .gs-title {
+		height: 1.4em;
+	}
+</style>
+
+				</div>
+				<div class="col-lg-2 col-lg-push-2   col-md-3 col-md-push-2" id="rightPanel">
+					<div class="col-lg-2 col-md-3" id="innerRightPanel">
+						
+					</div>
+				</div>
+				<div class="col-lg-2 col-lg-pull-10   col-md-2 col-md-pull-10" id="leftPanel">
+					<div class="col-lg-2 col-md-2" id="innerLeftPanel">
+						<ul>
+	<li><a href="/fun-codes/">Introduction</a></li>
+	<!--<li><a href="chitchat.html">Simple chat program</a></li>-->
+	<!--<li><a href="numberical-analysis.html">Numerical analysis</a></li>-->
+	<li><a href="image-clustering">Image clustering</a></li>
+	<li><a href="dp-drawing">Drawing with design patterns</a></li>
+	<!--<li><a href="8-puzzle.html">8 puzzle solver</a></li>-->
+	<!--<li><a href="tictactoe.html">Tic tac toe solver</a></li>-->
+	<!--<li><a href="ping.html">Learn ping</a></li>-->
+	<!--<li><a href="traceroute.html">Learn traceroute</a></li>-->
+</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		
+		<link rel="canonical" href="http://localhost:4000/blog/kali-as-regular-os">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+<link rel="stylesheet" href="/common.css">
+<script defer src="/common.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="theme-color" content="#222">
+
+		<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Kali as a regular OS</title>
+<meta name="generator" content="Jekyll v3.6.3" />
+<meta property="og:title" content="Kali as a regular OS" />
+<meta name="author" content="Rafed Muhammad Yasir" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Kali is a wonderful pentesting OS and it is also pretty good for your regular day to day jobs. Here is my personal experiences about using it." />
+<meta property="og:description" content="Kali is a wonderful pentesting OS and it is also pretty good for your regular day to day jobs. Here is my personal experiences about using it." />
+<link rel="canonical" href="http://localhost:4000/blog/kali-as-regular-os" />
+<meta property="og:url" content="http://localhost:4000/blog/kali-as-regular-os" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-08-03T00:00:00+06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Kali as a regular OS","dateModified":"2017-08-03T00:00:00+06:00","datePublished":"2017-08-03T00:00:00+06:00","url":"http://localhost:4000/blog/kali-as-regular-os","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/kali-as-regular-os"},"author":{"@type":"Person","name":"Rafed Muhammad Yasir"},"description":"Kali is a wonderful pentesting OS and it is also pretty good for your regular day to day jobs. Here is my personal experiences about using it.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<meta name="keywords" content= "Technology, computer science, software engineering, martial arts, music, keyboard, piano, music theory, instruments, computer, codes, programming, psychology, software engineering, blogging, money" />
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row" id="topBar">
+				<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/index"><b>RA</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="/info/">About me</a></li>
+        <li><a href="/info/contact">Contact me</a></li>
+        <li><a href="/info/privacy">Privacy policy</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Series articles<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/martial-arts/">Deadliest martial arts</a></li>
+<li><a href="/fun-codes/">Fun codes</a></li>
+
+          </ul>
+        </li>
+        <li><a href="/blog/">My blog</a></li>
+      </ul>
+      
+      <form class="navbar-form navbar-right" id="cse-search-box-form-id" onsubmit="return executeQuery();" role="search">
+	<div class="input-group"> 
+		<input type="text" class="form-control" id="cse-search-input-box-id" size="20" autocomplete="off">
+		<script async type="text/javascript" src="//cse.google.com/cse/brand?form=cse-search-box-form-id&amp;inputbox=cse-search-input-box-id">
+		</script>
+		<span class="input-group-btn">
+			<button type="submit" class="btn btn-default">
+				<span class="glyphicon glyphicon-search"></span>
+			</button>
+		</span>
+	</div>
+</form>
+
+      
+    </div>
+  </div>
+</nav>
+
+			</div>
+			<div class="row" id="content">
+				<div class="col-lg-8 col-lg-push-2   col-md-7 col-md-push-2" id="writing">
+					<h2 id="kali-as-a-regular-operating-system">Kali as a regular operating system</h2>
+
+<p><img class="pic" alt="Kali dragon" src="/img/blog/kali.png"></p>
+
+<p>Kali Linux comes with hundreds of pre-installed pentesting tools. If you are an aspiring pentester you will definitely want use Kali Linux and make it your primary OS. Shifting to a completely new OS is a daunting task especially when you worry whether you can do your regular work. It has been quite a while since I am using Kali as my primary OS and I’m here to share my experience with you.</p>
+
+<p>If you are shifting from a Windows environment and have no prior experience with Linux operating systems it is better you stay where you are. Try some other beginner friendly Linux distributions like <strong>Ubuntu</strong> or <strong>Mint</strong> before using Kali.</p>
+
+<p>If you are moving from Ubuntu or any other Linux environments (more specifically, from Debian derivates) you will find almost no differences between them. Kali is a Debian derivative. You can do absolutely anything on Kali that you can do on Ubuntu. In some cases, it is even better. Here is why:</p>
+<ol>
+  <li>The latest version of Kali is a <strong>rolling</strong> edition. Rolling means, updates are provided very frequently. This feature makes sure that you always have the latest software.</li>
+  <li>The user interface of Kali is very beautiful. Almost anyone who looks at my PC asks what OS I run and tells that it is very beautiful. You can have multiple workspaces and assign key combinations to direct terminal commands.</li>
+  <li>The Bash shipped with Kali is the latest version. The latest version of Bash is very friendly to the eye because it now shows color-coded messages. This makes reading extremely easy. It is especially helpful for me when I’m getting compilation errors or when I need to search through a dirty pile of text. Although this version of Bash will be shipped with other Linux distros soon, what I’m trying to say is that you’ll always be the first person to use the latest stuff like this!</li>
+  <li>Most other Linux distributions that I have seen come with 1 GUI environment (X-window) and 6 virtual consoles. With Kali, you can have 2 GUI environment. (If you do not understand this, try pressing Ctrl + Alt + F1-F6 and do not get scared <img class="emoji" title=":stuck_out_tongue:" alt=":stuck_out_tongue:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f61b.png" height="20" width="20"> you will get virtual consoles.) This is extremely helpful. You can be a GUI user both as a root and a non root at the same time!</li>
+  <li>You do not need additional software for taking screenshots and recording your desktop as a video. It comes built-in.</li>
+</ol>
+
+<p>Kali never limited my working scope. I can do absolutely anything on it. I have had several IDE’s installed on it- Eclipse, PyCharm, IntelliJ, CodeBlocks, Android studio and never had any issues during installation or after installing it. I sometimes do image editing with GIMP and Inkscape. I also use Virtualbox to run other operating systems virtually and everything works just fine.</p>
+
+<p>There are some minor issues with Kali that I can tell. Kali is not as stable as Ubuntu. I’m not saying that it is unstable, but Ubuntu has a slightly better performance. I had to deal with some minor bugs not worth mentioning. The one thing that annoyed me is the Firefox ESR browser that comes as the default. I think it has a memory leak or something because after 3 or 4 hrs my PC feeds up on RAM and I have to close and open it again. You can, of course, reinstall the normal version of Firefox to get around this.</p>
+
+<p>Because of a rolling edition, you might be tempted to upgrade your system very frequently, but it is not wise to do so. Sometimes the upgrades are buggy and break the software. Due to this, I recommend not to update very frequently. Once in 2 months should be good enough.</p>
+
+<p>Overall, I have a pretty good experience with Kali Linux as my main OS. If you are aiming to be a pentester but in a doubt whether you should switch OS or not, I would definitely recommend you to make the move. <img class="emoji" title=":grinning:" alt=":grinning:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f600.png" height="20" width="20"></p>
+
+
+
+
+					
+					
+						<div id="share-bar">
+	<br>
+	<p><i>Sharing is caring!</i></p>
+	
+	<div class="share-buttons">
+	    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/kali-as-regular-os" onclick="socialMediaPopUp(this.href, '', 500, 500); return false;" title="Share on Facebook. Opens in a new window.">
+	        <img src="/img/icons/45px/facebook.png">
+	    </a>
+
+	    <a href="https://twitter.com/intent/tweet?text=Kali%20as%20a%20regular%20OS&amp;url=http://localhost:4000/blog/kali-as-regular-os" onclick="socialMediaPopUp(this.href, '', 500, 500); return false;" title="Share on Twitter. Opens in a new window.">
+	        <img src="/img/icons/45px/twitter.png">
+	    </a>
+
+	    <a href="https://plus.google.com/share?url=http://localhost:4000/blog/kali-as-regular-os" onclick="socialMediaPopUp(this.href, '', 500, 500); return false;" title="Share on Google+. Opens in a new window.">
+	        <img src="/img/icons/45px/googleplus.png">
+	    </a>
+
+	    <a href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/blog/kali-as-regular-os" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on Pinterest. Opens in a new window.">
+	        <img src="/img/icons/45px/pinterest.png">
+	    </a>
+
+	    <a href="http://www.tumblr.com/share/link?url=http://localhost:4000/blog/kali-as-regular-os" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on Tumblr. Opens in a new window.">
+	        <img src="/img/icons/45px/tumblr.png">
+	    </a>
+
+	    <a href="http://www.reddit.com/submit?url=http://localhost:4000/blog/kali-as-regular-os" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on Reddit. Opens in a new window.">
+	        <img src="/img/icons/45px/reddit.png">
+	    </a>
+
+	    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/blog/kali-as-regular-os&amp;title=Kali%20as%20a%20regular%20OS&amp;summary=Kali%20is%20a%20wonderful%20pentesting%20OS%20and%20it%20is%20also%20pretty%20good%20for%20your%20regular%20day%20to%20day%20jobs.%20Here%20is%20my%20personal%20experiences%20about%20using%20it.&amp;source=rafed123.github.io" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on LinkedIn. Opens in a new window.">
+	        <img src="/img/icons/45px/linkedin.png">
+	    </a>
+
+	    <a href="mailto:?subject=Kali%20as%20a%20regular%20OS&amp;body=Check%20out%20this%20site%20http://localhost:4000/blog/kali-as-regular-os" title="Share via Email. Opens in a new window.">
+	        <img src="/img/icons/45px/mail.png">
+	    </a>
+	</div>
+	<br>
+	<br>
+</div>
+
+
+
+						<div id="disqus_thread"></div>
+<script async>
+var disqus_config = function () {
+this.page.url = "http://localhost:4000/blog/kali-as-regular-os";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/blog/kali-as-regular-os"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://rafed123.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>			
+
+					
+					
+					<script type="text/javascript">
+	document.write("<gcse:searchresults-only></gcse:searchresults-only>");
+</script>
+<style>
+	.gsc-result .gs-title {
+		height: 1.4em;
+	}
+</style>
+
+				</div>
+				<div class="col-lg-2 col-lg-push-2   col-md-3 col-md-push-2" id="rightPanel">
+					<div class="col-lg-2 col-md-3" id="innerRightPanel">
+						
+					</div>
+				</div>
+				<div class="col-lg-2 col-lg-pull-10   col-md-2 col-md-pull-10" id="leftPanel">
+					<div class="col-lg-2 col-md-2" id="innerLeftPanel">
+						<ul>
+	<li><a href="/blog/reasons-to-use-jekyll">10 practical reasons to use Jekyll for your site/blog</a></li>
+	<li><a href="/blog/draw-io">Best online prototyping tool</a></li>
+	<li><a href="/blog/why-linux-needs-no-antivirus">5 reasons why Linux needs no antivirus</a></li>
+	<li><a href="/blog/be-hacker-with-kali">How to be a hacker with Kali</a></li>
+	<li><a href="/blog/kali-as-regular-os">Kali as a regular operating system</a></li>
+	<li><a href="/blog/implement-google-custom-search">How to implement Google custom search on your site</a></li>
+	<li><a href="/blog/how-difficult-is-programming">How difficult is programming</a></li>
+	<li><a href="/blog/number-of-languages">How many programming languages should I learn</a></li>
+	<li><a href="/blog/martial-art-to-learn">Which martial art to learn</a></li>
+	<li><a href="/blog/win-judo-competitions">How to win Judo competitions</a></li>
+	<li><a href="/blog/think-like-baby">How to think like a baby</a></li>
+</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

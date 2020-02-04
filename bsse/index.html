@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>BSSE 7th Batch Repo</title>
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<style>
+		a:hover {
+			cursor: pointer;
+		}
+		
+		a {
+			font-size: 20px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<h2>Download files</h2>
+				
+				<div class="alert alert-info alert-dismissable fade in">
+    				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    				<strong>Info!</strong> Please note that folders and files edited with drive apps cannot be downloaded at the moment.
+  				</div>
+				
+				<div class="btn-group btn-group-lg">
+					<input type="button" value="Home" class="btn" onclick="goHome()"/>
+					<input type="button" value="Back" class="btn" onclick="goBack()"/>
+				</div>
+		
+				<h3 id='status'></h3>
+				<table class="table table-striped table-hover">
+					<tbody id='fileList'>
+					</tbody>
+				</table>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+	
+	<script async src='/download.js'></script>
+	<script>
+	
+		const CLIENT_ID = '226558469156-4glaf1k4834m2aok0ogohvcck8tom682.apps.googleusercontent.com';
+		// const DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
+		// const SCOPES = 'https://www.googleapis.com/auth/drive';
+		const REFRESH_TOKEN = "1/NNpJ6oi7lxIQ575L1mwGJE0Kuv8Hu8tqsIzrSwfMy3M";
+		const CLIENT_SECRET = "g0xby1C5zhLRNkn3CtnGObR_";
+		const REFRESH_TOKEN_URL = "https://www.googleapis.com/oauth2/v4/token";
+	
+		var accessToken;
+		var homeFolderId;
+		var homeFolder = 'BSSE 4-2';
+		
+		var folderArray = [];
+	
+		function getAccessToken() {
+			const post_body = `grant_type=refresh_token&client_id=${encodeURIComponent(CLIENT_ID)}` +
+							  `&client_secret=${encodeURIComponent(CLIENT_SECRET)}` +
+							  `&refresh_token=${encodeURIComponent(REFRESH_TOKEN)}`;
+
+			let refresh_request = {
+				body: post_body,
+				method: "POST",
+				headers: new Headers({
+				    'Content-Type': 'application/x-www-form-urlencoded'
+				})
+			}
+
+			fetch(REFRESH_TOKEN_URL, refresh_request)
+			.then(response => {
+				return response.json();
+			})
+			.then( response_json =>  {
+			 	console.log(response_json);
+			    accessToken = response_json.access_token;
+				return response_json.access_token;			    
+			})
+			.then(token => {
+				return getHomeFolderId();
+			})
+			.then(folderId => {
+				listFiles(folderId);
+			})
+		}
+			
+
+		function getHomeFolderId(){
+			var url = `https://www.googleapis.com/drive/v3/files?q=name='${homeFolder}' and starred=true` + 
+					  `&orderBy=folder,createdTime&pageSize=1000`;
+					  
+			let drive_request = {
+				method: "GET",
+				headers: new Headers({
+				    Authorization: "Bearer " + accessToken
+				})
+			}
+			
+			return fetch(url, drive_request).then( response => {
+				return(response.json());
+			}).then( list =>  {
+				return list.files[0].id;		
+			}).then(id => {
+				homeFolderId = id;
+				return id;
+			});
+		}
+
+		function goHome(){
+			if(folderArray.length > 1){
+				folderArray = [];
+				listFiles(homeFolderId);
+			}
+		}
+
+		function goBack(){
+			if(folderArray.length > 1){
+				var temp = folderArray[folderArray.length-2];
+				
+				folderArray.pop();
+				folderArray.pop();
+				
+				listFiles(temp);
+			}
+		}
+
+		function findIconType(mimeType){
+			//basic
+			if(mimeType.includes('folder'))
+				return '/img/bsse/folder.png';
+			if(mimeType.includes('image'))
+				return '/img/bsse/image.png';
+			if(mimeType.includes('pdf'))
+				return '/img/bsse/pdf.png';
+			if(mimeType.includes('text/plain'))
+				return '/img/bsse/txt.png';
+				
+			// word docs
+			if(mimeType.includes('msword') || mimeType.includes('wordprocessingml.document'))
+				return '/img/bsse/doc.png';
+			if(mimeType.includes('ms-powerpoint') || mimeType.includes('presentationml.presentation'))
+				return '/img/bsse/ppt.png';
+			if(mimeType.includes('ms-excel') || mimeType.includes('spreadsheetml.sheet'))
+				return '/img/bsse/xls.png';
+			
+			// default image
+			return '/img/bsse/unknown.png';
+		}
+
+		function listFiles(folderId) {
+			folderArray.push(folderId);
+		
+			var drive_url = `https://www.googleapis.com/drive/v3/files?q='${folderId}' in parents` +
+							`&orderBy=folder,name&pageSize=1000`;
+
+			let drive_request = {
+				method: "GET",
+				headers: new Headers({
+				    Authorization: "Bearer " + accessToken
+				})
+			}
+			
+			var table = document.getElementById('fileList');
+			while (table.hasChildNodes()) {
+				table.removeChild(table.lastChild);
+			}
+			
+			var status = document.getElementById('status');
+			status.innerHTML = 'Loading...';
+			
+			fetch(drive_url, drive_request).then( response => {
+				return(response.json());
+			}).then(list =>  {
+				
+				status.innerHTML = '';
+				
+				for(var i=0; i<list.files.length; i++){
+					var img = document.createElement("img");
+					var a1 = document.createElement("a");
+					var a2 = document.createElement("a");
+					
+					var iconType = findIconType(list.files[i].mimeType);
+					img.setAttribute('src', iconType);
+					
+					a1.appendChild(document.createTextNode(list.files[i].name)); // + ' --- ' + list.files[i].mimeType
+					a1.setAttribute('data-id', list.files[i].id);
+					a1.setAttribute('data-name', list.files[i].name);
+					a1.setAttribute('data-type', list.files[i].mimeType);
+					
+					if(list.files[i].mimeType === 'application/vnd.google-apps.folder'){ // if folder
+						a1.setAttribute('onclick', 'listFiles(this.dataset.id)');
+					}
+					else{
+						a1.setAttribute('onclick', 'downloadFile(this.dataset.id, this.dataset.name, this.dataset.type)');
+					}
+					
+					a2.appendChild(document.createTextNode('Download'));
+					a2.setAttribute('data-id', list.files[i].id);
+					a2.setAttribute('data-name', list.files[i].name);
+					a2.setAttribute('data-type', list.files[i].mimeType);
+					a2.setAttribute('onclick', 'downloadFile(this.dataset.id, this.dataset.name, this.dataset.type)');
+					
+					var td0 = document.createElement("td");
+					var td1 = document.createElement("td");
+					var td2 = document.createElement("td");
+					td0.appendChild(img);
+					td1.appendChild(a1);
+					td2.appendChild(a2);
+					
+					var tr = document.createElement("tr");
+					tr.appendChild(td0);
+					tr.appendChild(td1);
+					tr.appendChild(td2);
+					
+					table.appendChild(tr);
+				}
+			});
+		}
+		
+		function downloadFile(fileId, fileName, fileType){
+			if(fileType.includes('google-apps')){
+				alert('Not downloadable now! Sorry!');
+				return;
+			}
+		
+			var url = `https://www.googleapis.com/drive/v3/files/${fileId}?alt=media`;
+			
+			let drive_request = {
+				method: "GET",
+				headers: new Headers({
+				    Authorization: "Bearer " + accessToken
+				})
+			}
+			
+			fetch(url, drive_request)
+			.then(function(resp) {
+				return resp.blob();
+			}).then(function(blob) {
+				download(blob, fileName, fileType);
+  			});
+		}
+		
+		getAccessToken();
+	</script>
+	
+</body>
+</html>

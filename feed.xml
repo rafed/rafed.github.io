@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-02-05T03:27:14+06:00</updated><id>http://localhost:4000/feed.xml</id><subtitle></subtitle><author><name>Rafed Muhammad Yasir</name></author><entry><title type="html">draw.io - Best online prototyping tool</title><link href="http://localhost:4000/blog/draw-io" rel="alternate" type="text/html" title="draw.io - Best online prototyping tool" /><published>2017-11-05T00:00:00+06:00</published><updated>2017-11-05T00:00:00+06:00</updated><id>http://localhost:4000/blog/draw-io</id><content type="html" xml:base="http://localhost:4000/blog/draw-io">&lt;h2 id=&quot;best-online-prototyping-tool&quot;&gt;Best online prototyping tool&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://draw.io&quot; target=&quot;_blank&quot;&gt;&lt;img class=&quot;pic&quot; alt=&quot;draw.io logo&quot; src=&quot;/img/blog/drawio/drawio.png&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you’re looking for a free and awesome prototyping/wireframing/mockup UI tool, search no more, go to &lt;a href=&quot;https://draw.io&quot; target=&quot;_blank&quot;&gt;draw.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, there are a lot of prototyping tools available online but most of them are very annoying. Either they are paid or requires signing up. And the most annoying are the ones where you’ve finally drawn something and then they say you need to sign up to download the image. :rage: :rage: :rage:&lt;/p&gt;
+
+&lt;p&gt;Draw.io is the tool that works best for me. Here’s why:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;No registration.&lt;/li&gt;
+  &lt;li&gt;Unlimited free usage.&lt;/li&gt;
+  &lt;li&gt;Collaboration - you can edit a single diagram with multiple users in real time, without any major conflict.&lt;/li&gt;
+  &lt;li&gt;Save images in the cloud. Even the slightest changes made to an existing file will be automatically saved. The following cloud storages are currently supported.
+&lt;img class=&quot;pic&quot; alt=&quot;cloud storages&quot; src=&quot;/img/blog/drawio/cloud-save.png&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Very simple and intuitive UI.
+&lt;img class=&quot;pic&quot; alt=&quot;draw.io main UI&quot; src=&quot;/img/blog/drawio/mainui.png&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;It has many default templates to choose from. It’s better you try them out instead of me making explanations. Currently, the following drawings are notable that are supported along with many others.
+    &lt;ul&gt;
+      &lt;li&gt;Charts&lt;/li&gt;
+      &lt;li&gt;Engineering&lt;/li&gt;
+      &lt;li&gt;Flowcharts&lt;/li&gt;
+      &lt;li&gt;Networks&lt;/li&gt;
+      &lt;li&gt;Software&lt;/li&gt;
+      &lt;li&gt;Tables&lt;/li&gt;
+      &lt;li&gt;UML&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;It’s open sourced. You can see the codes that made this at &lt;a href=&quot;https://github.com/jgraph/drawio&quot;&gt;github.com/jgraph/drawio&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here are some diagrams that I made with draw.io for some classroom projects. Everything has been made just by dragging and dropping shapes from the rich library of shapes that draw.io offers.&lt;/p&gt;
+
+&lt;div class=&quot;picwrapper&quot;&gt;
+    &lt;figure&gt;
+        &lt;img class=&quot;pic&quot; alt=&quot;draw.io demo example&quot; src=&quot;/img/blog/drawio/demo1.png&quot; /&gt;  
+        &lt;figcaption&gt;&lt;b&gt;Simple swimlane diagram&lt;/b&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;picwrapper&quot;&gt;
+    &lt;figure&gt;
+        &lt;img class=&quot;pic&quot; alt=&quot;draw.io demo example&quot; src=&quot;/img/blog/drawio/demo2.png&quot; /&gt;  
+        &lt;figcaption&gt;&lt;b&gt;Cool UML diagram&lt;/b&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;div class=&quot;picwrapper&quot;&gt;
+    &lt;figure&gt;
+        &lt;img class=&quot;pic&quot; alt=&quot;draw.io demo example&quot; src=&quot;/img/blog/drawio/demo3.png&quot; /&gt;  
+        &lt;figcaption&gt;&lt;b&gt;Awesome webpage design&lt;/b&gt;&lt;/figcaption&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;Note that, not all shapes are visible on the left sidebar. There are much much more! Just search for what you want in the search bar and you’ll get tons of shapes that will suit your needs. For example, the webpage designed above was made using bootstrap elements. Just search “bootstrap + the element you need” and you’ll get bootstrap elements. Search for “browser” and you’ll get the browser frame to put the webpage in.&lt;/p&gt;
+
+&lt;p&gt;Get over those clickjacking websites and start drawing with draw.io! :smile:&lt;/p&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">Best online prototyping tool</summary></entry><entry><title type="html">How many programming languages should I learn</title><link href="http://localhost:4000/blog/number-of-languages" rel="alternate" type="text/html" title="How many programming languages should I learn" /><published>2017-11-05T00:00:00+06:00</published><updated>2017-11-05T00:00:00+06:00</updated><id>http://localhost:4000/blog/number-of-languages</id><content type="html" xml:base="http://localhost:4000/blog/number-of-languages">&lt;h2 id=&quot;how-many-programming-languages-should-i-learn&quot;&gt;How many programming languages should I learn&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Programming is difficult&quot; src=&quot;/img/blog/prog-languages.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Has it ever occured to you, that you see a new programming language and you feel an urge to learn it? With so many programming languages on the block today, it is very tempting to learn a new one so that you don’t feel you’re missing out. There’s so many machine learning stuff in Python, let’s learn Python! Kotlin is an official language for Android now, Let’s learn Kotlin! Statistics and data mining is so cool with R, Let’s learn R! The list can go on. But how many languages do you actually need to learn?&lt;/p&gt;
+
+&lt;p&gt;Every language out there has its own advantages that make it worth learning. But here’s what you should really keep in mind before starting out a new language - that is,  &lt;mark&gt;goal-based learning.&lt;/mark&gt;&lt;/p&gt;
+
+&lt;p&gt;You should focus on the goal you’d like to achieve not the language itself. Just knowing a language wouldn’t really benefit you. After all, it is just a tool and having a tool is useless unless you’re using it. Also, a tool not being used will get rusty and you’ll forget the language on which you have wasted so many hours.&lt;/p&gt;
+
+&lt;p&gt;Ask yourself, what is the purpose of learning a language? If you have a specific answer go for it. If not, continue with a language you already know.&lt;/p&gt;
+
+&lt;p&gt;It has been quite a while since &lt;strong&gt;Rust&lt;/strong&gt; came out. It has got a &lt;strong&gt;C&lt;/strong&gt; vibe to it and I felt like I should learn it. But then I thought, I’m not really a system level programmer and nor do I intend to be one in the future. So it’s not worth for me to get into it.&lt;/p&gt;
+
+&lt;p&gt;When I started out machine learning I discovered some wonderful &lt;strong&gt;Python&lt;/strong&gt; libraries that makes machine learning easy and fun. I mostly use Java, but the Pythonic way of machine learning is really cool. This is when I realized I should learn Python. I have a specific goal with it. It helps me learn machine learning algorithms and scientific computations in a very easy way.&lt;/p&gt;
+
+&lt;p&gt;So, its basically, learn programming languages as the need arises. Don’t learn them for the sake of learning. You’d be wasting your time and energy.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, knowing a lot of languages could be a goal. If you’re into security then knowing a lot of languages is definitely a plus point. Project managers need to know several languages because he supervises several teams that could be working in different languages. But you don’t need to put extra effort for that. If you’re into development, as the years go by, you’ll be automatically picking up new languages.&lt;/p&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">How many programming languages should I learn</summary></entry><entry><title type="html">How to be a hacker with Kali</title><link href="http://localhost:4000/blog/be-hacker-with-kali" rel="alternate" type="text/html" title="How to be a hacker with Kali" /><published>2017-09-18T00:00:00+06:00</published><updated>2017-09-18T00:00:00+06:00</updated><id>http://localhost:4000/blog/be-hacker-with-kali</id><content type="html" xml:base="http://localhost:4000/blog/be-hacker-with-kali">&lt;h2 id=&quot;how-to-be-a-hacker-with-kali&quot;&gt;How to be a hacker with Kali&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Kali logo&quot; src=&quot;/img/blog/kali.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are asking a question similar to the title of this article, you’re probably walking in the wrong direction. Kali is not a magic pill that hacks everything. It is just an operating system that comes with preinstalled &lt;em&gt;pentesting tools&lt;/em&gt;. Now, you really cannot expect a tool to do everything by itself. You need to understand when it works, where it works and how it works.&lt;/p&gt;
+
+&lt;p&gt;Think of it like this, a pen is a tool for writing. A kid scribbling with it won’t make any writing. At first, he needs to learn how the alphabets look. Once he learns the alphabets he will learn to draw them. And after lots of practice, we can say that he will be able to write.&lt;/p&gt;
+
+&lt;p&gt;The tools in Kali are no different. There are so many things you need to learn before you can actually use them for a reason. Operating systems, networks, protocols, programming languages, algorithms and a &lt;em&gt;LOT&lt;/em&gt; of other concepts. Only after you know about these you can start playing with the preinstalled tools. After you have practiced enough with these tools you can hack.&lt;/p&gt;
+
+&lt;p&gt;Know that knowledge required for hacking takes a significant amount of time to learn (unless you’re some kind of freaking prodigy). There is no shortcut, no easy way. The common people have redefined the term hacker to be a bad person. But &lt;strong&gt;hackers are actually people who just sit in a place for hours and learn a craft by testing and exploring.&lt;/strong&gt; Kali may help you along the way, but it won’t take you there. The tools are there to only help you but you have to do the real thing by yourself.&lt;/p&gt;
+
+&lt;p&gt;Moreover, you should keep in mind that Kali is not a hacker’s tool, it is a pentester’s tool (hackers favorite though :stuck_out_tongue:). The difference is that a hacker uses it to exploit a system and a pentester finds a vulnerability in a system to fix it. If you are aspiring to be a hacker using Kali, you just might not be walking in the right direction.&lt;/p&gt;
+
+&lt;p&gt;So, in short, what I’m saying is that- learn. Learn programming, networking and the things that can take you where you want to be. It may be time consuming but it is the only way. Do not think of indulging in illegal activities getting into hacktivism. Rather, aspire to be a pentester who fixes systems.&lt;/p&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">How to be a hacker with Kali</summary></entry><entry><title type="html">How difficult is programming</title><link href="http://localhost:4000/blog/how-difficult-is-programming" rel="alternate" type="text/html" title="How difficult is programming" /><published>2017-09-16T00:00:00+06:00</published><updated>2017-09-16T00:00:00+06:00</updated><id>http://localhost:4000/blog/how-difficult-is-programming</id><content type="html" xml:base="http://localhost:4000/blog/how-difficult-is-programming">&lt;h2 id=&quot;how-difficult-is-programming&quot;&gt;How difficult is programming&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Programming is difficult&quot; src=&quot;/img/blog/programming-difficult.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The million dollar question asked by beginners who want to learn to code, “How difficult is it to program?” Answer in short, &lt;strong&gt;learning a programming language is easy. Writing a good program is difficult&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Think about it this way. You know English, but are you a good writer? To be a good writer you’ll need years of practice and dedication before you can actually write something that will be appreciated by all. Not everyone can produce something like &lt;em&gt;Harry Potter&lt;/em&gt; or &lt;em&gt;The Lord of the Rings&lt;/em&gt;. Knowing English and writing a literature are two very different things.&lt;/p&gt;
+
+&lt;p&gt;It is no different in the software world. Learning a programming language is very easy. You can learn a programming language very well in a matter of 3 months (you need patience though :trollface:). But learning how to write a good program can take years to learn. There are so many things to know and concepts to grasp that are needed to make a good program. Not everyone can make something like &lt;em&gt;Google&lt;/em&gt; or &lt;em&gt;Facebook&lt;/em&gt;. Knowing how to write code and being a good developer are two very different things.&lt;/p&gt;
+
+&lt;p&gt;How much difficulty you’ll face learning programming really depends on how far you actually want to go. If you want to have fun writing a few small programs or simple mobile applications, it is easy and you should go for it! If you want to make something big and powerful, associating a lot of users, then things might get a little challenging. Challenges in life might be difficult but they are the most rewarding. There’s no reason this challenge should not be enjoyable! Games are only enjoyable when the levels get harder.&lt;/p&gt;
+
+&lt;p&gt;So, if you want to be a hobbyist programmer, learn to code, it’s easy! If you want to be a professional programmer, learn to code, it’s fun! Don’t stop the coding! :smiley:&lt;/p&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">How difficult is programming</summary></entry><entry><title type="html">Which martial art to learn</title><link href="http://localhost:4000/blog/martial-art-to-learn" rel="alternate" type="text/html" title="Which martial art to learn" /><published>2017-09-15T00:00:00+06:00</published><updated>2017-09-15T00:00:00+06:00</updated><id>http://localhost:4000/blog/martial-art-to-learn</id><content type="html" xml:base="http://localhost:4000/blog/martial-art-to-learn">&lt;h2 id=&quot;which-martial-art-to-learn&quot;&gt;Which martial art to learn&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Practice Dojo&quot; src=&quot;/img/blog/martial-art-to-learn.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Choosing the best martial art for you to learn can be difficult when you don’t know the differences between them and especially when you have options to choose from. Here goes a short review on which martial art you should learn.&lt;/p&gt;
+
+&lt;p&gt;The best martial art gym you can choose is the one closest to your home. Most people that start learning, gradually lose interest and stops going. And you know, any martial art is like hot water. You need to continuously heat it to keep it from getting cold. No matter how good you get, if you stop practicing, your skills will deteriorate. The closer your gym is from your home, the less likely you are to miss practices. In this way, you’ll make the most out of learning a martial art despite whichever art you learn. If you still decide on something else keep on reading.&lt;/p&gt;
+
+&lt;p&gt;If you are a heavy person, don’t like to move around very much and would like to play with strength, go for &lt;strong&gt;Judo&lt;/strong&gt;. Judo is all about throwing and grappling. There is no kicking or punching. You’ll enjoy throwing people around. If you are interested in grappling more than throws then you can consider &lt;strong&gt;Jujutsu&lt;/strong&gt;. Originating in Japan, Judo and Jujutsu are very similar. It’s just, Judo is more involved with throws and Jujutsu is more involved with ground grappling.&lt;/p&gt;
+
+&lt;p&gt;Are you a self-defense maniac? Then &lt;strong&gt;Krav Maga&lt;/strong&gt; is just for you. Designed in Israel, it was made with the one intent- survive at any cost. Krav Maga can teach self-defense better than any other martial art. Focusing on attacking weak points and being able to withstand blows to the body, Krav Maga will make you a survival machine.&lt;/p&gt;
+
+&lt;p&gt;Do you want to know about all the ways you can kick? Then &lt;strong&gt;Taekwondo&lt;/strong&gt; is just for you. From roundhouses to 900-degree spinning kicks, you’ll discover everything you can do with your legs. This Korean martial art will make your legs very strong and you can practically fly with those legs.&lt;/p&gt;
+
+&lt;p&gt;Are you interested in only punching? Then consider &lt;strong&gt;boxing&lt;/strong&gt;. Boxing focuses in only punching and dodging them. Don’t take boxing lightly. Just take a look at some knockouts on YouTube and you’ll see what I mean.&lt;/p&gt;
+
+&lt;p&gt;If you would like to devote yourself to martial arts for a lifetime then go for &lt;strong&gt;Kung Fu&lt;/strong&gt;.  This Chinese martial art is all about meditating and bringing out the inner strengths inside. However, Kung Fu isn’t practical if you cannot put a lot of time and effort in it. You could try some modern variants of Kung Fu like &lt;strong&gt;Wing Chun&lt;/strong&gt; and &lt;strong&gt;Sanda&lt;/strong&gt;. Wing Chun is mostly about punching and it was a martial art that &lt;strong&gt;Bruce Lee&lt;/strong&gt; learned. Sanda is a completely modern form of Kung Fu and is best suited for people who cannot devote enough time to traditional Kung Fu.&lt;/p&gt;
+
+&lt;p&gt;If you have interests in dancing then you should definitely try &lt;strong&gt;Capoeira&lt;/strong&gt;. Capoeira is an African martial art that has its root in traditional dancing. Capoeira is an art that is both beautiful and deadly at the same time. Although Taekwondo artists practices kicking all the time, Capoeiristas can deliver deadlier kicks. They also develop huge upper body strength as well with all those hand stands they do.&lt;/p&gt;
+
+&lt;p&gt;If you are looking for something all round then go for &lt;strong&gt;Karate&lt;/strong&gt;. Karate focuses equally on punches and kicks. This Japanese martial art is one of the easiest to learn and very friendly for beginners.&lt;/p&gt;
+
+&lt;p&gt;Karate is a bit soft (at least in most gyms). If you’d like something harder, go for &lt;strong&gt;Muay Thai&lt;/strong&gt;. This Thai martial art, along with punches and kicks also specializes in elbow and knee strikes. Muay Thai is one of the best kickboxing martial art.&lt;/p&gt;
+
+&lt;p&gt;That’s all about the major martial arts practiced around the world. Pick the best one suited for you and keep on practicing! :smiley:&lt;/p&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">Which martial art to learn</summary></entry><entry><title type="html">How to think like a baby</title><link href="http://localhost:4000/blog/think-like-baby" rel="alternate" type="text/html" title="How to think like a baby" /><published>2017-08-25T00:00:00+06:00</published><updated>2017-08-25T00:00:00+06:00</updated><id>http://localhost:4000/blog/think-like-baby</id><content type="html" xml:base="http://localhost:4000/blog/think-like-baby">&lt;h2 id=&quot;how-to-think-like-a-baby&quot;&gt;How to think like a baby&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Imagination&quot; src=&quot;/img/blog/imagination.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I am always thinking about random stuff. My mind starts off at one point and ends somewhere else completely different. One day, I decided to track how my mind works and I realized something that I hadn’t noticed before. I always think using words and sentences. It’s the only way my mind can work. Whatever I look at, whatever I do, my mind thinks about it using some sort of spoken language.&lt;/p&gt;
+
+&lt;p&gt;To make sure I wasn’t the only one, I asked some of my friends to find out if was the same for them as well. Without any surprise, they all said that their mind thought with a language.&lt;/p&gt;
+
+&lt;p&gt;So, if we always think with the help of a language, how does the mind of a baby work? Surely a baby has no concept of a language. So I decided to try it out, thinking without a language.&lt;/p&gt;
+
+&lt;p&gt;I sat down on my desk and began to empty my mind. It was difficult at first because the words somehow barged in out of nowhere. After a few minutes, it became easier, although one or two words eventually broke in. What I felt next was something very different and special.&lt;/p&gt;
+
+&lt;p&gt;For the first time in many years, I had a different perception of the things around me. I started to notice the details in my surroundings. Previously, the wall in front of me was just a wall, the water bottle I drink from was just a bottle. But now they looked different, they had something more in them. I saw colors and textures. The color of the wall was white and I saw the roughness on it. I saw the small dents on my plastic water bottle which I hadn’t noticed before. I saw the dust on my table, the light reflecting from a shiny surface, the deep mark of my handwriting (which isn’t very nice really) on the backside of a page.&lt;/p&gt;
+
+&lt;p&gt;I picked up my pen, smartphone, and other random stuff. They were nothing different from each other. They were all just &lt;em&gt;objects&lt;/em&gt; of different sizes, shapes, and colors. I don’t know what each of them does (at least :stuck_out_tongue: I’m trying to think that I don’t know), I just see the incredible details on them. The pen at one point looked like a rocket, and I even played rocket for a while (no :expressionless: don’t laugh at me).&lt;/p&gt;
+
+&lt;p&gt;Even my senses became sharper. I could hear the fan above my head, the birds chirping outside and the sound of my own fidgeting leg. I’m sure if I changed location, I would notice a change in smell as well.&lt;/p&gt;
+
+&lt;p&gt;Here is what I interpret from this experiment. As we grow up, we tend to abstract the things around us. A “pointy thing, which is orange in color, has a detachable thingy which has a tinier hole on it” is a “we write with it” thing for us adults. Although this abstraction hides details, it achieves two important things- keeps our mind less occupied and better connects the thing around us. This helps us think at a higher level and map a better relation among objects.&lt;/p&gt;
+
+&lt;p&gt;For kids, this is an incredible power of observation. Why does a kid learn so much faster than an adult? Because their mind is empty, it does not know much. Whatever you’ll say the kid will observe with utmost interest (unless :stuck_out_tongue: he is focused somewhere else). He will observe every detail. Maybe this doesn’t give a better overview of the world, but it definitely gives you an upper hand in learning.&lt;/p&gt;
+
+&lt;p&gt;And this is the sole reason why kids have so much more imagination. They have this perception so different from us. They can transform one object to something completely else in their mind. This is the source of their creativity.&lt;/p&gt;
+
+&lt;p&gt;So, my point is, if you want to boost your creativity, think like a baby. And if you want to think like a baby, think without a language. Leave a comment below whether you like or dislike my reasoning.&lt;/p&gt;
+
+&lt;p&gt;This article is not based on any scientific study. It is simply my own view. I would definitely like you to try this “thinking without words” experiment. Let me know about your experiences below!&lt;/p&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">How to think like a baby</summary></entry><entry><title type="html">Google custom search implementation</title><link href="http://localhost:4000/blog/implement-google-custom-search" rel="alternate" type="text/html" title="Google custom search implementation" /><published>2017-08-24T00:00:00+06:00</published><updated>2017-08-24T00:00:00+06:00</updated><id>http://localhost:4000/blog/implement-google-custom-search</id><content type="html" xml:base="http://localhost:4000/blog/implement-google-custom-search">&lt;h2 id=&quot;how-to-implement-google-custom-search-on-your-site&quot;&gt;How to implement Google custom search on your site&lt;/h2&gt;
+
+&lt;p&gt;Look at the top-right side of this page, you’ll see a &lt;strong&gt;Google custom search bar&lt;/strong&gt;. If you want to implement a search bar like this on your site, you’ve come to the right place!&lt;/p&gt;
+
+&lt;h3 id=&quot;simple-implementation&quot;&gt;Simple implementation&lt;/h3&gt;
+
+&lt;p&gt;At first go to &lt;a href=&quot;https://cse.google.com/cse/&quot;&gt;cse.google.com/cse/&lt;/a&gt; and click on &lt;strong&gt;Create a custom search engine&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Fill up:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;sites to search (the URL of your site)&lt;/li&gt;
+  &lt;li&gt;name of the search engine (name it whatever you like) and click on &lt;strong&gt;Create&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;When successfully created, click on &lt;strong&gt;Get code&lt;/strong&gt;. You’ll get something like this.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;script&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cx&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'YOUR OWN CODE FOR THE SEARCH ENGINE'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;gcse&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'script'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;gcse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'text/javascript'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;gcse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;gcse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;src&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'https://cse.google.com/cse.js?cx='&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;cx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementsByTagName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'script'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;];&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;parentNode&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;insertBefore&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gcse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;})();&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/script&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
+&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gcse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/gcse:search&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now if you copy and paste the generated code on your site (in the body section) you’ve done a basic implementation of the custom search engine! Reload your page and give it a test drive. You’ll see something like this.&lt;/p&gt;
+
+&lt;h4 id=&quot;the-search-bar&quot;&gt;The search bar.&lt;/h4&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Search bar&quot; src=&quot;/img/blog/gsearch1.png&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;the-search-results&quot;&gt;The search results.&lt;/h4&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Search results&quot; src=&quot;/img/blog/gsearch2.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, there are two problems with this:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The search bar is already provided by Google. What if you want to use your own designed search bar?&lt;/li&gt;
+  &lt;li&gt;If you use bootstrap on your site, then it conflicts with the CSS classes of the Google search bar and it isn’t rendered properly.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;best-implementation&quot;&gt;Best implementation&lt;/h3&gt;
+
+&lt;p&gt;If you’re happy with the way it shows now, fine with me. But now, I’m going to show you how to do it my way. In my way, you can use your own designed search bar or use bootstraps search bar.&lt;/p&gt;
+
+&lt;p&gt;Keep the JS code generated by Google (the one shown in the previous section) but replace this-&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gcse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/gcse:search&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;with this.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;gcse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;searchresults&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;only&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/gcse:searchresults-only&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Design your search bar. I’ve done it with bootstrap on my site with the following code inside my navbar. Make sure to do three things in your form:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Give the form &lt;strong&gt;id=”cse-search-box-form-id”&lt;/strong&gt; and &lt;strong&gt;onsubmit=”return executeQuery();”&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Give the input field &lt;strong&gt;id=”cse-search-input-box-id”&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;Put the JS script in the code shown below&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;form&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;navbar-form navbar-right&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cse-search-box-form-id&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;onsubmit=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;return executeQuery();&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;role=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;search&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;input-group&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt; 
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;input&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;form-control&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;cse-search-input-box-id&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;size=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;25&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;autocomplete=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;off&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    
+    // MAKE SURE TO PUT THIS JS SCRIPT
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;script &lt;/span&gt;&lt;span class=&quot;na&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;text/javascript&quot;&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;//cse.google.com/cse/brand?form=cse-search-box-form-id&amp;amp;inputbox=cse-search-input-box-id&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+    
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;input-group-btn&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;button&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;type=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;submit&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;btn btn-default&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class=&quot;nt&quot;&gt;&amp;lt;span&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;glyphicon glyphicon-search&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+      &lt;span class=&quot;nt&quot;&gt;&amp;lt;/button&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;/span&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/form&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;And finally define the executeQuery() function inside a script tag like this-&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;executeQuery&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'cse-search-input-box-id'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;google&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;search&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;cse&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElement&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'searchresults-only0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;clearAllResults&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;nx&quot;&gt;element&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;execute&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;false&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Now give it a test drive and you should have your very own google custom search bar up and running. Enjoy! :smiley:&lt;/p&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">How to implement Google custom search on your site</summary></entry><entry><title type="html">Kali as a regular OS</title><link href="http://localhost:4000/blog/kali-as-regular-os" rel="alternate" type="text/html" title="Kali as a regular OS" /><published>2017-08-03T00:00:00+06:00</published><updated>2017-08-03T00:00:00+06:00</updated><id>http://localhost:4000/blog/kali-as-regular-os</id><content type="html" xml:base="http://localhost:4000/blog/kali-as-regular-os">&lt;h2 id=&quot;kali-as-a-regular-operating-system&quot;&gt;Kali as a regular operating system&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Kali dragon&quot; src=&quot;/img/blog/kali.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Kali Linux comes with hundreds of pre-installed pentesting tools. If you are an aspiring pentester you will definitely want use Kali Linux and make it your primary OS. Shifting to a completely new OS is a daunting task especially when you worry whether you can do your regular work. It has been quite a while since I am using Kali as my primary OS and I’m here to share my experience with you.&lt;/p&gt;
+
+&lt;p&gt;If you are shifting from a Windows environment and have no prior experience with Linux operating systems it is better you stay where you are. Try some other beginner friendly Linux distributions like &lt;strong&gt;Ubuntu&lt;/strong&gt; or &lt;strong&gt;Mint&lt;/strong&gt; before using Kali.&lt;/p&gt;
+
+&lt;p&gt;If you are moving from Ubuntu or any other Linux environments (more specifically, from Debian derivates) you will find almost no differences between them. Kali is a Debian derivative. You can do absolutely anything on Kali that you can do on Ubuntu. In some cases, it is even better. Here is why:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;The latest version of Kali is a &lt;strong&gt;rolling&lt;/strong&gt; edition. Rolling means, updates are provided very frequently. This feature makes sure that you always have the latest software.&lt;/li&gt;
+  &lt;li&gt;The user interface of Kali is very beautiful. Almost anyone who looks at my PC asks what OS I run and tells that it is very beautiful. You can have multiple workspaces and assign key combinations to direct terminal commands.&lt;/li&gt;
+  &lt;li&gt;The Bash shipped with Kali is the latest version. The latest version of Bash is very friendly to the eye because it now shows color-coded messages. This makes reading extremely easy. It is especially helpful for me when I’m getting compilation errors or when I need to search through a dirty pile of text. Although this version of Bash will be shipped with other Linux distros soon, what I’m trying to say is that you’ll always be the first person to use the latest stuff like this!&lt;/li&gt;
+  &lt;li&gt;Most other Linux distributions that I have seen come with 1 GUI environment (X-window) and 6 virtual consoles. With Kali, you can have 2 GUI environment. (If you do not understand this, try pressing Ctrl + Alt + F1-F6 and do not get scared :stuck_out_tongue: you will get virtual consoles.) This is extremely helpful. You can be a GUI user both as a root and a non root at the same time!&lt;/li&gt;
+  &lt;li&gt;You do not need additional software for taking screenshots and recording your desktop as a video. It comes built-in.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Kali never limited my working scope. I can do absolutely anything on it. I have had several IDE’s installed on it- Eclipse, PyCharm, IntelliJ, CodeBlocks, Android studio and never had any issues during installation or after installing it. I sometimes do image editing with GIMP and Inkscape. I also use Virtualbox to run other operating systems virtually and everything works just fine.&lt;/p&gt;
+
+&lt;p&gt;There are some minor issues with Kali that I can tell. Kali is not as stable as Ubuntu. I’m not saying that it is unstable, but Ubuntu has a slightly better performance. I had to deal with some minor bugs not worth mentioning. The one thing that annoyed me is the Firefox ESR browser that comes as the default. I think it has a memory leak or something because after 3 or 4 hrs my PC feeds up on RAM and I have to close and open it again. You can, of course, reinstall the normal version of Firefox to get around this.&lt;/p&gt;
+
+&lt;p&gt;Because of a rolling edition, you might be tempted to upgrade your system very frequently, but it is not wise to do so. Sometimes the upgrades are buggy and break the software. Due to this, I recommend not to update very frequently. Once in 2 months should be good enough.&lt;/p&gt;
+
+&lt;p&gt;Overall, I have a pretty good experience with Kali Linux as my main OS. If you are aiming to be a pentester but in a doubt whether you should switch OS or not, I would definitely recommend you to make the move. :grinning:&lt;/p&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">Kali as a regular operating system</summary></entry><entry><title type="html">How to win Judo competitions</title><link href="http://localhost:4000/blog/win-judo-competitions" rel="alternate" type="text/html" title="How to win Judo competitions" /><published>2017-07-26T00:00:00+06:00</published><updated>2017-07-26T00:00:00+06:00</updated><id>http://localhost:4000/blog/win-judo-competitions</id><content type="html" xml:base="http://localhost:4000/blog/win-judo-competitions">&lt;h2 id=&quot;how-to-win-judo-competitions&quot;&gt;How to win Judo competitions&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Judo fight&quot; src=&quot;/img/blog/judo_fight.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;If you have a competition ahead and you have no idea how you should train, this guide is for you. These tips apply whether its for a dojo fight or a competition. However, it is mostly intended for people who are not so experienced with Judo fights and have upcoming contests.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-ways-to-win-a-fight&quot;&gt;5 ways to win a fight&lt;/h3&gt;
+
+&lt;p&gt;Before daydreaming that you are getting the gold make sure you know the following ways that can make you victorious.&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;Ippon throw:&lt;/strong&gt; The most desirable way to win a fight. You throw your opponent and he falls on his back giving you instant victory.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Pinning:&lt;/strong&gt; Make your opponent immobile on the ground for 25 seconds. (Opponents knee should not touch the ground)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Points:&lt;/strong&gt; You throw your opponent but he doesn’t fall properly. Keeping him on the ground will generate points. Of course, 25 seconds pinning will result in victory.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Submission:&lt;/strong&gt; You choke/armbar/lock your opponent in such a way so that he is forced to tap out.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Disqualification:&lt;/strong&gt; Opponent makes multiple illegal moves or misbehaves resulting in disqualification.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;the-areas-to-work-on&quot;&gt;The areas to work on&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Strength&lt;/strong&gt; and &lt;strong&gt;techniques&lt;/strong&gt; are the two areas you need to work on concurrently. Remember that strength without technique is useless and technique without strength is futile.&lt;/p&gt;
+
+&lt;h3 id=&quot;strength-training&quot;&gt;Strength training&lt;/h3&gt;
+
+&lt;p&gt;If you look closely, a Judo throw has three crucial parts:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;&lt;strong&gt;The grip:&lt;/strong&gt; The person having the greater grip strength will control his opponent. Without control on your opponent, you won’t get a single chance to even attempt a throw.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The pull (kuzushi):&lt;/strong&gt; A pull must be strong and firm. If your pull is not good, you’ll be thrown off balance and your imbalances will be used against you.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;The lift:&lt;/strong&gt; Even with a good pull, your throw will not go well if you are thrown off balance. That’s why you will need loads of muscle power in your legs.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So what to do?&lt;/p&gt;
+
+&lt;p&gt;For a strong &lt;strong&gt;grip&lt;/strong&gt;, do climbing, hanging or any sort of exercise that includes gripping. If possible buy yourself a gripper and grip whenever you can.&lt;/p&gt;
+
+&lt;p&gt;For a strong &lt;strong&gt;pull&lt;/strong&gt;, do as much pull ups and push ups you can. Try increasing the numbers each day. If you can do 10 push ups in one go today, make sure tomorrow you can do 11. And most importantly do lots and lots of uchi komi. It is better if you practice uchi komi with a heavier partner. While doing uchi komi maintain a steady rhythm.&lt;/p&gt;
+
+&lt;p&gt;For a strong &lt;strong&gt;lift&lt;/strong&gt;, do squats. Do at least 100 squats every day and do them with speed. You will notice a huge improvement in your balance.&lt;/p&gt;
+
+&lt;h3 id=&quot;throwing-techniques-nage-waza&quot;&gt;Throwing techniques (Nage-waza)&lt;/h3&gt;
+
+&lt;p&gt;Selecting the right technique is crucial. If you’re taller than your opponent then you’ll have a hard time bending down for doing throws. For a tall person, leg techniques are more suitable. Being tall, you should consider the following techniques:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Tai otoshi&lt;/li&gt;
+  &lt;li&gt;Osotogari&lt;/li&gt;
+  &lt;li&gt;Kouchi gari&lt;/li&gt;
+  &lt;li&gt;Uchimata&lt;/li&gt;
+  &lt;li&gt;Harai goshi&lt;/li&gt;
+  &lt;li&gt;Ouchi gari&lt;/li&gt;
+  &lt;li&gt;Deashi barai&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you are shorter than your opponent then leg techniques won’t be very useful as it will be difficult to reach for your opponents legs. For a shorter person, bending down is easier. Being shorter you should consider the following techniques:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Ippon seoi nage&lt;/li&gt;
+  &lt;li&gt;Morote seoi nage&lt;/li&gt;
+  &lt;li&gt;Kata guruma&lt;/li&gt;
+  &lt;li&gt;Sode tsurikomi goshi&lt;/li&gt;
+  &lt;li&gt;Ogoshi&lt;/li&gt;
+  &lt;li&gt;Morote gari&lt;/li&gt;
+  &lt;li&gt;Drop seoi nage (absolute killer!!!) [both ippon and morote will do]&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;It is not necessary to know all the techniques mentioned above. The number of techniques you know does not matter. What matters is if you know how to apply a technique correctly. Knowing 3 techniques perfectly is good enough.&lt;/p&gt;
+
+&lt;h3 id=&quot;grappling-techniques-katame-waza&quot;&gt;Grappling techniques (Katame-waza)&lt;/h3&gt;
+
+&lt;p&gt;It is highly likely that a Judo fight will go onto the ground especially if the players are new. Rookie players do incomplete techniques and are thrown off balance during mid-throw positions. So, knowing ground techniques is beneficial.&lt;/p&gt;
+
+&lt;p&gt;But the problem is ground techniques are very complicated and requires more time to learn. You can go quite a way with sheer strength. Just make sure you know how to do &lt;strong&gt;Hon kesa gatame&lt;/strong&gt; and &lt;strong&gt;Yoko shiho gatame&lt;/strong&gt; and how to get out of them.&lt;/p&gt;
+
+&lt;h3 id=&quot;pro-tips&quot;&gt;Pro tips&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Before participating in a competition, start practicing at least 2 months before. If you are late then start right now!&lt;/li&gt;
+  &lt;li&gt;Try to play in the weight category closest to your weight. Suppose you are 67 kg and the closest weight category is under 65. Then reduce 2 kgs and then participate. Again, suppose you are 68 kg and the closest weight category is under 71. Increase 2 kgs and then participate. Having the maximum weight in your weight category will give you a huge advantage.&lt;/li&gt;
+  &lt;li&gt;Don’t try to learn all the techniques mentioned above. Just pick 3 or 4 that you are more familiar with.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Master 1 technique.&lt;/strong&gt; Pick the technique you are best at and do it 1000 times. The intent of doing one technique on the mat is better than the intent of doing many techniques. Even Olympic players apply this strategy. They do it with 3 or 4 techniques though (out of the about 67 throws). There are local competitions where players win gold by getting Ippons with only one technique.&lt;/li&gt;
+  &lt;li&gt;During a fight, if you are in a deadlock (neither you nor your opponent is falling), act that you are trying to throw. This will make the judges give you more points mentally. This can be also applied in situations where your opponent is highly experienced and you cannot throw him and neither can he throw you. Fake that you’re trying and you might end up winning based on the judge’s decision.&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">How to win Judo competitions</summary></entry><entry><title type="html">5 reasons why Linux needs no antivirus</title><link href="http://localhost:4000/blog/why-linux-needs-no-antivirus" rel="alternate" type="text/html" title="5 reasons why Linux needs no antivirus" /><published>2017-07-09T00:00:00+06:00</published><updated>2017-07-09T00:00:00+06:00</updated><id>http://localhost:4000/blog/why-linux-needs-no-antivirus</id><content type="html" xml:base="http://localhost:4000/blog/why-linux-needs-no-antivirus">&lt;h2 id=&quot;5-reasons-why-linux-needs-no-antivirus&quot;&gt;5 reasons why Linux needs no antivirus&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&quot;pic&quot; alt=&quot;Jekyll logo&quot; src=&quot;/img/blog/linuxVirusProtected.png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;So, maybe you have heard Linux PCs are super safe because they are not affected by viruses. Linux computers are almost immune to virus. Yes, I said “almost” immune. But the percentage of being affected is very less, even less than 1%. That is why people say that Linux does not need any antivirus. But why is that have you ever wondered? Here are the top 5 reasons why viruses do not affect Linux.&lt;/p&gt;
+
+&lt;h3 id=&quot;1-the-exe-problem&quot;&gt;1. The exe problem&lt;/h3&gt;
+
+&lt;p&gt;In Windows, programs that are run come in the form of executables (files that end with a &lt;strong&gt;.exe&lt;/strong&gt;). However, Linux doesn’t support running these files. Linux runnable files come in &lt;strong&gt;.deb&lt;/strong&gt; or &lt;strong&gt;.rpm&lt;/strong&gt; format. Debian based distributions run &lt;strong&gt;.deb&lt;/strong&gt;s and RHEL distributions run &lt;strong&gt;.rpm&lt;/strong&gt;s. Most viruses come in exe format, thus they do not affect Linux machines. If a deb virus is made then it would not affect RHEL machines. And if rpm virus is made then it would not affect Debian machines. So, virus spreading to Linux machines or spreading through Linux machines is very very difficult.&lt;/p&gt;
+
+&lt;h3 id=&quot;2-linux-is-not-so-popular&quot;&gt;2. Linux is not so popular&lt;/h3&gt;
+
+&lt;p&gt;When it comes to popularity, Windows is the king of operating systems. Around 90% computers in the world run Windows. A hacker will, of course, want his virus to spread as quickly as possible. Making virus for the small number of Linux computers is not profitable. Thus, the huge network of Windows computers usually become the choice of hackers. With a network this big, viruses would spread faster and infect more computers.&lt;/p&gt;
+
+&lt;h3 id=&quot;3-software-installation-procedure&quot;&gt;3. Software installation procedure&lt;/h3&gt;
+
+&lt;p&gt;When Windows users decide to install a software, they search it up on the internet and download an installer. There are chances that the installer file can from an untrusted source (this actually happens a lot). :laughing:&lt;/p&gt;
+
+&lt;p&gt;For Linux users, they search a software repository maintained by the makers of the OS. This repository contains software trusted by the makers. Since the makers trust these, we also consider these software to be harmless and virus free.&lt;/p&gt;
+
+&lt;p&gt;Of course, software outside the repository can be installed and they can be malicious. If you install software outside the default repository at least you would know that you could be running something malicious and think twice before installing it.&lt;/p&gt;
+
+&lt;h3 id=&quot;4-software-installation-permission&quot;&gt;4. Software installation permission&lt;/h3&gt;
+
+&lt;p&gt;A normal user in Windows has the privilege of installing any software on the computer. In Linux, this is not the case. To install software, a user must have administrative privileges. And someone who has administrative privileges will definitely know which software can be trusted and which one cannot.&lt;/p&gt;
+
+&lt;h3 id=&quot;5-open-source-code&quot;&gt;5. Open source code&lt;/h3&gt;
+
+&lt;p&gt;The code that makes Linux is open source. Anyone can see it, modify it or contribute to it. This makes Linux very secure. If a flaw is found by someone they can report it or even better, fix it themselves. You may think that if it is open, why wouldn’t someone put a virus in it? No one would like to be recognized as a person who spreads viruses. Also, if anyone actually tried it, others would notice and would not allow the virus to be pushed to the system.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-with-linux-i-cannot-be-infected&quot;&gt;So, with Linux I cannot be infected?&lt;/h3&gt;
+
+&lt;p&gt;Of course, you can. You can install a virus on purpose. You can install a virus by mistake. Someone else can install one on your PC if you leave it unattended. If you put weak passwords for user accounts then someone could remotely install a virus. The chances are quite less though when compared to a Windows machine.&lt;/p&gt;
+
+&lt;h3 id=&quot;there-are-antiviruses-for-linux&quot;&gt;There are antiviruses for Linux!!&lt;/h3&gt;
+
+&lt;p&gt;Yup, even after the above points discussed, there are antiviruses for Linux  :smirk:. But a regular user does not need to install one. If a Linux computer works as a web server (more particularly a mail server) then antivirus is a must-have for the system. This is because email attachments could contain viruses. Maybe it will not infect the machine itself but it could spread to other machines.&lt;/p&gt;
+
+&lt;p&gt;Now would you like to move to Linux? :wink: If you do, it wouldn’t be an unwise decision! Go open source!!! :smiley:&lt;/p&gt;</content><author><name>Rafed Muhammad Yasir</name></author><summary type="html">5 reasons why Linux needs no antivirus</summary></entry></feed>

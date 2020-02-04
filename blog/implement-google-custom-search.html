@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+			<link rel="stylesheet" href="/code.css">
+		
+		
+		<link rel="canonical" href="http://localhost:4000/blog/implement-google-custom-search">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+<link rel="stylesheet" href="/common.css">
+<script defer src="/common.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="theme-color" content="#222">
+
+		<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Google custom search implementation</title>
+<meta name="generator" content="Jekyll v3.6.3" />
+<meta property="og:title" content="Google custom search implementation" />
+<meta name="author" content="Rafed Muhammad Yasir" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Why take the trouble to make your own search bar when you can use Google’s? I’ll show you how to implement Google’s custom search bar on your site in the best way." />
+<meta property="og:description" content="Why take the trouble to make your own search bar when you can use Google’s? I’ll show you how to implement Google’s custom search bar on your site in the best way." />
+<link rel="canonical" href="http://localhost:4000/blog/implement-google-custom-search" />
+<meta property="og:url" content="http://localhost:4000/blog/implement-google-custom-search" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2017-08-24T00:00:00+06:00" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"Google custom search implementation","dateModified":"2017-08-24T00:00:00+06:00","datePublished":"2017-08-24T00:00:00+06:00","url":"http://localhost:4000/blog/implement-google-custom-search","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/blog/implement-google-custom-search"},"author":{"@type":"Person","name":"Rafed Muhammad Yasir"},"description":"Why take the trouble to make your own search bar when you can use Google’s? I’ll show you how to implement Google’s custom search bar on your site in the best way.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+		<meta name="keywords" content= "Technology, computer science, software engineering, martial arts, music, keyboard, piano, music theory, instruments, computer, codes, programming, psychology, software engineering, blogging, money" />
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row" id="topBar">
+				<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/index"><b>RA</b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="/info/">About me</a></li>
+        <li><a href="/info/contact">Contact me</a></li>
+        <li><a href="/info/privacy">Privacy policy</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Series articles<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/martial-arts/">Deadliest martial arts</a></li>
+<li><a href="/fun-codes/">Fun codes</a></li>
+
+          </ul>
+        </li>
+        <li><a href="/blog/">My blog</a></li>
+      </ul>
+      
+      <form class="navbar-form navbar-right" id="cse-search-box-form-id" onsubmit="return executeQuery();" role="search">
+	<div class="input-group"> 
+		<input type="text" class="form-control" id="cse-search-input-box-id" size="20" autocomplete="off">
+		<script async type="text/javascript" src="//cse.google.com/cse/brand?form=cse-search-box-form-id&amp;inputbox=cse-search-input-box-id">
+		</script>
+		<span class="input-group-btn">
+			<button type="submit" class="btn btn-default">
+				<span class="glyphicon glyphicon-search"></span>
+			</button>
+		</span>
+	</div>
+</form>
+
+      
+    </div>
+  </div>
+</nav>
+
+			</div>
+			<div class="row" id="content">
+				<div class="col-lg-8 col-lg-push-2   col-md-7 col-md-push-2" id="writing">
+					<h2 id="how-to-implement-google-custom-search-on-your-site">How to implement Google custom search on your site</h2>
+
+<p>Look at the top-right side of this page, you’ll see a <strong>Google custom search bar</strong>. If you want to implement a search bar like this on your site, you’ve come to the right place!</p>
+
+<h3 id="simple-implementation">Simple implementation</h3>
+
+<p>At first go to <a href="https://cse.google.com/cse/">cse.google.com/cse/</a> and click on <strong>Create a custom search engine</strong>.</p>
+
+<p>Fill up:</p>
+<ol>
+  <li>sites to search (the URL of your site)</li>
+  <li>name of the search engine (name it whatever you like) and click on <strong>Create</strong>.</li>
+</ol>
+
+<p>When successfully created, click on <strong>Get code</strong>. You’ll get something like this.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td>
+<td class="code"><pre><span class="o">&lt;</span><span class="nx">script</span><span class="o">&gt;</span>
+  <span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">cx</span> <span class="o">=</span> <span class="s1">'YOUR OWN CODE FOR THE SEARCH ENGINE'</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">gcse</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">createElement</span><span class="p">(</span><span class="s1">'script'</span><span class="p">);</span>
+    <span class="nx">gcse</span><span class="p">.</span><span class="nx">type</span> <span class="o">=</span> <span class="s1">'text/javascript'</span><span class="p">;</span>
+    <span class="nx">gcse</span><span class="p">.</span><span class="k">async</span> <span class="o">=</span> <span class="kc">true</span><span class="p">;</span>
+    <span class="nx">gcse</span><span class="p">.</span><span class="nx">src</span> <span class="o">=</span> <span class="s1">'https://cse.google.com/cse.js?cx='</span> <span class="o">+</span> <span class="nx">cx</span><span class="p">;</span>
+    <span class="kd">var</span> <span class="nx">s</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s1">'script'</span><span class="p">)[</span><span class="mi">0</span><span class="p">];</span>
+    <span class="nx">s</span><span class="p">.</span><span class="nx">parentNode</span><span class="p">.</span><span class="nx">insertBefore</span><span class="p">(</span><span class="nx">gcse</span><span class="p">,</span> <span class="nx">s</span><span class="p">);</span>
+  <span class="p">})();</span>
+<span class="o">&lt;</span><span class="sr">/script</span><span class="err">&gt;
+</span><span class="o">&lt;</span><span class="nx">gcse</span><span class="p">:</span><span class="nx">search</span><span class="o">&gt;&lt;</span><span class="sr">/gcse:search&gt;</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Now if you copy and paste the generated code on your site (in the body section) you’ve done a basic implementation of the custom search engine! Reload your page and give it a test drive. You’ll see something like this.</p>
+
+<h4 id="the-search-bar">The search bar.</h4>
+
+<p><img class="pic" alt="Search bar" src="/img/blog/gsearch1.png"></p>
+
+<h4 id="the-search-results">The search results.</h4>
+
+<p><img class="pic" alt="Search results" src="/img/blog/gsearch2.png"></p>
+
+<p>Now, there are two problems with this:</p>
+<ol>
+  <li>The search bar is already provided by Google. What if you want to use your own designed search bar?</li>
+  <li>If you use bootstrap on your site, then it conflicts with the CSS classes of the Google search bar and it isn’t rendered properly.</li>
+</ol>
+
+<h3 id="best-implementation">Best implementation</h3>
+
+<p>If you’re happy with the way it shows now, fine with me. But now, I’m going to show you how to do it my way. In my way, you can use your own designed search bar or use bootstraps search bar.</p>
+
+<p>Keep the JS code generated by Google (the one shown in the previous section) but replace this-</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">gcse</span><span class="p">:</span><span class="nx">search</span><span class="o">&gt;&lt;</span><span class="sr">/gcse:search&gt;</span></code></pre></figure>
+
+<p>with this.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="o">&lt;</span><span class="nx">gcse</span><span class="p">:</span><span class="nx">searchresults</span><span class="o">-</span><span class="nx">only</span><span class="o">&gt;&lt;</span><span class="sr">/gcse:searchresults-only&gt;</span></code></pre></figure>
+
+<p>Design your search bar. I’ve done it with bootstrap on my site with the following code inside my navbar. Make sure to do three things in your form:</p>
+<ol>
+  <li>Give the form <strong>id=”cse-search-box-form-id”</strong> and <strong>onsubmit=”return executeQuery();”</strong>
+</li>
+  <li>Give the input field <strong>id=”cse-search-input-box-id”</strong>
+</li>
+  <li>Put the JS script in the code shown below</li>
+</ol>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+</pre></td>
+<td class="code"><pre><span class="nt">&lt;form</span> <span class="na">class=</span><span class="s">"navbar-form navbar-right"</span> <span class="na">id=</span><span class="s">"cse-search-box-form-id"</span> <span class="na">onsubmit=</span><span class="s">"return executeQuery();"</span> <span class="na">role=</span><span class="s">"search"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"input-group"</span><span class="nt">&gt;</span> 
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">class=</span><span class="s">"form-control"</span> <span class="na">id=</span><span class="s">"cse-search-input-box-id"</span> <span class="na">size=</span><span class="s">"25"</span> <span class="na">autocomplete=</span><span class="s">"off"</span><span class="nt">&gt;</span>
+    
+    // MAKE SURE TO PUT THIS JS SCRIPT
+    <span class="nt">&lt;script </span><span class="na">async</span> <span class="na">type=</span><span class="s">"text/javascript"</span>
+      <span class="na">src=</span><span class="s">"//cse.google.com/cse/brand?form=cse-search-box-form-id&amp;inputbox=cse-search-input-box-id"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/script&gt;</span>
+    
+    <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"input-group-btn"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">class=</span><span class="s">"btn btn-default"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"glyphicon glyphicon-search"</span><span class="nt">&gt;&lt;/span&gt;</span>
+      <span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;/span&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/form&gt;</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>And finally define the executeQuery() function inside a script tag like this-</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><table class="rouge-table"><tbody><tr>
+<td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+</pre></td>
+<td class="code"><pre><span class="nt">&lt;script&gt;</span>
+  <span class="kd">function</span> <span class="nx">executeQuery</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">input</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'cse-search-input-box-id'</span><span class="p">);</span>
+    <span class="kd">var</span> <span class="nx">element</span> <span class="o">=</span> <span class="nx">google</span><span class="p">.</span><span class="nx">search</span><span class="p">.</span><span class="nx">cse</span><span class="p">.</span><span class="nx">element</span><span class="p">.</span><span class="nx">getElement</span><span class="p">(</span><span class="s1">'searchresults-only0'</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">input</span><span class="p">.</span><span class="nx">value</span> <span class="o">==</span> <span class="s1">''</span><span class="p">)</span> <span class="p">{</span>
+      <span class="nx">element</span><span class="p">.</span><span class="nx">clearAllResults</span><span class="p">();</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="nx">element</span><span class="p">.</span><span class="nx">execute</span><span class="p">(</span><span class="nx">input</span><span class="p">.</span><span class="nx">value</span><span class="p">);</span>
+    <span class="p">}</span>
+    <span class="k">return</span> <span class="kc">false</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="nt">&lt;/script&gt;</span></pre></td>
+</tr></tbody></table></code></pre></figure>
+
+<p>Now give it a test drive and you should have your very own google custom search bar up and running. Enjoy! <img class="emoji" title=":smiley:" alt=":smiley:" src="https://github.githubassets.com/images/icons/emoji/unicode/1f603.png" height="20" width="20"></p>
+
+
+
+
+					
+					
+						<div id="share-bar">
+	<br>
+	<p><i>Sharing is caring!</i></p>
+	
+	<div class="share-buttons">
+	    <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/blog/implement-google-custom-search" onclick="socialMediaPopUp(this.href, '', 500, 500); return false;" title="Share on Facebook. Opens in a new window.">
+	        <img src="/img/icons/45px/facebook.png">
+	    </a>
+
+	    <a href="https://twitter.com/intent/tweet?text=Google%20custom%20search%20implementation&amp;url=http://localhost:4000/blog/implement-google-custom-search" onclick="socialMediaPopUp(this.href, '', 500, 500); return false;" title="Share on Twitter. Opens in a new window.">
+	        <img src="/img/icons/45px/twitter.png">
+	    </a>
+
+	    <a href="https://plus.google.com/share?url=http://localhost:4000/blog/implement-google-custom-search" onclick="socialMediaPopUp(this.href, '', 500, 500); return false;" title="Share on Google+. Opens in a new window.">
+	        <img src="/img/icons/45px/googleplus.png">
+	    </a>
+
+	    <a href="http://pinterest.com/pin/create/button/?url=http://localhost:4000/blog/implement-google-custom-search" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on Pinterest. Opens in a new window.">
+	        <img src="/img/icons/45px/pinterest.png">
+	    </a>
+
+	    <a href="http://www.tumblr.com/share/link?url=http://localhost:4000/blog/implement-google-custom-search" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on Tumblr. Opens in a new window.">
+	        <img src="/img/icons/45px/tumblr.png">
+	    </a>
+
+	    <a href="http://www.reddit.com/submit?url=http://localhost:4000/blog/implement-google-custom-search" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on Reddit. Opens in a new window.">
+	        <img src="/img/icons/45px/reddit.png">
+	    </a>
+
+	    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http://localhost:4000/blog/implement-google-custom-search&amp;title=Google%20custom%20search%20implementation&amp;summary=Why%20take%20the%20trouble%20to%20make%20your%20own%20search%20bar%20when%20you%20can%20use%20Google's?%20I'll%20show%20you%20how%20to%20implement%20Google's%20custom%20search%20bar%20on%20your%20site%20in%20the%20best%20way.&amp;source=rafed123.github.io" onclick="socialMediaPopUp(this.href, '', 900, 500); return false;" title="Share on LinkedIn. Opens in a new window.">
+	        <img src="/img/icons/45px/linkedin.png">
+	    </a>
+
+	    <a href="mailto:?subject=Google%20custom%20search%20implementation&amp;body=Check%20out%20this%20site%20http://localhost:4000/blog/implement-google-custom-search" title="Share via Email. Opens in a new window.">
+	        <img src="/img/icons/45px/mail.png">
+	    </a>
+	</div>
+	<br>
+	<br>
+</div>
+
+
+
+						<div id="disqus_thread"></div>
+<script async>
+var disqus_config = function () {
+this.page.url = "http://localhost:4000/blog/implement-google-custom-search";  // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = "/blog/implement-google-custom-search"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://rafed123.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>			
+
+					
+					
+					<script type="text/javascript">
+	document.write("<gcse:searchresults-only></gcse:searchresults-only>");
+</script>
+<style>
+	.gsc-result .gs-title {
+		height: 1.4em;
+	}
+</style>
+
+				</div>
+				<div class="col-lg-2 col-lg-push-2   col-md-3 col-md-push-2" id="rightPanel">
+					<div class="col-lg-2 col-md-3" id="innerRightPanel">
+						
+					</div>
+				</div>
+				<div class="col-lg-2 col-lg-pull-10   col-md-2 col-md-pull-10" id="leftPanel">
+					<div class="col-lg-2 col-md-2" id="innerLeftPanel">
+						<ul>
+	<li><a href="/blog/reasons-to-use-jekyll">10 practical reasons to use Jekyll for your site/blog</a></li>
+	<li><a href="/blog/draw-io">Best online prototyping tool</a></li>
+	<li><a href="/blog/why-linux-needs-no-antivirus">5 reasons why Linux needs no antivirus</a></li>
+	<li><a href="/blog/be-hacker-with-kali">How to be a hacker with Kali</a></li>
+	<li><a href="/blog/kali-as-regular-os">Kali as a regular operating system</a></li>
+	<li><a href="/blog/implement-google-custom-search">How to implement Google custom search on your site</a></li>
+	<li><a href="/blog/how-difficult-is-programming">How difficult is programming</a></li>
+	<li><a href="/blog/number-of-languages">How many programming languages should I learn</a></li>
+	<li><a href="/blog/martial-art-to-learn">Which martial art to learn</a></li>
+	<li><a href="/blog/win-judo-competitions">How to win Judo competitions</a></li>
+	<li><a href="/blog/think-like-baby">How to think like a baby</a></li>
+</ul>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
