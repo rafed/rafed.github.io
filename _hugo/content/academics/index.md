@@ -12,4 +12,4 @@ weight: 900
 
 ## Publications
 
-- GodExpo: An Automated God Structure Detection Tool for Golang; Rafed Muhammad Yasir, Moumita Asad, Asadullah Hill Galib, Kishan Kumar Ganguly, Md Saeed Siddik; 2019 IEEE/ACM 3rd International Workshop on Refactoring (IWoR), Montreal, Canada
+- GodExpo: An Automated God Structure Detection Tool for Golang; Rafed Muhammad Yasir, Moumita Asad, Asadullah Hill Galib, Kishan Kumar Ganguly, Md Saeed Siddik; 2019 IEEE/ACM 3rd International Workshop on Refactoring (IWoR@ICSE), Montreal, Canada

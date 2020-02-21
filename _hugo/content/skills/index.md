@@ -6,45 +6,55 @@ weight: 700
 
 ## Skills
 
-I'd tell most people that I'm a backend engineer. However, I like to see the big picture of things and that's why I spend most of my time in learning other skills such as cloud, devops, machine learning.
+In an interview I'd say that I'm a backend guy. However, I consider myself a generalist. I like to see the big picture of things and try to learn a bit of everything.  That's why I spend most of my time in learning other skills such as cloud, devops, machine learning, front end frameworks.
 
 ### Backend
 
 - **Python:** Nearly all my projects are done in python. I'm good with Flask and currently learning Django.
 - **Go:** I'm learning how to make scalable applications using Go.
 - **Dotnet core:** Not an expert, but can get the job done.
-- **Databases:** MySQL, MariaDB, MongoDB
+- **Node.js:** Baby steps.
+- **Databases:** MySQL, MariaDB, MongoDB.
 
 ### Frontend
 
-I don't like front end development and don't expect me to be a frontend dev. But I do know some good practices for better software maintenance.
+I'm not a front end dev and don't expect me to be one. But I do have some tricks up my sleeve. 
 
-- **Vue:** I love this framework 
+- **Vue:** I love this framework .
 - **Angular:** Not my favorite, but can get the job done.
-- **Flutter:** Don't know this yet but I'm learning.
+- **Flutter:** Don't know this yet but I'm conidering it for learning.
 
 ### Cloud
 
-- **Docker:** Running dockerized containers, setting up clusters
-- **Google Cloud Platform (GCP):** I can setup VPSes and know how other cloud services can be used.
+- **Docker:** Can containerize applicationsRunning dockerized containers, setting up clusters.
+- **Google Cloud Platform (GCP):** I can setup VPSes and know how other GCP services can be used.
 
-### Security
+### Network & Security
 
-I have spent a decent amount of time in learning security concepts, how to exploit, and how to fix them. These concepts also provided gave me a decent knowledge of networking. I've spent several years using Kali Linux as my main OS. Among the vast number of tools, some of the popular ones I can use are:
+I have spent a decent amount of time in learning security concepts, how to exploit, and how to fix them. These concepts also provided gave me a decent knowledge of networking. I've spent several years using Kali Linux as my main OS just to practise a bit now and then. Among the vast number of tools, some of the popular ones I can use are:
 - BurpSuite
 - SQLmap
 - Bettercap
+- Wireshark
+- nmap
+- Metasploit
 
 ### Machine learning
 
-I have spent a good time using the following tools for building models and data analysis
+I have spent a good time using the following tools for building models and data analysis:
 
 - Scikit
 - Pandas
 - Matplotlib/Seaborn
-- Tensorflow (Keras)
+- Keras
 
 ## Projects
+
+<!-- ### Pet projects
+
+There's plenty of repositories in my [Github/rafed123](https://github.com/rafed) that you can check out. Here's some of them that I'm proud of:
+- 8 puzzle
+- Ping and traceroute with icmp -->
 
 ### Competition Projects
 
