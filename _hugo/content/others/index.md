@@ -3,6 +3,17 @@ date: 2016-03-09T20:10:46+01:00
 title: Others
 weight: 600
 ---
+## Writing
+
+I maintain a blog where I keep notes of experiences and everything that I have learned. 
+
+Read my tech blog at [rafed123.github.io/devra/](https://rafed123.github.io/devra/)
+Read my islamic blog at [rafed123.github.io/islam/](https://rafed123.github.io/islam/)
+Read my life blog at [rafed123.github.io/blog/](https://rafed123.github.io/blog/)
+
+<!-- # Video tutorials
+
+With an attempt to share my knowledge and also improve myself I have started making video turorials. They can be found at [devra channel](youtube.com/asdfasd) -->
 
 ## Music
 
