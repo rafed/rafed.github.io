@@ -1,0 +1,39 @@
+---
+comments: true
+---
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		{% include common_head.html %}
+		{% seo %}
+		<meta name="keywords" content="Rafed Muhammad Yasir, CV, Resume, Profile, About">
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row" id="topBar">
+				{% include profile_menu.html %}
+			</div>
+			<div class="row" id="content">
+				<div class="col-sm-1" id="leftPanel">
+					<div class="col-sm-2" id="innerLeftPanel">
+					
+					</div>
+				</div>
+				<div class="col-sm-9" id="contentPanel">
+					<div class="col-sm-12" id="writing">
+						{{ content }}
+					</div>
+					
+					{% include gSearchResult.html %}
+				</div>
+				<div class="col-sm-2" id="rightPanel">
+					<div class="col-sm-12" id="innerRightPanel">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
