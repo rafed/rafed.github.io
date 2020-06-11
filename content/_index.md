@@ -5,14 +5,16 @@ type: index
 weight: 1000
 ---
 
-Hello it's Rafed!
+Hello, it's Rafed!
 
-I'm bored, hire me for software development or research work. If you're bored then consider reading my blog at [dev.rafed.com.bd](https://dev.rafed.com.bd)
+I'm bored, hire me for software development or research work. If you're bored then consider reading my blog at [rafed.github.io/devra/](https://rafed.github.io/devra/)
 
-Check out the rest of my porfolio to know my background and skills. The internet is my home, so other places you can find me are:
+Dabbling into experimental cutting edge new technologies is my favorite pastime. Check out the rest of my portfolio to know my powers and skills.
 
-- Github: [github.com/rafed123](https://github.com/rafed123)
-- Stackoverflow: [stackoverflow.com/users/rafed123](https://stackoverflow.com/users/5761286/rafed-muhammad-yasir)
+The internet is my home. Other places you can find me are:
+
+- Github: [github.com/rafed](https://github.com/rafed)
+- Stackoverflow: [stackoverflow.com/users/rafed](https://stackoverflow.com/users/5761286/rafed-muhammad-yasir)
 - Google Scholar: [scholar.google.com/?user=rafed](https://scholar.google.com/citations?user=dX3t-oUAAAAJ&hl=en)
 - Facebook: [facebook.com/rafed.yasir](https://www.facebook.com/rafed.yasir)
 - Youtube: [youtube.com/rafulu-music](https://www.youtube.com/channel/UCm06Y0e-rYROhZ76-GLtYTQ)

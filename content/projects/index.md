@@ -4,13 +4,13 @@ title: Software Projects
 weight: 700
 ---
 
-Here's a list of the most noteable projects that I've done.
+Here's a list of the most notable projects that I've done.
 
 ## Pet projects
 
-There's plenty of repositories in my [Github/rafed123](https://github.com/rafed) that you can check out. Here's some of them that I'm proud of:
+There's plenty of repositories in my [Github/rafed](https://github.com/rafed) that you can check out. Here's some of them that I'm proud of:
 - 8 puzzle (automatically solves a random puzzle using A* search)
-- Ping and traceroute with icmp
+- Ping and traceroute with ICMP
 
 ## Competitive Projects
 
