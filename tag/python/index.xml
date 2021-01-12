@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python | Rafed M. Yasir</title><link>https://rafed.github.io/tag/python/</link><atom:link href="https://rafed.github.io/tag/python/index.xml" rel="self" type="application/rss+xml"/><description>Python</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Rafed Muhammad Yasir</copyright><lastBuildDate>Wed, 05 Dec 2018 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/images/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_2.png</url><title>Python</title><link>https://rafed.github.io/tag/python/</link></image><item><title>Virtual Trial Room</title><link>https://rafed.github.io/project/virtual-trial-room/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/virtual-trial-room/</guid><description>&lt;p>Virtual Trial Room is one of my most successful projects. It is a browser based dressing room where you can digitally try out different clothes.&lt;/p>
+&lt;p>&lt;img src="ss1.png" alt="Virtual Trial Room Girls Dress">&lt;/p>
+&lt;p>This project several awards-&lt;/p>
+&lt;ol>
+&lt;li>Champions, NSU Technovation Hackathon 2018, North South University&lt;/li>
+&lt;li>Joint Runners Up, NSU Cybernauts, North South University Computer &amp;amp; Engineering Club (NSU CEC)&lt;/li>
+&lt;li>Second Runners Up, Technival 2018, Khulna University of Engineering and Technology (KUET)&lt;/li>
+&lt;li>Second Runners Up, Inter University Project Show, CSE Fest, Bangladesh University of Engineering and Technology (BUET)&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="ss2.png" alt="Virtual Trial Room Glasses">&lt;/p>
+&lt;p>This project also got featured on &lt;a href="https://www.youtube.com/watch?v=Bpd7cbYMJns" target="_blank" rel="noopener">BBC Click&lt;/a>.&lt;/p>
+&lt;p>&lt;img src="ss3.png" alt="Virtual Trial Room Hats">&lt;/p>
+&lt;p>My talented friends who contributed to this project are:&lt;/p>
+&lt;ul>
+&lt;li>Moumita Asad&lt;/li>
+&lt;li>Aquib Azmain&lt;/li>
+&lt;/ul>
+&lt;p>Technology used:&lt;/p>
+&lt;ul>
+&lt;li>Python&lt;/li>
+&lt;li>Flask&lt;/li>
+&lt;li>OpenCV&lt;/li>
+&lt;/ul></description></item><item><title>Salimullah Hall Management System</title><link>https://rafed.github.io/project/sm-hall-management/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/sm-hall-management/</guid><description>&lt;p>Salimullah Hall Management System is a web application to digitize the activities of Salimullah Hall, University of Dhaka. Our entire university batch contributed in developing this app in our final semester. Through the app the following activities can be done:&lt;/p>
+&lt;ul>
+&lt;li>Student management&lt;/li>
+&lt;li>Employee management&lt;/li>
+&lt;li>Inventory management&lt;/li>
+&lt;li>Accounting&lt;/li>
+&lt;li>Residence management&lt;/li>
+&lt;li>User management&lt;/li>
+&lt;/ul>
+&lt;p>Technology used:&lt;/p>
+&lt;ul>
+&lt;li>Python&lt;/li>
+&lt;li>Flask&lt;/li>
+&lt;li>Angular&lt;/li>
+&lt;li>MariaDB&lt;/li>
+&lt;/ul></description></item></channel></rss>

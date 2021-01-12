@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ICSE | Rafed M. Yasir</title><link>https://rafed.github.io/tag/icse/</link><atom:link href="https://rafed.github.io/tag/icse/index.xml" rel="self" type="application/rss+xml"/><description>ICSE</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Rafed Muhammad Yasir</copyright><lastBuildDate>Sat, 15 Sep 2018 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/images/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_2.png</url><title>ICSE</title><link>https://rafed.github.io/tag/icse/</link></image><item><title>Showme - ICSE SCORE</title><link>https://rafed.github.io/project/showme/</link><pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/showme/</guid><description>&lt;p>Showme is A web app that parses research papers and shows a citation graph. It was made for the SCORE competition in ICSE 2018 and it made to the &lt;strong>final six&lt;/strong>. These wonderful members also contributed to the project:&lt;/p>
+&lt;ul>
+&lt;li>Kishan Kumar Ganguly&lt;/li>
+&lt;li>Moumita Asad&lt;/li>
+&lt;li>Aquib Azmain&lt;/li>
+&lt;/ul>
+&lt;p>Technology used:&lt;/p>
+&lt;ul>
+&lt;li>Python&lt;/li>
+&lt;li>Flask&lt;/li>
+&lt;li>Angular&lt;/li>
+&lt;/ul></description></item></channel></rss>

@@ -1,0 +1,18 @@
+{
+  "name": "Rafed M. Yasir",
+  "short_name": "Rafed M. Yasir",
+  "lang": "en-us",
+  "theme_color": "#2962ff",
+  "background_color": "#2962ff",
+  "icons": [{
+    "src": "/images/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_192x192_fill_lanczos_center_2.png",
+    "sizes": "192x192",
+    "type": "image/png"
+    }, {
+    "src": "/images/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_2.png",
+    "sizes": "512x512",
+    "type": "image/png"
+     }],
+  "display": "standalone",
+  "start_url": "/?utm_source=web_app_manifest"
+}
