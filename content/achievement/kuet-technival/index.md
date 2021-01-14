@@ -1,8 +1,8 @@
 ---
 title: Second Runners Up, Project Showcasing
 summary: Technival 2018, Khulna University of Engineering & Technology (KUET)
-# tags:
-# - Deep Learning
+tags:
+- awards
 date: "2018-04-21T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -30,4 +30,13 @@ image:
 # slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+KUET technival was the biggest compeition we faced so far in terms of number of participants. It was a hard competition and we managed a 2nd runners up.
+
+Project: Virtual Trial Room
+
+Team members:
+* Rafed Muhammad Yasir
+* Moumita Asad
+* Aquib Azmain
+
+![asdf](./certificate.png)

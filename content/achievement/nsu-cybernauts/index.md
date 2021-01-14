@@ -1,8 +1,8 @@
 ---
 title: Joint Runners Up, Senior Project Showcasing
 summary: NSU Cybernauts, North South University Computer and Engineering Club (NSU CEC)
-# tags:
-# - Deep Learning
+tags:
+- awards
 date: "2018-03-22T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -30,5 +30,15 @@ image:
 # slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Another achievement from NSU! A bit unlucky we even had to share the position of runners up. Apart from that it was an event to enjoy!
 
+Also got lucky to give my first tv interview ever and that too on [BBC click!](https://www.youtube.com/watch?v=Bpd7cbYMJns)
+
+Project: Virtual Trial Room
+
+Team members:
+* Rafed Muhammad Yasir
+* Moumita Asad
+* Aquib Azmain
+
+![asdf](./certificate.png)

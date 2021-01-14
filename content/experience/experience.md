@@ -30,7 +30,6 @@ experience:
     date_end: ''
     description: |2-
         Responsibilities include:
-        
         * Teach Web Design (HTML, CSS, Javascript)
         * Teach Web Programming (PHP, MySQL)
         * Teach Microsoft Office Applications
@@ -48,10 +47,12 @@ experience:
     location: Banani, Dhaka
     date_start: '2017-03-01'
     date_end: '2017-05-30'
+    description: Worked as a requirement analyst for an ERP software to be developed for the Department of Military Lands & Cantonments, Mirpur DOHS
 
   - title: Requirement Analyst
     company: SoftCell Company Ltd
     location: Banani, Dhaka
     date_start: '2016-10-01'
     date_end: '2016-11-30'
+    description: Worked as a requirement analyst for a software to be developed for a law firm- The Law Sanctuary, Bijoynagar
 ---

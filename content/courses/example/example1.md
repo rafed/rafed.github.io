@@ -14,6 +14,8 @@ menu:
 weight: 1
 ---
 
+{{< gdocs src="https://docs.google.com/presentation/d/1MpnJ7cN8rET12MD2bD7GRrpYSTdWuFQYCsjb4pPImt4/edit?usp=sharing" >}}
+
 In this tutorial, I'll share my top 10 tips for getting started with Academic:
 
 ## Tip 1

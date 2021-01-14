@@ -1,4 +1,4 @@
 ---
-title: Awards
+title: Achievements
 type: widget_page
 ---

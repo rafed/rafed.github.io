@@ -1,8 +1,8 @@
 ---
 title: Champions, Hackathon
 summary: NSU Technovation Hackathon 2018, North South University (NSU)
-# tags:
-# - Deep Learning
+tags:
+- awards
 date: "2018-02-24T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -30,4 +30,14 @@ image:
 # slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+Our first ever hackathon and our first ever victory being champions. It was a moment to remember at NSU. 
+
+Project: Virtual Trial Room
+
+Team members:
+* Rafed Muhammad Yasir
+* Moumita Asad
+* Shuvo Saha
+* Fazle Rabbi
+
+![asdf](./certificate.png)

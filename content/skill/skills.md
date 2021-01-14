@@ -70,4 +70,16 @@ feature:
 #  icon_pack = "custom"
 #  name = "Surfing"
 #  description = "90%"
+
+# programming langs
+#   python
+#   java
+#   go
+#   javascript
+#   c++
+
+# Python
+#   django
+#   flask
+#   fastapi
 ---

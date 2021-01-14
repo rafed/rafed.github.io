@@ -1,8 +1,8 @@
 ---
 title: Second runners up, Inter university project show
 summary: CSE fest, Bangladesh University of Engineering & Technology (BUET)
-# tags:
-# - Deep Learning
+tags:
+- awards
 date: "2018-05-10T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
@@ -30,6 +30,13 @@ image:
 # slides: example
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+BUET CSE fest was yet another win for our virtual trial room project. Being able to take away a prize from the strong contenders of BUET is really an achievement to remember.
+
+Project: Virtual Trial Room
+
+Team members:
+* Rafed Muhammad Yasir
+* Aquib Azmain
+* Moumita Asad
 
 ![asdf](./certificate.png)
