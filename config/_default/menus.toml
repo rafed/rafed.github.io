@@ -24,6 +24,11 @@
   name = "Software"
   weight = 30
 
+[[main]]
+  identifier = "blog"
+  name = "Blogs"
+  weight = 50
+
   [[main]]
     parent = "development"
     name = "Skills"
@@ -35,26 +40,6 @@
     name = "Projects"
     url = "projects"
     weight = 2
-
-[[main]]
-  name = "Publications"
-  url = "publication"
-  weight = 50
-
-#[[main]]
-#  name = "Courses"
-#  url = "courses/"
-#  weight = 60
-
-#[[main]]
-#  name = "Talks"
-#  url = "#talks"
-#  weight = 40
-
-[[main]]
-  identifier = "blog"
-  name = "Blogs"
-  weight = 65
 
   [[main]]
       parent = "blog"
@@ -69,9 +54,24 @@
       weight = 1
 
 [[main]]
+  name = "Publications"
+  url = "publication"
+  weight = 60
+
+[[main]]
+  name = "Courses"
+  url = "courses/"
+  weight = 65
+
+#[[main]]
+#  name = "Talks"
+#  url = "#talks"
+#  weight = 40
+
+[[main]]
   name = "Others"
   url = "other"
-  weight = 67
+  weight = 70
 
 [[main]]
   name = "Contact"
