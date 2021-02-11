@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lab | Rafed M. Yasir</title><link>https://rafed.github.io/courses/distributed-systems/lab/</link><atom:link href="https://rafed.github.io/courses/distributed-systems/lab/index.xml" rel="self" type="application/rss+xml"/><description>Lab</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Rafed Muhammad Yasir</copyright><lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/images/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_2.png</url><title>Lab</title><link>https://rafed.github.io/courses/distributed-systems/lab/</link></image><item><title>Containerizing an App</title><link>https://rafed.github.io/courses/distributed-systems/lab/containerization/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/containerization/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+&lt;p>You will build a simple web application and containerize it with docker.&lt;/p>
+&lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/hello-docker" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Hands on DevOps</title><link>https://rafed.github.io/courses/distributed-systems/lab/devops/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/devops/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+&lt;p>You will learn to build a CI/CD pipeline using git, Github actions and Heroku.&lt;/p>
+&lt;h2 id="instructions">Instructions&lt;/h2>
+&lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/ci-cd-pipeline" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Making a microservice</title><link>https://rafed.github.io/courses/distributed-systems/lab/microservices/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/microservices/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+&lt;p>Your task is to build a distributed web system following the microservice architecture. It should be implemented following the steps below.&lt;/p>
+&lt;h2 id="step-1-build-a-simple-server-and-a-client">Step 1: Build a simple server (and a client)&lt;/h2>
+&lt;p>You will build a rudimentary version of a &lt;strong>Ride sharing app&lt;/strong> (like Uber/Pathao). The app itself will not be complex as we are here to build a distributed system and not a full fledged app.&lt;/p>
+&lt;h3 id="architecture">Architecture&lt;/h3>
+&lt;pre>&lt;code class="language-mermaid">graph TD
+A[&amp;quot;Client (Bot)&amp;quot;]--&amp;gt;B
+B[Server]--&amp;gt;C[(Database)]
+&lt;/code>&lt;/pre>
+&lt;h3 id="requirements">Requirements&lt;/h3>
+&lt;h4 id="client-bot">Client bot&lt;/h4>
+&lt;p>The client bot will &lt;strong>spam the server every second&lt;/strong> with the following two http requests:&lt;/p>
+&lt;ul>
+&lt;li>Rider&amp;rsquo;s request contains:
+&lt;ul>
+&lt;li>Name&lt;/li>
+&lt;li>Rider&amp;rsquo;s Coordinates (x, y) [Random]&lt;/li>
+&lt;li>Rider&amp;rsquo;s Destination (x, y) [Random]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Driver&amp;rsquo;s request contains:
+&lt;ul>
+&lt;li>Name&lt;/li>
+&lt;li>Car number&lt;/li>
+&lt;li>Driver&amp;rsquo;s Coordinates [Random]&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="server-requirements">Server requirements&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>/rider&lt;/strong> endpoint accepts rider requests (http)&lt;/li>
+&lt;li>&lt;strong>/driver&lt;/strong> endpoint accepts driver requests (http)&lt;/li>
+&lt;li>The server will store the information &lt;strong>in memory&lt;/strong> for &lt;strong>at least 5 seconds&lt;/strong>. Design a function that will periodically run on the cached information and make pairs (rider, driver) based on their shortest linear distance (and print it).&lt;/li>
+&lt;li>&lt;strong>/communication&lt;/strong> endpoint will be a bidirectional communication medium (websocket). All messages from the server will be sent to the client through this&lt;/li>
+&lt;li>Send a response of the ride fare (linear distance * 2 taka) (through websocket)&lt;/li>
+&lt;li>&lt;strong>/rating&lt;/strong> endpoint receives a random rating after the bot receives a fare&lt;/li>
+&lt;/ul>
+&lt;h4 id="database">Database&lt;/h4>
+&lt;ul>
+&lt;li>The database only stores driver ratings&lt;/li>
+&lt;li>Storing other information is not necessary (yet)&lt;/li>
+&lt;/ul>
+&lt;h4 id="other-instructions">Other instructions&lt;/h4>
+&lt;ul>
+&lt;li>You may use any programming language. However &lt;strong>Node.js or Python&lt;/strong> is recommended.&lt;/li>
+&lt;li>Frameworks may be used, but it&amp;rsquo;s best not to use full frameworks. Simpler frameworks (like flask/express) will make things easier&lt;/li>
+&lt;li>Don&amp;rsquo;t implement extra features. Because later, distributing them in multiple instances could turn out to be a problem&lt;/li>
+&lt;/ul>
+&lt;h2 id="step-2-coming-soon">Step 2: Coming soon!&lt;/h2>
+&lt;!--
+## Step 3: Build a simple server (and a client)
+## Step 4: Build a simple server (and a client)
+--></description></item></channel></rss>
