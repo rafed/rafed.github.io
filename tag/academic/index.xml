@@ -26,4 +26,4 @@
 &lt;li>Java&lt;/li>
 &lt;/ul></description></item><item><title>Hostman - A PCAP analyzer</title><link>https://rafed.github.io/project/hostman/</link><pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/hostman/</guid><description>&lt;p>Hostman is my first software project ever. It was done as a requirement for the sotware project lab-1 (SPL-1) course. It is a rudimentary implementation of a packet analyzer (similar to wireshark).&lt;/p>
 &lt;p>The project is completely written in C. No libraries were used.&lt;/p>
-&lt;p>&lt;img src="./ss1.png" alt="hostman packet details">&lt;/p></description></item></channel></rss>
+&lt;p>&lt;img src="./ss1.png" alt="hostman packet details">&lt;/p></description></item><item><title>ChitChat</title><link>https://rafed.github.io/project/chitchat/</link><pubDate>Sat, 05 Sep 2015 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/chitchat/</guid><description>&lt;p>A server/client app for chatting over the internet.&lt;/p></description></item></channel></rss>
