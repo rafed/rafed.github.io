@@ -19,7 +19,7 @@ bio: My interests include Software Engineering, Cyber Security and  Machine Lear
 # Interests to show in About widget
 interests:
 - Software Engineering
-- Cyber Security
+- Penetration Testing
 - Machine Learning
 
 # Education to show in About widget
@@ -67,9 +67,6 @@ social:
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/devrafed
-# - icon: facebook
-#   icon_pack: fab
-#   link: https://www.facebook.com/DevHacker-2351204168278028
 # - icon: youtube
 #   icon_pack: fab
 #   link: https://www.youtube.com/channel/UC6uDg4IlPbLh2xNKrqnBczw
