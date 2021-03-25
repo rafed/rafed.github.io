@@ -36,8 +36,8 @@ B[Server]--&amp;gt;C[(Database)]
 &lt;li>&lt;strong>/rider&lt;/strong> endpoint accepts rider requests (http)&lt;/li>
 &lt;li>&lt;strong>/driver&lt;/strong> endpoint accepts driver requests (http)&lt;/li>
 &lt;li>The server will store the information &lt;strong>in memory&lt;/strong> for &lt;strong>at least 5 seconds&lt;/strong>. Design a function that will periodically run on the cached information and make pairs (rider, driver) based on their shortest linear distance (and print it).&lt;/li>
-&lt;li>&lt;strong>/communication&lt;/strong> endpoint will be a bidirectional communication medium (websocket). All messages from the server will be sent to the client through this&lt;/li>
-&lt;li>Send a response of the ride fare (linear distance * 2 taka) (through websocket)&lt;/li>
+&lt;li>&lt;strong>/communication&lt;/strong> endpoint will be a bidirectional communication medium (socket.io/websocket). All messages from the server will be sent to the client through this&lt;/li>
+&lt;li>Send the ride fare to the client (linear distance * 2 taka) (through websocket)&lt;/li>
 &lt;li>&lt;strong>/rating&lt;/strong> endpoint receives a random rating after the bot receives a fare&lt;/li>
 &lt;/ul>
 &lt;h4 id="database">Database&lt;/h4>
