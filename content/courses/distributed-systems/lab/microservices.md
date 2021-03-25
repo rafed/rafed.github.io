@@ -41,8 +41,8 @@ The client bot will **spam the server every second** with the following two http
 - **/rider** endpoint accepts rider requests (http)
 - **/driver** endpoint accepts driver requests (http)
 - The server will store the information **in memory** for **at least 5 seconds**. Design a function that will periodically run on the cached information and make pairs (rider, driver) based on their shortest linear distance (and print it).
-- **/communication** endpoint will be a bidirectional communication medium (websocket). All messages from the server will be sent to the client through this
-- Send a response of the ride fare (linear distance * 2 taka) (through websocket)
+- **/communication** endpoint will be a bidirectional communication medium (socket.io/websocket). All messages from the server will be sent to the client through this
+- Send the ride fare to the client (linear distance * 2 taka) (through websocket)
 - **/rating** endpoint receives a random rating after the bot receives a fare
 
 #### Database
