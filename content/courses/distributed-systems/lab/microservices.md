@@ -55,10 +55,41 @@ The client bot will **spam the server every second** with the following two http
 - Frameworks may be used, but it's best not to use full frameworks. Simpler frameworks (like flask/express) will make things easier
 - Don't implement extra features. Because later, distributing them in multiple instances could turn out to be a problem
 
-## Step 2: Coming soon!
+## Step 2: Service into microservices
 
-<!-- 
-## Step 3: Build a simple server (and a client)
+If you have completed step 1, congratulations! By now you have learned how to-
+* make APIs and call them
+* make sockets for bidirectional communication
+* make schedulers that call a function periodically
+* integrate database with an application
 
-## Step 4: Build a simple server (and a client)
- -->
+If yoo have done all that, kudos to you! You are now ready to start building microservices (or more like breaking an app into microservices).
+
+Let's recap what modules we have in our backend system so far:
+* a rider module
+* a driver module
+* a rider/driver matching module
+* a rating module connecting to a database
+* a communication module for bidirectional communication
+
+We'll make each of these a separate microservice. Our system architecture will be like the following.
+
+
+### Architecture
+
+```mermaid
+graph TD
+A --- C["Communication service (socket.io)"]
+A["Client (Bot)"]-->B["Load balancer (Nginx)"]
+B-->RiM[Rider service]
+B-->DiM[Driver service]
+B-->Ra[Rating service]
+Ra-->D[(Database)]
+RiM-->M[Matching service]
+DiM-->M[Matching service]
+M-->C
+```
+
+## Step 3: Containerize and orchestrate
+
+## Step 4: Geo distribute the app
