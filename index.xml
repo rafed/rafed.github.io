@@ -53,11 +53,38 @@ B[Server]--&amp;gt;C[(Database)]
 &lt;li>Frameworks may be used, but it&amp;rsquo;s best not to use full frameworks. Simpler frameworks (like flask/express) will make things easier&lt;/li>
 &lt;li>Don&amp;rsquo;t implement extra features. Because later, distributing them in multiple instances could turn out to be a problem&lt;/li>
 &lt;/ul>
-&lt;h2 id="step-2-coming-soon">Step 2: Coming soon!&lt;/h2>
-&lt;!--
-## Step 3: Build a simple server (and a client)
-## Step 4: Build a simple server (and a client)
---></description></item><item><title>Nmap</title><link>https://rafed.github.io/talk/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://rafed.github.io/talk/example/</guid><description>&lt;div class="alert alert-note">
+&lt;h2 id="step-2-service-into-microservices">Step 2: Service into microservices&lt;/h2>
+&lt;p>If you have completed step 1, congratulations! By now you have learned how to-&lt;/p>
+&lt;ul>
+&lt;li>make APIs and call them&lt;/li>
+&lt;li>make sockets for bidirectional communication&lt;/li>
+&lt;li>make schedulers that call a function periodically&lt;/li>
+&lt;li>integrate database with an application&lt;/li>
+&lt;/ul>
+&lt;p>If yoo have done all that, kudos to you! You are now ready to start building microservices (or more like breaking an app into microservices).&lt;/p>
+&lt;p>Let&amp;rsquo;s recap what modules we have in our backend system so far:&lt;/p>
+&lt;ul>
+&lt;li>a rider module&lt;/li>
+&lt;li>a driver module&lt;/li>
+&lt;li>a rider/driver matching module&lt;/li>
+&lt;li>a rating module connecting to a database&lt;/li>
+&lt;li>a communication module for bidirectional communication&lt;/li>
+&lt;/ul>
+&lt;p>We&amp;rsquo;ll make each of these a separate microservice. Our system architecture will be like the following.&lt;/p>
+&lt;h3 id="architecture-1">Architecture&lt;/h3>
+&lt;pre>&lt;code class="language-mermaid">graph TD
+A --- C[&amp;quot;Communication service (socket.io)&amp;quot;]
+A[&amp;quot;Client (Bot)&amp;quot;]--&amp;gt;B[&amp;quot;Load balancer (Nginx)&amp;quot;]
+B--&amp;gt;RiM[Rider service]
+B--&amp;gt;DiM[Driver service]
+B--&amp;gt;Ra[Rating service]
+Ra--&amp;gt;D[(Database)]
+RiM--&amp;gt;M[Matching service]
+DiM--&amp;gt;M[Matching service]
+M--&amp;gt;C
+&lt;/code>&lt;/pre>
+&lt;h2 id="step-3-containerize-and-orchestrate">Step 3: Containerize and orchestrate&lt;/h2>
+&lt;h2 id="step-4-geo-distribute-the-app">Step 4: Geo distribute the app&lt;/h2></description></item><item><title>Nmap</title><link>https://rafed.github.io/talk/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://rafed.github.io/talk/example/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
