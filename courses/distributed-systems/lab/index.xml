@@ -3,10 +3,10 @@
 &lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/hello-docker" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Hands on DevOps</title><link>https://rafed.github.io/courses/distributed-systems/lab/devops/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/devops/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
 &lt;p>You will learn to build a CI/CD pipeline using git, Github actions and Heroku.&lt;/p>
 &lt;h2 id="instructions">Instructions&lt;/h2>
-&lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/ci-cd-pipeline" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Making a microservice</title><link>https://rafed.github.io/courses/distributed-systems/lab/microservices/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/microservices/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+&lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/ci-cd-pipeline" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Making an app with microservice architecture</title><link>https://rafed.github.io/courses/distributed-systems/lab/microservices/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/microservices/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
 &lt;p>Your task is to build a distributed web system following the microservice architecture. It should be implemented following the steps below.&lt;/p>
 &lt;h2 id="step-1-build-a-simple-server-and-a-client">Step 1: Build a simple server (and a client)&lt;/h2>
-&lt;p>You will build a rudimentary version of a &lt;strong>Ride sharing app&lt;/strong> (like Uber/Pathao). The app itself will not be complex as we are here to build a distributed system and not a full fledged app.&lt;/p>
+&lt;p>You will build a rudimentary version of a &lt;strong>Ride sharing app&lt;/strong> (like Uber/Pathao). The app itself will not be complex as we are here to build a distributed system and not a full-fledged app.&lt;/p>
 &lt;h3 id="architecture">Architecture&lt;/h3>
 &lt;pre>&lt;code class="language-mermaid">graph TD
 A[&amp;quot;Client (Bot)&amp;quot;]--&amp;gt;B
@@ -35,20 +35,21 @@ B[Server]--&amp;gt;C[(Database)]
 &lt;ul>
 &lt;li>&lt;strong>/rider&lt;/strong> endpoint accepts rider requests (http)&lt;/li>
 &lt;li>&lt;strong>/driver&lt;/strong> endpoint accepts driver requests (http)&lt;/li>
-&lt;li>The server will store the information &lt;strong>in memory&lt;/strong> for &lt;strong>at least 5 seconds&lt;/strong>. Design a function that will periodically run on the cached information and make pairs (rider, driver) based on their shortest linear distance (and print it).&lt;/li>
-&lt;li>&lt;strong>/communication&lt;/strong> endpoint will be a bidirectional communication medium (socket.io/websocket). All messages from the server will be sent to the client through this&lt;/li>
-&lt;li>Send the ride fare to the client (linear distance * 2 taka) (through websocket)&lt;/li>
+&lt;li>The server will store the information &lt;strong>in memory&lt;/strong> for &lt;strong>at least 5 seconds&lt;/strong>. Design a function that will periodically run on the cached information and make pairs (rider, driver) based on their shortest linear distance.&lt;/li>
+&lt;li>Open a &lt;strong>socket.io&lt;/strong> bidirectional communication medium and send messages through the &lt;strong>/communication&lt;/strong> namespace. Messages from the server will be sent to the client through this channel.&lt;/li>
+&lt;li>Send the ride fare to the client (linear distance * 2 taka) (through socket.io)&lt;/li>
 &lt;li>&lt;strong>/rating&lt;/strong> endpoint receives a random rating after the bot receives a fare&lt;/li>
 &lt;/ul>
 &lt;h4 id="database">Database&lt;/h4>
 &lt;ul>
 &lt;li>The database only stores driver ratings&lt;/li>
 &lt;li>Storing other information is not necessary (yet)&lt;/li>
+&lt;li>Use mysql or mongodb as your database&lt;/li>
 &lt;/ul>
 &lt;h4 id="other-instructions">Other instructions&lt;/h4>
 &lt;ul>
-&lt;li>You may use any programming language. However &lt;strong>Node.js or Python&lt;/strong> is recommended.&lt;/li>
-&lt;li>Frameworks may be used, but it&amp;rsquo;s best not to use full frameworks. Simpler frameworks (like flask/express) will make things easier&lt;/li>
+&lt;li>You may use any programming language. However, &lt;strong>Node.js or Python or Go&lt;/strong> is recommended&lt;/li>
+&lt;li>Frameworks/libraries can be used. However, it&amp;rsquo;s best not to use full-fledged frameworks. Simpler frameworks (like express/flask/gin) will make things easier&lt;/li>
 &lt;li>Don&amp;rsquo;t implement extra features. Because later, distributing them in multiple instances could turn out to be a problem&lt;/li>
 &lt;/ul>
 &lt;h2 id="step-2-service-into-microservices">Step 2: Service into microservices&lt;/h2>
@@ -59,7 +60,7 @@ B[Server]--&amp;gt;C[(Database)]
 &lt;li>make schedulers that call a function periodically&lt;/li>
 &lt;li>integrate database with an application&lt;/li>
 &lt;/ul>
-&lt;p>If yoo have done all that, kudos to you! You are now ready to start building microservices (or more like breaking an app into microservices).&lt;/p>
+&lt;p>If you have done all that, kudos to you! You are now ready to start building microservices (or more like breaking an app into microservices).&lt;/p>
 &lt;p>Let&amp;rsquo;s recap what modules we have in our backend system so far:&lt;/p>
 &lt;ul>
 &lt;li>a rider module&lt;/li>
