@@ -22,12 +22,23 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Associate Software Engineer
+    company: 'Brainstation-23'
+    company_url: 'https://brainstation-23.com/'
+    location: Dhaka
+    date_start: '2021-03-01'
+    date_end: ''
+    description: |2-
+      With TEQ team. Working with-
+      * Django
+      * Microservices
+
   - title: Short Course Instructor
     company: Institute of Information Technology (IIT), University of Dhaka
     company_url: 'https://iit.du.ac.bd'
     location: Dhaka
     date_start: '2019-01-01'
-    date_end: ''
+    date_end: '2021-04-30'
     description: |2-
         Responsibilities include:
         * Teach Web Design (HTML, CSS, Javascript)

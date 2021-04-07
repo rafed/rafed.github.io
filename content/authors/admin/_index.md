@@ -58,9 +58,9 @@ social:
 - icon: hackerrank
   icon_pack: fab
   link: https://www.hackerrank.com/rafed123
-# - icon: kaggle
-#   icon_pack: fab
-#   link: https://www.kaggle.com/rafedyasir
+- icon: kaggle
+  icon_pack: fab
+  link: https://www.kaggle.com/rafedyasir
 - icon: blog
   icon_pack: fas
   link: https://rafed.github.io/devra/
@@ -70,9 +70,9 @@ social:
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/devrafed
-# - icon: youtube
-#   icon_pack: fab
-#   link: https://www.youtube.com/channel/UC6uDg4IlPbLh2xNKrqnBczw
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/channel/UC6uDg4IlPbLh2xNKrqnBczw
 
 
 
@@ -92,4 +92,4 @@ highlight_name: false
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 ---
 
-Rafed is a fresh graduate from the Institute of Information Technology (IIT), University of Dhaka. His interests include software engineering, cybersecurity, and machine learning. He is currently bored so hire him for software development or research work. If you are bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he notes down his learned lessons on various technologies. 
+Rafed is a software engineer at Brainstation-23. His interests include software engineering, cybersecurity, and machine learning. He is currently bored so hire him for software development or research work. If you are bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he notes down his learned lessons on various technologies. 

@@ -1,5 +1,5 @@
 ---
-title: Making a microservice
+title: Making an app with microservice architecture
 date: 2021-02-07
 type: book
 weight: 30
@@ -12,7 +12,7 @@ Your task is to build a distributed web system following the microservice archit
 
 ## Step 1: Build a simple server (and a client)
 
-You will build a rudimentary version of a **Ride sharing app** (like Uber/Pathao). The app itself will not be complex as we are here to build a distributed system and not a full fledged app.
+You will build a rudimentary version of a **Ride sharing app** (like Uber/Pathao). The app itself will not be complex as we are here to build a distributed system and not a full-fledged app.
 
 ### Architecture
 
@@ -40,19 +40,19 @@ The client bot will **spam the server every second** with the following two http
 
 - **/rider** endpoint accepts rider requests (http)
 - **/driver** endpoint accepts driver requests (http)
-- The server will store the information **in memory** for **at least 5 seconds**. Design a function that will periodically run on the cached information and make pairs (rider, driver) based on their shortest linear distance (and print it).
-- **/communication** endpoint will be a bidirectional communication medium (socket.io/websocket). All messages from the server will be sent to the client through this
-- Send the ride fare to the client (linear distance * 2 taka) (through websocket)
+- The server will store the information **in memory** for **at least 5 seconds**. Design a function that will periodically run on the cached information and make pairs (rider, driver) based on their shortest linear distance.
+- Open a **socket.io** bidirectional communication medium and send messages through the **/communication** namespace. Messages from the server will be sent to the client through this channel.
+- Send the ride fare to the client (linear distance * 2 taka) (through socket.io)
 - **/rating** endpoint receives a random rating after the bot receives a fare
 
 #### Database
-
 - The database only stores driver ratings
 - Storing other information is not necessary (yet)
+- Use mysql or mongodb as your database
 
 #### Other instructions
-- You may use any programming language. However **Node.js or Python** is recommended.
-- Frameworks may be used, but it's best not to use full frameworks. Simpler frameworks (like flask/express) will make things easier
+- You may use any programming language. However, **Node.js or Python or Go** is recommended
+- Frameworks/libraries can be used. However, it's best not to use full-fledged frameworks. Simpler frameworks (like express/flask/gin) will make things easier
 - Don't implement extra features. Because later, distributing them in multiple instances could turn out to be a problem
 
 ## Step 2: Service into microservices
@@ -63,7 +63,7 @@ If you have completed step 1, congratulations! By now you have learned how to-
 * make schedulers that call a function periodically
 * integrate database with an application
 
-If yoo have done all that, kudos to you! You are now ready to start building microservices (or more like breaking an app into microservices).
+If you have done all that, kudos to you! You are now ready to start building microservices (or more like breaking an app into microservices).
 
 Let's recap what modules we have in our backend system so far:
 * a rider module
@@ -73,7 +73,6 @@ Let's recap what modules we have in our backend system so far:
 * a communication module for bidirectional communication
 
 We'll make each of these a separate microservice. Our system architecture will be like the following.
-
 
 ### Architecture
 
