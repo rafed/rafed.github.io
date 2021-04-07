@@ -49,7 +49,7 @@
 
   [[main]]
       parent = "blog"
-      name = "Life Blog"
+      name = "Personal Blog"
       url = "https://rafed.github.io/blog/"
       weight = 1
 
