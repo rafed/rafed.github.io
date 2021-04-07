@@ -10,8 +10,8 @@ role: Software Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Institute of Information Technology (IIT), University of Dhaka
-  url: https://iit.du.ac.bd
+- name: Brainstation-23
+  url: https://brainstation-23.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My interests include Software Engineering, Cyber Security and  Machine Learning.
