@@ -65,6 +65,8 @@ If you have completed step 1, congratulations! By now you have learned how to-
 
 If you have done all that, kudos to you! You are now ready to start building microservices (or more like breaking an app into microservices).
 
+### Requirements
+
 Let's recap what modules we have in our backend system so far:
 * a rider module
 * a driver module
@@ -72,7 +74,15 @@ Let's recap what modules we have in our backend system so far:
 * a rating module connecting to a database
 * a communication module for bidirectional communication
 
-We'll make each of these a separate microservice. Our system architecture will be like the following.
+We'll convert these modules to make three business services.
+1. Ride sharing service
+    - rider module
+    - driver module
+    - rider/driver matching module
+1. Communication service
+1. Rating service
+
+Our system architecture will be like the following.
 
 ### Architecture
 
@@ -80,14 +90,16 @@ We'll make each of these a separate microservice. Our system architecture will b
 graph TD
 A --- C["Communication service (socket.io)"]
 A["Client (Bot)"]-->B["Load balancer (Nginx)"]
-B-->RiM[Rider service]
-B-->DiM[Driver service]
+B-->R[Ride sharing service]
 B-->Ra[Rating service]
 Ra-->D[(Database)]
-RiM-->M[Matching service]
-DiM-->M[Matching service]
-M-->C
+R-->C
 ```
+
+### What to do?
+1. In your project folder, make sub projects. Each sub project will be a separate service.
+1. Download and configure nginx so that it works as a reverse proxy for all http services (in our case **ride sharing service**  and **rating service**)
+1. Write additional code so that the services communicate among themselves and the business logic discussed in _step 1_ is served.
 
 ## Step 3: Containerize and orchestrate
 
