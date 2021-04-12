@@ -86,7 +86,7 @@ B[Server]--&amp;gt;C[(Database)]
 &lt;h3 id="architecture-1">Architecture&lt;/h3>
 &lt;pre>&lt;code class="language-mermaid">graph TD
 A --- C[&amp;quot;Communication service (socket.io)&amp;quot;]
-A[&amp;quot;Client (Bot)&amp;quot;]--&amp;gt;B[&amp;quot;Load balancer (Nginx)&amp;quot;]
+A[&amp;quot;Client (Bot)&amp;quot;]--&amp;gt;B[&amp;quot;Reverse Proxy (Nginx)&amp;quot;]
 B--&amp;gt;R[Ride sharing service]
 B--&amp;gt;Ra[Rating service]
 Ra--&amp;gt;D[(Database)]
@@ -95,7 +95,8 @@ R--&amp;gt;C
 &lt;h3 id="what-to-do">What to do?&lt;/h3>
 &lt;ol>
 &lt;li>In your project folder, make sub projects. Each sub project will be a separate service.&lt;/li>
-&lt;li>Download and configure nginx so that it works as a reverse proxy for all http services (in our case &lt;strong>ride sharing service&lt;/strong> and &lt;strong>rating service&lt;/strong>)&lt;/li>
+&lt;li>Download and configure nginx so that it works as a reverse proxy for all http services (in our case &lt;strong>ride sharing service&lt;/strong> and &lt;strong>rating service&lt;/strong>).&lt;/li>
+&lt;li>For nginx configuration Google is your friend. You can also follow their official docs at &lt;a href="https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/" target="_blank" rel="noopener">docs.nginx.com&lt;/a>.&lt;/li>
 &lt;li>Write additional code so that the services communicate among themselves and the business logic discussed in &lt;em>step 1&lt;/em> is served.&lt;/li>
 &lt;/ol>
 &lt;h2 id="step-3-containerize-and-orchestrate">Step 3: Containerize and orchestrate&lt;/h2>
