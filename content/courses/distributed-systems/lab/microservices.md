@@ -89,7 +89,7 @@ Our system architecture will be like the following.
 ```mermaid
 graph TD
 A --- C["Communication service (socket.io)"]
-A["Client (Bot)"]-->B["Load balancer (Nginx)"]
+A["Client (Bot)"]-->B["Reverse Proxy (Nginx)"]
 B-->R[Ride sharing service]
 B-->Ra[Rating service]
 Ra-->D[(Database)]
@@ -98,7 +98,8 @@ R-->C
 
 ### What to do?
 1. In your project folder, make sub projects. Each sub project will be a separate service.
-1. Download and configure nginx so that it works as a reverse proxy for all http services (in our case **ride sharing service**  and **rating service**)
+1. Download and configure nginx so that it works as a reverse proxy for all http services (in our case **ride sharing service**  and **rating service**).
+1. For nginx configuration Google is your friend. You can also follow their official docs at [docs.nginx.com](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/).
 1. Write additional code so that the services communicate among themselves and the business logic discussed in _step 1_ is served.
 
 ## Step 3: Containerize and orchestrate
