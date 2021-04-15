@@ -102,7 +102,40 @@ R--&amp;gt;C
 &lt;li>Write additional code so that the services communicate among themselves and the business logic discussed in &lt;em>step 1&lt;/em> is served.&lt;/li>
 &lt;/ol>
 &lt;h2 id="step-3-containerize-and-orchestrate">Step 3: Containerize and orchestrate&lt;/h2>
-&lt;h2 id="step-4-geo-distribute-the-app">Step 4: Geo distribute the app&lt;/h2></description></item><item><title>Nmap</title><link>https://rafed.github.io/talk/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://rafed.github.io/talk/example/</guid><description>&lt;div class="alert alert-note">
+&lt;p>If you have completed step 2, congratulations! You have successfully created a distributed system and have a gotten a flavor of how microservices work!&lt;/p>
+&lt;p>In this step we will do three things in our app-&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>containerize&lt;/strong> the services that we made&lt;/li>
+&lt;li>use &lt;strong>pre built containers&lt;/strong> for &lt;em>mysql/mongo&lt;/em> and &lt;em>nginx&lt;/em>&lt;/li>
+&lt;li>orchestrate our services&lt;/li>
+&lt;/ul>
+&lt;h3 id="self-learning">Self Learning&lt;/h3>
+&lt;p>First, you will need to do learn about containerization and orchestration &lt;strong>with docker&lt;/strong>. You can watch the following tutorials-&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=Gjnup-PuquQ" target="_blank" rel="noopener">Docker in 100 seconds&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=gAkwW2tuIqE" target="_blank" rel="noopener">Docker in 7 easy steps&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=MVIcrmeV_6c" target="_blank" rel="noopener">Docker-compose tutorial&lt;/a>&lt;/li>
+&lt;li>And please, Google some stuff yourself&lt;/li>
+&lt;/ul>
+&lt;p>Once you understand the fundamentals, you can refer to &lt;a href="https://rafed.github.io/devra/posts/docker/useful-docker-commands/" target="_blank" rel="noopener">this manual&lt;/a> to run the most commonly used docker commands.&lt;/p>
+&lt;p>Additionally check out &lt;a href="https://github.com/rafed/nginx-flask-docker" target="_blank" rel="noopener">this repo&lt;/a> for a demo web app that&amp;rsquo;s load balanced, containerized and orchestrated with docker.&lt;/p>
+&lt;h3 id="what-to-do-1">What to do?&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Write a Dockerfile&lt;/strong> for each of the following service in their respective sub-project folder
+&lt;ul>
+&lt;li>ride sharing service&lt;/li>
+&lt;li>rating servie&lt;/li>
+&lt;li>communication service&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Write a docker-compose.yml file in the root project folder to orchestrate all of the services&lt;/li>
+&lt;/ol>
+&lt;h4 id="other-instructions-1">Other instructions&lt;/h4>
+&lt;ol>
+&lt;li>No change in the application code is necessary (Except maybe port numbers. You may want to reassign them).&lt;/li>
+&lt;li>Windows cannot handle docker containers properly (even though Docker claims that they have support for windows). Use a Linux environment to run docker containers.&lt;/li>
+&lt;/ol>
+&lt;h2 id="step-4-coming-soon">Step 4: Coming Soon!&lt;/h2></description></item><item><title>Nmap</title><link>https://rafed.github.io/talk/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://rafed.github.io/talk/example/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
