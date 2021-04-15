@@ -104,4 +104,34 @@ R-->C
 
 ## Step 3: Containerize and orchestrate
 
-## Step 4: Geo distribute the app
+If you have completed step 2, congratulations! You have successfully created a distributed system and have a gotten a flavor of how microservices work!
+
+In this step we will do three things in our app-
+- **containerize** the services that we made
+- use **pre built containers** for _mysql/mongo_ and _nginx_
+- orchestrate our services
+
+### Self Learning
+
+First, you will need to do learn about containerization and orchestration **with docker**. You can watch the following tutorials-
+- [Docker in 100 seconds](https://www.youtube.com/watch?v=Gjnup-PuquQ) 
+- [Docker in 7 easy steps](https://www.youtube.com/watch?v=gAkwW2tuIqE)
+- [Docker-compose tutorial](https://www.youtube.com/watch?v=MVIcrmeV_6c)
+- And please, Google some stuff yourself
+
+Once you understand the fundamentals, you can refer to [this manual](https://rafed.github.io/devra/posts/docker/useful-docker-commands/) to run the most commonly used docker commands.
+
+Additionally check out [this repo](https://github.com/rafed/nginx-flask-docker) for a demo web app that's load balanced, containerized and orchestrated with docker.
+
+### What to do?
+1. **Write a Dockerfile** for each of the following service in their respective sub-project folder
+    - ride sharing service
+    - rating servie
+    - communication service
+1. Write a docker-compose.yml file in the root project folder to orchestrate all of the services
+
+#### Other instructions
+1. No change in the application code is necessary (Except maybe port numbers. You may want to reassign them).
+1. Windows cannot handle docker containers properly (even though Docker claims that they have support for windows). Use a Linux environment to run docker containers.
+
+## Step 4: Coming Soon!
