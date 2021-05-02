@@ -133,4 +133,36 @@ R--&amp;gt;C
 &lt;li>No change in the application code is necessary (Except maybe port numbers. You may want to reassign them).&lt;/li>
 &lt;li>Windows cannot handle docker containers properly (even though Docker claims that they have support for windows). Use a Linux environment to run docker containers.&lt;/li>
 &lt;/ol>
-&lt;h2 id="step-4-coming-soon">Step 4: Coming Soon!&lt;/h2></description></item></channel></rss>
+&lt;h2 id="step-4-geo-distribute-the-app">Step 4: Geo distribute the app&lt;/h2>
+&lt;p>Our ride sharing app is becoming popular! We now want to go global!&lt;/p>
+&lt;h3 id="architecture-2">Architecture&lt;/h3>
+&lt;pre>&lt;code class="language-mermaid">graph TD
+CD[&amp;quot;Client (Dhaka)&amp;quot;] --&amp;gt; ND[&amp;quot;Proxy (Dhaka)&amp;quot;]
+CC[&amp;quot;Client (Chittagong)&amp;quot;] --&amp;gt; NC[&amp;quot;Proxy (Chittagong)&amp;quot;]
+CD --&amp;gt; DNS[&amp;quot;DNS&amp;quot;]
+CC --&amp;gt; DNS
+ND --&amp;gt; RSSD[&amp;quot;Ride service (Dhaka)&amp;quot;]
+ND --&amp;gt; RSD[&amp;quot;Rating service (Dhaka)&amp;quot;]
+RSSD --&amp;gt; CSD[&amp;quot;Communication service (Dhaka)&amp;quot;]
+CD --- CSD
+RSD --&amp;gt; DBD[(&amp;quot;DB (Dhaka)&amp;quot;)]
+NC --&amp;gt; RSSC[&amp;quot;Ride service (Chitt)&amp;quot;]
+NC --&amp;gt; RSD
+RSSC --&amp;gt; CSC[&amp;quot;Communication service (Chitt)&amp;quot;]
+CC --- CSC
+&lt;/code>&lt;/pre>
+&lt;h2 id="step-5-more-development-bonus">Step 5: More development (Bonus)&lt;/h2>
+&lt;h4 id="step-51-use-an-in-memory-database">Step 5.1: Use an in memory database&lt;/h4>
+&lt;p>Our app has a big problem. The rider and driver list is stored in an array in memory. Imagine what will happen if we wanted to increase availability by creating multiple instances of the &amp;ldquo;Ride sharing service&amp;rdquo;. Can you figure out the problem?&lt;/p>
+&lt;p>To solve this, instead of storing the data in memory, store it inside a redis container. The rider/driver matcher should pull data from the redis cache. (You may need to separate the rider/driver pair matcher to a separate service).&lt;/p>
+&lt;h4 id="step-52-send-emails-with-message-queueing">Step 5.2: Send emails with message queueing&lt;/h4>
+&lt;p>We need to do email marketing to our customers to let them know about our latest upgrades and features. Do this by:&lt;/p>
+&lt;ol>
+&lt;li>Install a rabbitmq container (rabbitmq is a message queue broker)&lt;/li>
+&lt;li>Make a email service that has
+&lt;ul>
+&lt;li>a push to broker function to push addresses to the broker&lt;/li>
+&lt;li>a &amp;ldquo;send email function&amp;rdquo; that periodically sends emails to the addresses stored in the message broker&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
