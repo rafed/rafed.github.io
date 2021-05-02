@@ -134,4 +134,46 @@ Additionally check out [this repo](https://github.com/rafed/nginx-flask-docker) 
 1. No change in the application code is necessary (Except maybe port numbers. You may want to reassign them).
 1. Windows cannot handle docker containers properly (even though Docker claims that they have support for windows). Use a Linux environment to run docker containers.
 
-## Step 4: Coming Soon!
+## Step 4: Geo distribute the app
+
+Our ride sharing app is becoming popular! We now want to go global!
+
+
+### Architecture
+
+```mermaid
+graph TD
+CD["Client (Dhaka)"] --> ND["Proxy (Dhaka)"]
+CC["Client (Chittagong)"] --> NC["Proxy (Chittagong)"]
+
+CD --> DNS["DNS"]
+CC --> DNS
+
+ND --> RSSD["Ride service (Dhaka)"]
+ND --> RSD["Rating service (Dhaka)"]
+RSSD --> CSD["Communication service (Dhaka)"]
+CD --- CSD
+RSD --> DBD[("DB (Dhaka)")]
+
+NC --> RSSC["Ride service (Chitt)"]
+NC --> RSD
+RSSC --> CSC["Communication service (Chitt)"]
+CC --- CSC
+```
+
+## Step 5: More development (Bonus)
+
+#### Step 5.1: Use an in memory database
+
+Our app has a big problem. The rider and driver list is stored in an array in memory. Imagine what will happen if we wanted to increase availability by creating multiple instances of the "Ride sharing service". Can you figure out the problem?
+
+To solve this, instead of storing the data in memory, store it inside a redis container. The rider/driver matcher should pull data from the redis cache. (You may need to separate the rider/driver pair matcher to a separate service).
+
+#### Step 5.2: Send emails with message queueing
+
+We need to do email marketing to our customers to let them know about our latest upgrades and features. Do this by:
+
+1. Install a rabbitmq container (rabbitmq is a message queue broker)
+2. Make a email service that has
+    - a push to broker function to push addresses to the broker
+    - a "send email function" that periodically sends emails to the addresses stored in the message broker
