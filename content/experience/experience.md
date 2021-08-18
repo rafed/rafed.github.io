@@ -29,9 +29,9 @@ experience:
     date_start: '2021-03-01'
     date_end: ''
     description: |2-
-      With TEQ team. Working with-
-      * Django
-      * Microservices
+      Part of TEQ team. Working as a-
+      * Backend Engineer (Python, Django)
+      * DevOps Engineer
 
   - title: Short Course Instructor
     company: Institute of Information Technology (IIT), University of Dhaka

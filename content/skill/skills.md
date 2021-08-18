@@ -1,4 +1,4 @@
----
+<!-- ---
 # An instance of the Featurette widget.
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featurette
@@ -7,55 +7,40 @@ widget: featurette
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 5
 
-title: Skills
+title: Skill Summary
 subtitle:
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: Django, Flask, Scrapy
-  icon: python-original
+- name: Backend
+  description: Python, Go
+  icon: terminal
   icon_pack: custom
-  name: Python
-
-- description: Linux, Nginx, Docker, Docker-Compose, GCP
+  
+- name: Infrastructure
+  description: Docker, Kubernetes, GCP, Azure
   icon: cloud-network
   icon_pack: custom
   name: Cloud
 
-- description: MySQL, MariaDB, SQLite, MongoDB
-  icon: database
-  icon_pack: custom
-  name: Database
-
-- description: Hugo, Bootstrap, SASS
+- name: Front end
+  description: Hugo, Vue, Bootstrap
   icon: browser
   icon_pack: custom
-  name: Front end
-
-- description: Vue, Express
-  icon: javascript-original
-  icon_pack: custom
-  name: JavaScript
-
-- description: Gin, Gorm
-  icon: go-original
-  icon_pack: custom
-  name: Go
-
-- description: Wireshark, Kali Linux, BurpSuite, Nmap, Metasploit, Bettercap, SQLmap
-  icon: network
-  icon_pack: custom
-  name: Network & Security
-
-- description: Pandas, Scikit, OpenCV, Matplotlib, Keras
+  
+- name: Machine Learning
+  description: Pandas, Scikit, OpenCV, Matplotlib, Keras
   icon: ai
   icon_pack: custom
-  name: Machine Learning
 
+- name: Network & Security
+  description: Wireshark, Kali Linux, BurpSuite, Nmap, Metasploit, Bettercap
+  icon: network
+  icon_pack: custom
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"
@@ -82,4 +67,4 @@ feature:
 #   django
 #   flask
 #   fastapi
----
+--- -->

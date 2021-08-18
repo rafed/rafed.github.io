@@ -15,4 +15,4 @@ design:
   columns: '2'
 ---
 
-Martial arts is one of my biggest obsessions. I started learning Judo and Karate since I was 16. I also tried self teaching myself techniques of other martial arts. Although now I can't manage enough time to practice it regularly, I still often learn and practice a little bit of this and that.
+I've been a big fan of martial arts. I actively learned Judo and Karate from a Dojo. Additionally I've tried self learning techniques of other martial arts such as Tae Kwon Do, Boxing, etc. Finding time for practicing nowadays have now become difficult. However, I still dream of going back to a dojo, break my sweat, and spar again.

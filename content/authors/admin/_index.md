@@ -19,7 +19,7 @@ bio: My interests include Software Engineering, Cyber Security and  Machine Lear
 # Interests to show in About widget
 interests:
 - Software Engineering
-- Penetration Testing
+- Software Security
 - Machine Learning
 
 # Education to show in About widget
@@ -92,4 +92,4 @@ highlight_name: false
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 ---
 
-Rafed is a software engineer at Brainstation-23. His interests include software engineering, cybersecurity, and machine learning. He is currently bored so hire him for software development or research work. If you are bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he notes down his learned lessons on various technologies. 
+Rafed is a software engineer at Brainstation-23. His interests include software engineering, computer ecurity, and machine learning. He is currently bored so consult him on software development or research work. If you're bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he writes about his perspectives, techniques and skills in software engineering.

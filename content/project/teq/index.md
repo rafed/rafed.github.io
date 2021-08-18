@@ -1,10 +1,9 @@
 ---
-title: BlogRa
-summary: A tech blogging theme for Hugo
+title: TEQ
+summary: A Bus Management App
 tags:
-- hugo
-- pet
-date: "2021-02-12T00:00:00Z"
+- real
+date: "2021-03-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
@@ -18,7 +17,7 @@ external_link: ""
 #   icon_pack: fab
 #   name: Follow
 #   url: https://twitter.com/georgecushen
-url_code: "https://github.com/rafed/blogra"
+# url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
@@ -31,6 +30,8 @@ url_video: ""
 # slides: example
 ---
 
-BlogRa is a tech blogging theme for Hugo. I did not find the existing themes for Hugo suitable for my blogging experience. So I made this for myself. 
+TEQ app is a bus management system developed in Brainstation-23 by the TEQ team for a Norwegian company. The goal of this project is to eventually bring all bus companies in Norway under a single management.
 
-Check it out. A star on the repo would be much appreciated.
+My responsibilities include:
+- Work as a backend engineer (Python, Django)
+- DevOps support
