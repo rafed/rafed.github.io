@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link><atom:link href="https://rafed.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rafed M. Yasir</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 Rafed Muhammad Yasir</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/images/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_2.png</url><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link></image><item><title>Containerizing an App</title><link>https://rafed.github.io/courses/distributed-systems/lab/containerization/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/containerization/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link><atom:link href="https://rafed.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rafed M. Yasir</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Rafed Muhammad Yasir</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/images/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_2.png</url><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link></image><item><title>Containerizing an App</title><link>https://rafed.github.io/courses/distributed-systems/lab/containerization/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/containerization/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
 &lt;p>You will build a simple web application and containerize it with docker.&lt;/p>
 &lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/hello-docker" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Introduction to Microservices</title><link>https://rafed.github.io/courses/distributed-systems/theory/01-intro-microservices/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/01-intro-microservices/</guid><description>&lt;div class="responsive-wrap">
 &lt;iframe src="https://docs.google.com/presentation/d/1Sm-buXQKPJdvfuZLOxKzMbIJ0C4mYZ2hyk_Ike6aClU/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
@@ -178,7 +178,25 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>How Well Does Undergraduate Education Prepare Software Engineers? Perspectives of Practitioners in Bangladesh</title><link>https://rafed.github.io/publication/how-well-does-undergraduate-education/</link><pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/how-well-does-undergraduate-education/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Analyzing Program Comprehensibility of Go Projects</title><link>https://rafed.github.io/publication/comprego/</link><pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/comprego/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>TEQ</title><link>https://rafed.github.io/project/teq/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/teq/</guid><description>&lt;p>TEQ app is a bus management system developed in Brainstation-23 by the TEQ team for a Norwegian company. The goal of this project is to eventually bring all bus companies in Norway under a single management.&lt;/p>
+&lt;p>My responsibilities include:&lt;/p>
+&lt;ul>
+&lt;li>Work as a backend engineer (Python, Django)&lt;/li>
+&lt;li>DevOps support&lt;/li>
+&lt;/ul></description></item><item><title>BlogRa</title><link>https://rafed.github.io/project/blogra/</link><pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/blogra/</guid><description>&lt;p>BlogRa is a tech blogging theme for Hugo. I did not find the existing themes for Hugo suitable for my blogging experience. So I made this for myself.&lt;/p>
+&lt;p>Check it out. A star on the repo would be much appreciated.&lt;/p></description></item><item><title>How Well Does Undergraduate Education Prepare Software Engineers? Perspectives of Practitioners in Bangladesh</title><link>https://rafed.github.io/publication/how-well-does-undergraduate-education/</link><pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/how-well-does-undergraduate-education/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -188,7 +206,43 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>GodExpo: an automated god structure detection tool for Golang</title><link>https://rafed.github.io/publication/godexpo/</link><pubDate>Tue, 07 Jan 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/godexpo/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Exploring the Impact of Code Style in Identifying Good Programmers</title><link>https://rafed.github.io/publication/code-style/</link><pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/code-style/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Defect Prediction Using Stylistic Metrics</title><link>https://rafed.github.io/publication/defect-prediction/</link><pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/defect-prediction/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>GodExpo: an automated god structure detection tool for Golang</title><link>https://rafed.github.io/publication/godexpo/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/godexpo/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
+&lt;/div>
+&lt;/div>
+-->
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Traffic Congestion Prediction Using Machine Learning Techniques</title><link>https://rafed.github.io/publication/traffic-congestion/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/traffic-congestion/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -410,7 +464,6 @@ color: navy;
 &lt;li>Java&lt;/li>
 &lt;/ul></description></item><item><title>Hostman - A PCAP analyzer</title><link>https://rafed.github.io/project/hostman/</link><pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/hostman/</guid><description>&lt;p>Hostman is my first software project ever. It was done as a requirement for the sotware project lab-1 (SPL-1) course. It is a rudimentary implementation of a packet analyzer (similar to wireshark).&lt;/p>
 &lt;p>The project is completely written in C. No libraries were used.&lt;/p>
-&lt;p>&lt;img src="./ss1.png" alt="hostman packet details">&lt;/p></description></item><item><title>ChitChat</title><link>https://rafed.github.io/project/chitchat/</link><pubDate>Sat, 05 Sep 2015 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/chitchat/</guid><description>&lt;p>A server/client app for chatting over the internet.&lt;/p></description></item><item><title>Achievements</title><link>https://rafed.github.io/achievements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievements/</guid><description/></item><item><title>BlogRa</title><link>https://rafed.github.io/project/blogra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/blogra/</guid><description>&lt;p>BlogRa is a tech blogging theme for Hugo. I did not find the existing themes for Hugo suitable for my blogging experience. So I made this for myself.&lt;/p>
-&lt;p>Check it out. A star on the repo would be much appreciated.&lt;/p></description></item><item><title>Experience</title><link>https://rafed.github.io/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/experience/</guid><description/></item><item><title>Other Activities</title><link>https://rafed.github.io/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/other/</guid><description/></item><item><title>Projects</title><link>https://rafed.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/projects/</guid><description/></item><item><title>Ramium</title><link>https://rafed.github.io/project/ramium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/ramium/</guid><description>&lt;p>After discovering Hugo (a static blog generator), I decided to make a theme for myself and Ramium was the result.&lt;/p>
+&lt;p>&lt;img src="./ss1.png" alt="hostman packet details">&lt;/p></description></item><item><title>ChitChat</title><link>https://rafed.github.io/project/chitchat/</link><pubDate>Sat, 05 Sep 2015 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/chitchat/</guid><description>&lt;p>A server/client app for chatting over the internet.&lt;/p></description></item><item><title>Achievements</title><link>https://rafed.github.io/achievements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievements/</guid><description/></item><item><title>Experience</title><link>https://rafed.github.io/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/experience/</guid><description/></item><item><title>Other Activities</title><link>https://rafed.github.io/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/other/</guid><description/></item><item><title>Projects</title><link>https://rafed.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/projects/</guid><description/></item><item><title>Ramium</title><link>https://rafed.github.io/project/ramium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/ramium/</guid><description>&lt;p>After discovering Hugo (a static blog generator), I decided to make a theme for myself and Ramium was the result.&lt;/p>
 &lt;p>Not really the best theme out there, but hey, it was a nice learning experience.&lt;/p>
 &lt;p>I have made a better theme now called BlogRa, which I use for my personal tech blog. Check it out at &lt;a href="https://github.com/rafed/BlogRa" target="_blank" rel="noopener">github.com/rafed/BlogRa&lt;/a>&lt;/p></description></item><item><title>Skills</title><link>https://rafed.github.io/skill/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skill/</guid><description/></item></channel></rss>
