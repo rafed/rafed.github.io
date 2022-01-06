@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link><atom:link href="https://rafed.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rafed M. Yasir</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2021 Rafed Muhammad Yasir</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/images/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_2.png</url><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link></image><item><title>Containerizing an App</title><link>https://rafed.github.io/courses/distributed-systems/lab/containerization/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/containerization/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link><atom:link href="https://rafed.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rafed M. Yasir</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Rafed Muhammad Yasir</copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link></image><item><title>Containerizing an App</title><link>https://rafed.github.io/courses/distributed-systems/lab/containerization/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/containerization/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
 &lt;p>You will build a simple web application and containerize it with docker.&lt;/p>
 &lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/hello-docker" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Introduction to Microservices</title><link>https://rafed.github.io/courses/distributed-systems/theory/01-intro-microservices/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/01-intro-microservices/</guid><description>&lt;div class="responsive-wrap">
 &lt;iframe src="https://docs.google.com/presentation/d/1Sm-buXQKPJdvfuZLOxKzMbIJ0C4mYZ2hyk_Ike6aClU/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
@@ -300,15 +300,15 @@ $$&lt;/p>
 {{% fragment %}} Three {{% /fragment %}}
 &lt;/code>&lt;/pre>
 &lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
-&lt;p>&lt;span class="fragment " >
+&lt;span class="fragment " >
 One
 &lt;/span>
 &lt;span class="fragment " >
-&lt;strong>Two&lt;/strong>
+**Two**
 &lt;/span>
 &lt;span class="fragment " >
 Three
-&lt;/span>&lt;/p>
+&lt;/span>
 &lt;hr>
 &lt;p>A fragment can accept two optional parameters:&lt;/p>
 &lt;ul>
@@ -370,7 +370,19 @@ color: navy;
 &lt;h1 id="questions">Questions?&lt;/h1>
 &lt;p>&lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/discussions" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
 &lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Virtual Trial Room</title><link>https://rafed.github.io/project/virtual-trial-room/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/virtual-trial-room/</guid><description>&lt;p>Virtual Trial Room is one of my most successful projects. It is a browser based dressing room where you can digitally try out different clothes.&lt;/p>
-&lt;p>&lt;img src="ss1.png" alt="Virtual Trial Room Girls Dress">&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Virtual Trial Room Girls Dress" srcset="
+/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_926eba2be4398290cf8bd6bbdaaab047.webp 400w,
+/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_76666524027738adf42909b9925a73a0.webp 760w,
+/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://rafed.github.io/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_926eba2be4398290cf8bd6bbdaaab047.webp"
+width="760"
+height="353"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
 &lt;p>This project several awards-&lt;/p>
 &lt;ol>
 &lt;li>Champions, NSU Technovation Hackathon 2018, North South University&lt;/li>
@@ -378,9 +390,33 @@ color: navy;
 &lt;li>Second Runners Up, Technival 2018, Khulna University of Engineering and Technology (KUET)&lt;/li>
 &lt;li>Second Runners Up, Inter University Project Show, CSE Fest, Bangladesh University of Engineering and Technology (BUET)&lt;/li>
 &lt;/ol>
-&lt;p>&lt;img src="ss2.png" alt="Virtual Trial Room Glasses">&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Virtual Trial Room Glasses" srcset="
+/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_38b404b89070685930c7e47ada5beb3b.webp 400w,
+/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_63086cc2e41560f28cbda487289825fe.webp 760w,
+/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://rafed.github.io/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_38b404b89070685930c7e47ada5beb3b.webp"
+width="760"
+height="376"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
 &lt;p>This project also got featured on &lt;a href="https://www.youtube.com/watch?v=Bpd7cbYMJns" target="_blank" rel="noopener">BBC Click&lt;/a>.&lt;/p>
-&lt;p>&lt;img src="ss3.png" alt="Virtual Trial Room Hats">&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Virtual Trial Room Hats" srcset="
+/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_4b799cf01dfce12d1ea181473dcd1ed4.webp 400w,
+/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_2a946ffa2d8d7f4a0ae5ad0bf5f6a389.webp 760w,
+/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://rafed.github.io/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_4b799cf01dfce12d1ea181473dcd1ed4.webp"
+width="760"
+height="355"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
 &lt;p>My talented friends who contributed to this project are:&lt;/p>
 &lt;ul>
 &lt;li>Moumita Asad&lt;/li>
@@ -432,7 +468,12 @@ color: navy;
 &lt;li>Aquib Azmain&lt;/li>
 &lt;li>Moumita Asad&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="./certificate.png" alt="asdf">&lt;/p></description></item><item><title>Second Runners Up, Project Showcasing</title><link>https://rafed.github.io/achievement/kuet-technival/</link><pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/kuet-technival/</guid><description>&lt;p>KUET technival was the biggest compeition we faced so far in terms of number of participants. It was a hard competition and we managed a 2nd runners up.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./certificate.png" alt="asdf" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Second Runners Up, Project Showcasing</title><link>https://rafed.github.io/achievement/kuet-technival/</link><pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/kuet-technival/</guid><description>&lt;p>KUET technival was the biggest compeition we faced so far in terms of number of participants. It was a hard competition and we managed a 2nd runners up.&lt;/p>
 &lt;p>Project: Virtual Trial Room&lt;/p>
 &lt;p>Team members:&lt;/p>
 &lt;ul>
@@ -440,7 +481,12 @@ color: navy;
 &lt;li>Moumita Asad&lt;/li>
 &lt;li>Aquib Azmain&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="./certificate.png" alt="asdf">&lt;/p></description></item><item><title>Joint Runners Up, Senior Project Showcasing</title><link>https://rafed.github.io/achievement/nsu-cybernauts/</link><pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/nsu-cybernauts/</guid><description>&lt;p>Another achievement from NSU! A bit unlucky we even had to share the position of runners up. Apart from that it was an event to enjoy!&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./certificate.png" alt="asdf" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Joint Runners Up, Senior Project Showcasing</title><link>https://rafed.github.io/achievement/nsu-cybernauts/</link><pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/nsu-cybernauts/</guid><description>&lt;p>Another achievement from NSU! A bit unlucky we even had to share the position of runners up. Apart from that it was an event to enjoy!&lt;/p>
 &lt;p>Also got lucky to give my first tv interview ever and that too on &lt;a href="https://www.youtube.com/watch?v=Bpd7cbYMJns" target="_blank" rel="noopener">BBC click!&lt;/a>&lt;/p>
 &lt;p>Project: Virtual Trial Room&lt;/p>
 &lt;p>Team members:&lt;/p>
@@ -449,7 +495,12 @@ color: navy;
 &lt;li>Moumita Asad&lt;/li>
 &lt;li>Aquib Azmain&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="./certificate.png" alt="asdf">&lt;/p></description></item><item><title>Champions, Hackathon</title><link>https://rafed.github.io/achievement/nsu-technovation/</link><pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/nsu-technovation/</guid><description>&lt;p>Our first ever hackathon and our first ever victory being champions. It was a moment to remember at NSU.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./certificate.png" alt="asdf" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Champions, Hackathon</title><link>https://rafed.github.io/achievement/nsu-technovation/</link><pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/nsu-technovation/</guid><description>&lt;p>Our first ever hackathon and our first ever victory being champions. It was a moment to remember at NSU.&lt;/p>
 &lt;p>Project: Virtual Trial Room&lt;/p>
 &lt;p>Team members:&lt;/p>
 &lt;ul>
@@ -458,12 +509,22 @@ color: navy;
 &lt;li>Shuvo Saha&lt;/li>
 &lt;li>Fazle Rabbi&lt;/li>
 &lt;/ul>
-&lt;p>&lt;img src="./certificate.png" alt="asdf">&lt;/p></description></item><item><title>8-puzzle Solver</title><link>https://rafed.github.io/project/8-puzzle/</link><pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/8-puzzle/</guid><description>&lt;p>8-puzzle solver using A* search algorithm, implemented in Java. This was a class assignment.&lt;/p></description></item><item><title>Syncer - A File Syncing Software for Desktop</title><link>https://rafed.github.io/project/syncer/</link><pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/syncer/</guid><description>&lt;p>Syncer is a file syncing software for Desktop platforms. It is a dropbox clone made for our Software Project Lab-2 (SPL-2) course requirement. My wonderful teammate Moumita Asad was also involved in this project.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./certificate.png" alt="asdf" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>8-puzzle Solver</title><link>https://rafed.github.io/project/8-puzzle/</link><pubDate>Sat, 05 Aug 2017 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/8-puzzle/</guid><description>&lt;p>8-puzzle solver using A* search algorithm, implemented in Java. This was a class assignment.&lt;/p></description></item><item><title>Syncer - A File Syncing Software for Desktop</title><link>https://rafed.github.io/project/syncer/</link><pubDate>Sat, 27 May 2017 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/syncer/</guid><description>&lt;p>Syncer is a file syncing software for Desktop platforms. It is a dropbox clone made for our Software Project Lab-2 (SPL-2) course requirement. My wonderful teammate Moumita Asad was also involved in this project.&lt;/p>
 &lt;p>Technology used:&lt;/p>
 &lt;ul>
 &lt;li>Java&lt;/li>
 &lt;/ul></description></item><item><title>Hostman - A PCAP analyzer</title><link>https://rafed.github.io/project/hostman/</link><pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/hostman/</guid><description>&lt;p>Hostman is my first software project ever. It was done as a requirement for the sotware project lab-1 (SPL-1) course. It is a rudimentary implementation of a packet analyzer (similar to wireshark).&lt;/p>
 &lt;p>The project is completely written in C. No libraries were used.&lt;/p>
-&lt;p>&lt;img src="./ss1.png" alt="hostman packet details">&lt;/p></description></item><item><title>ChitChat</title><link>https://rafed.github.io/project/chitchat/</link><pubDate>Sat, 05 Sep 2015 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/chitchat/</guid><description>&lt;p>A server/client app for chatting over the internet.&lt;/p></description></item><item><title>Achievements</title><link>https://rafed.github.io/achievements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievements/</guid><description/></item><item><title>Experience</title><link>https://rafed.github.io/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/experience/</guid><description/></item><item><title>Other Activities</title><link>https://rafed.github.io/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/other/</guid><description/></item><item><title>Projects</title><link>https://rafed.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/projects/</guid><description/></item><item><title>Ramium</title><link>https://rafed.github.io/project/ramium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/ramium/</guid><description>&lt;p>After discovering Hugo (a static blog generator), I decided to make a theme for myself and Ramium was the result.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./ss1.png" alt="hostman packet details" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>ChitChat</title><link>https://rafed.github.io/project/chitchat/</link><pubDate>Sat, 05 Sep 2015 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/chitchat/</guid><description>&lt;p>A server/client app for chatting over the internet.&lt;/p></description></item><item><title>Achievements</title><link>https://rafed.github.io/achievements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievements/</guid><description/></item><item><title>Experience</title><link>https://rafed.github.io/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/experience/</guid><description/></item><item><title>Other Activities</title><link>https://rafed.github.io/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/other/</guid><description/></item><item><title>Projects</title><link>https://rafed.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/projects/</guid><description/></item><item><title>Ramium</title><link>https://rafed.github.io/project/ramium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/ramium/</guid><description>&lt;p>After discovering Hugo (a static blog generator), I decided to make a theme for myself and Ramium was the result.&lt;/p>
 &lt;p>Not really the best theme out there, but hey, it was a nice learning experience.&lt;/p>
-&lt;p>I have made a better theme now called BlogRa, which I use for my personal tech blog. Check it out at &lt;a href="https://github.com/rafed/BlogRa" target="_blank" rel="noopener">github.com/rafed/BlogRa&lt;/a>&lt;/p></description></item><item><title>Skills</title><link>https://rafed.github.io/skill/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skill/</guid><description/></item></channel></rss>
+&lt;p>I have made a better theme now called BlogRa, which I use for my personal tech blog. Check it out at &lt;a href="https://github.com/rafed/BlogRa" target="_blank" rel="noopener">github.com/rafed/BlogRa&lt;/a>&lt;/p></description></item><item><title>Skills</title><link>https://rafed.github.io/skills/development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/development/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/cloud/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/devsecops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/devsecops/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/ml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/ml/</guid><description/></item></channel></rss>

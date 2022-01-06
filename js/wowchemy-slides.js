@@ -1,9 +1,9 @@
 (() => {
   // ns-params:@params
-  var slides = {highlight_style: "dracula", theme: "black"};
+  var slides = { highlight_style: "dracula", theme: "black" };
 
-  // ns-hugo:/tmp/hugo_cache/modules/filecache/modules/pkg/mod/github.com/wowchemy/wowchemy-hugo-modules/wowchemy@v0.0.0-20210205224825-50d3d41e9e1a/assets/js/wowchemy-utils.js
-  function fixMermaid() {
+  // ns-hugo:/tmp/hugo_cache/modules/filecache/modules/pkg/mod/github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5@v5.0.0-20211230141214-0a09b435e3a2/assets/js/wowchemy-utils.js
+  function fixMermaid(render = false) {
     let mermaids = [];
     [].push.apply(mermaids, document.getElementsByClassName("language-mermaid"));
     for (let i = 0; i < mermaids.length; i++) {
@@ -11,12 +11,18 @@
       let newElement = document.createElement("div");
       newElement.innerHTML = mermaidCodeElement.innerHTML;
       newElement.classList.add("mermaid");
+      if (render) {
+        window.mermaid.mermaidAPI.render(`mermaid-${i}`, newElement.textContent, function(svgCode) {
+          newElement.innerHTML = svgCode;
+        });
+      }
       mermaidCodeElement.parentNode.replaceWith(newElement);
     }
+    console.debug(`Processed ${mermaids.length} Mermaid code blocks`);
   }
 
-  // js/wowchemy-slides.js
-  var enabledPlugins = [RevealMarkdown, RevealHighlight, RevealSearch, RevealNotes, RevealMath, RevealZoom];
+  // <stdin>
+  var enabledPlugins = [RevealMarkdown, RevealHighlight, RevealSearch, RevealNotes, RevealMath.MathJax3, RevealZoom];
   var isObject = function(o) {
     return o === Object(o) && !isArray(o) && typeof o !== "function";
   };
@@ -84,14 +90,15 @@
     slides.diagram = false;
   }
   if (slides.diagram) {
-    var mermaidOptions = {};
+    mermaidOptions = {};
     if (typeof slides.diagram_options !== "undefined") {
       mermaidOptions = slides.diagram_options;
     }
     mermaidOptions["startOnLoad"] = false;
     mermaid.initialize(mermaidOptions);
     document.addEventListener("DOMContentLoaded", function() {
-      fixMermaid();
+      fixMermaid(false);
     });
   }
+  var mermaidOptions;
 })();
