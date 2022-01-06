@@ -15,7 +15,7 @@ design:
   columns: '2'
 ---
 
-I'm on a quest to learn as many popular languages as possible. If I can pick up a new programming language/framework every other day, I'm sure I can do this too! Here's my language todo list. Actively using Duolingo and other online resources to achieve this.
+I'm on a quest to learn languages of the world. If I can pick up a new programming language/framework every other day, I'm sure I'm capable of doing this too! Here's my language todo list. Actively using Duolingo and other online resources to achieve this.
 
 - [x] Bangla
 - [x] English

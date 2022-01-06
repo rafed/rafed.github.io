@@ -14,10 +14,11 @@ organizations:
   url: https://brainstation-23.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include Software Engineering, Cyber Security and  Machine Learning.
+bio: My interests include Devops, Software Engineering, Software Security and  Machine Learning.
 
 # Interests to show in About widget
 interests:
+- Devops
 - Software Engineering
 - Software Security
 - Machine Learning
@@ -27,7 +28,7 @@ education:
   courses:
   - course: MSc in Software Engineering
     institution: Institute of Information Technology (IIT), University of Dhaka
-    year: 2020
+    year: 2021
   - course: BSc in Software Engineering
     institution: Institute of Information Technology (IIT), University of Dhaka
     year: 2018
@@ -92,4 +93,4 @@ highlight_name: false
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 ---
 
-Rafed is a software engineer at Brainstation-23. His interests include software engineering, computer ecurity, and machine learning. He is currently bored so consult him on software development or research work. If you're bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he writes about his perspectives, techniques and skills in software engineering.
+Rafed is a software engineer at Brainstation-23. His interests include devops, software engineering, software security, and machine learning. He is currently bored so consult him on software development or research work. If you're bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he writes about his perspectives, techniques and skills in software engineering.

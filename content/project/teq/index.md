@@ -1,6 +1,6 @@
 ---
 title: TEQ
-summary: A Bus Management App
+summary: A Norwegian Bus/Transport Management App
 tags:
 - real
 date: "2021-03-01T00:00:00Z"

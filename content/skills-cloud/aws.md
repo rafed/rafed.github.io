@@ -9,39 +9,55 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: Cloud
-subtitle:
+title: AWS
+subtitle: Amazon Web Services
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 
 feature:
-- name: Linux
-  icon: ubuntu
+- name: EC2
+  icon: aws/ec2
   icon_pack: custom
 
-- name: Nginx
-  icon: nginx
+- name: S3
+  icon: aws/s3
   icon_pack: custom
 
-- name: Docker
-  icon: docker
+- name: RDS
+  icon: aws/rds
   icon_pack: custom
 
-- name: Kubernetes
-  icon: kubernetes
+- name: Cloudwatch
+  icon: aws/cloudwatch
   icon_pack: custom
 
-- name: Amazon Web Services
-  icon: aws
+- name: Route 53
+  icon: aws/route53
   icon_pack: custom
 
-- name: Google Cloud Platform
-  icon: gcp
+- name: SES
+  icon: aws/ses
   icon_pack: custom
 
-- name: Microsoft Azure
-  icon: azure
+- name: ECR
+  icon: aws/ecr
+  icon_pack: custom
+
+- name: EKS
+  icon: aws/eks
+  icon_pack: custom
+
+- name: Codepipeline
+  icon: aws/codepipeline
+  icon_pack: custom
+
+- name: Codebuild
+  icon: aws/codebuild
+  icon_pack: custom
+
+- name: IAM
+  icon: aws/iam
   icon_pack: custom
 ---

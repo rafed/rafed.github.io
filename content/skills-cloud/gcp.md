@@ -7,33 +7,17 @@ widget: featurette
 headless: true
 
 # Order that this section appears on the page.
-weight: 30
+weight: 40
 
-title: Devops
-subtitle:
+title: GCP
+subtitle: Google Cloud Platform
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 
 feature:
-- name: Github actions
-  icon: github-actions
-  icon_pack: custom
-
-- name: Ansible
-  icon: ansible
-  icon_pack: custom
-
-- name: Grafana
-  icon: grafana
-  icon_pack: custom
-
-- name: Prometheus
-  icon: prometheus
-  icon_pack: custom
-
-- name: Jaeger
-  icon: jaeger
+- name: Compute Engine
+  icon: gcp/gce
   icon_pack: custom
 ---
