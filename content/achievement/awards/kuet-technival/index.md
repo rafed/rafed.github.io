@@ -1,15 +1,15 @@
 ---
-title: Joint Runners Up, Senior Project Showcasing
-summary: NSU Cybernauts, North South University Computer and Engineering Club (NSU CEC)
+title: Second Runners Up, Project Showcasing
+summary: Technival 2018, Khulna University of Engineering & Technology (KUET)
 tags:
-- awards
-date: "2018-03-22T00:00:00Z"
+- Awards
+date: "2018-04-21T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-# external_link: ""
+external_link: ""
 
 image:
-  caption: Joint runners up
+  caption: Second runners up
   focal_point: Smart
 
 # links:
@@ -30,9 +30,7 @@ image:
 # slides: example
 ---
 
-Another achievement from NSU! A bit unlucky we even had to share the position of runners up. Apart from that it was an event to enjoy!
-
-Also got lucky to give my first tv interview ever and that too on [BBC click!](https://www.youtube.com/watch?v=Bpd7cbYMJns)
+KUET technival was the biggest compeition we faced so far in terms of number of participants. It was a hard competition and we managed a 2nd runners up.
 
 Project: Virtual Trial Room
 
@@ -41,4 +39,4 @@ Team members:
 * Moumita Asad
 * Aquib Azmain
 
-![asdf](./certificate.png)
+![Second runners up, Technival 2018](./certificate.png)

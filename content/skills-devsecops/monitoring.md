@@ -30,6 +30,14 @@ feature:
   icon: prometheus
   icon_pack: custom
 
+- name: Loki
+  icon: loki
+  icon_pack: custom
+
+- name: Tempo
+  icon: tempo
+  icon_pack: custom
+
 - name: Jaeger
   icon: jaeger
   icon_pack: custom

@@ -16,13 +16,13 @@ content:
   # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
   # filter_default: 0
 
-  # filter_button:
-  # - name: All
-  #   tag: '*'
-  # - name: Certifications
-  #   tag: certifications
-  # - name: Awards
-  #   tag: awards
+  filter_button:
+  - name: All
+    tag: '*'
+  - name: Certifications
+    tag: Certifications
+  - name: Awards
+    tag: Awards
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.

@@ -1,15 +1,15 @@
 ---
-title: Champions, Hackathon
-summary: NSU Technovation Hackathon 2018, North South University (NSU)
+title: Second runners up, Inter university project show
+summary: CSE fest, Bangladesh University of Engineering & Technology (BUET)
 tags:
-- awards
-date: "2018-02-24T00:00:00Z"
+- Awards
+date: "2018-05-10T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: ""
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Second runners up
   focal_point: Smart
 
 # links:
@@ -30,14 +30,13 @@ image:
 # slides: example
 ---
 
-Our first ever hackathon and our first ever victory being champions. It was a moment to remember at NSU. 
+BUET CSE fest was yet another win for our virtual trial room project. Being able to take away a prize from the strong contenders of BUET is really an achievement to remember.
 
 Project: Virtual Trial Room
 
 Team members:
 * Rafed Muhammad Yasir
+* Aquib Azmain
 * Moumita Asad
-* Shuvo Saha
-* Fazle Rabbi
 
-![asdf](./certificate.png)
+![participation certificate, Inter university project show](./certificate.png)
