@@ -30,4 +30,4 @@ url_pdf: "/achievement/certifications/azure-fundamentals/rafed.pdf"
 # slides: example
 ---
 
-I am very proud of this certificate as it is my first ever certification. Although I'm more experienced in AWS, I still decided to try my shot at azure. With a few days of learning I'm happy that I could achiee it. I hope this certification paves the way for me to learn and do more in the cloud realm.
+I am very proud of this certificate as it is my first ever certification. Although I'm more experienced in AWS, I still decided to try my shot at azure. With a few days of learning I'm happy that I could achieve it. I hope this certification paves the way for me to learn and do more in the cloud realm.
