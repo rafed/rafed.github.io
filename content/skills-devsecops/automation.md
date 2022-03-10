@@ -29,6 +29,10 @@ feature:
   icon: azure/azure-devops
   icon_pack: custom
 
+- name: Jenkins
+  icon: jenkins
+  icon_pack: custom
+
 - name: Ansible
   icon: ansible
   icon_pack: custom
