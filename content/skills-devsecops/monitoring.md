@@ -41,4 +41,8 @@ feature:
 - name: Jaeger
   icon: jaeger
   icon_pack: custom
+
+- name: OpenTelemetry
+  icon: opentelemetry
+  icon_pack: custom
 ---
