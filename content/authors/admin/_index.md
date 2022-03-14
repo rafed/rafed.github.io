@@ -14,14 +14,14 @@ organizations:
   url: https://brainstation-23.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include Devops, Software Engineering, Software Security and  Machine Learning.
+bio: My interests include Software Engineering, Software Security, Machine Learning and Devops.
 
 # Interests to show in About widget
 interests:
-- Devops
 - Software Engineering
 - Software Security
 - Machine Learning
+- Devops
 
 # Education to show in About widget
 education:
