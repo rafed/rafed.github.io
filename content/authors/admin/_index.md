@@ -73,7 +73,7 @@ social:
   link: https://www.facebook.com/devrafed
 - icon: youtube
   icon_pack: fab
-  link: https://www.youtube.com/channel/UC6uDg4IlPbLh2xNKrqnBczw
+  link: https://www.youtube.com/channel/UC5NjXdWBtuSiY4QcU0nh_JA
 
 
 
