@@ -13,7 +13,7 @@
 &lt;li>Flask&lt;/li>
 &lt;li>Angular&lt;/li>
 &lt;li>MariaDB&lt;/li>
-&lt;/ul></description></item><item><title>ScanF - A web application security assessment too</title><link>https://rafed.github.io/project/scanf/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/scanf/</guid><description>&lt;p>ScanF is a web application vulnerability assessment tool. It is aimed at assisting penetration testers to easily carry out XSS and SQLi attacks to search for vulnerabilities.&lt;/p>
+&lt;/ul></description></item><item><title>ScanF - A web application security assessment tool</title><link>https://rafed.github.io/project/scanf/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/scanf/</guid><description>&lt;p>ScanF is a web application vulnerability assessment tool. It is aimed at assisting penetration testers to easily carry out XSS and SQLi attacks to search for vulnerabilities.&lt;/p>
 &lt;p>Technology used:&lt;/p>
 &lt;ul>
 &lt;li>Python&lt;/li>
@@ -24,8 +24,8 @@
 &lt;p>Technology used:&lt;/p>
 &lt;ul>
 &lt;li>Java&lt;/li>
-&lt;/ul></description></item><item><title>Hostman - A PCAP analyzer</title><link>https://rafed.github.io/project/hostman/</link><pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/hostman/</guid><description>&lt;p>Hostman is my first software project ever. It was done as a requirement for the sotware project lab-1 (SPL-1) course. It is a rudimentary implementation of a packet analyzer (similar to wireshark).&lt;/p>
-&lt;p>The project is completely written in C. No libraries were used.&lt;/p>
+&lt;/ul></description></item><item><title>Hostman - A PCAP analyzer</title><link>https://rafed.github.io/project/hostman/</link><pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/hostman/</guid><description>&lt;p>Hostman is a CLI tool that can parse PCAP files and show the details of packets traversing through a network. The project is completely written in C. No libraries were used.&lt;/p>
+&lt;p>It is my first software project ever. It was done as a requirement for the sotware project lab-1 (SPL-1) course.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">

@@ -178,7 +178,7 @@ Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in sli
 &lt;li>&lt;strong>Upload&lt;/strong> an existing slide deck to &lt;code>static/&lt;/code> and link using &lt;code>url_slides&lt;/code> parameter in the front matter of the talk file&lt;/li>
 &lt;li>&lt;strong>Embed&lt;/strong> your slides (e.g. Google Slides) or presentation video on this page using &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">shortcodes&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Microsoft Certified: Azure Fundamentals</title><link>https://rafed.github.io/achievement/certifications/azure-fundamentals/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/certifications/azure-fundamentals/</guid><description>&lt;p>I am very proud of this certificate as it is my first ever certification. Although I&amp;rsquo;m more experienced in AWS, I still decided to try my shot at azure. With a few days of learning I&amp;rsquo;m happy that I could achieve it. I hope this certification paves the way for me to learn and do more in the cloud realm.&lt;/p></description></item><item><title>Analyzing Program Comprehensibility of Go Projects</title><link>https://rafed.github.io/publication/comprego/</link><pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/comprego/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;p>Further event details, including &lt;a href="https://wowchemy.com/docs/writing-markdown-latex/" target="_blank" rel="noopener">page elements&lt;/a> such as image galleries, can be added to the body of this page.&lt;/p></description></item><item><title>Microsoft Certified: Azure Fundamentals</title><link>https://rafed.github.io/achievement/certifications/azure-fundamentals/</link><pubDate>Wed, 09 Mar 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/certifications/azure-fundamentals/</guid><description>&lt;p>I am very proud of this certificate as it is my first ever certification. Although I&amp;rsquo;m more experienced in AWS, I still decided to try my shot at azure. With a few days of learning I&amp;rsquo;m happy that I could achieve it. I hope this certification paves the way for me to learn and do more in the cloud realm.&lt;/p></description></item><item><title>Analyzing Program Comprehensibility of Go Projects</title><link>https://rafed.github.io/publication/06-comprego/</link><pubDate>Wed, 24 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/06-comprego/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -190,13 +190,13 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/div>
 &lt;/div>
 -->
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>TEQ</title><link>https://rafed.github.io/project/teq/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/teq/</guid><description>&lt;p>TEQ app is a bus management system developed in Brainstation-23 by the TEQ team for a Norwegian company. The goal of this project is to eventually bring all bus companies in Norway under a single management.&lt;/p>
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>TEQ</title><link>https://rafed.github.io/project/teq/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/teq/</guid><description>&lt;p>TEQ is a bus management admin panel developed and maintained by Brainstation-23 by for the Norwegian company Ferdia. The goal of this project is to eventually bring all bus companies in Norway under a single management system. Currently it has over 20 bus companies using it.&lt;/p>
 &lt;p>My responsibilities include:&lt;/p>
 &lt;ul>
 &lt;li>Work as a backend engineer (Python, Django)&lt;/li>
-&lt;li>DevOps support&lt;/li>
+&lt;li>DevOps Engineer&lt;/li>
 &lt;/ul></description></item><item><title>BlogRa</title><link>https://rafed.github.io/project/blogra/</link><pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/blogra/</guid><description>&lt;p>BlogRa is a tech blogging theme for Hugo. I did not find the existing themes for Hugo suitable for my blogging experience. So I made this for myself.&lt;/p>
-&lt;p>Check it out. A star on the repo would be much appreciated.&lt;/p></description></item><item><title>How Well Does Undergraduate Education Prepare Software Engineers? Perspectives of Practitioners in Bangladesh</title><link>https://rafed.github.io/publication/how-well-does-undergraduate-education/</link><pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/how-well-does-undergraduate-education/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;p>Check it out. A star on the repo would be much appreciated.&lt;/p></description></item><item><title>How Well Does Undergraduate Education Prepare Software Engineers? Perspectives of Practitioners in Bangladesh</title><link>https://rafed.github.io/publication/04-how-well-does-undergraduate-education/</link><pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/04-how-well-does-undergraduate-education/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -206,7 +206,9 @@ Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitor
 Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check out the example.
 &lt;/div>
 &lt;/div>
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Exploring the Impact of Code Style in Identifying Good Programmers</title><link>https://rafed.github.io/publication/code-style/</link><pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/code-style/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Ramium</title><link>https://rafed.github.io/project/ramium/</link><pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/ramium/</guid><description>&lt;p>After discovering Hugo (a static blog generator), I decided to make a theme for myself and Ramium was the result.&lt;/p>
+&lt;p>Not really the best theme out there, but hey, it was a nice learning experience.&lt;/p>
+&lt;p>I have made a better theme now called BlogRa, which I use for my personal tech blog. Check it out at &lt;a href="https://github.com/rafed/BlogRa" target="_blank" rel="noopener">github.com/rafed/BlogRa&lt;/a>&lt;/p></description></item><item><title>Exploring the Impact of Code Style in Identifying Good Programmers</title><link>https://rafed.github.io/publication/03-code-style/</link><pubDate>Sun, 05 Jan 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/03-code-style/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -218,7 +220,7 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/div>
 &lt;/div>
 -->
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Defect Prediction Using Stylistic Metrics</title><link>https://rafed.github.io/publication/defect-prediction/</link><pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/defect-prediction/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Defect Prediction Using Stylistic Metrics</title><link>https://rafed.github.io/publication/05-defect-prediction/</link><pubDate>Fri, 15 Nov 2019 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/05-defect-prediction/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -230,7 +232,7 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/div>
 &lt;/div>
 -->
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>GodExpo: an automated god structure detection tool for Golang</title><link>https://rafed.github.io/publication/godexpo/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/godexpo/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>GodExpo: an automated god structure detection tool for Golang</title><link>https://rafed.github.io/publication/02-godexpo/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/02-godexpo/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -242,7 +244,7 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/div>
 &lt;/div>
 -->
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Traffic Congestion Prediction Using Machine Learning Techniques</title><link>https://rafed.github.io/publication/traffic-congestion/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/traffic-congestion/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>Traffic Congestion Prediction Using Machine Learning Techniques</title><link>https://rafed.github.io/publication/01-traffic-congestion/</link><pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/01-traffic-congestion/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
@@ -442,14 +444,14 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;li>Flask&lt;/li>
 &lt;li>Angular&lt;/li>
 &lt;li>MariaDB&lt;/li>
-&lt;/ul></description></item><item><title>ScanF - A web application security assessment too</title><link>https://rafed.github.io/project/scanf/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/scanf/</guid><description>&lt;p>ScanF is a web application vulnerability assessment tool. It is aimed at assisting penetration testers to easily carry out XSS and SQLi attacks to search for vulnerabilities.&lt;/p>
+&lt;/ul></description></item><item><title>ScanF - A web application security assessment tool</title><link>https://rafed.github.io/project/scanf/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/scanf/</guid><description>&lt;p>ScanF is a web application vulnerability assessment tool. It is aimed at assisting penetration testers to easily carry out XSS and SQLi attacks to search for vulnerabilities.&lt;/p>
 &lt;p>Technology used:&lt;/p>
 &lt;ul>
 &lt;li>Python&lt;/li>
 &lt;li>Flask&lt;/li>
 &lt;li>Selenium&lt;/li>
 &lt;li>Vue&lt;/li>
-&lt;/ul></description></item><item><title>Showme - ICSE SCORE</title><link>https://rafed.github.io/project/showme/</link><pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/showme/</guid><description>&lt;p>Showme is A web app that parses research papers and shows a citation graph. It was made for the SCORE competition in ICSE 2018 and it made to the &lt;strong>final six&lt;/strong>. These wonderful members also contributed to the project:&lt;/p>
+&lt;/ul></description></item><item><title>Showme - ICSE SCORE</title><link>https://rafed.github.io/project/showme/</link><pubDate>Sat, 15 Sep 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/showme/</guid><description>&lt;p>Showme is a tool that shows research related work of a paper by showing its citation graph. It was made for the SCORE competition in ICSE 2018 and it made to the &lt;strong>final six&lt;/strong>. Other awesome members who also contributed to the project:&lt;/p>
 &lt;ul>
 &lt;li>Kishan Kumar Ganguly&lt;/li>
 &lt;li>Moumita Asad&lt;/li>
@@ -460,7 +462,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;li>Python&lt;/li>
 &lt;li>Flask&lt;/li>
 &lt;li>Angular&lt;/li>
-&lt;/ul></description></item><item><title>Second runners up, Inter university project show</title><link>https://rafed.github.io/achievement/awards/buet-cse-fest/</link><pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/awards/buet-cse-fest/</guid><description>&lt;p>BUET CSE fest was yet another win for our virtual trial room project. Being able to take away a prize from the strong contenders of BUET is really an achievement to remember.&lt;/p>
+&lt;/ul></description></item><item><title>Second runners up, Inter university project show</title><link>https://rafed.github.io/achievement/awards/04-buet-cse-fest/</link><pubDate>Thu, 10 May 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/awards/04-buet-cse-fest/</guid><description>&lt;p>BUET CSE fest was yet another win for our virtual trial room project. Being able to take away a prize from the strong contenders of BUET is really an achievement to remember.&lt;/p>
 &lt;p>Project: Virtual Trial Room&lt;/p>
 &lt;p>Team members:&lt;/p>
 &lt;ul>
@@ -473,7 +475,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./certificate.png" alt="participation certificate, Inter university project show" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>Second Runners Up, Project Showcasing</title><link>https://rafed.github.io/achievement/awards/kuet-technival/</link><pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/awards/kuet-technival/</guid><description>&lt;p>KUET technival was the biggest compeition we faced so far in terms of number of participants. It was a hard competition and we managed a 2nd runners up.&lt;/p>
+&lt;/p></description></item><item><title>Second Runners Up, Project Showcasing</title><link>https://rafed.github.io/achievement/awards/03-kuet-technival/</link><pubDate>Sat, 21 Apr 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/awards/03-kuet-technival/</guid><description>&lt;p>KUET technival was the biggest compeition we faced so far in terms of number of participants. It was a hard competition and we managed a 2nd runners up.&lt;/p>
 &lt;p>Project: Virtual Trial Room&lt;/p>
 &lt;p>Team members:&lt;/p>
 &lt;ul>
@@ -486,7 +488,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./certificate.png" alt="Second runners up, Technival 2018" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>Joint Runners Up, Senior Project Showcasing</title><link>https://rafed.github.io/achievement/awards/nsu-cybernauts/</link><pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/awards/nsu-cybernauts/</guid><description>&lt;p>Another achievement from NSU! A bit unlucky we even had to share the position of runners up. Apart from that it was an event to enjoy!&lt;/p>
+&lt;/p></description></item><item><title>Joint Runners Up, Senior Project Showcasing</title><link>https://rafed.github.io/achievement/awards/02-nsu-cybernauts/</link><pubDate>Thu, 22 Mar 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/awards/02-nsu-cybernauts/</guid><description>&lt;p>Another achievement from NSU! A bit unlucky we even had to share the position of runners up. Apart from that it was an event to enjoy!&lt;/p>
 &lt;p>Also got lucky to give my first tv interview ever and that too on &lt;a href="https://www.youtube.com/watch?v=Bpd7cbYMJns" target="_blank" rel="noopener">BBC click!&lt;/a>&lt;/p>
 &lt;p>Project: Virtual Trial Room&lt;/p>
 &lt;p>Team members:&lt;/p>
@@ -500,7 +502,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./certificate.png" alt="Joint Runners Up, NSU Cybernauts 2018" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>Champions, Hackathon</title><link>https://rafed.github.io/achievement/awards/nsu-technovation/</link><pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/awards/nsu-technovation/</guid><description>&lt;p>Our first ever hackathon and our first ever victory being champions. It was a moment to remember at NSU.&lt;/p>
+&lt;/p></description></item><item><title>Champions, Hackathon</title><link>https://rafed.github.io/achievement/awards/01-nsu-technovation/</link><pubDate>Sat, 24 Feb 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievement/awards/01-nsu-technovation/</guid><description>&lt;p>Our first ever hackathon and our first ever victory being champions. It was a moment to remember at NSU.&lt;/p>
 &lt;p>Project: Virtual Trial Room&lt;/p>
 &lt;p>Team members:&lt;/p>
 &lt;ul>
@@ -518,13 +520,11 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>Technology used:&lt;/p>
 &lt;ul>
 &lt;li>Java&lt;/li>
-&lt;/ul></description></item><item><title>Hostman - A PCAP analyzer</title><link>https://rafed.github.io/project/hostman/</link><pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/hostman/</guid><description>&lt;p>Hostman is my first software project ever. It was done as a requirement for the sotware project lab-1 (SPL-1) course. It is a rudimentary implementation of a packet analyzer (similar to wireshark).&lt;/p>
-&lt;p>The project is completely written in C. No libraries were used.&lt;/p>
+&lt;/ul></description></item><item><title>Hostman - A PCAP analyzer</title><link>https://rafed.github.io/project/hostman/</link><pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/hostman/</guid><description>&lt;p>Hostman is a CLI tool that can parse PCAP files and show the details of packets traversing through a network. The project is completely written in C. No libraries were used.&lt;/p>
+&lt;p>It is my first software project ever. It was done as a requirement for the sotware project lab-1 (SPL-1) course.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./ss1.png" alt="hostman packet details" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;/p></description></item><item><title>ChitChat</title><link>https://rafed.github.io/project/chitchat/</link><pubDate>Sat, 05 Sep 2015 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/chitchat/</guid><description>&lt;p>A server/client app for chatting over the internet.&lt;/p></description></item><item><title>Achievements</title><link>https://rafed.github.io/achievements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievements/</guid><description/></item><item><title>Experience</title><link>https://rafed.github.io/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/experience/</guid><description/></item><item><title>Other Activities</title><link>https://rafed.github.io/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/other/</guid><description/></item><item><title>Projects</title><link>https://rafed.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/projects/</guid><description/></item><item><title>Ramium</title><link>https://rafed.github.io/project/ramium/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/ramium/</guid><description>&lt;p>After discovering Hugo (a static blog generator), I decided to make a theme for myself and Ramium was the result.&lt;/p>
-&lt;p>Not really the best theme out there, but hey, it was a nice learning experience.&lt;/p>
-&lt;p>I have made a better theme now called BlogRa, which I use for my personal tech blog. Check it out at &lt;a href="https://github.com/rafed/BlogRa" target="_blank" rel="noopener">github.com/rafed/BlogRa&lt;/a>&lt;/p></description></item><item><title>Skills</title><link>https://rafed.github.io/skills/development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/development/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/cloud/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/devsecops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/devsecops/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/ml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/ml/</guid><description/></item></channel></rss>
+&lt;/p></description></item><item><title>ChitChat</title><link>https://rafed.github.io/project/chitchat/</link><pubDate>Sat, 05 Sep 2015 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/chitchat/</guid><description>&lt;p>A server/client app for chatting over the internet.&lt;/p></description></item><item><title>Achievements</title><link>https://rafed.github.io/achievements/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/achievements/</guid><description/></item><item><title>Experience</title><link>https://rafed.github.io/experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/experience/</guid><description/></item><item><title>Other Activities</title><link>https://rafed.github.io/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/other/</guid><description/></item><item><title>Projects</title><link>https://rafed.github.io/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/projects/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/development/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/cloud/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/cloud/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/devsecops/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/devsecops/</guid><description/></item><item><title>Skills</title><link>https://rafed.github.io/skills/ml/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/skills/ml/</guid><description/></item></channel></rss>
