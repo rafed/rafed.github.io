@@ -1,6 +1,6 @@
 ---
 title: Virtual Trial Room
-summary: A browser based dress trial software for eCommerce
+summary: A browser based trial room for wearing clothes virtually 
 tags:
 - Python
 - ML

@@ -31,7 +31,7 @@ url_video: ""
 # slides: example
 ---
 
-Showme is A web app that parses research papers and shows a citation graph. It was made for the SCORE competition in ICSE 2018 and it made to the **final six**. These wonderful members also contributed to the project:
+Showme is a tool that shows research related work of a paper by showing its citation graph. It was made for the SCORE competition in ICSE 2018 and it made to the **final six**. Other awesome members who also contributed to the project:
 - Kishan Kumar Ganguly
 - Moumita Asad
 - Aquib Azmain

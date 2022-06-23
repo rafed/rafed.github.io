@@ -1,5 +1,5 @@
 ---
-title: ScanF - A web application security assessment too
+title: ScanF - A web application security assessment tool
 summary: Web based tool for SQLi and XSS
 tags:
 - academic

@@ -12,15 +12,15 @@ external_link: ""
 #   caption: Photo by rawpixel on Unsplash
 #   focal_point: Smart
 
-# links:
-# - icon: twitter
-#   icon_pack: fab
-#   name: Follow
-#   url: https://twitter.com/georgecushen
+links:
+- icon: globe
+  icon_pack: fa
+  name: Ferdia
+  url: https://oslobuss.ferdia.app/
 # url_code: ""
-url_pdf: ""
-url_slides: ""
-url_video: ""
+# url_pdf: ""
+# url_slides: ""
+# url_video: ""
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -30,8 +30,8 @@ url_video: ""
 # slides: example
 ---
 
-TEQ app is a bus management system developed in Brainstation-23 by the TEQ team for a Norwegian company. The goal of this project is to eventually bring all bus companies in Norway under a single management.
+TEQ is a bus management admin panel developed and maintained by Brainstation-23 by for the Norwegian company Ferdia. The goal of this project is to eventually bring all bus companies in Norway under a single management system. Currently it has over 20 bus companies using it.
 
 My responsibilities include:
 - Work as a backend engineer (Python, Django)
-- DevOps support
+- DevOps Engineer

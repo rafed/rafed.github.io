@@ -1,28 +1,26 @@
 ---
-title: "Analyzing Program Comprehensibility of Go Projects"
+title: "Defect Prediction Using Stylistic Metrics"
 authors:
-- Moumita Asad
 - admin
-- Shihab Shahriar
-- Nadia Nahar
-- Md. Nurul Ahad Tawhid
-date: "2021-03-241T00:00:00Z"
-# doi: "10.1109/IWoR.2019.00016"
+- Moumita Asad
+- Ahmedul Kabir
+date: "2019-11-151T00:00:00Z"
+doi: "10.48550/arXiv.2206.10959"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2021-03-24T00:00:00Z"
+publishDate: "2019-11-15T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["3"]
 
 # Publication name and optional abbreviated publication name.
-publication: Software Engineering and Knowledge Engineering
-publication_short: SEKE
+publication: arXiv
+publication_short: arXiv
 
-abstract: Program comprehension is one of the most important activities in developing and maintaining software. Although existing studies have examined aspects of Go such as design patterns, code smells and comment density, the comprehensibility of Go has not been explored yet. This study analyzes the comprehensibility of Go by comparing it with Java based on five metrics namely Too Long Files, Too Long Methods, Nesting Depth, Lack of Cohesive Comments and Duplicate Comments. For comparison, 50 popular, diverse and open-source projects are selected from each language. Results show that Go projects outperform Java in terms of Nesting Depth, Lack of Cohesive Comments and Duplicate Comments.
+abstract: Defect prediction is one of the most popular research topics due to its potentiality to minimize software quality assurance effort. Existing approaches have examined defect prediction from various perspective such as complexity and developer metrics. However, none of these consider programming style for defect prediction. This paper aims at analyzing the impact of stylistic metrics on both within-project and cross-project defect prediction. For prediction, 4 widely used machine learning algorithms namely Naive Bayes, Support Vector Machine, Decision Tree and Logistic Regression are used. The experiment is conducted on 14 releases of 5 popular, open source projects. F1, Precision and Recall are inspected to evaluate the results. Results reveal that stylistic metrics are good predictor of defects.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -35,11 +33,11 @@ abstract: Program comprehension is one of the most important activities in devel
 # - name: Custom Link
 #   url: http://example.org
 # url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-url_code: 'https://github.com/rafed/comprego/'
+# url_code: 'https://github.com/rafed/godexpo/'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''
-url_slides: /publication/comprego/slides.pptx
+# url_slides: '/publication/godexpo/slides.pptx'
 # url_source: '#'
 # url_video: '#'
 

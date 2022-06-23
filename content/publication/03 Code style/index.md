@@ -1,15 +1,13 @@
 ---
-title: "Traffic Congestion Prediction Using Machine Learning Techniques"
+title: "Exploring the Impact of Code Style in Identifying Good Programmers"
 authors:
-- Moumita Asad
 - admin
-- Dr. Nowshin Nower
-- Dr. Mohammad Shoyaib
-date: "2019-05-011T00:00:00Z"
-# doi: "10.1109/IWoR.2019.00016"
+- Ahmedul Kabir
+date: "2020-01-051T00:00:00Z"
+doi: "10.48550/arXiv.2206.10891"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2019-05-01T00:00:00Z"
+publishDate: "2020-01-05T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -21,7 +19,7 @@ publication_types: ["3"]
 publication: arXiv
 publication_short: arXiv
 
-abstract: The prediction of traffic congestion can serve a crucial role in making future decisions. Although many studies have been conducted regarding congestion, most of these could not cover all the important factors (e.g., weather conditions). We proposed a prediction model for the traffic congestion that can predict congestion based on day, time and several weather data (e.g., temperature, humidity). To evaluate our model, it has been tested against the traffic data of New Delhi. With this model, congestion of a road can be predicted one week ahead with an average RMSE of 1.12. Therefore, this model can be used to take preventive measure beforehand.
+abstract: Code style reflects the choice of textual representation of source code. This study, for the first time, explores whether code style can be used to identify good programmers with a vision that recruitment process in the software industry can be improved. For analysis, solutions from Google Code Jam were selected. The study used cluster analysis to find association between good programmers and style clusters. Furthermore, supervised machine learning models were trained with stylistic features to predict good programmers. Results reveal that, although association between programmers with particular clusters could not be concluded, supervised learning models can predict good programmers. 
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.

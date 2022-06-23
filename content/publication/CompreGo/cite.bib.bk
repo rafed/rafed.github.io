@@ -1,8 +1,0 @@
-@inproceedings{yasir2019godexpo,
-  title={Analyzing Program Comprehensibility of Go Projects},
-  author={Moumita Asad, Rafed Muhammad Yasir, Shihab Shahriar, Nadia Nahar, Md. Nurul Ahad Tawhid, Kishan Kumar Ganguly, Md Saeed Siddik},
-  booktitle={2019 IEEE/ACM 3rd International Workshop on Refactoring (IWoR)},
-  pages={47--50},
-  year={2019},
-  organization={IEEE}
-}
