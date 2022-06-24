@@ -3,7 +3,7 @@ title: "Defect Prediction Using Stylistic Metrics"
 authors:
 - admin
 - Moumita Asad
-- Ahmedul Kabir
+- Dr. Ahmedul Kabir
 date: "2019-11-151T00:00:00Z"
 doi: "10.48550/arXiv.2206.10959"
 
