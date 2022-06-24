@@ -1,10 +1,10 @@
 ---
 title: "How Well Does Undergraduate Education Prepare Software Engineers? Perspectives of Practitioners in Bangladesh"
 authors:
-- Ishtiaque Hussain
+- Dr. Ishtiaque Hussain
 - Ahmed Shamim Hasan
 - admin
-- Ahmedul Kabir
+- Dr. Ahmedul Kabir
 - Syed Ishtiaque Ahmed
 date: "2020-11-08T00:00:00Z"
 doi: "10.1109/CSEET49119.2020.9206232"
