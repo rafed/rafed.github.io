@@ -1,3 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theory | Rafed M. Yasir</title><link>https://rafed.github.io/courses/distributed-systems/theory/</link><atom:link href="https://rafed.github.io/courses/distributed-systems/theory/index.xml" rel="self" type="application/rss+xml"/><description>Theory</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Rafed Muhammad Yasir</copyright><lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Theory</title><link>https://rafed.github.io/courses/distributed-systems/theory/</link></image><item><title>Introduction to Microservices</title><link>https://rafed.github.io/courses/distributed-systems/theory/01-intro-microservices/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/01-intro-microservices/</guid><description>&lt;div class="responsive-wrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theory | Rafed M. Yasir</title><link>https://rafed.github.io/courses/distributed-systems/theory/</link><atom:link href="https://rafed.github.io/courses/distributed-systems/theory/index.xml" rel="self" type="application/rss+xml"/><description>Theory</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Rafed Muhammad Yasir</copyright><lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Theory</title><link>https://rafed.github.io/courses/distributed-systems/theory/</link></image><item><title>Introduction to Distributed systems</title><link>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</guid><description>&lt;p>A distributed system is a computing environment in which &lt;strong>various components&lt;/strong> are spread across &lt;strong>multiple computers&lt;/strong> (or other computing devices) on &lt;strong>a network&lt;/strong>.&lt;/p>
+&lt;p>If one machine can do a task in 1 hr, surely two equivalent machines can do it in 30 mins.&lt;/p>
+&lt;p>We gain some sort of advantage that&lt;/p>
+&lt;p>Examples of distributed systems&lt;/p>
+&lt;ol>
+&lt;li>Machine learning (for compute)&lt;/li>
+&lt;li>P2P file sharing (high availability, share large files, piracy)&lt;/li>
+&lt;li>Google search engine (for storage and bandwidth)&lt;/li>
+&lt;li>Facebook (for storage and bandwidth)&lt;/li>
+&lt;li>Multiplayer games (entertainment)&lt;/li>
+&lt;li>Space rockets (correctness)
+spaceX dragon&lt;/li>
+&lt;li>Black hole image (distributed observation)&lt;/li>
+&lt;li>IOT (Sensors on a network)&lt;/li>
+&lt;li>Blockchain
+decentralized record of transactions
+guarantees the fidelity and security of a record
+distributed database&lt;/li>
+&lt;/ol></description></item><item><title>Introduction to Microservices</title><link>https://rafed.github.io/courses/distributed-systems/theory/010-intro-microservices/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/010-intro-microservices/</guid><description>&lt;div class="responsive-wrap">
 &lt;iframe src="https://docs.google.com/presentation/d/1Sm-buXQKPJdvfuZLOxKzMbIJ0C4mYZ2hyk_Ike6aClU/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
 &lt;/div></description></item></channel></rss>
