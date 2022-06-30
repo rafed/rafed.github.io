@@ -30,7 +30,8 @@ url_video: ""
 # slides: example
 ---
 
-ScanF is a web application vulnerability assessment tool. It is aimed at assisting penetration testers to easily carry out XSS and SQLi attacks to search for vulnerabilities.
+ canF is a vulnerability assessment tool aimed at assisting
+penetration testers to easily carry out XSS and SQLi attacks for discovering vulnerabilities.
 
 Technology used:
 - Python

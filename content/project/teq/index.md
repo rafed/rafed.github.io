@@ -30,8 +30,11 @@ links:
 # slides: example
 ---
 
-TEQ is a bus management admin panel developed and maintained by Brainstation-23 by for the Norwegian company Ferdia. The goal of this project is to eventually bring all bus companies in Norway under a single management system. Currently it has over 20 bus companies using it.
+TEQ is a bus management admin panel developed and maintained by Brainstation-23 for Ferdia, Norway. I worked in this project as a backend and devops engineer. My responsibilities included operating Kubernetes cluster, managing AWS resources and creating CI/CD pipelines.
 
 My responsibilities include:
 - Work as a backend engineer (Python, Django)
-- DevOps Engineer
+- DevOps Engineer:
+  - Operate kubernetes cluster
+  - Manage AWS resources
+  - Create pipelines

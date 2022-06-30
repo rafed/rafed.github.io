@@ -32,11 +32,12 @@ url_video: "https://www.youtube.com/watch?v=Bpd7cbYMJns"
 # slides: example
 ---
 
-Virtual Trial Room is one of my most successful projects. It is a browser based dressing room where you can digitally try out different clothes. 
+Virtual Trial Room is one of my most successful projects. It is a browser based trial room for wearing clothes virtually. 
 
 ![Virtual Trial Room Girls Dress](ss1.png)
 
-This project several awards- 
+This project won several awards- 
+
 1. Champions, NSU Technovation Hackathon 2018, North South University
 1. Joint Runners Up, NSU Cybernauts, North South University Computer & Engineering Club (NSU CEC) 
 1. Second Runners Up, Technival 2018, Khulna University of Engineering and Technology (KUET)
