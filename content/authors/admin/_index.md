@@ -6,7 +6,7 @@ title: Rafed Muhammad Yasir
 superuser: true
 
 # Role/position/tagline
-role: Software Engineer
+role: DevOps Engineer
 
 # Organizations/Affiliations to show in About widget
 organizations:

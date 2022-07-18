@@ -22,7 +22,7 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Associate Software Engineer
+  - title: DevOps Engineer
     company: 'Brainstation-23'
     company_logo: bs23
     company_url: 'https://brainstation-23.com/'
@@ -30,9 +30,9 @@ experience:
     date_start: '2021-03-01'
     date_end: ''
     description: |2-
-      Part of TEQ team. Working as a-
+      Part of TEQ team and contributing to many other teams. Working as a-
       * Backend Engineer (Python, Django)
-      * DevOps Engineer (AWS, Kubernetes, CI/CD)
+      * DevOps Engineer (AWS, Kubernetes, CI/CD, Terraform)
 
   - title: Short Course Instructor
     company: Institute of Information Technology (IIT), University of Dhaka

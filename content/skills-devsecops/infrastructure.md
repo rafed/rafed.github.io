@@ -17,6 +17,10 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 
 feature:
+- name: Terraform
+  icon: terraform
+  icon_pack: custom
+
 - name: Kubernetes
   icon: kubernetes
   icon_pack: custom
@@ -25,7 +29,7 @@ feature:
   icon: docker
   icon_pack: custom
 
-- name: Linux
+- name: Ubuntu
   icon: ubuntu
   icon_pack: custom
 
