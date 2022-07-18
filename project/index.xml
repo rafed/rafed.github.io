@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Rafed M. Yasir</title><link>https://rafed.github.io/project/</link><atom:link href="https://rafed.github.io/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Rafed Muhammad Yasir</copyright><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Projects</title><link>https://rafed.github.io/project/</link></image><item><title>TEQ</title><link>https://rafed.github.io/project/teq/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/teq/</guid><description>&lt;p>TEQ is a bus management admin panel developed and maintained by Brainstation-23 by for the Norwegian company Ferdia. The goal of this project is to eventually bring all bus companies in Norway under a single management system. Currently it has over 20 bus companies using it.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects | Rafed M. Yasir</title><link>https://rafed.github.io/project/</link><atom:link href="https://rafed.github.io/project/index.xml" rel="self" type="application/rss+xml"/><description>Projects</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Rafed Muhammad Yasir</copyright><lastBuildDate>Mon, 01 Mar 2021 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Projects</title><link>https://rafed.github.io/project/</link></image><item><title>TEQ</title><link>https://rafed.github.io/project/teq/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/teq/</guid><description>&lt;p>TEQ is a bus management admin panel developed and maintained by Brainstation-23 for Ferdia, Norway. I worked in this project as a backend and devops engineer. My responsibilities included operating Kubernetes cluster, managing AWS resources and creating CI/CD pipelines.&lt;/p>
 &lt;p>My responsibilities include:&lt;/p>
 &lt;ul>
 &lt;li>Work as a backend engineer (Python, Django)&lt;/li>
-&lt;li>DevOps Engineer&lt;/li>
+&lt;li>DevOps Engineer:
+&lt;ul>
+&lt;li>Operate kubernetes cluster&lt;/li>
+&lt;li>Manage AWS resources&lt;/li>
+&lt;li>Create pipelines&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul></description></item><item><title>BlogRa</title><link>https://rafed.github.io/project/blogra/</link><pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/blogra/</guid><description>&lt;p>BlogRa is a tech blogging theme for Hugo. I did not find the existing themes for Hugo suitable for my blogging experience. So I made this for myself.&lt;/p>
 &lt;p>Check it out. A star on the repo would be much appreciated.&lt;/p></description></item><item><title>Ramium</title><link>https://rafed.github.io/project/ramium/</link><pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/ramium/</guid><description>&lt;p>After discovering Hugo (a static blog generator), I decided to make a theme for myself and Ramium was the result.&lt;/p>
 &lt;p>Not really the best theme out there, but hey, it was a nice learning experience.&lt;/p>
-&lt;p>I have made a better theme now called BlogRa, which I use for my personal tech blog. Check it out at &lt;a href="https://github.com/rafed/BlogRa" target="_blank" rel="noopener">github.com/rafed/BlogRa&lt;/a>&lt;/p></description></item><item><title>Virtual Trial Room</title><link>https://rafed.github.io/project/virtual-trial-room/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/virtual-trial-room/</guid><description>&lt;p>Virtual Trial Room is one of my most successful projects. It is a browser based dressing room where you can digitally try out different clothes.&lt;/p>
+&lt;p>I have made a better theme now called BlogRa, which I use for my personal tech blog. Check it out at &lt;a href="https://github.com/rafed/BlogRa" target="_blank" rel="noopener">github.com/rafed/BlogRa&lt;/a>&lt;/p></description></item><item><title>Virtual Trial Room</title><link>https://rafed.github.io/project/virtual-trial-room/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/virtual-trial-room/</guid><description>&lt;p>Virtual Trial Room is one of my most successful projects. It is a browser based trial room for wearing clothes virtually.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -20,7 +26,7 @@ height="353"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;p>This project several awards-&lt;/p>
+&lt;p>This project won several awards-&lt;/p>
 &lt;ol>
 &lt;li>Champions, NSU Technovation Hackathon 2018, North South University&lt;/li>
 &lt;li>Joint Runners Up, NSU Cybernauts, North South University Computer &amp;amp; Engineering Club (NSU CEC)&lt;/li>
@@ -79,7 +85,8 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;li>Flask&lt;/li>
 &lt;li>Angular&lt;/li>
 &lt;li>MariaDB&lt;/li>
-&lt;/ul></description></item><item><title>ScanF - A web application security assessment tool</title><link>https://rafed.github.io/project/scanf/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/scanf/</guid><description>&lt;p>ScanF is a web application vulnerability assessment tool. It is aimed at assisting penetration testers to easily carry out XSS and SQLi attacks to search for vulnerabilities.&lt;/p>
+&lt;/ul></description></item><item><title>ScanF - A web application security assessment tool</title><link>https://rafed.github.io/project/scanf/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/scanf/</guid><description>&lt;p>canF is a vulnerability assessment tool aimed at assisting
+penetration testers to easily carry out XSS and SQLi attacks for discovering vulnerabilities.&lt;/p>
 &lt;p>Technology used:&lt;/p>
 &lt;ul>
 &lt;li>Python&lt;/li>

@@ -310,11 +310,17 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/div>
 &lt;/div>
 -->
-&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>TEQ</title><link>https://rafed.github.io/project/teq/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/teq/</guid><description>&lt;p>TEQ is a bus management admin panel developed and maintained by Brainstation-23 by for the Norwegian company Ferdia. The goal of this project is to eventually bring all bus companies in Norway under a single management system. Currently it has over 20 bus companies using it.&lt;/p>
+&lt;!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --></description></item><item><title>TEQ</title><link>https://rafed.github.io/project/teq/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/teq/</guid><description>&lt;p>TEQ is a bus management admin panel developed and maintained by Brainstation-23 for Ferdia, Norway. I worked in this project as a backend and devops engineer. My responsibilities included operating Kubernetes cluster, managing AWS resources and creating CI/CD pipelines.&lt;/p>
 &lt;p>My responsibilities include:&lt;/p>
 &lt;ul>
 &lt;li>Work as a backend engineer (Python, Django)&lt;/li>
-&lt;li>DevOps Engineer&lt;/li>
+&lt;li>DevOps Engineer:
+&lt;ul>
+&lt;li>Operate kubernetes cluster&lt;/li>
+&lt;li>Manage AWS resources&lt;/li>
+&lt;li>Create pipelines&lt;/li>
+&lt;/ul>
+&lt;/li>
 &lt;/ul></description></item><item><title>BlogRa</title><link>https://rafed.github.io/project/blogra/</link><pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/blogra/</guid><description>&lt;p>BlogRa is a tech blogging theme for Hugo. I did not find the existing themes for Hugo suitable for my blogging experience. So I made this for myself.&lt;/p>
 &lt;p>Check it out. A star on the repo would be much appreciated.&lt;/p></description></item><item><title>How Well Does Undergraduate Education Prepare Software Engineers? Perspectives of Practitioners in Bangladesh</title><link>https://rafed.github.io/publication/04-how-well-does-undergraduate-education/</link><pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/04-how-well-does-undergraduate-education/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
@@ -491,7 +497,7 @@ color: navy;
 &lt;hr>
 &lt;h1 id="questions">Questions?&lt;/h1>
 &lt;p>&lt;a href="https://github.com/wowchemy/wowchemy-hugo-modules/discussions" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
-&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Virtual Trial Room</title><link>https://rafed.github.io/project/virtual-trial-room/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/virtual-trial-room/</guid><description>&lt;p>Virtual Trial Room is one of my most successful projects. It is a browser based dressing room where you can digitally try out different clothes.&lt;/p>
+&lt;p>&lt;a href="https://wowchemy.com/docs/managing-content/#create-slides" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Virtual Trial Room</title><link>https://rafed.github.io/project/virtual-trial-room/</link><pubDate>Wed, 05 Dec 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/virtual-trial-room/</guid><description>&lt;p>Virtual Trial Room is one of my most successful projects. It is a browser based trial room for wearing clothes virtually.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -505,7 +511,7 @@ height="353"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;p>This project several awards-&lt;/p>
+&lt;p>This project won several awards-&lt;/p>
 &lt;ol>
 &lt;li>Champions, NSU Technovation Hackathon 2018, North South University&lt;/li>
 &lt;li>Joint Runners Up, NSU Cybernauts, North South University Computer &amp;amp; Engineering Club (NSU CEC)&lt;/li>
@@ -564,7 +570,8 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;li>Flask&lt;/li>
 &lt;li>Angular&lt;/li>
 &lt;li>MariaDB&lt;/li>
-&lt;/ul></description></item><item><title>ScanF - A web application security assessment tool</title><link>https://rafed.github.io/project/scanf/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/scanf/</guid><description>&lt;p>ScanF is a web application vulnerability assessment tool. It is aimed at assisting penetration testers to easily carry out XSS and SQLi attacks to search for vulnerabilities.&lt;/p>
+&lt;/ul></description></item><item><title>ScanF - A web application security assessment tool</title><link>https://rafed.github.io/project/scanf/</link><pubDate>Tue, 27 Nov 2018 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/scanf/</guid><description>&lt;p>canF is a vulnerability assessment tool aimed at assisting
+penetration testers to easily carry out XSS and SQLi attacks for discovering vulnerabilities.&lt;/p>
 &lt;p>Technology used:&lt;/p>
 &lt;ul>
 &lt;li>Python&lt;/li>
