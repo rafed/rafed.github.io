@@ -19,20 +19,25 @@ feature:
 - name: Pandas
   icon: pandas
   icon_pack: custom
+  description: ⭐⭐⭐⭐
 
 - name: Matploitlib
   icon: matplotlib
   icon_pack: custom
+  description: ⭐⭐⭐⭐
 
 - name: Scikit Learn
   icon: scikit
   icon_pack: custom
+  description: ⭐⭐⭐⭐
   
 - name: Keras
   icon: keras
   icon_pack: custom
+  description: ⭐⭐
   
 - name: OpenCV
   icon: opencv
   icon_pack: custom
+  description: ⭐⭐⭐
 ---

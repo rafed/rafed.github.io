@@ -21,28 +21,35 @@ feature:
 - name: Datadog
   icon: datadog
   icon_pack: custom
+  description: ⭐⭐
 
 - name: Grafana
   icon: grafana
   icon_pack: custom
+  description: ⭐⭐⭐⭐⭐
 
 - name: Prometheus
   icon: prometheus
   icon_pack: custom
+  description: ⭐⭐⭐⭐
 
 - name: Loki
   icon: loki
   icon_pack: custom
+  description: ⭐⭐⭐⭐⭐
 
 - name: Tempo
   icon: tempo
   icon_pack: custom
+  description: ⭐⭐⭐⭐⭐
 
 - name: Jaeger
   icon: jaeger
   icon_pack: custom
+  description: ⭐⭐⭐⭐⭐
 
 - name: OpenTelemetry
   icon: opentelemetry
   icon_pack: custom
+  description: ⭐⭐⭐
 ---

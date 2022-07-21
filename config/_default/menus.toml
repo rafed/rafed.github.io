@@ -26,31 +26,31 @@
 
   [[main]]
     parent = "skills"
-    name = "Infra/Devops/Security"
-    url = "skills/devsecops"
+    name = "🔨 DevOps"
+    url = "skills/devops"
     weight = 10
 
   [[main]]
     parent = "skills"
-    name = "Cloud Skills"
-    url = "skills/cloud"
+    name = "🔒 Security"
+    url = "skills/security"
     weight = 20
 
   [[main]]
     parent = "skills"
-    name = "Backend/Frontend"
+    name = "🖥 Backend/Frontend"
     url = "skills/development"
     weight = 30
 
   [[main]]
     parent = "skills"
-    name = "ML/Data science"
+    name = "🧠 ML/Data science"
     url = "skills/ml"
     weight = 40
 
   [[main]]
     parent = "skills"
-    name = "Projects"
+    name = "📚 Projects"
     url = "projects"
     weight = 100
 

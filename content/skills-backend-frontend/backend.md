@@ -19,36 +19,45 @@ feature:
 - name: Python
   icon: python
   icon_pack: custom
+  description: ⭐⭐⭐⭐⭐
   
 - name: Django
   icon: django
   icon_pack: custom
+  description: ⭐⭐
 
 - icon: flask
   icon_pack: custom
   name: Flask
+  description: ⭐⭐⭐⭐
 
 - icon: fastapi
   icon_pack: custom
   name: FastApi
+  description: ⭐⭐⭐
 
 - name: Go
   icon: go
   icon_pack: custom
+  description: ⭐⭐⭐
 
 - name: Gin
   icon: gin
   icon_pack: custom
+  description: ⭐⭐
 
 - icon: postgresql
   icon_pack: custom
   name: PostgreSQL
+  description: ⭐⭐⭐⭐
 
 - icon: mysql
   icon_pack: custom
   name: MySQL
+  description: ⭐⭐⭐
 
 - name: Redis
   icon: redis
   icon_pack: custom
+  description: ⭐⭐⭐
 ---

@@ -19,16 +19,20 @@ feature:
 - name: Hugo
   icon: hugo
   icon_pack: custom
+  description: ⭐⭐⭐⭐⭐
 
 - name: Vue
   icon: vue
   icon_pack: custom
+  description: ⭐
 
 - name: Bootstrap
   icon: bootstrap
   icon_pack: custom
+  description: ⭐⭐⭐
 
 - name: Sass
   icon: sass
   icon_pack: custom
+  description: ⭐⭐⭐
 ---

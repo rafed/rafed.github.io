@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: Clouds Used
+title: Clouds
 subtitle:
 
 # Showcase personal skills or business features.
@@ -20,12 +20,19 @@ feature:
 - name: AWS
   icon: aws/aws
   icon_pack: custom
+  description: ⭐⭐⭐⭐
 
 - name: GCP
   icon: gcp/gcp
   icon_pack: custom
-
+  description: ⭐⭐
 - name: Azure
   icon: azure/azure
   icon_pack: custom
+  description: ⭐⭐
+
+- name: Cloudflare
+  icon: cloudflare
+  icon_pack: custom
+  description: ⭐⭐
 ---

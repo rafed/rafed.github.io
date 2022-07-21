@@ -7,9 +7,9 @@ widget: featurette
 headless: true
 
 # Order that this section appears on the page.
-weight: 10
+weight: 20
 
-title: Infrastructure
+title: Automation/Pipeline
 subtitle:
 
 # Showcase personal skills or business features.
@@ -17,23 +17,28 @@ subtitle:
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 
 feature:
-- name: Terraform
-  icon: terraform
+- name: Github actions
+  icon: github-actions
   icon_pack: custom
+  description: ⭐⭐⭐⭐⭐
 
-- name: Kubernetes
-  icon: kubernetes
+- name: AWS Codepipeline
+  icon: aws/codepipeline
   icon_pack: custom
+  description: ⭐⭐⭐⭐
 
-- name: Docker
-  icon: docker
+- name: Azure Devops
+  icon: azure/azure-devops
   icon_pack: custom
+  description: ⭐⭐⭐⭐
 
-- name: Ubuntu
-  icon: ubuntu
+- name: Jenkins
+  icon: jenkins
   icon_pack: custom
+  description: ⭐⭐
 
-- name: Nginx
-  icon: nginx
+- name: Ansible
+  icon: ansible
   icon_pack: custom
+  description: ⭐⭐
 ---
