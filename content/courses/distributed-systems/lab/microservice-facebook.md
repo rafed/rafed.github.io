@@ -46,7 +46,7 @@ The client UI will have three routes:
     - GET: Get latest 10 statuses of all users except logged in user
     - POST: Create new status for user
 - **/story** endpoint for creating and retrieving stories
-    - GET: Get latest 10 statuses of all users except logged in user
+    - GET: Get latest 10 stories of all users except logged in user
     - POST: Create new story for user
 
 ##### System assumptions
@@ -61,36 +61,59 @@ The client UI will have three routes:
 - Don't implement extra features. Because, distributing them in multiple instances could turn out to be a problem later.
 - You may use any programming language. However, **Node.js or Python or Go** is recommended.
 
-## Step 2: Service into microservices (Coming Soon!)
+## Step 2: Service into microservices
 
-<!-- If you have completed step 1, congratulations! By now you have learned how to-
-* make APIs and call them
-* make sockets for bidirectional communication
-* make schedulers that call a function periodically
+If you have completed step 1, congratulations! By now you have learned how to-
+* make APIs and call them (from a frontend)
 * integrate database with an application
+* use an object store database
 
-If you have done all that, kudos to you! You are now ready to start building microservices (or more like breaking an app into microservices).
+If you have done all that, kudos! You are now ready to start building microservices (or more like breaking an app into microservices).
 
 ### Requirements
 
 Let's recap what modules we have in our backend system so far:
-* a rider module
-* a driver module
-* a rider/driver matching module
-* a rating module connecting to a database
-* a communication module for bidirectional communication
+* a Reg & Auth module
+* a Story module
+* a Status module
 
-We'll convert these modules to make three business services.
-1. Ride sharing service
-    - rider module
-    - driver module
-    - rider/driver matching module
-1. Communication service
-1. Rating service
+Currently these modules serve from a single monolith. We need to segregate them to the following services.
 
-Our system architecture will be like the following. -->
+1. User service
+    - Registration
+    - Login
+    - Authentication
+1. Status service
+1. Story service
+
+Our system architecture will be like the following.
 
 ### Architecture
+
+```mermaid
+graph TD
+CLIENT["Client"]-->PROXY["Reverse Proxy (Nginx)"]
+PROXY-->USER[User service]
+PROXY-->STATUS[Status service]
+PROXY-->STORY[Story service]
+USER-->USER_DB[(User DB)]
+STATUS-->STATUS_DB[(Status DB)]
+STATUS-->USER
+STORY-->STORY_DB[(Story DB)]
+STORY-->OBJECT_DB[(Object DB)]
+STORY-->USER
+```
+
+### What to do?
+1. In your project folder, make sub projects. Each sub project will be a separate service.
+1. Download and configure nginx so that it works as a reverse proxy for all the services
+1. For nginx configuration Google is your friend. You can also follow their official docs at [docs.nginx.com](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/).
+1. Write additional code so that the services communicate among themselves and the business logic discussed in _step 1_ is served.
+    - You may need to check requests for **authorization** when a user hits **status service** and **story service**
+1. Although it's a best practice to use separate database instances for each service, we will ignore it now for simplicity. Don't worry we'll segregate the database in some later steps.
+
+
+## Step 3: Containerize and orchestrate (Coming soon!)
 
 ```mermaid
 %% graph TD
@@ -106,10 +129,3 @@ Our system architecture will be like the following. -->
 %% STORY-->STORY_DB[(Story DB)]
 %% STORY-->OBJECT_DB[(Object DB)]
 ```
-
-<!-- ### What to do?
-1. In your project folder, make sub projects. Each sub project will be a separate service.
-1. Download and configure nginx so that it works as a reverse proxy for all http services (in our case **ride sharing service**  and **rating service**).
-1. For nginx configuration Google is your friend. You can also follow their official docs at [docs.nginx.com](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/).
-1. Write additional code so that the services communicate among themselves and the business logic discussed in _step 1_ is served. -->
-
