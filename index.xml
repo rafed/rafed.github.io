@@ -229,7 +229,7 @@ SERVER--&amp;gt;OBJ_DB[(Object DB)]
 &lt;/li>
 &lt;li>&lt;strong>/story&lt;/strong> endpoint for creating and retrieving stories
 &lt;ul>
-&lt;li>GET: Get latest 10 statuses of all users except logged in user&lt;/li>
+&lt;li>GET: Get latest 10 stories of all users except logged in user&lt;/li>
 &lt;li>POST: Create new story for user&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -247,29 +247,60 @@ SERVER--&amp;gt;OBJ_DB[(Object DB)]
 &lt;li>Don&amp;rsquo;t implement extra features. Because, distributing them in multiple instances could turn out to be a problem later.&lt;/li>
 &lt;li>You may use any programming language. However, &lt;strong>Node.js or Python or Go&lt;/strong> is recommended.&lt;/li>
 &lt;/ul>
-&lt;h2 id="step-2-service-into-microservices-coming-soon">Step 2: Service into microservices (Coming Soon!)&lt;/h2>
-&lt;!-- If you have completed step 1, congratulations! By now you have learned how to-
-* make APIs and call them
-* make sockets for bidirectional communication
-* make schedulers that call a function periodically
-* integrate database with an application
-If you have done all that, kudos to you! You are now ready to start building microservices (or more like breaking an app into microservices).
-### Requirements
-Let's recap what modules we have in our backend system so far:
-* a rider module
-* a driver module
-* a rider/driver matching module
-* a rating module connecting to a database
-* a communication module for bidirectional communication
-We'll convert these modules to make three business services.
-1. Ride sharing service
-- rider module
-- driver module
-- rider/driver matching module
-1. Communication service
-1. Rating service
-Our system architecture will be like the following. -->
+&lt;h2 id="step-2-service-into-microservices">Step 2: Service into microservices&lt;/h2>
+&lt;p>If you have completed step 1, congratulations! By now you have learned how to-&lt;/p>
+&lt;ul>
+&lt;li>make APIs and call them (from a frontend)&lt;/li>
+&lt;li>integrate database with an application&lt;/li>
+&lt;li>use an object store database&lt;/li>
+&lt;/ul>
+&lt;p>If you have done all that, kudos! You are now ready to start building microservices (or more like breaking an app into microservices).&lt;/p>
+&lt;h3 id="requirements-1">Requirements&lt;/h3>
+&lt;p>Let&amp;rsquo;s recap what modules we have in our backend system so far:&lt;/p>
+&lt;ul>
+&lt;li>a Reg &amp;amp; Auth module&lt;/li>
+&lt;li>a Story module&lt;/li>
+&lt;li>a Status module&lt;/li>
+&lt;/ul>
+&lt;p>Currently these modules serve from a single monolith. We need to segregate them to the following services.&lt;/p>
+&lt;ol>
+&lt;li>User service
+&lt;ul>
+&lt;li>Registration&lt;/li>
+&lt;li>Login&lt;/li>
+&lt;li>Authentication&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Status service&lt;/li>
+&lt;li>Story service&lt;/li>
+&lt;/ol>
+&lt;p>Our system architecture will be like the following.&lt;/p>
 &lt;h3 id="architecture-1">Architecture&lt;/h3>
+&lt;pre>&lt;code class="language-mermaid">graph TD
+CLIENT[&amp;quot;Client&amp;quot;]--&amp;gt;PROXY[&amp;quot;Reverse Proxy (Nginx)&amp;quot;]
+PROXY--&amp;gt;USER[User service]
+PROXY--&amp;gt;STATUS[Status service]
+PROXY--&amp;gt;STORY[Story service]
+USER--&amp;gt;USER_DB[(User DB)]
+STATUS--&amp;gt;STATUS_DB[(Status DB)]
+STATUS--&amp;gt;USER
+STORY--&amp;gt;STORY_DB[(Story DB)]
+STORY--&amp;gt;OBJECT_DB[(Object DB)]
+STORY--&amp;gt;USER
+&lt;/code>&lt;/pre>
+&lt;h3 id="what-to-do">What to do?&lt;/h3>
+&lt;ol>
+&lt;li>In your project folder, make sub projects. Each sub project will be a separate service.&lt;/li>
+&lt;li>Download and configure nginx so that it works as a reverse proxy for all the services&lt;/li>
+&lt;li>For nginx configuration Google is your friend. You can also follow their official docs at &lt;a href="https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/" target="_blank" rel="noopener">docs.nginx.com&lt;/a>.&lt;/li>
+&lt;li>Write additional code so that the services communicate among themselves and the business logic discussed in &lt;em>step 1&lt;/em> is served.
+&lt;ul>
+&lt;li>You may need to check requests for &lt;strong>authorization&lt;/strong> when a user hits &lt;strong>status service&lt;/strong> and &lt;strong>story service&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Although it&amp;rsquo;s a best practice to use separate database instances for each service, we will ignore it now for simplicity. Don&amp;rsquo;t worry we&amp;rsquo;ll segregate the database in some later steps.&lt;/li>
+&lt;/ol>
+&lt;h2 id="step-3-containerize-and-orchestrate-coming-soon">Step 3: Containerize and orchestrate (Coming soon!)&lt;/h2>
 &lt;pre>&lt;code class="language-mermaid">%% graph TD
 %% CLIENT[&amp;quot;Client&amp;quot;]--&amp;gt;PROXY[&amp;quot;Reverse Proxy (Nginx)&amp;quot;]
 %% PROXY--&amp;gt;AUTH[Reg &amp;amp; Auth]
@@ -282,12 +313,7 @@ Our system architecture will be like the following. -->
 %% HS--&amp;gt;STATUS_DB
 %% STORY--&amp;gt;STORY_DB[(Story DB)]
 %% STORY--&amp;gt;OBJECT_DB[(Object DB)]
-&lt;/code>&lt;/pre>
-&lt;!-- ### What to do?
-1. In your project folder, make sub projects. Each sub project will be a separate service.
-1. Download and configure nginx so that it works as a reverse proxy for all http services (in our case **ride sharing service** and **rating service**).
-1. For nginx configuration Google is your friend. You can also follow their official docs at [docs.nginx.com](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/).
-1. Write additional code so that the services communicate among themselves and the business logic discussed in _step 1_ is served. --></description></item><item><title>Nmap</title><link>https://rafed.github.io/talk/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://rafed.github.io/talk/example/</guid><description>&lt;div class="alert alert-note">
+&lt;/code>&lt;/pre></description></item><item><title>Nmap</title><link>https://rafed.github.io/talk/example/</link><pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate><guid>https://rafed.github.io/talk/example/</guid><description>&lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>

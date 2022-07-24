@@ -168,11 +168,14 @@ Lab
 <li><a href=#requirements>Requirements</a></li>
 </ul>
 </li>
-<li><a href=#step-2-service-into-microservices-coming-soon>Step 2: Service into microservices (Coming Soon!)</a>
+<li><a href=#step-2-service-into-microservices>Step 2: Service into microservices</a>
 <ul>
+<li><a href=#requirements-1>Requirements</a></li>
 <li><a href=#architecture-1>Architecture</a></li>
+<li><a href=#what-to-do>What to do?</a></li>
 </ul>
 </li>
+<li><a href=#step-3-containerize-and-orchestrate-coming-soon>Step 3: Containerize and orchestrate (Coming soon!)</a></li>
 </ul>
 </nav>
 </div>
@@ -225,7 +228,7 @@ Lab
 </li>
 <li><strong>/story</strong> endpoint for creating and retrieving stories
 <ul>
-<li>GET: Get latest 10 statuses of all users except logged in user</li>
+<li>GET: Get latest 10 stories of all users except logged in user</li>
 <li>POST: Create new story for user</li>
 </ul>
 </li>
@@ -243,8 +246,60 @@ Lab
 <li>Don&rsquo;t implement extra features. Because, distributing them in multiple instances could turn out to be a problem later.</li>
 <li>You may use any programming language. However, <strong>Node.js or Python or Go</strong> is recommended.</li>
 </ul>
-<h2 id=step-2-service-into-microservices-coming-soon>Step 2: Service into microservices (Coming Soon!)</h2>
+<h2 id=step-2-service-into-microservices>Step 2: Service into microservices</h2>
+<p>If you have completed step 1, congratulations! By now you have learned how to-</p>
+<ul>
+<li>make APIs and call them (from a frontend)</li>
+<li>integrate database with an application</li>
+<li>use an object store database</li>
+</ul>
+<p>If you have done all that, kudos! You are now ready to start building microservices (or more like breaking an app into microservices).</p>
+<h3 id=requirements-1>Requirements</h3>
+<p>Let&rsquo;s recap what modules we have in our backend system so far:</p>
+<ul>
+<li>a Reg & Auth module</li>
+<li>a Story module</li>
+<li>a Status module</li>
+</ul>
+<p>Currently these modules serve from a single monolith. We need to segregate them to the following services.</p>
+<ol>
+<li>User service
+<ul>
+<li>Registration</li>
+<li>Login</li>
+<li>Authentication</li>
+</ul>
+</li>
+<li>Status service</li>
+<li>Story service</li>
+</ol>
+<p>Our system architecture will be like the following.</p>
 <h3 id=architecture-1>Architecture</h3>
+<pre><code class=language-mermaid>graph TD
+CLIENT[&quot;Client&quot;]--&gt;PROXY[&quot;Reverse Proxy (Nginx)&quot;]
+PROXY--&gt;USER[User service]
+PROXY--&gt;STATUS[Status service]
+PROXY--&gt;STORY[Story service]
+USER--&gt;USER_DB[(User DB)]
+STATUS--&gt;STATUS_DB[(Status DB)]
+STATUS--&gt;USER
+STORY--&gt;STORY_DB[(Story DB)]
+STORY--&gt;OBJECT_DB[(Object DB)]
+STORY--&gt;USER
+</code></pre>
+<h3 id=what-to-do>What to do?</h3>
+<ol>
+<li>In your project folder, make sub projects. Each sub project will be a separate service.</li>
+<li>Download and configure nginx so that it works as a reverse proxy for all the services</li>
+<li>For nginx configuration Google is your friend. You can also follow their official docs at <a href=https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/ target=_blank rel=noopener>docs.nginx.com</a>.</li>
+<li>Write additional code so that the services communicate among themselves and the business logic discussed in <em>step 1</em> is served.
+<ul>
+<li>You may need to check requests for <strong>authorization</strong> when a user hits <strong>status service</strong> and <strong>story service</strong></li>
+</ul>
+</li>
+<li>Although it&rsquo;s a best practice to use separate database instances for each service, we will ignore it now for simplicity. Don&rsquo;t worry we&rsquo;ll segregate the database in some later steps.</li>
+</ol>
+<h2 id=step-3-containerize-and-orchestrate-coming-soon>Step 3: Containerize and orchestrate (Coming soon!)</h2>
 <pre><code class=language-mermaid>%% graph TD
 %% CLIENT[&quot;Client&quot;]--&gt;PROXY[&quot;Reverse Proxy (Nginx)&quot;]
 %% PROXY--&gt;AUTH[Reg &amp; Auth]
