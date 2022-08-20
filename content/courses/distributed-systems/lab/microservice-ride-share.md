@@ -113,7 +113,7 @@ In this step we will do three things in our app-
 
 ### Self Learning
 
-First, you will need to do learn about containerization and orchestration **with docker**. You can watch the following tutorials-
+First, you will need to learn about containerization and orchestration **with docker**. You can watch the following tutorials-
 - [Docker in 100 seconds](https://www.youtube.com/watch?v=Gjnup-PuquQ) 
 - [Docker in 7 easy steps](https://www.youtube.com/watch?v=gAkwW2tuIqE)
 - [Docker-compose tutorial](https://www.youtube.com/watch?v=MVIcrmeV_6c)
@@ -121,7 +121,7 @@ First, you will need to do learn about containerization and orchestration **with
 
 Once you understand the fundamentals, you can refer to [this manual](https://rafed.github.io/devra/posts/docker/useful-docker-commands/) to run the most commonly used docker commands.
 
-Additionally check out [this repo](https://github.com/rafed/nginx-flask-docker) for a demo web app that's load balanced, containerized and orchestrated with docker.
+Additionally, check out [this repo](https://github.com/rafed/nginx-flask-docker) for a demo web app that's load balanced, containerized and orchestrated with docker.
 
 ### What to do?
 1. **Write a Dockerfile** for each of the following service in their respective sub-project folder

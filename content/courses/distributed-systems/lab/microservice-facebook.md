@@ -1,6 +1,6 @@
 ---
 title: "Facebook backend: From monolith to microservices"
-date: 2022-06-25
+date: 2022-08-20
 type: book
 weight: 40
 diagram: true
@@ -113,19 +113,37 @@ STORY-->USER
 1. Although it's a best practice to use separate database instances for each service, we will ignore it now for simplicity. Don't worry we'll segregate the database in some later steps.
 
 
-## Step 3: Containerize and orchestrate (Coming soon!)
+## Step 3: Containerize and orchestrate
 
-```mermaid
-%% graph TD
-%% CLIENT["Client"]-->PROXY["Reverse Proxy (Nginx)"]
-%% PROXY-->AUTH[Reg & Auth]
-%% PROXY-->STATUS[Status]
-%% PROXY-->STORY[Story]
-%% AUTH-->USER_DB[(User DB)]
-%% STATUS-->STATUS_DB[(Status DB)]
-%% STATUS-->HS_MQ
-%% HS_MQ-->HS[Hate speech <br> checker]
-%% HS-->STATUS_DB
-%% STORY-->STORY_DB[(Story DB)]
-%% STORY-->OBJECT_DB[(Object DB)]
-```
+If you have completed step 2, congratulations! You have successfully created a distributed system and have a got a flavor of how microservices work!
+
+In this step we will do three things in our app-
+- **containerize** the services that we made
+- use **pre built containers** for _mysql/mongo_ and _nginx_
+- and **orchestrate** our services
+
+### Self Learning
+
+First, you will need to learn about containerization and orchestration **with docker**. You can watch the following tutorials-
+- [Docker in 100 seconds](https://www.youtube.com/watch?v=Gjnup-PuquQ) 
+- [Docker in 7 easy steps](https://www.youtube.com/watch?v=gAkwW2tuIqE)
+- [Docker-compose tutorial](https://www.youtube.com/watch?v=MVIcrmeV_6c)
+- And please, Google some stuff yourself
+
+Once you understand the fundamentals, you can refer to [this manual](https://rafed.github.io/devra/posts/docker/useful-docker-commands/) to run the most commonly used docker commands.
+
+<!-- Additionally, check out [this repo](https://github.com/rafed/nginx-flask-docker) for a demo web app that's load balanced, containerized and orchestrated with docker. -->
+
+### What to do?
+1. **Write a Dockerfile** for each of the services in their respective directories
+    * User service
+    * Status service
+    * Story service
+1. **Write a docker-compose.yml** file in the root project folder to orchestrate all of the services
+1. **Use separate database** (containers) for each service
+
+#### Other instructions
+1. No change in the application code is necessary (Except for maybe port numbers. You may want to reassign them).
+1. Windows cannot handle docker containers properly (even though Docker claims that they have support for windows). Use a Linux environment to run docker containers.
+
+## Step 4: Deploy in a swarm (Coming Soon!)
