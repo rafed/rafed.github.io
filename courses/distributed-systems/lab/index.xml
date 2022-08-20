@@ -108,7 +108,7 @@ R--&amp;gt;C
 &lt;li>orchestrate our services&lt;/li>
 &lt;/ul>
 &lt;h3 id="self-learning">Self Learning&lt;/h3>
-&lt;p>First, you will need to do learn about containerization and orchestration &lt;strong>with docker&lt;/strong>. You can watch the following tutorials-&lt;/p>
+&lt;p>First, you will need to learn about containerization and orchestration &lt;strong>with docker&lt;/strong>. You can watch the following tutorials-&lt;/p>
 &lt;ul>
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=Gjnup-PuquQ" target="_blank" rel="noopener">Docker in 100 seconds&lt;/a>&lt;/li>
 &lt;li>&lt;a href="https://www.youtube.com/watch?v=gAkwW2tuIqE" target="_blank" rel="noopener">Docker in 7 easy steps&lt;/a>&lt;/li>
@@ -116,7 +116,7 @@ R--&amp;gt;C
 &lt;li>And please, Google some stuff yourself&lt;/li>
 &lt;/ul>
 &lt;p>Once you understand the fundamentals, you can refer to &lt;a href="https://rafed.github.io/devra/posts/docker/useful-docker-commands/" target="_blank" rel="noopener">this manual&lt;/a> to run the most commonly used docker commands.&lt;/p>
-&lt;p>Additionally check out &lt;a href="https://github.com/rafed/nginx-flask-docker" target="_blank" rel="noopener">this repo&lt;/a> for a demo web app that&amp;rsquo;s load balanced, containerized and orchestrated with docker.&lt;/p>
+&lt;p>Additionally, check out &lt;a href="https://github.com/rafed/nginx-flask-docker" target="_blank" rel="noopener">this repo&lt;/a> for a demo web app that&amp;rsquo;s load balanced, containerized and orchestrated with docker.&lt;/p>
 &lt;h3 id="what-to-do-1">What to do?&lt;/h3>
 &lt;ol>
 &lt;li>&lt;strong>Write a Dockerfile&lt;/strong> for each of the following service in their respective sub-project folder
@@ -165,7 +165,7 @@ CC --- CSC
 &lt;li>a &amp;ldquo;send email function&amp;rdquo; that periodically sends emails to the addresses stored in the message broker&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ol></description></item><item><title>Facebook backend: From monolith to microservices</title><link>https://rafed.github.io/courses/distributed-systems/lab/microservice-facebook/</link><pubDate>Sat, 25 Jun 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/microservice-facebook/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+&lt;/ol></description></item><item><title>Facebook backend: From monolith to microservices</title><link>https://rafed.github.io/courses/distributed-systems/lab/microservice-facebook/</link><pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/microservice-facebook/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
 &lt;p>Your task is to build a monolithic web based system. Then, break down the system into microservices following the microservice architecture. To acheive this follow the steps below.&lt;/p>
 &lt;h2 id="step-1-build-a-server-and-a-client">Step 1: Build a server and a client&lt;/h2>
 &lt;p>You will build a rudimentary version of &lt;strong>Facebook&lt;/strong>. The app itself should not be complex as we are here to build a distributed system and not a full featured social media app.&lt;/p>
@@ -280,17 +280,39 @@ STORY--&amp;gt;USER
 &lt;/li>
 &lt;li>Although it&amp;rsquo;s a best practice to use separate database instances for each service, we will ignore it now for simplicity. Don&amp;rsquo;t worry we&amp;rsquo;ll segregate the database in some later steps.&lt;/li>
 &lt;/ol>
-&lt;h2 id="step-3-containerize-and-orchestrate-coming-soon">Step 3: Containerize and orchestrate (Coming soon!)&lt;/h2>
-&lt;pre>&lt;code class="language-mermaid">%% graph TD
-%% CLIENT[&amp;quot;Client&amp;quot;]--&amp;gt;PROXY[&amp;quot;Reverse Proxy (Nginx)&amp;quot;]
-%% PROXY--&amp;gt;AUTH[Reg &amp;amp; Auth]
-%% PROXY--&amp;gt;STATUS[Status]
-%% PROXY--&amp;gt;STORY[Story]
-%% AUTH--&amp;gt;USER_DB[(User DB)]
-%% STATUS--&amp;gt;STATUS_DB[(Status DB)]
-%% STATUS--&amp;gt;HS_MQ
-%% HS_MQ--&amp;gt;HS[Hate speech &amp;lt;br&amp;gt; checker]
-%% HS--&amp;gt;STATUS_DB
-%% STORY--&amp;gt;STORY_DB[(Story DB)]
-%% STORY--&amp;gt;OBJECT_DB[(Object DB)]
-&lt;/code>&lt;/pre></description></item></channel></rss>
+&lt;h2 id="step-3-containerize-and-orchestrate">Step 3: Containerize and orchestrate&lt;/h2>
+&lt;p>If you have completed step 2, congratulations! You have successfully created a distributed system and have a got a flavor of how microservices work!&lt;/p>
+&lt;p>In this step we will do three things in our app-&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>containerize&lt;/strong> the services that we made&lt;/li>
+&lt;li>use &lt;strong>pre built containers&lt;/strong> for &lt;em>mysql/mongo&lt;/em> and &lt;em>nginx&lt;/em>&lt;/li>
+&lt;li>and &lt;strong>orchestrate&lt;/strong> our services&lt;/li>
+&lt;/ul>
+&lt;h3 id="self-learning">Self Learning&lt;/h3>
+&lt;p>First, you will need to learn about containerization and orchestration &lt;strong>with docker&lt;/strong>. You can watch the following tutorials-&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=Gjnup-PuquQ" target="_blank" rel="noopener">Docker in 100 seconds&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=gAkwW2tuIqE" target="_blank" rel="noopener">Docker in 7 easy steps&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=MVIcrmeV_6c" target="_blank" rel="noopener">Docker-compose tutorial&lt;/a>&lt;/li>
+&lt;li>And please, Google some stuff yourself&lt;/li>
+&lt;/ul>
+&lt;p>Once you understand the fundamentals, you can refer to &lt;a href="https://rafed.github.io/devra/posts/docker/useful-docker-commands/" target="_blank" rel="noopener">this manual&lt;/a> to run the most commonly used docker commands.&lt;/p>
+&lt;!-- Additionally, check out [this repo](https://github.com/rafed/nginx-flask-docker) for a demo web app that's load balanced, containerized and orchestrated with docker. -->
+&lt;h3 id="what-to-do-1">What to do?&lt;/h3>
+&lt;ol>
+&lt;li>&lt;strong>Write a Dockerfile&lt;/strong> for each of the services in their respective directories
+&lt;ul>
+&lt;li>User service&lt;/li>
+&lt;li>Status service&lt;/li>
+&lt;li>Story service&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Write a docker-compose.yml&lt;/strong> file in the root project folder to orchestrate all of the services&lt;/li>
+&lt;li>&lt;strong>Use separate database&lt;/strong> (containers) for each service&lt;/li>
+&lt;/ol>
+&lt;h4 id="other-instructions-1">Other instructions&lt;/h4>
+&lt;ol>
+&lt;li>No change in the application code is necessary (Except for maybe port numbers. You may want to reassign them).&lt;/li>
+&lt;li>Windows cannot handle docker containers properly (even though Docker claims that they have support for windows). Use a Linux environment to run docker containers.&lt;/li>
+&lt;/ol>
+&lt;h2 id="step-4-deploy-in-a-swarm-coming-soon">Step 4: Deploy in a swarm (Coming Soon!)&lt;/h2></description></item></channel></rss>
