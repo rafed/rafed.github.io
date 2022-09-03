@@ -181,7 +181,13 @@ Lab
 <li><a href=#what-to-do-1>What to do?</a></li>
 </ul>
 </li>
-<li><a href=#step-4-deploy-in-a-swarm-coming-soon>Step 4: Deploy in a swarm (Coming Soon!)</a></li>
+<li><a href=#step-4-deploy-in-a-swarm>Step 4: Deploy in a swarm</a>
+<ul>
+<li><a href=#self-learning-1>Self Learning</a></li>
+<li><a href=#what-to-do-2>What to do?</a></li>
+<li><a href=#important-commands-when-creating-a-swarm>Important commands when creating a swarm</a></li>
+</ul>
+</li>
 </ul>
 </nav>
 </div>
@@ -334,12 +340,40 @@ STORY--&gt;USER
 <li><strong>Write a docker-compose.yml</strong> file in the root project folder to orchestrate all of the services</li>
 <li><strong>Use separate database</strong> (containers) for each service</li>
 </ol>
+<p><em>N.B Follow the reference architecture in step 2</em></p>
 <h4 id=other-instructions-1>Other instructions</h4>
 <ol>
 <li>No change in the application code is necessary (Except for maybe port numbers. You may want to reassign them).</li>
 <li>Windows cannot handle docker containers properly (even though Docker claims that they have support for windows). Use a Linux environment to run docker containers.</li>
 </ol>
-<h2 id=step-4-deploy-in-a-swarm-coming-soon>Step 4: Deploy in a swarm (Coming Soon!)</h2>
+<h2 id=step-4-deploy-in-a-swarm>Step 4: Deploy in a swarm</h2>
+<p>Great job guys! By now if you have successfully created a distributed system. However, the current system is distributed in software. What if we want to distribute our services in hardware?</p>
+<p>In this step we will distribute our services in hardware. We will create a cluster of computers at first (called a swarm). Then we will deploy our containers in it.</p>
+<p>This step by far should be the easiest (if you have done everything in the previous steps properly).</p>
+<h3 id=self-learning-1>Self Learning</h3>
+<p>Go through the following tutorials at first:</p>
+<ul>
+<li>The <a href=https://docs.docker.com/engine/swarm/swarm-tutorial/ target=_blank rel=noopener>official docker swarm docs</a> have a very good getting started tutorial. Go through it.</li>
+<li>Watch this video <a href="https://www.youtube.com/watch?v=Tm0Q5zr3FL4" target=_blank rel=noopener>www.youtube.com/watch?v=Tm0Q5zr3FL4</a></li>
+<li>And please google some stuff yourself.</li>
+</ul>
+<h3 id=what-to-do-2>What to do?</h3>
+<ul>
+<li>Create a team of two/three members (max three members per team)</li>
+<li>Create a docker swarm with two/three PCs</li>
+<li>Deploy each member&rsquo;s facebook app in the swarm</li>
+</ul>
+<h3 id=important-commands-when-creating-a-swarm>Important commands when creating a swarm</h3>
+<pre><code class=language-bash>$ docker create swarm 
+$ docker join swarm --token SWMTKN-1-26hm.....jxjxnj 192.168.x.xxx:2377
+$ docker swarm leave --force
+
+$ docker node ls
+$ docker info # check current swarm status
+
+$ docker stack deploy --compose-file docker-compose.yml bsse07xx
+$ docker stack services bsse07xx
+</code></pre>
 </div>
 <div class=article-widget>
 <div class=post-nav>
