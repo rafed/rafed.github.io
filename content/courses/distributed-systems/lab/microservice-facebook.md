@@ -142,8 +142,42 @@ Once you understand the fundamentals, you can refer to [this manual](https://raf
 1. **Write a docker-compose.yml** file in the root project folder to orchestrate all of the services
 1. **Use separate database** (containers) for each service
 
+_N.B Follow the reference architecture in step 2_
+
 #### Other instructions
 1. No change in the application code is necessary (Except for maybe port numbers. You may want to reassign them).
 1. Windows cannot handle docker containers properly (even though Docker claims that they have support for windows). Use a Linux environment to run docker containers.
 
-## Step 4: Deploy in a swarm (Coming Soon!)
+## Step 4: Deploy in a swarm
+
+Great job guys! By now if you have successfully created a distributed system. However, the current system is distributed in software. What if we want to distribute our services in hardware?
+
+In this step we will distribute our services in hardware. We will create a cluster of computers at first (called a swarm). Then we will deploy our containers in it.
+
+This step by far should be the easiest (if you have done everything in the previous steps properly).
+
+### Self Learning
+
+Go through the following tutorials at first:
+* The [official docker swarm docs](https://docs.docker.com/engine/swarm/swarm-tutorial/) have a very good getting started tutorial. Go through it.
+* Watch this video [www.youtube.com/watch?v=Tm0Q5zr3FL4](https://www.youtube.com/watch?v=Tm0Q5zr3FL4)
+* And please google some stuff yourself.
+
+### What to do?
+* Create a team of two/three members (max three members per team)
+* Create a docker swarm with two/three PCs
+* Deploy each member's facebook app in the swarm
+
+### Important commands when creating a swarm
+
+```bash
+$ docker create swarm 
+$ docker join swarm --token SWMTKN-1-26hm.....jxjxnj 192.168.x.xxx:2377
+$ docker swarm leave --force
+
+$ docker node ls
+$ docker info # check current swarm status
+
+$ docker stack deploy --compose-file docker-compose.yml bsse07xx
+$ docker stack services bsse07xx
+```

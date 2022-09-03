@@ -27,12 +27,25 @@ experience:
     company_logo: bs23
     company_url: 'https://brainstation-23.com/'
     location: Dhaka
+    date_start: '2022-07-01'
+    date_end: ''
+    description: |2-
+      DevOps Engineer in multiple teams/cross-border teams. Working with
+      * AWS, Terraform
+      * Kubernetes
+      * CI/CD pipelines, Azure Devops
+
+  - title: Associate Software Engineer
+    company: 'Brainstation-23'
+    company_logo: bs23
+    company_url: 'https://brainstation-23.com/'
+    location: Dhaka
     date_start: '2021-03-01'
     date_end: ''
     description: |2-
       Part of TEQ team and contributing to many other teams. Working as a-
       * Backend Engineer (Python, Django)
-      * DevOps Engineer (AWS, Kubernetes, CI/CD, Terraform)
+      * DevOps Engineer (AWS, Kubernetes, CI/CD)
 
   - title: Short Course Instructor
     company: Institute of Information Technology (IIT), University of Dhaka
