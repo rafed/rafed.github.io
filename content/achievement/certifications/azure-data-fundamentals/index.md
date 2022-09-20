@@ -30,4 +30,4 @@ url_pdf: "/achievement/certifications/azure-data-fundamentals/rafed.pdf"
 # slides: example
 ---
 
-In 2022, knowing how to handle data is as important as kowing how to handle manage applications in the cloud. This is my first certification that proves that I know the fundamentals of data management. Looking forward to the future when I can become a data specialist.
+In 2022, knowing how to handle data is as important as kowing how to handle applications in the cloud. This is my first certification that proves that I know the fundamentals of data management. Looking forward to the future when I can become an expert at data management.
