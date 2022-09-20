@@ -23,6 +23,16 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: DevOps Engineer
+    company: 'The Clinician'
+    company_logo: clinician
+    company_url: 'https://theclinician.com/'
+    location: New Zealand
+    date_start: '2022-09-13'
+    date_end: ''
+    description: |2-
+      Working remotely as a DevOps engineer.
+
+  - title: DevOps Engineer
     company: 'Brainstation-23'
     company_logo: bs23
     company_url: 'https://brainstation-23.com/'
@@ -41,7 +51,7 @@ experience:
     company_url: 'https://brainstation-23.com/'
     location: Dhaka
     date_start: '2021-03-01'
-    date_end: ''
+    date_end: '2022-06-30'
     description: |2-
       Part of TEQ team and contributing to many other teams. Working as a-
       * Backend Engineer (Python, Django)
