@@ -397,7 +397,19 @@ Create your slides in Markdown - click the &lt;em>Slides&lt;/em> button to check
 &lt;/ul>
 &lt;/li>
 &lt;/ul></description></item><item><title>BlogRa</title><link>https://rafed.github.io/project/blogra/</link><pubDate>Fri, 12 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/project/blogra/</guid><description>&lt;p>BlogRa is a tech blogging theme for Hugo. I did not find the existing themes for Hugo suitable for my blogging experience. So I made this for myself.&lt;/p>
-&lt;p>Check it out. A star on the repo would be much appreciated.&lt;/p></description></item><item><title>How Well Does Undergraduate Education Prepare Software Engineers? Perspectives of Practitioners in Bangladesh</title><link>https://rafed.github.io/publication/04-how-well-does-undergraduate-education/</link><pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/04-how-well-does-undergraduate-education/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;p>Check it out. A star on the repo would be much appreciated.&lt;/p></description></item><item><title>Hands on Containerization with Docker</title><link>https://rafed.github.io/talk/2021-hands-on-containerization/</link><pubDate>Sun, 07 Feb 2021 11:00:00 +0000</pubDate><guid>https://rafed.github.io/talk/2021-hands-on-containerization/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoFuOYnuhjBW7g5vsCM/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div>
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+Slides can be added in a few ways:
+- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>How Well Does Undergraduate Education Prepare Software Engineers? Perspectives of Practitioners in Bangladesh</title><link>https://rafed.github.io/publication/04-how-well-does-undergraduate-education/</link><pubDate>Sun, 08 Nov 2020 00:00:00 +0000</pubDate><guid>https://rafed.github.io/publication/04-how-well-does-undergraduate-education/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click the &lt;em>Cite&lt;/em> button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 &lt;/div>
