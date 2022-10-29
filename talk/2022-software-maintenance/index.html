@@ -8,8 +8,8 @@
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
 <meta name=author content="Rafed Muhammad Yasir">
-<meta name=description content="An example talk using Wowchemy's Markdown slides feature.">
-<link rel=alternate hreflang=en-us href=https://rafed.github.io/talk/example/>
+<meta name=description content="An introductory talk on software maintenance from the perspective of DevOps engineering">
+<link rel=alternate hreflang=en-us href=https://rafed.github.io/talk/2022-software-maintenance/>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css media=print onload="this.media='all'">
 <link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin=anonymous media=print onload="this.media='all'">
@@ -21,18 +21,18 @@
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://rafed.github.io/talk/example/>
+<link rel=canonical href=https://rafed.github.io/talk/2022-software-maintenance/>
 <meta property="twitter:card" content="summary_large_image">
 <meta property="og:site_name" content="Rafed M. Yasir">
-<meta property="og:url" content="https://rafed.github.io/talk/example/">
-<meta property="og:title" content="Nmap | Rafed M. Yasir">
-<meta property="og:description" content="An example talk using Wowchemy's Markdown slides feature."><meta property="og:image" content="https://rafed.github.io/talk/example/featured.jpg">
-<meta property="twitter:image" content="https://rafed.github.io/talk/example/featured.jpg"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2017-01-01T00:00:00+00:00">
-<meta property="article:modified_time" content="2030-06-01T13:00:00+00:00">
-<title>Nmap | Rafed M. Yasir</title>
+<meta property="og:url" content="https://rafed.github.io/talk/2022-software-maintenance/">
+<meta property="og:title" content="Software Maintenance: A DevOps Practitioners Perspective | Rafed M. Yasir">
+<meta property="og:description" content="An introductory talk on software maintenance from the perspective of DevOps engineering"><meta property="og:image" content="https://rafed.github.io/talk/2022-software-maintenance/featured.jpg">
+<meta property="twitter:image" content="https://rafed.github.io/talk/2022-software-maintenance/featured.jpg"><meta property="og:locale" content="en-us">
+<meta property="article:published_time" content="2022-10-29T00:00:00+00:00">
+<meta property="article:modified_time" content="2022-10-30T11:00:00+00:00">
+<title>Software Maintenance: A DevOps Practitioners Perspective | Rafed M. Yasir</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=96344c08df50a1b693cc40432115cbe3>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=ed8a787d8a4cf4520b5be416774149db>
 <script src=/js/wowchemy-init.min.8f76bdc9e086322ed5147724ebba3d06.js></script>
 <div class=page-header>
 <header class=header--fixed>
@@ -70,16 +70,19 @@
 <a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Blogs</span><span class=caret></span>
 </a>
 <div class=dropdown-menu>
-<a class=dropdown-item href=/devra/><span>DevRa - Tech Blog</span></a>
-<a class=dropdown-item href=/blog/><span>Personal Blog</span></a>
+<a class=dropdown-item href=/blog/><span>👤 Personal Blog</span></a>
+<a class=dropdown-item href=/devra/><span>💻 DevRa - Tech Blog</span></a>
 </div>
+</li>
+<li class=nav-item>
+<a class="nav-link active" href=/talk><span>Talks</span></a>
 </li>
 <li class="nav-item dropdown">
 <a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Academics</span><span class=caret></span>
 </a>
 <div class=dropdown-menu>
-<a class=dropdown-item href=/courses/><span>Courses</span></a>
-<a class=dropdown-item href=/publication><span>Publications</span></a>
+<a class=dropdown-item href=/courses/><span>📖 Courses</span></a>
+<a class=dropdown-item href=/publication><span>🖊 Publications</span></a>
 </div>
 </li>
 <li class=nav-item>
@@ -115,70 +118,53 @@
 <div class=page-body>
 <article class=article>
 <div class="article-container pt-3">
-<h1>Nmap</h1>
+<h1>Software Maintenance: A DevOps Practitioners Perspective</h1>
 <div class=article-metadata>
 <span class=article-date>
-Jun 1, 2030
+Oct 30, 2022
 </span>
-</div>
-<div class="btn-links mb-3">
-<a class="btn btn-outline-primary btn-page-header" href=/slides/example/ target=_blank>
-Slides
-</a>
-<a class="btn btn-outline-primary btn-page-header" href=https://twitter.com/georgecushen target=_blank rel=noopener>
-<i class="fab fa-twitter mr-1"></i>Follow</a>
 </div>
 </div>
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:720px;max-height:514px>
 <div style=position:relative>
-<img src=/talk/example/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x2500_fit_q75_h2_lanczos.webp width=720 height=514 alt class=featured-image>
-<span class=article-header-caption>Image credit: <a href=https://unsplash.com/photos/bzdhc5b3Bxs><strong>Unsplash</strong></a></span>
+<img src=/talk/2022-software-maintenance/featured_hu3d03a01dcc18bc5be0e67db3d8d209a6_620088_720x2500_fit_q75_h2_lanczos.webp width=720 height=514 alt class=featured-image>
 </div>
 </div>
 <div class=article-container>
 <div class=article-style>
-<div class="alert alert-note">
-<div>
-Click on the <strong>Slides</strong> button above to view the built-in slides feature.
+<div class=responsive-wrap>
+<iframe src="https://docs.google.com/presentation/d/1VwWcJT23mFyJGtrd0_6F6wIEbs-SmCbIKrbVR5yWd_k/edit?usp=sharing" frameborder=0 width=960 height=569 allowfullscreen mozallowfullscreen=true webkitallowfullscreen=true></iframe>
 </div>
-</div>
-<p>Slides can be added in a few ways:</p>
-<ul>
-<li><strong>Create</strong> slides using Wowchemy&rsquo;s <a href=https://wowchemy.com/docs/managing-content/#create-slides target=_blank rel=noopener><em>Slides</em></a> feature and link using <code>slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Upload</strong> an existing slide deck to <code>static/</code> and link using <code>url_slides</code> parameter in the front matter of the talk file</li>
-<li><strong>Embed</strong> your slides (e.g. Google Slides) or presentation video on this page using <a href=https://wowchemy.com/docs/writing-markdown-latex/ target=_blank rel=noopener>shortcodes</a>.</li>
-</ul>
-<p>Further event details, including <a href=https://wowchemy.com/docs/writing-markdown-latex/ target=_blank rel=noopener>page elements</a> such as image galleries, can be added to the body of this page.</p>
 </div>
 <div class=share-box>
 <ul class=share>
 <li>
-<a href="https://twitter.com/intent/tweet?url=https://rafed.github.io/talk/example/&text=Nmap" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter>
+<a href="https://twitter.com/intent/tweet?url=https://rafed.github.io/talk/2022-software-maintenance/&text=Software%20Maintenance:%20A%20DevOps%20Practitioners%20Perspective" target=_blank rel=noopener class=share-btn-twitter aria-label=twitter>
 <i class="fab fa-twitter"></i>
 </a>
 </li>
 <li>
-<a href="https://www.facebook.com/sharer.php?u=https://rafed.github.io/talk/example/&t=Nmap" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook>
+<a href="https://www.facebook.com/sharer.php?u=https://rafed.github.io/talk/2022-software-maintenance/&t=Software%20Maintenance:%20A%20DevOps%20Practitioners%20Perspective" target=_blank rel=noopener class=share-btn-facebook aria-label=facebook>
 <i class="fab fa-facebook"></i>
 </a>
 </li>
 <li>
-<a href="mailto:?subject=Nmap&body=https://rafed.github.io/talk/example/" target=_blank rel=noopener class=share-btn-email aria-label=envelope>
+<a href="mailto:?subject=Software%20Maintenance:%20A%20DevOps%20Practitioners%20Perspective&body=https://rafed.github.io/talk/2022-software-maintenance/" target=_blank rel=noopener class=share-btn-email aria-label=envelope>
 <i class="fas fa-envelope"></i>
 </a>
 </li>
 <li>
-<a href="https://www.linkedin.com/shareArticle?url=https://rafed.github.io/talk/example/&title=Nmap" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in>
+<a href="https://www.linkedin.com/shareArticle?url=https://rafed.github.io/talk/2022-software-maintenance/&title=Software%20Maintenance:%20A%20DevOps%20Practitioners%20Perspective" target=_blank rel=noopener class=share-btn-linkedin aria-label=linkedin-in>
 <i class="fab fa-linkedin-in"></i>
 </a>
 </li>
 <li>
-<a href="whatsapp://send?text=Nmap%20https://rafed.github.io/talk/example/" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp>
+<a href="whatsapp://send?text=Software%20Maintenance:%20A%20DevOps%20Practitioners%20Perspective%20https://rafed.github.io/talk/2022-software-maintenance/" target=_blank rel=noopener class=share-btn-whatsapp aria-label=whatsapp>
 <i class="fab fa-whatsapp"></i>
 </a>
 </li>
 <li>
-<a href="https://service.weibo.com/share/share.php?url=https://rafed.github.io/talk/example/&title=Nmap" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo>
+<a href="https://service.weibo.com/share/share.php?url=https://rafed.github.io/talk/2022-software-maintenance/&title=Software%20Maintenance:%20A%20DevOps%20Practitioners%20Perspective" target=_blank rel=noopener class=share-btn-weibo aria-label=weibo>
 <i class="fab fa-weibo"></i>
 </a>
 </li>
