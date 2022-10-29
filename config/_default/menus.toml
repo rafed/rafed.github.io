@@ -61,15 +61,21 @@
 
   [[main]]
       parent = "blog"
-      name = "DevRa - Tech Blog"
+      name = "💻 DevRa - Tech Blog"
       url = "https://rafed.github.io/devra/"
       weight = 1
 
   [[main]]
       parent = "blog"
-      name = "Personal Blog"
+      name = "👤 Personal Blog"
       url = "https://rafed.github.io/blog/"
       weight = 1
+
+[[main]]
+  identifier = "talk"
+  name = "Talks"
+  url = "talk"
+  weight = 55
 
 [[main]]
   identifier = "academics"
@@ -78,13 +84,13 @@
 
   [[main]]
     parent = "academics"
-    name = "Courses"
+    name = "📖 Courses"
     url = "courses/"
     weight = 62
   
   [[main]]
     parent = "academics"
-    name = "Publications"
+    name = "🖊 Publications"
     url = "publication"
     weight = 65
 
