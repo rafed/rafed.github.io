@@ -15,4 +15,4 @@ design:
   columns: '2'
 ---
 
-I've been learning music from a young age. I was home schooled in Rabindra Sangit, Nazrul geeti, Folk music and Indian Classical for over 7 years. I later joined chayanaut but couldn't continue long because... you know, life happened. Now I have an electric keyboard and practice the piano. Check out my youtube channel [Rafulu](https://www.youtube.com/channel/UCm06Y0e-rYROhZ76-GLtYTQ).
+I've been learning music since I was very small. For more than 7 years, I was home schooled in Indian classical, folk music, Rabindra Sangit, and Nazrul Geeti. Later, I joined Chayanaut, but I couldn't stick with it for too long because life happened. Now I have an electric keyboard and practice the piano from time to time. Check out my youtube channel [Rafulu](https://www.youtube.com/channel/UCm06Y0e-rYROhZ76-GLtYTQ).

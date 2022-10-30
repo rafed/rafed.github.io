@@ -15,4 +15,4 @@ design:
   columns: '2'
 ---
 
-I'm a big martial arts fan. I actively learned Judo and Karate in the past. Additionally I've tried to self teach myself techniques of other martial arts such as Tae Kwon Do, Boxing, etc. Finding time for practicing nowadays have become difficult. However, I still dream of going back to the dojo, break my sweat, and spar again.
+I'm a huge fan of martial arts. I have practiced Judo and Karate in the past. Additionally, I've attempted to teach myself the fundamentals of various martial arts, such Tae Kwon Do, boxing, etc. Nowadays, finding time to practice has become challenging. I still dream of returning to the dojo to spar and fight again.
