@@ -56,9 +56,9 @@ social:
 - icon: stackoverflow
   icon_pack: ai
   link: https://stackoverflow.com/users/5761286/rafed-muhammad-yasir
-- icon: hackerrank
-  icon_pack: fab
-  link: https://www.hackerrank.com/rafed123
+# - icon: hackerrank
+#   icon_pack: fab
+#   link: https://www.hackerrank.com/rafed123
 - icon: kaggle
   icon_pack: fab
   link: https://www.kaggle.com/rafedyasir
