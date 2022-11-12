@@ -3,23 +3,23 @@ title: "Exploring the Impact of Code Style in Identifying Good Programmers"
 authors:
 - admin
 - Dr. Ahmedul Kabir
-date: "2020-01-051T00:00:00Z"
+date: "2022-12-051T00:00:00Z"
 doi: "10.48550/arXiv.2206.10891"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2020-01-05T00:00:00Z"
+publishDate: "2022-10-05T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: arXiv
-publication_short: arXiv
+publication: International Workshop on Quantitative Approaches to Software Quality
+publication_short: QuASoQ
 
-abstract: Code style reflects the choice of textual representation of source code. This study, for the first time, explores whether code style can be used to identify good programmers with a vision that recruitment process in the software industry can be improved. For analysis, solutions from Google Code Jam were selected. The study used cluster analysis to find association between good programmers and style clusters. Furthermore, supervised machine learning models were trained with stylistic features to predict good programmers. Results reveal that, although association between programmers with particular clusters could not be concluded, supervised learning models can predict good programmers. 
+abstract: Code style is an aesthetic choice exhibited in source code that reflects a programmers individual coding habits. This study is the first to investigate whether code style can be used as an indicator to identify good programmers. Data from Google Code Jam were chosen for conducting the study. A cluster analysis was performed to find whether a particular coding style could be associated with good programmers. Furthermore, supervised machine learning models were trained using stylistic features and evaluated using recall, macro-F1, AUC-ROC and balanced accuracy to predict good programmers. The results demonstrate that good programmers may be identified using supervised machine learning models, despite that no particular style groups could be attributed as a good style.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -32,7 +32,7 @@ abstract: Code style reflects the choice of textual representation of source cod
 # - name: Custom Link
 #   url: http://example.org
 # url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-# url_code: 'https://github.com/rafed/godexpo/'
+url_code: 'https://github.com/rafed/GcjStyleAnalysis'
 # url_dataset: '#'
 # url_poster: '#'
 # url_project: ''

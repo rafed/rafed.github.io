@@ -59,9 +59,9 @@ social:
 # - icon: hackerrank
 #   icon_pack: fab
 #   link: https://www.hackerrank.com/rafed123
-- icon: kaggle
-  icon_pack: fab
-  link: https://www.kaggle.com/rafedyasir
+# - icon: kaggle
+#   icon_pack: fab
+#   link: https://www.kaggle.com/rafedyasir
 - icon: blog
   icon_pack: fas
   link: https://rafed.github.io/devra/
@@ -71,9 +71,9 @@ social:
 - icon: facebook
   icon_pack: fab
   link: https://www.facebook.com/devrafed
-- icon: youtube
-  icon_pack: fab
-  link: https://www.youtube.com/channel/UC5NjXdWBtuSiY4QcU0nh_JA
+# - icon: youtube
+#   icon_pack: fab
+#   link: https://www.youtube.com/channel/UC5NjXdWBtuSiY4QcU0nh_JA
 
 
 
