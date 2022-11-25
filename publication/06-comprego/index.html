@@ -28,9 +28,9 @@
 <meta property="og:title" content="Analyzing Program Comprehensibility of Go Projects | Rafed M. Yasir">
 <meta property="og:description" content="Program comprehension is one of the most important activities in developing and maintaining software. Although existing studies have examined aspects of Go such as design patterns, code smells and comment density, the comprehensibility of Go has not been explored yet. This study analyzes the comprehensibility of Go by comparing it with Java based on five metrics namely Too Long Files, Too Long Methods, Nesting Depth, Lack of Cohesive Comments and Duplicate Comments. For comparison, 50 popular, diverse and open-source projects are selected from each language. Results show that Go projects outperform Java in terms of Nesting Depth, Lack of Cohesive Comments and Duplicate Comments."><meta property="og:image" content="https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2021-03-24T00:00:00+00:00">
-<meta property="article:modified_time" content="2021-03-24T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://rafed.github.io/publication/06-comprego/"},"headline":"Analyzing Program Comprehensibility of Go Projects","datePublished":"2021-03-24T00:00:00Z","dateModified":"2021-03-24T00:00:00Z","author":{"@type":"Person","name":"Moumita Asad"},"publisher":{"@type":"Organization","name":"Rafed M. Yasir","logo":{"@type":"ImageObject","url":"https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_192x192_fill_lanczos_center_3.png"}},"description":"Program comprehension is one of the most important activities in developing and maintaining software. Although existing studies have examined aspects of Go such as design patterns, code smells and comment density, the comprehensibility of Go has not been explored yet. This study analyzes the comprehensibility of Go by comparing it with Java based on five metrics namely Too Long Files, Too Long Methods, Nesting Depth, Lack of Cohesive Comments and Duplicate Comments. For comparison, 50 popular, diverse and open-source projects are selected from each language. Results show that Go projects outperform Java in terms of Nesting Depth, Lack of Cohesive Comments and Duplicate Comments."}</script>
+<meta property="article:published_time" content="2021-04-21T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-04-21T00:00:00+00:00">
+<script type=application/ld+json>{"@context":"https://schema.org","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"https://rafed.github.io/publication/06-comprego/"},"headline":"Analyzing Program Comprehensibility of Go Projects","datePublished":"2021-04-21T00:00:00Z","dateModified":"2021-04-21T00:00:00Z","author":{"@type":"Person","name":"Moumita Asad"},"publisher":{"@type":"Organization","name":"Rafed M. Yasir","logo":{"@type":"ImageObject","url":"https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_192x192_fill_lanczos_center_3.png"}},"description":"Program comprehension is one of the most important activities in developing and maintaining software. Although existing studies have examined aspects of Go such as design patterns, code smells and comment density, the comprehensibility of Go has not been explored yet. This study analyzes the comprehensibility of Go by comparing it with Java based on five metrics namely Too Long Files, Too Long Methods, Nesting Depth, Lack of Cohesive Comments and Duplicate Comments. For comparison, 50 popular, diverse and open-source projects are selected from each language. Results show that Go projects outperform Java in terms of Nesting Depth, Lack of Cohesive Comments and Duplicate Comments."}</script>
 <title>Analyzing Program Comprehensibility of Go Projects | Rafed M. Yasir</title>
 </head>
 <body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=06495eda17c7b2c87609d8cd17110d4d>
@@ -68,17 +68,6 @@
 </div>
 </li>
 <li class="nav-item dropdown">
-<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Blogs</span><span class=caret></span>
-</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=/blog/><span>👤 Personal Blog</span></a>
-<a class=dropdown-item href=/devra/><span>💻 DevRa - Tech Blog</span></a>
-</div>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/talk><span>Talks</span></a>
-</li>
-<li class="nav-item dropdown">
 <a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Academics</span><span class=caret></span>
 </a>
 <div class=dropdown-menu>
@@ -87,10 +76,24 @@
 </div>
 </li>
 <li class=nav-item>
-<a class=nav-link href=/#contact><span>Contact</span></a>
+<a class=nav-link href=/talk><span>Talks</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#recent-news><span>News</span></a>
+</li>
+<li class="nav-item dropdown">
+<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Blogs</span><span class=caret></span>
+</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=/devra/><span>💻 DevRa - Tech Blog</span></a>
+<a class=dropdown-item href=/blog/><span>👤 Personal Blog</span></a>
+</div>
 </li>
 <li class=nav-item>
 <a class=nav-link href=/other><span>Others</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/#contact><span>Contact</span></a>
 </li>
 </ul>
 </div>
@@ -130,7 +133,7 @@
 <a href=/author/md.-nurul-ahad-tawhid/>Md. Nurul Ahad Tawhid</a></span>
 </div>
 <span class=article-date>
-March 2021
+April 2021
 </span>
 </div>
 <div class="btn-links mb-3">
@@ -140,7 +143,7 @@ Cite
 <a class="btn btn-outline-primary btn-page-header" href=https://github.com/rafed/comprego/ target=_blank rel=noopener>
 Code
 </a>
-<a class="btn btn-outline-primary btn-page-header" href=/publication/comprego/slides.pptx target=_blank rel=noopener>
+<a class="btn btn-outline-primary btn-page-header" href=/publication/06-comprego/slides-comprego.pptx target=_blank rel=noopener>
 Slides
 </a>
 <a class="btn btn-outline-primary btn-page-header" href=https://doi.org/10.18293/SEKE2021-152 target=_blank rel=noopener>
@@ -219,7 +222,7 @@ Conference paper
 <div class=media-body>
 <h5 class=card-title><a href=https://rafed.github.io/>Rafed Muhammad Yasir</a></h5>
 <h6 class=card-subtitle>DevOps Engineer</h6>
-<p class=card-text>My interests include Software Engineering, Cybersecurity, Machine Learning and DevOps Lifecycle.</p>
+<p class=card-text>My interests include Software Engineering, DevOps Lifecycle, Cybersecurity and Machine Learning.</p>
 <ul class=network-icon aria-hidden=true>
 <li>
 <a href=/#contact>
