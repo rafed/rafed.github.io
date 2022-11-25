@@ -55,9 +55,36 @@
     weight = 100
 
 [[main]]
+  identifier = "academics"
+  name = "Academics"
+  weight = 50
+
+  [[main]]
+    parent = "academics"
+    name = "📖 Courses"
+    url = "courses/"
+    weight = 1
+  
+  [[main]]
+    parent = "academics"
+    name = "🖊 Publications"
+    url = "publication"
+    weight = 2
+
+[[main]]
+  name = "Talks"
+  url = "talk"
+  weight = 60
+
+[[main]]
+  name = "News"
+  url = "#recent-news"
+  weight = 70
+
+[[main]]
   identifier = "blog"
   name = "Blogs"
-  weight = 50
+  weight = 80
 
   [[main]]
       parent = "blog"
@@ -69,45 +96,17 @@
       parent = "blog"
       name = "👤 Personal Blog"
       url = "https://rafed.github.io/blog/"
-      weight = 1
-
-[[main]]
-  identifier = "talk"
-  name = "Talks"
-  url = "talk"
-  weight = 55
-
-[[main]]
-  identifier = "academics"
-  name = "Academics"
-  weight = 60
-
-  [[main]]
-    parent = "academics"
-    name = "📖 Courses"
-    url = "courses/"
-    weight = 62
-  
-  [[main]]
-    parent = "academics"
-    name = "🖊 Publications"
-    url = "publication"
-    weight = 65
-
-#[[main]]
-#  name = "Talks"
-#  url = "#talks"
-#  weight = 40
+      weight = 2
 
 [[main]]
   name = "Others"
   url = "other"
-  weight = 70
+  weight = 90
 
 [[main]]
   name = "Contact"
   url = "#contact"
-  weight = 70
+  weight = 100
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/media/resume.pdf` and uncomment the lines below.

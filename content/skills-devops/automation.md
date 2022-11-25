@@ -22,6 +22,11 @@ feature:
   icon_pack: custom
   description: ⭐⭐⭐⭐⭐
 
+- name: Gitlab pipelines
+  icon: gitlab
+  icon_pack: custom
+  description: ⭐⭐
+
 - name: AWS Codepipeline
   icon: aws/codepipeline
   icon_pack: custom
@@ -35,10 +40,10 @@ feature:
 - name: Jenkins
   icon: jenkins
   icon_pack: custom
-  description: ⭐⭐
+  description: ⭐
 
 - name: Ansible
   icon: ansible
   icon_pack: custom
-  description: ⭐⭐
+  description: ⭐
 ---
