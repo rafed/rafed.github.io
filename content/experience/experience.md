@@ -77,7 +77,7 @@ experience:
     location: Dhaka
     date_start: '2018-01-01'
     date_end: '2018-06-30'
-    description: Worked as a fullstack developer with .NET Core and Angular. Developed a chatbot creation platform for Facebook pages.
+    description: Worked as a backend developer with .NET Core and Angular. Developed a chatbot creation platform for Facebook pages.
 
   - title: Requirement Analyst
     company: Glitra Bangladesh
@@ -85,7 +85,7 @@ experience:
     location: Banani, Dhaka
     date_start: '2017-03-01'
     date_end: '2017-05-30'
-    description: Worked as a requirement analyst for an ERP software to be developed for the Department of Military Lands & Cantonments, Mirpur DOHS
+    description: Worked as a requirement analyst for an ERP software to be developed for the Department of Military Lands & Cantonments, Mirpur DOHS, Dhaka Bangladesh.
 
   - title: Requirement Analyst
     company: SoftCell Company Ltd
@@ -93,5 +93,5 @@ experience:
     location: Banani, Dhaka
     date_start: '2016-10-01'
     date_end: '2016-11-30'
-    description: Worked as a requirement analyst for a software to be developed for a law firm- The Law Sanctuary, Bijoynagar
+    description:  Prepared an SRS documentation for automating activities of the Law firm- The Legal Sanctuary,  Bijoynagar, Dhaka, Bangladesh.
 ---
