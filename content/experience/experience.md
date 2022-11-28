@@ -88,7 +88,7 @@ experience:
     description: Worked as a requirement analyst for an ERP software to be developed for the Department of Military Lands & Cantonments, Mirpur DOHS, Dhaka Bangladesh.
 
   - title: Requirement Analyst
-    company: SoftCell Company Ltd
+    company: SoftCell Solution Ltd
     company_logo: softcell
     location: Banani, Dhaka
     date_start: '2016-10-01'

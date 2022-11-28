@@ -72,8 +72,8 @@
     weight = 2
 
 [[main]]
-  name = "Talks"
-  url = "talk"
+  name = "Events"
+  url = "event"
   weight = 60
 
 [[main]]

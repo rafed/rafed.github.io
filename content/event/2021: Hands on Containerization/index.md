@@ -1,28 +1,28 @@
 ---
-title: "Software Maintenance: A DevOps Practitioners Perspective"
+title: "Hands on Containerization with Docker"
 
-event: "Lecture at IIT"
-event_url: https://iit.du.ac.bd
+event: Workshop on Microservice Architecture in Bangladesh 2021
+event_url: https://dsse.github.io/2021-02-07-microserviceworkshop-event/
 
-location: Institute of Information Technology (IIT, University of Dhaka
-address:
-  street: Mokarrom Bhaban
-  city: Dhaka
-  region: Dhaka
-  postcode: '1000'
-  country: Bangladesh
+location: Webinar
+# address:
+#   street: Mokarrom Bhaban
+#   city: Dhaka
+#   region: Dhaka
+#   postcode: '1000'
+#   country: Bangladesh
 
-summary: An introductory talk on software maintenance from the perspective of DevOps engineering
-abstract: An introductory talk on software maintenance from the perspective of DevOps engineering
+summary: Hands on Containerization with Docker
+# abstract: Hands on Containerization with Docker
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-10-30T11:00:00Z"
+date: "2021-02-07T10:00:00Z"
 # date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2022-10-29T00:00:00Z"
+publishDate: "2021-02-07T00:00:00Z"
 
 authors: []
 tags: []
@@ -41,7 +41,7 @@ featured: false
 #   url: https://twitter.com/georgecushen
 # url_code: ""
 # url_pdf: ""
-# url_slides: ""
+url_slides: "https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoFuOYnuhjBW7g5vsCM/edit?usp=sharing"
 # url_video: ""
 
 # Markdown Slides (optional).
@@ -60,7 +60,7 @@ featured: false
 # - internal-project
 ---
 
-{{< gdocs src="https://docs.google.com/presentation/d/1VwWcJT23mFyJGtrd0_6F6wIEbs-SmCbIKrbVR5yWd_k/edit?usp=sharing" >}}
+{{< gdocs src="https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoFuOYnuhjBW7g5vsCM/edit?usp=sharing" >}}
 
 <!-- {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.

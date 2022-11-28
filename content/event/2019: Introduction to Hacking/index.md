@@ -1,10 +1,10 @@
 ---
-title: "Hands on Containerization with Docker"
+title: "Introduction to Hacking"
 
-event: Workshop on Microservice Architecture in Bangladesh 2021
-event_url: https://iit.du.ac.bd
+event: "Tech crunch 2019"
+event_url: http://www.iit.du.ac.bd/view_news_events/view_news_events_details/87
 
-location: Institute of Information Technology (IIT, University of Dhaka
+location: Institute of Information Technology (IIT), University of Dhaka
 address:
   street: Mokarrom Bhaban
   city: Dhaka
@@ -12,17 +12,17 @@ address:
   postcode: '1000'
   country: Bangladesh
 
-summary: Hands on Containerization with Docker
-abstract: Hands on Containerization with Docker
+summary: An introduction to hacking for school students
+# abstract: Hacking introduced to college students
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-02-07T11:00:00Z"
-# date_end: "2030-06-01T15:00:00Z"
+date: "2019-03-29T11:00:00Z"
+date_end: "2019-03-29T13:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2021-02-07T00:00:00Z"
+publishDate: "2019-03-29T00:00:00Z"
 
 authors: []
 tags: []
@@ -41,7 +41,7 @@ featured: false
 #   url: https://twitter.com/georgecushen
 # url_code: ""
 # url_pdf: ""
-# url_slides: ""
+url_slides: "https://docs.google.com/presentation/d/1WbJqDVWJt6QSbmqQQ7jcJ5fswoQIDgU8/edit?usp=sharing&ouid=107390574922219604139&rtpof=true&sd=true"
 # url_video: ""
 
 # Markdown Slides (optional).
@@ -60,9 +60,9 @@ featured: false
 # - internal-project
 ---
 
-{{< gdocs src="https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoFuOYnuhjBW7g5vsCM/edit?usp=sharing" >}}
+{{< gdocs src="https://docs.google.com/presentation/d/1WbJqDVWJt6QSbmqQQ7jcJ5fswoQIDgU8/edit?usp=sharing&ouid=107390574922219604139&rtpof=true&sd=true" >}}
 
-<!-- {{% callout note %}}
+<!--{{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /callout %}}
 
@@ -73,3 +73,5 @@ Slides can be added in a few ways:
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
 
 Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. -->
+
+
