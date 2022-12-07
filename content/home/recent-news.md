@@ -53,18 +53,30 @@ design:
     <th></th>
   </tr>
 </thead>
+
+<!-- 
+  <td><i class="fas fa-copy pr-1 fa-fw"></i> 06 Dec 2022:</td>
+  <td><i class="fas fa-chalkboard-teacher  pr-1 fa-fw"></i> May 2022:</td>
+  <td><i class="fas fa-briefcase  pr-1 fa-fw"></i> May 2022:</td>
+  <td><i class="fas fa-award  pr-1 fa-fw"></i> May 2022:</td>
+  <td><i class="fas fa-users  pr-1 fa-fw"></i> Apr 2022:</td>
+  <td><i class="fas fa-graduation-cap  pr-1 fa-fw"></i> Apr 2022:</td>
+  <td><i class="fas fa-laptop-code  pr-1 fa-fw"></i> Jun 2021:</td>
+  <td><i class="fas fa-calendar-alt  pr-1 fa-fw"></i> May 2021:</td>
+-->
+
 <tbody>
-  <!-- <tr>
+  <tr>
     <td><i class="fas fa-users pr-1 fa-fw"></i> 06 Dec 2022:</td>
-    <td>Presented our <a href="/publication/03-code-style/">paper</a> at <a href="http://quasoq2022.swc-rwth.de/">QuASoQ</a> and also was a discussant.</td>
-  </tr> -->
+    <td>Presented our <a href="/publication/03-code-style/">paper</a> at <a href="http://quasoq2022.swc-rwth.de/">QuASoQ</a> and was also a discussant.</td>
+  </tr>
   <tr>
     <td><i class="fas fa-book pr-1 fa-fw"></i> 12 Nov 2022:</td>
     <td>Our paper titled <a href="/publication/03-code-style/">Exploring the Impact of Code Style in Identifying Good Programmers</a> has been accepted at <a href="http://quasoq2022.swc-rwth.de/">QuASoQ</a>!</td>
   </tr>
   <tr>
     <td><i class="fas fa-chalkboard-teacher pr-1 fa-fw"></i> 30 Oct 2022:</td>
-    <td>Conducted a <a href="/talk/2022-software-maintenance/">session on software maintenance</a> at IIT, University of Dhaka.</td>
+    <td>Conducted a <a href="/event/2022-software-maintenance/">session on software maintenance</a> at IIT, University of Dhaka.</td>
   </tr>
   <tr>
     <td><i class="fas fa-trophy pr-1 fa-fw"></i> 20 Sep 2022:</td>
@@ -102,16 +114,7 @@ design:
     <td><i class="fas fa-graduation-cap pr-1 fa-fw"></i> 30 Dec 2018:</td>
     <td>Completed my BSc in Software Engineering (BSSE) from IIT, University of Dhaka.</td>
   </tr>
-    <!-- 
-      <td><i class="fas fa-copy pr-1 fa-fw"></i> 06 Dec 2022:</td>
-      <td><i class="fas fa-chalkboard-teacher  pr-1 fa-fw"></i> May 2022:</td>
-      <td><i class="fas fa-briefcase  pr-1 fa-fw"></i> May 2022:</td>
-      <td><i class="fas fa-award  pr-1 fa-fw"></i> May 2022:</td>
-      <td><i class="fas fa-users  pr-1 fa-fw"></i> Apr 2022:</td>
-      <td><i class="fas fa-graduation-cap  pr-1 fa-fw"></i> Apr 2022:</td>
-      <td><i class="fas fa-laptop-code  pr-1 fa-fw"></i> Jun 2021:</td>
-      <td><i class="fas fa-calendar-alt  pr-1 fa-fw"></i> May 2021:</td>
-    -->
+
 </tbody>
 
 </table>
