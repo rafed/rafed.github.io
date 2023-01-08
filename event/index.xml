@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Events &amp; Talks | Rafed M. Yasir</title><link>https://rafed.github.io/event/</link><atom:link href="https://rafed.github.io/event/index.xml" rel="self" type="application/rss+xml"/><description>Events &amp; Talks</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Rafed Muhammad Yasir</copyright><lastBuildDate>Sun, 30 Oct 2022 11:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Events &amp; Talks</title><link>https://rafed.github.io/event/</link></image><item><title>Software Maintenance: A DevOps Practitioners Perspective</title><link>https://rafed.github.io/event/2022-software-maintenance/</link><pubDate>Sun, 30 Oct 2022 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2022-software-maintenance/</guid><description>&lt;div class="responsive-wrap">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Events &amp; Talks | Rafed M. Yasir</title><link>https://rafed.github.io/event/</link><atom:link href="https://rafed.github.io/event/index.xml" rel="self" type="application/rss+xml"/><description>Events &amp; Talks</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Rafed Muhammad Yasir</copyright><lastBuildDate>Tue, 06 Dec 2022 16:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Events &amp; Talks</title><link>https://rafed.github.io/event/</link></image><item><title>10th International Workshop on Quantitative Approaches to Software Quality (QuASoQ)</title><link>https://rafed.github.io/event/2022-quasoq/</link><pubDate>Tue, 06 Dec 2022 16:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2022-quasoq/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1Wt_r6Mg8ioAMNfrnpvlcGAuOBKHModk5Xgs62qyDBHw/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div>
+&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+Slides can be added in a few ways:
+- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. -->
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img1.png" alt="Hiroshi Demanou" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img2.png" alt="Selin Aydin" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Software Maintenance: A DevOps Practitioners Perspective</title><link>https://rafed.github.io/event/2022-software-maintenance/</link><pubDate>Sun, 30 Oct 2022 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2022-software-maintenance/</guid><description>&lt;div class="responsive-wrap">
 &lt;iframe src="https://docs.google.com/presentation/d/1VwWcJT23mFyJGtrd0_6F6wIEbs-SmCbIKrbVR5yWd_k/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
 &lt;/div>
 &lt;!-- &lt;div class="alert alert-note">
@@ -22,7 +44,25 @@ Slides can be added in a few ways:
 - **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
 - **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
-Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Introduction to Hacking</title><link>https://rafed.github.io/event/2019-introduction-to-hacking/</link><pubDate>Fri, 29 Mar 2019 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2019-introduction-to-hacking/</guid><description>&lt;div class="responsive-wrap">
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>Training Workshop on DevOps 2019</title><link>https://rafed.github.io/event/2019-training-workshop-on-devops/</link><pubDate>Sat, 03 Aug 2019 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2019-training-workshop-on-devops/</guid><description>&lt;!-- &lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1WbJqDVWJt6QSbmqQQ7jcJ5fswoQIDgU8/edit?usp=sharing&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div> -->
+&lt;!--&lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+Slides can be added in a few ways:
+- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. -->
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./img1.jpg" alt="Rafed Muhammad Yasir" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p></description></item><item><title>Introduction to Hacking</title><link>https://rafed.github.io/event/2019-introduction-to-hacking/</link><pubDate>Fri, 29 Mar 2019 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2019-introduction-to-hacking/</guid><description>&lt;div class="responsive-wrap">
 &lt;iframe src="https://docs.google.com/presentation/d/1WbJqDVWJt6QSbmqQQ7jcJ5fswoQIDgU8/edit?usp=sharing&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
 &lt;/div>
 &lt;!--&lt;div class="alert alert-note">
