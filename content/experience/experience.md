@@ -30,7 +30,7 @@ experience:
     date_start: '2022-09-13'
     date_end: ''
     description: |2-
-      Working remotely as a DevOps engineer.
+      Working remotely as a DevOps/SRE engineer.
 
   - title: DevOps Engineer
     company: 'Brainstation-23'

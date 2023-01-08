@@ -1,28 +1,28 @@
 ---
-title: "Hands on Containerization with Docker"
+title: "10th International Workshop on Quantitative Approaches to Software Quality (QuASoQ)"
 
-event: Workshop on Microservice Architecture in Bangladesh 2021
-event_url: https://dsse.github.io/2021-02-07-microserviceworkshop-event/
+event: "Lecture at IIT"
+event_url: http://quasoq2022.swc-rwth.de/
 
-location: Webinar
+location: Virtual
 # address:
 #   street: Mokarrom Bhaban
 #   city: Dhaka
 #   region: Dhaka
 #   postcode: '1000'
-#   country: Bangladesh
+#   country: Japan
 
-summary: Conducted a session on Docker fundamentals
-# abstract: Hands on Containerization with Docker
+summary: Presented my paper on code style and was a dicussant
+# abstract: An introductory talk on software maintenance from the perspective of DevOps engineering
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-02-07T10:00:00Z"
+date: "2022-12-06T16:00:00Z"
 # date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2021-02-07T00:00:00Z"
+publishDate: "2022-12-07T00:00:00Z"
 
 authors: []
 tags: []
@@ -39,9 +39,9 @@ featured: false
 #   icon_pack: fab
 #   name: Follow
 #   url: https://twitter.com/georgecushen
-# url_code: ""
+url_code: "https://github.com/rafed/GcjStyleAnalysis"
 # url_pdf: ""
-url_slides: "https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoFuOYnuhjBW7g5vsCM/edit?usp=sharing"
+url_slides: "https://docs.google.com/presentation/d/1Wt_r6Mg8ioAMNfrnpvlcGAuOBKHModk5Xgs62qyDBHw/edit?usp=sharing"
 # url_video: ""
 
 # Markdown Slides (optional).
@@ -60,7 +60,7 @@ url_slides: "https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoF
 # - internal-project
 ---
 
-{{< gdocs src="https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoFuOYnuhjBW7g5vsCM/edit?usp=sharing" >}}
+{{< gdocs src="https://docs.google.com/presentation/d/1Wt_r6Mg8ioAMNfrnpvlcGAuOBKHModk5Xgs62qyDBHw/edit?usp=sharing" >}}
 
 <!-- {{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
@@ -73,3 +73,6 @@ Slides can be added in a few ways:
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
 
 Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. -->
+
+![Hiroshi Demanou](./img1.png)
+![Selin Aydin](./img2.png)

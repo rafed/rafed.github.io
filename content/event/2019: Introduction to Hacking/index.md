@@ -12,7 +12,7 @@ address:
   postcode: '1000'
   country: Bangladesh
 
-summary: An introduction to hacking for school students
+summary: Live hacking demo for high school students
 # abstract: Hacking introduced to college students
 
 # Talk start and end times.

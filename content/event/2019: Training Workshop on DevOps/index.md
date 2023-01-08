@@ -1,28 +1,28 @@
 ---
-title: "Hands on Containerization with Docker"
+title: "Training Workshop on DevOps 2019"
 
-event: Workshop on Microservice Architecture in Bangladesh 2021
-event_url: https://dsse.github.io/2021-02-07-microserviceworkshop-event/
+event: "Training Workshop on DevOps"
+event_url: http://www.iit.du.ac.bd/view_news_events/view_news_events_details/91
 
-location: Webinar
-# address:
-#   street: Mokarrom Bhaban
-#   city: Dhaka
-#   region: Dhaka
-#   postcode: '1000'
-#   country: Bangladesh
+location: Institute of Information Technology (IIT), University of Dhaka
+address:
+  street: Mokarrom Bhaban
+  city: Dhaka
+  region: Dhaka
+  postcode: '1000'
+  country: Bangladesh
 
-summary: Conducted a session on Docker fundamentals
-# abstract: Hands on Containerization with Docker
+summary: Training Workshop on DevOps 2019
+# abstract: Hacking introduced to college students
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2021-02-07T10:00:00Z"
-# date_end: "2030-06-01T15:00:00Z"
-all_day: false
+date: "2019-08-03T11:00:00Z"
+date_end: "2019-08-04T13:00:00Z"
+all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2021-02-07T00:00:00Z"
+publishDate: "2019-08-05T00:00:00Z"
 
 authors: []
 tags: []
@@ -34,14 +34,14 @@ featured: false
 #   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/bzdhc5b3Bxs)'
 #   focal_point: Right
 
-# links:
-# - icon: twitter
-#   icon_pack: fab
-#   name: Follow
-#   url: https://twitter.com/georgecushen
+links:
+- icon: newspaper
+  icon_pack: fa
+  name: The Daily Star
+  url: https://www.thedailystar.net/shout/news/iit-du-organises-workshop-devops-1783438
 # url_code: ""
 # url_pdf: ""
-url_slides: "https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoFuOYnuhjBW7g5vsCM/edit?usp=sharing"
+# url_slides: "https://docs.google.com/presentation/d/1WbJqDVWJt6QSbmqQQ7jcJ5fswoQIDgU8/edit?usp=sharing&ouid=107390574922219604139&rtpof=true&sd=true"
 # url_video: ""
 
 # Markdown Slides (optional).
@@ -60,9 +60,9 @@ url_slides: "https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoF
 # - internal-project
 ---
 
-{{< gdocs src="https://docs.google.com/presentation/d/1FbgybSq_o6sKl8OTpLkH3IWVBoFuOYnuhjBW7g5vsCM/edit?usp=sharing" >}}
+<!-- {{< gdocs src="https://docs.google.com/presentation/d/1WbJqDVWJt6QSbmqQQ7jcJ5fswoQIDgU8/edit?usp=sharing&ouid=107390574922219604139&rtpof=true&sd=true" >}} -->
 
-<!-- {{% callout note %}}
+<!--{{% callout note %}}
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /callout %}}
 
@@ -73,3 +73,5 @@ Slides can be added in a few ways:
 - **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
 
 Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. -->
+
+![Rafed Muhammad Yasir](./img1.jpg)

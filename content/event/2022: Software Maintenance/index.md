@@ -12,7 +12,7 @@ address:
   postcode: '1000'
   country: Bangladesh
 
-summary: Session for 4th year students
+summary: Conducted a session on software maintenance for 4th year students
 # abstract: An introductory talk on software maintenance from the perspective of DevOps engineering
 
 # Talk start and end times.
