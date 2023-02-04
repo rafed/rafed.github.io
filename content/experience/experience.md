@@ -45,6 +45,19 @@ experience:
       * Kubernetes
       * CI/CD pipelines, Azure Devops
 
+  - title: Visiting Lecturer
+    company: Institute of Information Technology (IIT), University of Dhaka
+    company_logo: iit
+    company_url: 'https://iit.du.ac.bd'
+    location: Dhaka
+    date_start: '2021-05-01'
+    date_end: ''
+    description: |2-
+      Conduct distributed systems course lab: 
+      * Containerization, orchestration
+      * System design fundamentals
+      * Cloud computing
+
   - title: Associate Software Engineer
     company: 'Brainstation-23'
     company_logo: bs23
@@ -65,10 +78,10 @@ experience:
     date_start: '2019-01-01'
     date_end: '2021-04-30'
     description: |2-
-        Responsibilities include:
-        * Teach Web Design (HTML, CSS, Javascript)
-        * Teach Web Programming (PHP, MySQL)
-        * Teach Microsoft Office Applications
+      Responsibilities include:
+      * Teach Web Design (HTML, CSS, Javascript)
+      * Teach Web Programming (PHP, MySQL)
+      * Teach Microsoft Office Applications
         
   - title: Intern
     company: FoxAI
