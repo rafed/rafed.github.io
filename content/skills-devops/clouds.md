@@ -7,7 +7,7 @@ widget: featurette
 headless: true
 
 # Order that this section appears on the page.
-weight: 10
+weight: 40
 
 title: Clouds
 subtitle:

@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 10
 
-title: Infrastructure
+title: Infra
 subtitle:
 
 # Showcase personal skills or business features.
@@ -32,8 +32,13 @@ feature:
   icon_pack: custom
   description: ⭐⭐⭐⭐⭐
 
-- name: Ubuntu
-  icon: ubuntu
+- name: Vault
+  icon: vault
+  icon_pack: custom
+  description: ⭐⭐
+
+- name: Linux
+  icon: linux
   icon_pack: custom
   description: ⭐⭐⭐⭐
 
@@ -41,4 +46,9 @@ feature:
   icon: nginx
   icon_pack: custom
   description: ⭐⭐⭐⭐
+
+- name: Envoy
+  icon: envoy
+  icon_pack: custom
+  description: ⭐
 ---
