@@ -34,7 +34,7 @@ abstract: Program comprehension is one of the most important activities in devel
 # links:
 # - name: Custom Link
 #   url: http://example.org
-# url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+url_pdf: https://www.researchgate.net/profile/Md-Nurul-Ahad-Tawhid/publication/354616857_Analyzing_Program_Comprehensibility_of_Go_Projects/links/6142a9f27d081355ccef0ae2/Analyzing-Program-Comprehensibility-of-Go-Projects.pdf
 url_code: 'https://github.com/rafed/comprego/'
 # url_dataset: '#'
 # url_poster: '#'

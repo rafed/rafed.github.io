@@ -34,7 +34,7 @@ abstract: God Class is a class that threatens maintainability and understandabil
 # links:
 # - name: Custom Link
 #   url: http://example.org
-# url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
+url_pdf: '/publication/02-godexpo/GodExpo_IWOR_2019.pdf'
 url_code: 'https://github.com/rafed/godexpo/'
 # url_dataset: '#'
 # url_poster: '#'

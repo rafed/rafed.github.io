@@ -36,7 +36,7 @@ featured: true
 # url_pdf: http://arxiv.org/pdf/1512.04133v1
 # url_code: ''
 # url_dataset: ''
-# url_poster: ''
+url_poster: 'https://rafed.github.io/undergrad-software-edu-in-bd/'
 # url_project: ''
 # url_slides: ''
 # url_source: ''
