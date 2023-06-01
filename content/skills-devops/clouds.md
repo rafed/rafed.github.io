@@ -12,6 +12,9 @@ weight: 40
 title: Clouds
 subtitle:
 
+design:
+  columns: 4
+
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
@@ -26,6 +29,7 @@ feature:
   icon: gcp/gcp
   icon_pack: custom
   description: ⭐⭐
+  
 - name: Azure
   icon: azure/azure
   icon_pack: custom

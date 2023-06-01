@@ -22,6 +22,15 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Python Mentor / Section Leader
+    company: Code in Place - Stanford University
+    company_logo: stanford
+    company_url: https://codeinplace.stanford.edu/
+    location: Stanford, California
+    date_start: '2023-04-27'
+    date_end: '2023-06-01'
+    description: Taught Python, in a free, human-centered, intro-to-coding course from Stanford University. More [here](/event/2023-code-in-place/).
+
   - title: DevOps Engineer
     company: 'The Clinician'
     company_logo: clinician
@@ -30,7 +39,7 @@ experience:
     date_start: '2022-09-13'
     date_end: ''
     description: |2-
-      Working remotely as a DevOps/SRE engineer.
+      Working remotely as a SRE/DevOps engineer.
 
   - title: DevOps Engineer
     company: 'Brainstation-23'
