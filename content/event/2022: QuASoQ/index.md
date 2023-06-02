@@ -1,7 +1,7 @@
 ---
 title: "10th International Workshop on Quantitative Approaches to Software Quality (QuASoQ)"
 
-event: "Lecture at IIT"
+event: "10th International Workshop on Quantitative Approaches to Software Quality (QuASoQ)"
 event_url: http://quasoq2022.swc-rwth.de/
 
 location: Virtual

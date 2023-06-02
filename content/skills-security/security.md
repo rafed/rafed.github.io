@@ -45,4 +45,4 @@ feature:
   icon: bettercap
   icon_pack: custom
   description: ⭐⭐
-----
+---
