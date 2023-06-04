@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link><atom:link href="https://rafed.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rafed M. Yasir</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Rafed Muhammad Yasir</copyright><lastBuildDate>Tue, 06 Dec 2022 16:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link></image><item><title>Introduction to Distributed systems</title><link>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</guid><description>&lt;p>A distributed system is a computing environment in which &lt;strong>various components&lt;/strong> are spread across &lt;strong>multiple computers&lt;/strong> (or other computing devices) on &lt;strong>a network&lt;/strong>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link><atom:link href="https://rafed.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rafed M. Yasir</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 Rafed Muhammad Yasir</copyright><lastBuildDate>Thu, 27 Apr 2023 11:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link></image><item><title>Introduction to Distributed systems</title><link>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</guid><description>&lt;p>A distributed system is a computing environment in which &lt;strong>various components&lt;/strong> are spread across &lt;strong>multiple computers&lt;/strong> (or other computing devices) on &lt;strong>a network&lt;/strong>.&lt;/p>
 &lt;p>If one machine can do a task in 1 hr, surely two equivalent machines can do it in 30 mins.&lt;/p>
 &lt;p>We gain some sort of advantage that&lt;/p>
 &lt;p>Examples of distributed systems&lt;/p>
@@ -361,7 +361,16 @@ $ docker node ls
 $ docker info # check current swarm status
 $ docker stack deploy --compose-file docker-compose.yml bsse07xx
 $ docker stack services bsse07xx
-&lt;/code>&lt;/pre></description></item><item><title>10th International Workshop on Quantitative Approaches to Software Quality (QuASoQ)</title><link>https://rafed.github.io/event/2022-quasoq/</link><pubDate>Tue, 06 Dec 2022 16:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2022-quasoq/</guid><description>&lt;div class="responsive-wrap">
+&lt;/code>&lt;/pre></description></item><item><title>Code in Place: A free, human-centered, intro-to-coding course from Stanford University</title><link>https://rafed.github.io/event/2023-code-in-place/</link><pubDate>Thu, 27 Apr 2023 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2023-code-in-place/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;div>
+Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
+&lt;/div>
+&lt;/div>
+Slides can be added in a few ways:
+- **Create** slides using Wowchemy's [*Slides*](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://wowchemy.com/docs/writing-markdown-latex/).
+Further event details, including [page elements](https://wowchemy.com/docs/writing-markdown-latex/) such as image galleries, can be added to the body of this page. --></description></item><item><title>10th International Workshop on Quantitative Approaches to Software Quality (QuASoQ)</title><link>https://rafed.github.io/event/2022-quasoq/</link><pubDate>Tue, 06 Dec 2022 16:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2022-quasoq/</guid><description>&lt;div class="responsive-wrap">
 &lt;iframe src="https://docs.google.com/presentation/d/1Wt_r6Mg8ioAMNfrnpvlcGAuOBKHModk5Xgs62qyDBHw/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
 &lt;/div>
 &lt;!-- &lt;div class="alert alert-note">
@@ -641,10 +650,10 @@ color: navy;
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Virtual Trial Room Girls Dress" srcset="
-/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_926eba2be4398290cf8bd6bbdaaab047.webp 400w,
-/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_76666524027738adf42909b9925a73a0.webp 760w,
-/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://rafed.github.io/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_926eba2be4398290cf8bd6bbdaaab047.webp"
+/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_3682742255634fbd58ca0948470ccda3.png 400w,
+/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_d70a11627b3f8fa017cf51a913fd5348.png 760w,
+/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_1200x1200_fit_lanczos_3.png 1200w"
+src="https://rafed.github.io/project/virtual-trial-room/ss1_hu46034fe326927df75f69739041a94218_561298_3682742255634fbd58ca0948470ccda3.png"
 width="760"
 height="353"
 loading="lazy" data-zoomable />&lt;/div>
@@ -661,10 +670,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Virtual Trial Room Glasses" srcset="
-/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_38b404b89070685930c7e47ada5beb3b.webp 400w,
-/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_63086cc2e41560f28cbda487289825fe.webp 760w,
-/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://rafed.github.io/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_38b404b89070685930c7e47ada5beb3b.webp"
+/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_6919c790b38431e4520f1121e89ecea0.png 400w,
+/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_fbdec5a593769f273046196ad0452cfc.png 760w,
+/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_1200x1200_fit_lanczos_3.png 1200w"
+src="https://rafed.github.io/project/virtual-trial-room/ss2_hu3f072d613220ec362925cd3726057bb6_456300_6919c790b38431e4520f1121e89ecea0.png"
 width="760"
 height="376"
 loading="lazy" data-zoomable />&lt;/div>
@@ -675,10 +684,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Virtual Trial Room Hats" srcset="
-/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_4b799cf01dfce12d1ea181473dcd1ed4.webp 400w,
-/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_2a946ffa2d8d7f4a0ae5ad0bf5f6a389.webp 760w,
-/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://rafed.github.io/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_4b799cf01dfce12d1ea181473dcd1ed4.webp"
+/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_28245e285a63e49b6f0985f9cf143fd7.png 400w,
+/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_1896bf75f1c65e679de0e2e808645381.png 760w,
+/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_1200x1200_fit_lanczos_3.png 1200w"
+src="https://rafed.github.io/project/virtual-trial-room/ss3_hu7b56e6999a17ba1b48d58559fc1e7609_519632_28245e285a63e49b6f0985f9cf143fd7.png"
 width="760"
 height="355"
 loading="lazy" data-zoomable />&lt;/div>
