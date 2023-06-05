@@ -15,4 +15,8 @@ design:
   columns: '2'
 ---
 
-I've been learning music since I was very small. For more than 7 years, I was home schooled in Indian classical, folk music, Rabindra Sangit, and Nazrul Geeti. Later, I joined Chayanaut, but I couldn't stick with it for too long because life happened. Now I have an electric keyboard and practice the piano from time to time. Check out my youtube channel [Rafulu](https://www.youtube.com/channel/UCm06Y0e-rYROhZ76-GLtYTQ).
+I have an amateur career in music:
+* Home schooled for more than 7 years in Indian classical, folk music, Rabindra Sangit, and Nazrul Geeti
+* Joined [Chayanaut](https://chhayanaut.org/), but had to dropout because life happened
+* Vice president of [Notre Dame Cultural Club (NDCC)](https://www.facebook.com/NDCCDhaka/) (2013-14)
+* Self taught pianist. Check out my youtube channel [Rafulu](https://www.youtube.com/channel/UCm06Y0e-rYROhZ76-GLtYTQ).
