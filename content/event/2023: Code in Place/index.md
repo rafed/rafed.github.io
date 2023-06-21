@@ -44,6 +44,12 @@ featured: false
 # url_slides: ""
 # url_video: ""
 
+links:
+- icon: key
+  icon_pack: fa
+  name: Online Credentials
+  url: https://digitalcredential.stanford.edu/check/0264DB98ACA9504AF60BED57C9363462E536A11E7634CBA6509A7F3F0B594C7DTXo3dVJVSmlGcXRxMVY5V2tJME9HaEVhaWFON0ZDVVV3T1FiSWJwWVFVVWFYTW9S
+
 # Markdown Slides (optional).
 #   Associate this talk with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
