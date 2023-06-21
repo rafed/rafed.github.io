@@ -40,14 +40,18 @@ featured: false
 #   name: Follow
 #   url: https://twitter.com/georgecushen
 # url_code: ""
-# url_pdf: ""
+# url_pdf: event/2023-code-in-place/certificate.pdf
 # url_slides: ""
 # url_video: ""
 
 links:
+- icon: file
+  icon_pack: fa
+  name: Certificate
+  url: event/2023-code-in-place/certificate.pdf
 - icon: key
   icon_pack: fa
-  name: Online Credentials
+  name: Digital Credentials
   url: https://digitalcredential.stanford.edu/check/0264DB98ACA9504AF60BED57C9363462E536A11E7634CBA6509A7F3F0B594C7DTXo3dVJVSmlGcXRxMVY5V2tJME9HaEVhaWFON0ZDVVV3T1FiSWJwWVFVVWFYTW9S
 
 # Markdown Slides (optional).
