@@ -1,4 +1,0 @@
-Sitemap: https://rafed123.github.io/sitemap.xml
-
-User-agent:*
-Disallow:/bsse/
