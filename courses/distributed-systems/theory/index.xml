@@ -1,21 +1,97 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Theory | Rafed M. Yasir</title><link>https://rafed.github.io/courses/distributed-systems/theory/</link><atom:link href="https://rafed.github.io/courses/distributed-systems/theory/index.xml" rel="self" type="application/rss+xml"/><description>Theory</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Rafed Muhammad Yasir</copyright><lastBuildDate>Sun, 07 Feb 2021 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Theory</title><link>https://rafed.github.io/courses/distributed-systems/theory/</link></image><item><title>Introduction to Distributed systems</title><link>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</guid><description>&lt;p>A distributed system is a computing environment in which &lt;strong>various components&lt;/strong> are spread across &lt;strong>multiple computers&lt;/strong> (or other computing devices) on &lt;strong>a network&lt;/strong>.&lt;/p>
-&lt;p>If one machine can do a task in 1 hr, surely two equivalent machines can do it in 30 mins.&lt;/p>
-&lt;p>We gain some sort of advantage that&lt;/p>
-&lt;p>Examples of distributed systems&lt;/p>
+&lt;p>The general notion of distribted system is:&lt;/p>
+&lt;ul>
+&lt;li>If a machine can do a task in 2 hr, two machines can do it in 1 hr&lt;/li>
+&lt;li>If a machine can store 1 GB data, two machines can store 2 GB data&lt;/li>
+&lt;li>If a CC camera can look at 5 metres square, two cameras can look at 10 metres square&lt;/li>
+&lt;/ul>
+&lt;h4 id="examples-of-distributed-systems">Examples of distributed systems&lt;/h4>
 &lt;ol>
 &lt;li>Machine learning (for compute)&lt;/li>
 &lt;li>P2P file sharing (high availability, share large files, piracy)&lt;/li>
 &lt;li>Google search engine (for storage and bandwidth)&lt;/li>
 &lt;li>Facebook (for storage and bandwidth)&lt;/li>
 &lt;li>Multiplayer games (entertainment)&lt;/li>
-&lt;li>Space rockets (correctness)
-spaceX dragon&lt;/li>
+&lt;li>Space rockets (correctness)&lt;/li>
 &lt;li>Black hole image (distributed observation)&lt;/li>
 &lt;li>IOT (Sensors on a network)&lt;/li>
-&lt;li>Blockchain
-decentralized record of transactions
-guarantees the fidelity and security of a record
-distributed database&lt;/li>
+&lt;li>Blockchain (decentralized record of transactions)&lt;/li>
 &lt;/ol></description></item><item><title>Introduction to Microservices</title><link>https://rafed.github.io/courses/distributed-systems/theory/010-intro-microservices/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/010-intro-microservices/</guid><description>&lt;div class="responsive-wrap">
 &lt;iframe src="https://docs.google.com/presentation/d/1Sm-buXQKPJdvfuZLOxKzMbIJ0C4mYZ2hyk_Ike6aClU/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
-&lt;/div></description></item></channel></rss>
+&lt;/div></description></item><item><title>System Design Golden Rules</title><link>https://rafed.github.io/courses/distributed-systems/theory/020-sys-design-golden-rules/</link><pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/020-sys-design-golden-rules/</guid><description>&lt;ol>
+&lt;li>
+&lt;p>If we are dealing with a read-heavy system, it&amp;rsquo;s good to consider using a Cache.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If we need low latency in the system, it&amp;rsquo;s good to consider using a Cache &amp;amp; CDN.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If we are dealing with a write-heavy system, it&amp;rsquo;s good to use a Message Queue for Async processing&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If we need a system to be ACID complaint, we should go for RDBMS or SQL Database&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If data is unstructured &amp;amp; doesn&amp;rsquo;t require ACID properties, we should go for NO-SQL Database&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system has complex data in the form of videos, images, files etc, we should go for Blob/Object storage&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system requires complex pre-computation like a news feed, we should use a Message Queue &amp;amp; Cache&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system requires searching data in high volume, we should consider using a search index, tries or a search engine like Elasticsearch&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system requires to Scale SQL Database, we should consider using Database Sharding&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system requires High Availability, Performance, &amp;amp; Throughput, we should consider using a Load Balancer&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system requires faster data delivery globally, reliability, high availability, &amp;amp; performance, we should consider using a CDN&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system has data with nodes, edges, and relationships like friend lists, &amp;amp; road connections, we should consider using a Graph Database&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system needs scaling of various components like servers, databases, etc, we should consider using Horizontal Scaling&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system requires high-performing database queries, we should use Database Indexes&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system requires bulk job processing, we should consider using Batch Processing &amp;amp; Message Queues&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system requires reducing server load and preventing DOS attacks, we should use a Rate Limiter&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system has microservices, we should consider using an API Gateway (Authentication, SSL Termination, Routing etc)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system has a single point of failure, we should implement Redundancy in that component&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system needs to be fault-tolerant, &amp;amp; durable, we should implement Data Replication (creating multiple copies of data on different servers)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system needs user-to-user communication (bi-directional) in a fast way, we should use Websockets&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system needs the ability to detect failures in a distributed system, we should implement a Heartbeat&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system needs to ensure data integrity, we should use Checksum Algorithm&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system needs to transfer data between various servers in a decentralized way, we should go for the Gossip Protocol&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system needs to scale servers with add/removal of nodes efficiently, with no hotspots, we should implement Consistent Hashing&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>If the system needs anything to deal with a location like maps, nearby resources, we should consider using Quadtree, Geohash, etc&lt;/p>
+&lt;/li>
+&lt;/ol></description></item></channel></rss>
