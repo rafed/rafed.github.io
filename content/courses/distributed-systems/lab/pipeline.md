@@ -1,5 +1,5 @@
 ---
-title: Hands on DevOps
+title: Creating a pipeline
 date: 2021-02-07
 type: book
 weight: 20

@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: Distributed Systems
-summary: This course is still under construction.
+summary: An introduction to Distributed Systems from a Cloud-Based Perspective
 weight: 10
 
 # Page metadata.
@@ -10,11 +10,11 @@ date: "2021-02-05T00:00:00Z"
 type: book  # Do not modify.
 ---
 
-This course is still under construction. Meanwhile, check out what have been arranged so far.
+This course's resources are heavily lab-focused on developing distributed web apps. It is not a comprehensive guide to learning distributed systems.
 
 ## What you will learn
 
-You will an get understanding of practical distributed systems.
+You will learn the fundamentals of cloud based distributed systems.
 
 <!-- - Fundamental {{<hl>}}Python programming skills{{</hl>}}
 - {{<hl>}}Statistical concepts{{</hl>}} and how to apply them in practice
