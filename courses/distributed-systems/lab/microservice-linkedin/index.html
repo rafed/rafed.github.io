@@ -5,8 +5,9 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="Rafed Muhammad Yasir">
-<meta name=description content="Blah, blah, blah...">
-<link rel=alternate hreflang=en-us href=https://rafed.github.io/courses/distributed-systems/theory/>
+<meta name=description content="Goal Your task is to build a monolithic web based system. Then, break down the system into microservices following the microservice architecture. To acheive this follow the steps below.
+Step 1: Build a server and a client You will create a basic version of LinkedIn.">
+<link rel=alternate hreflang=en-us href=https://rafed.github.io/courses/distributed-systems/lab/microservice-linkedin/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin=anonymous media=print onload="this.media='all'">
@@ -18,21 +19,22 @@
 <link rel=stylesheet href=/css/wowchemy.54ac806ed944b07e3826c0bdb5ecf111.css>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CD8YE5ES29"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(a,b){gtag('event','click',{event_category:'outbound',event_label:a,transport_type:'beacon',event_callback:function(){b!=='_blank'&&(document.location=a)}}),console.debug("Outbound link clicked: "+a)}function onClickCallback(a){if(a.target.tagName!=='A'||a.target.host===window.location.host)return;trackOutboundLink(a.target,a.target.getAttribute('target'))}gtag('js',new Date),gtag('config','G-CD8YE5ES29',{}),gtag('set',{cookie_flags:'SameSite=None;Secure'}),document.addEventListener('click',onClickCallback,!1)</script>
-<link rel=alternate href=/courses/distributed-systems/theory/index.xml type=application/rss+xml title="Rafed M. Yasir">
 <link rel=manifest href=/manifest.webmanifest>
 <link rel=icon type=image/png href=/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_32x32_fill_lanczos_center_3.png>
 <link rel=apple-touch-icon type=image/png href=/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://rafed.github.io/courses/distributed-systems/theory/>
+<link rel=canonical href=https://rafed.github.io/courses/distributed-systems/lab/microservice-linkedin/>
 <meta property="twitter:card" content="summary">
 <meta property="og:site_name" content="Rafed M. Yasir">
-<meta property="og:url" content="https://rafed.github.io/courses/distributed-systems/theory/">
-<meta property="og:title" content="Theory | Rafed M. Yasir">
-<meta property="og:description" content="Blah, blah, blah..."><meta property="og:image" content="https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png">
+<meta property="og:url" content="https://rafed.github.io/courses/distributed-systems/lab/microservice-linkedin/">
+<meta property="og:title" content="LinkedIn backend: From monolith to microservices | Rafed M. Yasir">
+<meta property="og:description" content="Goal Your task is to build a monolithic web based system. Then, break down the system into microservices following the microservice architecture. To acheive this follow the steps below.
+Step 1: Build a server and a client You will create a basic version of LinkedIn."><meta property="og:image" content="https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png">
 <meta property="twitter:image" content="https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2021-02-07T00:00:00+00:00">
-<title>Theory | Rafed M. Yasir</title>
+<meta property="article:published_time" content="2023-07-08T00:00:00+00:00">
+<meta property="article:modified_time" content="2023-07-08T00:00:00+00:00">
+<title>LinkedIn backend: From monolith to microservices | Rafed M. Yasir</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=45431c1790bff455ba35fe164bb0ff70>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=91fadf6eb3f55338492b6a6b7aad1aa8>
 <script src=/js/wowchemy-init.min.8988fb2a4bba758785868cfcb5244555.js></script>
 <div class=page-header>
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
@@ -127,7 +129,7 @@
 <button class="btn docs-toggle d-md-none p-0 mr-md-3 w-100" type=button data-toggle=collapse data-target=#docs-nav aria-controls=docs-nav aria-expanded=false aria-label="Toggle section navigation">
 <div class=d-flex>
 <span class="d-md-none pl-1 flex-grow-1 text-left overflow-hidden">
-Distributed Systems
+Lab
 </span>
 <span><i class="fas fa-chevron-down"></i></span>
 </div>
@@ -141,7 +143,7 @@ Distributed Systems
 <a class=docs-toc-link href=/courses/distributed-systems/>Distributed Systems</a>
 <ul class="nav docs-sidenav">
 <div class=docs-toc-item>
-<a class="docs-toc-link active" href=/courses/distributed-systems/theory/>Theory</a>
+<a class=docs-toc-link href=/courses/distributed-systems/theory/>Theory</a>
 <ul class="nav docs-sidenav">
 <li><a href=/courses/distributed-systems/theory/01-introduction/>Introduction to Distributed systems</a></li>
 <li><a href=/courses/distributed-systems/theory/010-intro-microservices/>Introduction to Microservices</a></li>
@@ -155,7 +157,7 @@ Distributed Systems
 <li><a href=/courses/distributed-systems/lab/pipeline/>Creating a pipeline</a></li>
 <li><a href=/courses/distributed-systems/lab/microservice-ride-share/>Ride sharing backend: From monolith to microservices</a></li>
 <li><a href=/courses/distributed-systems/lab/microservice-facebook/>Facebook backend: From monolith to microservices</a></li>
-<li><a href=/courses/distributed-systems/lab/microservice-linkedin/>LinkedIn backend: From monolith to microservices</a></li>
+<li class=active><a href=/courses/distributed-systems/lab/microservice-linkedin/>LinkedIn backend: From monolith to microservices</a></li>
 </ul>
 </div>
 </ul>
@@ -168,40 +170,135 @@ Distributed Systems
 </ul>
 <nav id=TableOfContents>
 <ul>
-<li><a href=#sections>Sections</a></li>
+<li><a href=#goal>Goal</a></li>
+<li><a href=#step-1-build-a-server-and-a-client>Step 1: Build a server and a client</a>
+<ul>
+<li><a href=#architecture>Architecture</a></li>
+<li><a href=#requirements>Requirements</a></li>
+</ul>
+</li>
+<li><a href=#step-2-coming-soon>Step 2: Coming Soon!</a></li>
 </ul>
 </nav>
 </div>
 <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 docs-content" role=main>
 <article class=article>
 <div class=docs-article-container>
-<h1>Theory</h1>
+<h1>LinkedIn backend: From monolith to microservices</h1>
 <div class=article-style>
-<h2 id=sections>Sections</h2>
-<ul class=list-unstyled>
-<li>
-<h5><a href=/courses/distributed-systems/theory/01-introduction/>Introduction to Distributed systems</a></h5>
-<p>A distributed system is a computing environment in which various components are spread across multiple computers (or other computing devices) on a network.
-The general notion of distribted system is:</p>
-</li>
-<li>
-<h5><a href=/courses/distributed-systems/theory/010-intro-microservices/>Introduction to Microservices</a></h5>
-<p> </p>
-</li>
-<li>
-<h5><a href=/courses/distributed-systems/theory/020-sys-design-golden-rules/>System Design Golden Rules</a></h5>
-<p>If we are dealing with a read-heavy system, it&rsquo;s good to consider using a Cache.
-If we need low latency in the system, it&rsquo;s good to consider using a Cache & CDN.</p>
+<h2 id=goal>Goal</h2>
+<p>Your task is to build a monolithic web based system. Then, break down the system into microservices following the microservice architecture. To acheive this follow the steps below.</p>
+<h2 id=step-1-build-a-server-and-a-client>Step 1: Build a server and a client</h2>
+<p>You will create a basic version of <strong>LinkedIn</strong>. The app itself should not be complex as we are here to build a distributed system and not a full featured social media app.</p>
+<h3 id=architecture>Architecture</h3>
+<pre><code class=language-mermaid>graph TD
+  CLIENT[Client]--&gt;SERVER[Server]
+  SERVER--&gt;DB[(Database)]
+  SERVER--&gt;OBJ_DB[(Object DB)]
+</code></pre>
+<h3 id=requirements>Requirements</h3>
+<h4 id=client-requirements>Client Requirements</h4>
+<p>The client UI will have the following routes:</p>
+<ul>
+<li>Registration page</li>
+<li>Login page</li>
+<li>Home page: should show a vertical list of posts (texts/images)</li>
+<li>Notification page: should show notifications of recent posts
+<ul>
+<li>Clicking on the notification should show the post</li>
+</ul>
 </li>
 </ul>
+<h4 id=server-requirements>Server requirements</h4>
+<h5 id=apis>APIS</h5>
+<ul>
+<li><strong>/register</strong> endpoint for creating new users
+<ul>
+<li>user registers with email and password</li>
+</ul>
+</li>
+<li><strong>/login</strong> endpoint for logging (with JWT)
+<ul>
+<li>user logs in with email and password</li>
+</ul>
+</li>
+<li><strong>/post</strong> endpoint for creating and retrieving posts
+<ul>
+<li>GET: Get latest posts of all users except logged in user</li>
+<li>POST: Create new posts for user</li>
+</ul>
+</li>
+<li><strong>/notification</strong> endpoint for creating and retrieving notifications
+<ul>
+<li>GET: Get notifications</li>
+<li>POST: Create notification against a post</li>
+</ul>
+</li>
+</ul>
+<h5 id=jobs>Jobs</h5>
+<ul>
+<li>Notification cleaner: A job should periodically check for old notifications and delete them</li>
+</ul>
+<h5 id=system-assumptions>System assumptions</h5>
+<ul>
+<li>All users are friends/connected by default</li>
+<li>The system needs no other services (e.g. chat, comments, reacts)</li>
+</ul>
+<h4 id=other-instructions>Other instructions</h4>
+<ul>
+<li>Images uploaded for posts should be stored in an object store database (MinIO)</li>
+<li>You may use any programming language. However, <strong>Node.js or Python or Go</strong> is recommended.</li>
+<li>Frameworks/libraries can be used. However, using frameworks (like express/flask/fastapi/gin) will make the assignment easier.</li>
+<li>Using a framework on the frontend can be useful (angular/vue/react).</li>
+<li>You can use any database. Mongo recommended.</li>
+<li>Don&rsquo;t implement extra features. Because, distributing them in multiple instances could turn out to be a problem later.</li>
+</ul>
+<h2 id=step-2-coming-soon>Step 2: Coming Soon!</h2><!--## Service into microservices
+
+If you have completed step 1, congratulations! By now you have learned how to-
+* make APIs and call them (from a frontend)
+* integrate database with an application
+* use an object store database
+
+If you have done all that, kudos! You are now ready to start building microservices (or more like breaking an app into microservices).
+
+### Requirements
+
+Let's recap what modules we have in our backend system so far:
+* a Reg & Auth module
+* a Post module
+* a Notification module
+
+Currently these modules serve from a single monolith. We need to segregate them to the following services.
+
+1. User service
+    - Registration
+    - Login
+    - Authentication
+1. Post service
+1. Notification service
+
+Our system architecture will be like the following.
+
+### Architecture
+
+# ```
+# graph TD
+# CLIENT["Client"]-->
+<blockquote>
+</blockquote>
 </div>
 <div class=article-widget>
 <div class=post-nav>
+<div class=post-nav-item>
+<div class=meta-nav>Previous</div>
+<a href=/courses/distributed-systems/lab/microservice-facebook/ rel=next>Facebook backend: From monolith to microservices</a>
+</div>
 </div>
 </div>
 </div>
 <div class=body-footer>
-<p>Last updated on Feb 7, 2021</p>
+<p>Last updated on Jul 8, 2023</p>
 </div>
 </article>
 <footer class=site-footer>
@@ -246,6 +343,7 @@ Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_bl
 <script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.8.4/mermaid.min.js integrity="sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA==" crossorigin=anonymous title=mermaid></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/latex.min.js crossorigin=anonymous></script>
