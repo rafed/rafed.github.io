@@ -104,6 +104,7 @@ experience:
   - title: Requirement Analyst
     company: Glitra Bangladesh
     company_logo: glitra
+    company_url: 'https://www.glitra.com/'
     location: Banani, Dhaka
     date_start: '2017-03-01'
     date_end: '2017-05-30'
@@ -112,6 +113,7 @@ experience:
   - title: Requirement Analyst
     company: SoftCell Solution Ltd
     company_logo: softcell
+    company_url: 'https://softcellbd.net/'
     location: Banani, Dhaka
     date_start: '2016-10-01'
     date_end: '2016-11-30'
