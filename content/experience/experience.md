@@ -40,6 +40,9 @@ experience:
     date_end: ''
     description: |2-
       Working remotely as a SRE/DevOps engineer.
+      * Grafana, Prometheus monitoring
+      * AWS, Terraform, Kubernetes
+      * Gitlab pipelines, Python/Bash automations
 
   - title: DevOps Engineer
     company: 'Brainstation-23'
@@ -54,17 +57,17 @@ experience:
       * Kubernetes
       * CI/CD pipelines, Azure Devops
 
-  - title: Visiting Lecturer
+  - title: Guest Lecturer
     company: Institute of Information Technology (IIT), University of Dhaka
     company_logo: iit
     company_url: 'https://iit.du.ac.bd'
     location: Dhaka
     date_start: '2021-05-01'
-    date_end: ''
+    date_end: '2023-08-31'
     description: |2-
       Conduct distributed systems course lab: 
       * Containerization, orchestration
-      * System design fundamentals
+      * System design fundamentals, nmicroservices
       * Cloud computing
 
   - title: Associate Software Engineer
