@@ -9,4 +9,4 @@ weight: 10
 
 You will build a simple web application and containerize it with docker.
 
-Follow the instructions in this [Github repo](https://github.com/rafed/hello-docker) to complete this task.
+Follow the instructions in this [Github repo](https://github.com/rafed/docker-intro) to complete this task.
