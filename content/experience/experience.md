@@ -22,22 +22,13 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Python Mentor / Section Leader
-    company: Code in Place - Stanford University
-    company_logo: stanford
-    company_url: https://codeinplace.stanford.edu/
-    location: Stanford, California
-    date_start: '2023-04-27'
-    date_end: '2023-06-01'
-    description: Taught Python, in a free, human-centered, intro-to-coding course from Stanford University. More [here](/event/2023-code-in-place/).
-
   - title: DevOps Engineer
     company: 'The Clinician'
     company_logo: clinician
     company_url: 'https://theclinician.com/'
     location: New Zealand
     date_start: '2022-09-13'
-    date_end: ''
+    date_end: '2023-08-31'
     description: |2-
       Working remotely as a SRE/DevOps engineer.
       * Grafana, Prometheus monitoring
@@ -50,9 +41,9 @@ experience:
     company_url: 'https://brainstation-23.com/'
     location: Dhaka
     date_start: '2022-07-01'
-    date_end: ''
+    date_end: '2023-08-31'
     description: |2-
-      DevOps Engineer in multiple teams/cross-border teams. Working with
+      DevOps Engineer in multiple cross-border teams. Working with
       * AWS, Terraform
       * Kubernetes
       * CI/CD pipelines, Azure Devops
@@ -69,6 +60,15 @@ experience:
       * Containerization, orchestration
       * System design fundamentals, nmicroservices
       * Cloud computing
+
+  - title: Python Mentor / Section Leader
+    company: Code in Place - Stanford University
+    company_logo: stanford
+    company_url: https://codeinplace.stanford.edu/
+    location: Stanford, California
+    date_start: '2023-04-27'
+    date_end: '2023-06-01'
+    description: Taught Python, in a free, human-centered, intro-to-coding course from Stanford University. More [here](/event/2023-code-in-place/).
 
   - title: Associate Software Engineer
     company: 'Brainstation-23'
