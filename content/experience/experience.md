@@ -22,6 +22,19 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Guest Lecturer
+    company: Institute of Information Technology (IIT), University of Dhaka
+    company_logo: iit
+    company_url: 'https://iit.du.ac.bd'
+    location: Dhaka
+    date_start: '2021-05-01'
+    date_end: '2023-09-03'
+    description: |2-
+      Conduct distributed systems course lab: 
+      * Containerization, orchestration
+      * System design fundamentals, nmicroservices
+      * Cloud computing
+
   - title: DevOps Engineer
     company: 'The Clinician'
     company_logo: clinician
@@ -47,19 +60,6 @@ experience:
       * AWS, Terraform
       * Kubernetes
       * CI/CD pipelines, Azure Devops
-
-  - title: Guest Lecturer
-    company: Institute of Information Technology (IIT), University of Dhaka
-    company_logo: iit
-    company_url: 'https://iit.du.ac.bd'
-    location: Dhaka
-    date_start: '2021-05-01'
-    date_end: '2023-08-31'
-    description: |2-
-      Conduct distributed systems course lab: 
-      * Containerization, orchestration
-      * System design fundamentals, nmicroservices
-      * Cloud computing
 
   - title: Python Mentor / Section Leader
     company: Code in Place - Stanford University
