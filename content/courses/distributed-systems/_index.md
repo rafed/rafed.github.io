@@ -6,7 +6,7 @@ weight: 10
 
 # Page metadata.
 title: Distributed Systems
-date: "2021-02-05T00:00:00Z"
+date: "2023-08-31T00:00:00Z"
 type: book  # Do not modify.
 ---
 
