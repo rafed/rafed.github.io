@@ -177,7 +177,14 @@ Lab
 <li><a href=#requirements>Requirements</a></li>
 </ul>
 </li>
-<li><a href=#step-2-coming-soon>Step 2: Coming Soon!</a></li>
+<li><a href=#step-2-decompose-to-microservices-containerize-and-orchestrate>Step 2: Decompose to microservices, containerize and orchestrate</a>
+<ul>
+<li><a href=#requirements-1>Requirements</a></li>
+<li><a href=#architecture-1>Architecture</a></li>
+<li><a href=#what-to-do>What to do?</a></li>
+<li><a href=#suggestionslearning-materials>Suggestions/Learning Materials</a></li>
+</ul>
+</li>
 </ul>
 </nav>
 </div>
@@ -253,40 +260,78 @@ Lab
 <li>You can use any database. Mongo recommended.</li>
 <li>Don&rsquo;t implement extra features. Because, distributing them in multiple instances could turn out to be a problem later.</li>
 </ul>
-<h2 id=step-2-coming-soon>Step 2: Coming Soon!</h2><!--## Service into microservices
-
-If you have completed step 1, congratulations! By now you have learned how to-
-* make APIs and call them (from a frontend)
-* integrate database with an application
-* use an object store database
-
-If you have done all that, kudos! You are now ready to start building microservices (or more like breaking an app into microservices).
-
-### Requirements
-
-Let's recap what modules we have in our backend system so far:
-* a Reg & Auth module
-* a Post module
-* a Notification module
-
-Currently these modules serve from a single monolith. We need to segregate them to the following services.
-
-1. User service
-    - Registration
-    - Login
-    - Authentication
-1. Post service
-1. Notification service
-
-Our system architecture will be like the following.
-
-### Architecture
-
-# ```
-# graph TD
-# CLIENT["Client"]-->
-<blockquote>
-</blockquote>
+<h2 id=step-2-decompose-to-microservices-containerize-and-orchestrate>Step 2: Decompose to microservices, containerize and orchestrate</h2>
+<p>If you have completed step 1, congratulations! By now you have learned how to-</p>
+<ul>
+<li>make APIs and call them (from a frontend)</li>
+<li>integrate database with an application</li>
+<li>use an object store database</li>
+</ul>
+<p>If you have done all that, kudos! You are now ready to start building microservices (or more like breaking an app into microservices).</p>
+<h3 id=requirements-1>Requirements</h3>
+<p>Currently our application is a monolith. It&rsquo;s time we convert it to a microservice applitcation.</p>
+<p>Let&rsquo;s recap what modules we have in our backend system so far:</p>
+<ul>
+<li>User management module (Registration, Login)</li>
+<li>Posts module</li>
+<li>Notification module</li>
+</ul>
+<p>Currently these modules form a single monolith. We need to segregate them to the following services.</p>
+<ol>
+<li>User service
+<ul>
+<li>Registration</li>
+<li>Login</li>
+<li>Authentication</li>
+</ul>
+</li>
+<li>Posts service</li>
+<li>Notification service</li>
+</ol>
+<p>In addition, we also need to develop a sustainable system/environment where we can build/run the microservices easily.</p>
+<p>Our expected system architecture will be like the following.</p>
+<h3 id=architecture-1>Architecture</h3>
+<pre><code class=language-mermaid>graph TD
+CLIENT[&quot;Client&quot;]--&gt;PROXY[&quot;Reverse Proxy (Nginx)&quot;]
+PROXY--&gt;USER[User service]
+PROXY--&gt;POST[Post service]
+PROXY--&gt;NOTIFICATION[Notification service]
+USER--&gt;USER_DB[(User DB)]
+POST--&gt;POST_DB[(Post DB)]
+POST--&gt;OBJECT_DB[(Object DB)]
+POST--&gt;USER
+NOTIFICATION--&gt;NOTIFICATION_DB[(Notif DB)]
+NOTIFICATION--&gt;USER
+</code></pre>
+<h3 id=what-to-do>What to do?</h3>
+<ol>
+<li>In your project folder, make sub projects. Each sub project will be a separate microservice.</li>
+<li>Decompose the monolith into microservices so that each microservice is in a sub-project.</li>
+<li>Containerize each service using Docker</li>
+<li>Orchestrate the services by writing a docker-compose file</li>
+<li>Make sure to have an nginx container so that ALL traffic is routed through nginx and delivered to the respective services</li>
+<li>Write additional code so that the services communicate among themselves and the business logic discussed in <em>step 1</em> is served.
+<ul>
+<li>You may need to check requests for <strong>authorization</strong> when a user hits <strong>post service</strong> and <strong>notification service</strong></li>
+</ul>
+</li>
+</ol>
+<h3 id=suggestionslearning-materials>Suggestions/Learning Materials</h3>
+<ol>
+<li>Take your time to do the assignment. Instead of seeing it as one large task, try completing it taking one step at a time.</li>
+<li>For writing nginx configurations Google is your friend. You can also follow their official docs at <a href=https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/ target=_blank rel=noopener>docs.nginx.com</a>.</li>
+<li>Easy tutorials on containerizing with Docker
+<ul>
+<li><a href="https://www.youtube.com/watch?v=Gjnup-PuquQ" target=_blank rel=noopener>Docker in 100 seconds</a></li>
+<li><a href="https://www.youtube.com/watch?v=gAkwW2tuIqE" target=_blank rel=noopener>Docker in 7 easy steps</a></li>
+<li><a href="https://www.youtube.com/watch?v=MVIcrmeV_6c" target=_blank rel=noopener>Docker-compose tutorial</a></li>
+<li><a href=https://rafed.github.io/devra/posts/docker/useful-docker-commands/ target=_blank rel=noopener>My personal docker cheatsheet</a></li>
+<li>And please, Google some stuff yourself</li>
+</ul>
+</li>
+<li>For inspiration, you can check out <a href=https://github.com/rafed/nginx-flask-docker target=_blank rel=noopener>this repo</a> for a demo web app that&rsquo;s load balanced, containerized and orchestrated with docker.</li>
+</ol>
+<p>Good Luck!</p>
 </div>
 <div class=article-widget>
 <div class=post-nav>

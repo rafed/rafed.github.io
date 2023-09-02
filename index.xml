@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link><atom:link href="https://rafed.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rafed M. Yasir</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Rafed Muhammad Yasir</copyright><lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link></image><item><title>Introduction to Distributed systems</title><link>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</guid><description>&lt;p>A distributed system is a computing environment in which &lt;strong>various components&lt;/strong> are spread across &lt;strong>multiple computers&lt;/strong> (or other computing devices) on &lt;strong>a network&lt;/strong>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link><atom:link href="https://rafed.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Rafed M. Yasir</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2023 Rafed Muhammad Yasir</copyright><lastBuildDate>Thu, 31 Aug 2023 00:00:00 +0000</lastBuildDate><image><url>https://rafed.github.io/media/icon_hu21e3d06fd85657997c5a756b8676c06c_23682_512x512_fill_lanczos_center_3.png</url><title>Rafed M. Yasir</title><link>https://rafed.github.io/</link></image><item><title>Introduction to Distributed systems</title><link>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</link><pubDate>Fri, 17 Jun 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/01-introduction/</guid><description>&lt;p>A distributed system is a computing environment in which &lt;strong>various components&lt;/strong> are spread across &lt;strong>multiple computers&lt;/strong> (or other computing devices) on &lt;strong>a network&lt;/strong>.&lt;/p>
 &lt;p>The general notion of distribted system is:&lt;/p>
 &lt;ul>
 &lt;li>If a machine can do a task in 2 hr, two machines can do it in 1 hr&lt;/li>
@@ -504,99 +504,78 @@ SERVER--&amp;gt;OBJ_DB[(Object DB)]
 &lt;li>You can use any database. Mongo recommended.&lt;/li>
 &lt;li>Don&amp;rsquo;t implement extra features. Because, distributing them in multiple instances could turn out to be a problem later.&lt;/li>
 &lt;/ul>
-&lt;h2 id="step-2-coming-soon">Step 2: Coming Soon!&lt;/h2>
-&lt;!--## Service into microservices
-If you have completed step 1, congratulations! By now you have learned how to-
-* make APIs and call them (from a frontend)
-* integrate database with an application
-* use an object store database
-If you have done all that, kudos! You are now ready to start building microservices (or more like breaking an app into microservices).
-### Requirements
-Let's recap what modules we have in our backend system so far:
-* a Reg &amp; Auth module
-* a Post module
-* a Notification module
-Currently these modules serve from a single monolith. We need to segregate them to the following services.
-1. User service
-- Registration
-- Login
-- Authentication
-1. Post service
-1. Notification service
-Our system architecture will be like the following.
-### Architecture
-# ```
-# graph TD
-# CLIENT["Client"]-->&lt;!--PROXY["Reverse Proxy (Nginx)"]
-&lt;h1 id="proxy--useruser-service">PROXY&amp;ndash;&amp;gt;USER[User service]&lt;/h1>
-&lt;h1 id="proxy--postpost-service">PROXY&amp;ndash;&amp;gt;POST[Post service]&lt;/h1>
-&lt;h1 id="proxy--notificationnotification-service">PROXY&amp;ndash;&amp;gt;NOTIFICATION[Notification service]&lt;/h1>
-&lt;h1 id="user--user_dbuser-db">USER&amp;ndash;&amp;gt;USER_DB[(User DB)]&lt;/h1>
-&lt;h1 id="post--post_dbpost-db">POST&amp;ndash;&amp;gt;POST_DB[(Post DB)]&lt;/h1>
-&lt;h1 id="post--user">POST&amp;ndash;&amp;gt;USER&lt;/h1>
-&lt;h1 id="notification--notification_dbnotification-db">NOTIFICATION&amp;ndash;&amp;gt;NOTIFICATION_DB[(Notification DB)]&lt;/h1>
-&lt;h1 id="notification--object_dbobject-db">NOTIFICATION&amp;ndash;&amp;gt;OBJECT_DB[(Object DB)]&lt;/h1>
-&lt;h1 id="notification--user">NOTIFICATION&amp;ndash;&amp;gt;USER&lt;/h1>
-&lt;h1 id="heading">```&lt;/h1>
-&lt;!--
-### What to do?
-1. In your project folder, make sub projects. Each sub project will be a separate service.
-1. Download and configure nginx so that it works as a reverse proxy for all the services
-1. For nginx configuration Google is your friend. You can also follow their official docs at [docs.nginx.com](https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/).
-1. Write additional code so that the services communicate among themselves and the business logic discussed in _step 1_ is served.
-- You may need to check requests for **authorization** when a user hits **post service** and **notification service**
-1. Although it's a best practice to use separate database instances for each service, we will ignore it now for simplicity. Don't worry we'll segregate the database in some later steps.
-## Step 3: Containerize and orchestrate
-If you have completed step 2, congratulations! You have successfully created a distributed system and have a got a flavor of how microservices work!
-In this step we will do three things in our app-
-- **containerize** the services that we made
-- use **pre built containers** for _mysql/mongo_ and _nginx_
-- and **orchestrate** our services
-### Self Learning
-First, you will need to learn about containerization and orchestration **with docker**. You can watch the following tutorials-
-- [Docker in 100 seconds](https://www.youtube.com/watch?v=Gjnup-PuquQ)
-- [Docker in 7 easy steps](https://www.youtube.com/watch?v=gAkwW2tuIqE)
-- [Docker-compose tutorial](https://www.youtube.com/watch?v=MVIcrmeV_6c)
-- And please, Google some stuff yourself
-Once you understand the fundamentals, you can refer to [this manual](https://rafed.github.io/devra/posts/docker/useful-docker-commands/) to run the most commonly used docker commands.
-&lt;!-- Additionally, check out [this repo](https://github.com/rafed/nginx-flask-docker) for a demo web app that's load balanced, containerized and orchestrated with docker. -->
-&lt;!--
-### What to do?
-1. **Write a Dockerfile** for each of the services in their respective directories
-* User service
-* Post service
-* Notification service
-1. **Write a docker-compose.yml** file in the root project folder to orchestrate all of the services
-1. **Use separate database** (containers) for each service
-_N.B Follow the reference architecture in step 2_
-#### Other instructions
-1. No change in the application code is necessary (Except for maybe port numbers. You may want to reassign them).
-1. Windows cannot handle docker containers properly (even though Docker claims that they have support for windows). Use a Linux environment to run docker containers.
-## Step 4: Deploy in a swarm
-Great job guys! By now if you have successfully created a distributed system. However, the current system is distributed in software. What if we want to distribute our services in hardware?
-In this step we will distribute our services in hardware. We will create a cluster of computers at first (called a swarm). Then we will deploy our containers in it.
-This step by far should be the easiest (if you have done everything in the previous steps properly).
-### Self Learning
-Go through the following tutorials at first:
-* The [official docker swarm docs](https://docs.docker.com/engine/swarm/swarm-tutorial/) have a very good getting started tutorial. Go through it.
-* Watch this video [www.youtube.com/watch?v=Tm0Q5zr3FL4](https://www.youtube.com/watch?v=Tm0Q5zr3FL4)
-* And please google some stuff yourself.
-### What to do?
-* Create a team of two/three members (max three members per team)
-* Create a docker swarm with two/three PCs
-* Deploy each member's facebook app in the swarm
-### Important commands when creating a swarm
-```bash
-$ docker create swarm
-$ docker join swarm --token SWMTKN-1-26hm.....jxjxnj 192.168.x.xxx:2377
-$ docker swarm leave --force
-$ docker node ls
-$ docker info # check current swarm status
-$ docker stack deploy --compose-file docker-compose.yml bsse07xx
-$ docker stack services bsse07xx
-```
--->&lt;blockquote>
-&lt;/blockquote></description></item><item><title>Code in Place: A free, human-centered, intro-to-coding course from Stanford University</title><link>https://rafed.github.io/event/2023-code-in-place/</link><pubDate>Thu, 27 Apr 2023 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2023-code-in-place/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;h2 id="step-2-decompose-to-microservices-containerize-and-orchestrate">Step 2: Decompose to microservices, containerize and orchestrate&lt;/h2>
+&lt;p>If you have completed step 1, congratulations! By now you have learned how to-&lt;/p>
+&lt;ul>
+&lt;li>make APIs and call them (from a frontend)&lt;/li>
+&lt;li>integrate database with an application&lt;/li>
+&lt;li>use an object store database&lt;/li>
+&lt;/ul>
+&lt;p>If you have done all that, kudos! You are now ready to start building microservices (or more like breaking an app into microservices).&lt;/p>
+&lt;h3 id="requirements-1">Requirements&lt;/h3>
+&lt;p>Currently our application is a monolith. It&amp;rsquo;s time we convert it to a microservice applitcation.&lt;/p>
+&lt;p>Let&amp;rsquo;s recap what modules we have in our backend system so far:&lt;/p>
+&lt;ul>
+&lt;li>User management module (Registration, Login)&lt;/li>
+&lt;li>Posts module&lt;/li>
+&lt;li>Notification module&lt;/li>
+&lt;/ul>
+&lt;p>Currently these modules form a single monolith. We need to segregate them to the following services.&lt;/p>
+&lt;ol>
+&lt;li>User service
+&lt;ul>
+&lt;li>Registration&lt;/li>
+&lt;li>Login&lt;/li>
+&lt;li>Authentication&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Posts service&lt;/li>
+&lt;li>Notification service&lt;/li>
+&lt;/ol>
+&lt;p>In addition, we also need to develop a sustainable system/environment where we can build/run the microservices easily.&lt;/p>
+&lt;p>Our expected system architecture will be like the following.&lt;/p>
+&lt;h3 id="architecture-1">Architecture&lt;/h3>
+&lt;pre>&lt;code class="language-mermaid">graph TD
+CLIENT[&amp;quot;Client&amp;quot;]--&amp;gt;PROXY[&amp;quot;Reverse Proxy (Nginx)&amp;quot;]
+PROXY--&amp;gt;USER[User service]
+PROXY--&amp;gt;POST[Post service]
+PROXY--&amp;gt;NOTIFICATION[Notification service]
+USER--&amp;gt;USER_DB[(User DB)]
+POST--&amp;gt;POST_DB[(Post DB)]
+POST--&amp;gt;OBJECT_DB[(Object DB)]
+POST--&amp;gt;USER
+NOTIFICATION--&amp;gt;NOTIFICATION_DB[(Notif DB)]
+NOTIFICATION--&amp;gt;USER
+&lt;/code>&lt;/pre>
+&lt;h3 id="what-to-do">What to do?&lt;/h3>
+&lt;ol>
+&lt;li>In your project folder, make sub projects. Each sub project will be a separate microservice.&lt;/li>
+&lt;li>Decompose the monolith into microservices so that each microservice is in a sub-project.&lt;/li>
+&lt;li>Containerize each service using Docker&lt;/li>
+&lt;li>Orchestrate the services by writing a docker-compose file&lt;/li>
+&lt;li>Make sure to have an nginx container so that ALL traffic is routed through nginx and delivered to the respective services&lt;/li>
+&lt;li>Write additional code so that the services communicate among themselves and the business logic discussed in &lt;em>step 1&lt;/em> is served.
+&lt;ul>
+&lt;li>You may need to check requests for &lt;strong>authorization&lt;/strong> when a user hits &lt;strong>post service&lt;/strong> and &lt;strong>notification service&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ol>
+&lt;h3 id="suggestionslearning-materials">Suggestions/Learning Materials&lt;/h3>
+&lt;ol>
+&lt;li>Take your time to do the assignment. Instead of seeing it as one large task, try completing it taking one step at a time.&lt;/li>
+&lt;li>For writing nginx configurations Google is your friend. You can also follow their official docs at &lt;a href="https://docs.nginx.com/nginx/admin-guide/basic-functionality/managing-configuration-files/" target="_blank" rel="noopener">docs.nginx.com&lt;/a>.&lt;/li>
+&lt;li>Easy tutorials on containerizing with Docker
+&lt;ul>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=Gjnup-PuquQ" target="_blank" rel="noopener">Docker in 100 seconds&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=gAkwW2tuIqE" target="_blank" rel="noopener">Docker in 7 easy steps&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=MVIcrmeV_6c" target="_blank" rel="noopener">Docker-compose tutorial&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://rafed.github.io/devra/posts/docker/useful-docker-commands/" target="_blank" rel="noopener">My personal docker cheatsheet&lt;/a>&lt;/li>
+&lt;li>And please, Google some stuff yourself&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>For inspiration, you can check out &lt;a href="https://github.com/rafed/nginx-flask-docker" target="_blank" rel="noopener">this repo&lt;/a> for a demo web app that&amp;rsquo;s load balanced, containerized and orchestrated with docker.&lt;/li>
+&lt;/ol>
+&lt;p>Good Luck!&lt;/p></description></item><item><title>Code in Place: A free, human-centered, intro-to-coding course from Stanford University</title><link>https://rafed.github.io/event/2023-code-in-place/</link><pubDate>Thu, 27 Apr 2023 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2023-code-in-place/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
