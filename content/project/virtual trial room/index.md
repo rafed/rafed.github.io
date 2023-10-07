@@ -14,6 +14,11 @@ external_link: ""
 #   caption: Photo by rawpixel on Unsplash
 #   focal_point: Smart
 
+links:
+- icon: tv
+  icon_pack: fa
+  name: BBC
+  url: https://youtu.be/Bpd7cbYMJns?t=34
 # links:
 # - icon: twitter
 #   icon_pack: fab
@@ -22,7 +27,7 @@ external_link: ""
 url_code: ""
 url_pdf: ""
 url_slides: ""
-url_video: "https://www.youtube.com/watch?v=Bpd7cbYMJns"
+url_video: "https://drive.google.com/file/d/1-dO3aOcE1ipcX9jpEF-fTwecG-gZRz5o/view?usp=sharing"
 
 # Slides (optional).
 #   Associate this project with Markdown slides.
@@ -45,7 +50,7 @@ This project won several awards-
 
 ![Virtual Trial Room Glasses](ss2.png)
 
-This project also got featured on [BBC Click](https://www.youtube.com/watch?v=Bpd7cbYMJns).
+This project also got featured on [BBC Click](https://youtu.be/Bpd7cbYMJns?t=34).
 
 ![Virtual Trial Room Hats](ss3.png)
 
