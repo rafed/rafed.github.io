@@ -22,6 +22,18 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Teaching Assistant
+    company: University of California, Irvine
+    company_logo: uci
+    company_url: 'https://uci.edu'
+    location: Irvine, California
+    date_start: '2023-10-01'
+    # date_end: '2023-09-03'
+    description: |2-
+      Courses:
+      * [IN4MATX H81. Ethics, Technology, and Design](/courses/ethics-tech-design/)
+      * [IN4MATX 113. Requirements Analysis and Engineering](/requirements-engineering/)
+
   - title: Guest Lecturer
     company: Institute of Information Technology (IIT), University of Dhaka
     company_logo: iit
@@ -30,7 +42,7 @@ experience:
     date_start: '2021-05-01'
     date_end: '2023-09-03'
     description: |2-
-      Conduct distributed systems course lab: 
+      Conduct CSE [601: Distributed Systems](/courses/distributed-systems/) course lab: 
       * Containerization, orchestration
       * System design fundamentals, nmicroservices
       * Cloud computing

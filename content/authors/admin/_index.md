@@ -6,12 +6,12 @@ title: Rafed Muhammad Yasir
 superuser: true
 
 # Role/position/tagline
-role: DevOps Engineer
+role: Grad Student
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Brainstation-23
-  url: https://brainstation-23.com/
+- name: University of California, Irvine
+  url: https://uci.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My interests include Software Engineering, DevOps Lifecycle, Cybersecurity and  Machine Learning.
@@ -26,9 +26,12 @@ interests:
 # Education to show in About widget
 education:
   courses:
-  - course: MSc in Software Engineering
-    institution: Institute of Information Technology (IIT), University of Dhaka
-    year: 2021
+  - course: MS in Software Engineering
+    institution: University of California, Irvine
+    year: 2025 (Expected)
+#  - course: MSc in Software Engineering
+#    institution: Institute of Information Technology (IIT), University of Dhaka
+#    year: 2021
   - course: BSc in Software Engineering
     institution: Institute of Information Technology (IIT), University of Dhaka
     year: 2018
@@ -93,4 +96,6 @@ highlight_name: false
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 ---
 
-Rafed is a DevOps engineer at Brainstation-23. His interests include DevOps, software engineering, software security, and machine learning. He is currently bored so consult him on software development or research work. If you're bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he writes about his perspectives, techniques and skills in software engineering.
+Rafed is a grad student at [UCI](https://www.informatics.uci.edu/) and a former DevOps engineer. His interests include DevOps, software engineering, software security, and machine learning. He is currently bored so consult him on software development or research work. If you're bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he writes about his perspectives, techniques and skills in software engineering.
+
+<!-- Rafed is a DevOps engineer at Brainstation-23. His interests include DevOps, software engineering, software security, and machine learning. He is currently bored so consult him on software development or research work. If you're bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he writes about his perspectives, techniques and skills in software engineering. -->

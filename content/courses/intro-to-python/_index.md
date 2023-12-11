@@ -1,29 +1,28 @@
 ---
 # Course title, summary, and position.
-linktitle: "Distributed Systems"
-summary: "IIT, University of Dhaka (2021-2023)"
+linktitle: "Intro to Python"
+summary: "Stanford University, California (Sp23)"
 weight: 10
 
 # Page metadata.
-title: "CSE 601: Distributed Systems"
-date: "2023-08-31T00:00:00Z"
+title: "CS106A: Intro to Python"
+date: "2023-04-27T00:00:00Z"
 type: book  # Do not modify.
 ---
 
-This course's resources are heavily lab-focused on developing distributed web apps. It is not a comprehensive guide to learning distributed systems.
+Code in Place: A free, human-centered, intro-to-coding course from Stanford University. More [here](/event/2023-code-in-place/)
 
+<!-- ## What you will learn -->
 
-## What you will learn
-
-An introduction to Distributed Systems from a Cloud-Based Perspective
+<!-- An introduction to Distributed Systems from a Cloud-Based Perspective -->
 
 <!-- - Fundamental {{<hl>}}Python programming skills{{</hl>}}
 - {{<hl>}}Statistical concepts{{</hl>}} and how to apply them in practice
 - Gain experience with the {{<hl>}}Scikit{{</hl>}}, including data visualization with {{<hl>}}Plotly{{</hl>}} and data wrangling with {{<hl>}}Pandas{{</hl>}} -->
 
-## Program overview
+<!-- ## Program overview -->
 
-Stil under construction.
+<!-- Stil under construction. -->
 
 <!-- The demand for skilled data science practitioners is rapidly growing. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. -->
 
