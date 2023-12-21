@@ -9,9 +9,21 @@
 #  weight = 1
 
 [[main]]
-  name = "Experience"
-  url = "experience"
+  identifier = "experience"
+  name = "Experiences"
   weight = 20
+
+  [[main]]
+    parent = "experience"
+    name = "🔴 Industrial Experience"
+    url = "experience/industry"
+    weight = 20
+
+  [[main]]
+    parent = "experience"
+    name = "🟢 Teaching Experience"
+    url = "experience/teaching"
+    weight = 10
 
 [[main]]
   name = "Achievements"
@@ -72,16 +84,6 @@
     weight = 2
 
 [[main]]
-  name = "Events"
-  url = "event"
-  weight = 60
-
-[[main]]
-  name = "News"
-  url = "#recent-news"
-  weight = 70
-
-[[main]]
   identifier = "blog"
   name = "Blogs"
   weight = 80
@@ -99,9 +101,27 @@
       weight = 2
 
 [[main]]
+  identifier = "other"
   name = "Others"
-  url = "other"
   weight = 90
+
+  [[main]]
+      parent = "other"
+      name = "📰 Recent News"
+      url = "#recent-news"
+      weight = 10
+
+  [[main]]
+      parent = "other"
+      name = "📆 Events"
+      url = "event/"
+      weight = 20
+
+  [[main]]
+      parent = "other"
+      name = "🎸 Hobbies"
+      url = "hobbies/"
+      weight = 30
 
 [[main]]
   name = "Contact"

@@ -9,7 +9,7 @@ design:
 # This file represents a page section.
 # headless: true
 
-title: Experience
+title: Industrial Experience
 subtitle:
 
 # Date format for experience
@@ -22,31 +22,6 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Teaching Assistant
-    company: University of California, Irvine
-    company_logo: uci
-    company_url: 'https://uci.edu'
-    location: Irvine, California
-    date_start: '2023-10-01'
-    # date_end: '2023-09-03'
-    description: |2-
-      Courses:
-      * [IN4MATX H81. Ethics, Technology, and Design](/courses/ethics-tech-design/)
-      * [IN4MATX 113. Requirements Analysis and Engineering](/requirements-engineering/)
-
-  - title: Guest Lecturer
-    company: Institute of Information Technology (IIT), University of Dhaka
-    company_logo: iit
-    company_url: 'https://iit.du.ac.bd'
-    location: Dhaka
-    date_start: '2021-05-01'
-    date_end: '2023-09-03'
-    description: |2-
-      Conduct CSE [601: Distributed Systems](/courses/distributed-systems/) course lab: 
-      * Containerization, orchestration
-      * System design fundamentals, nmicroservices
-      * Cloud computing
-
   - title: DevOps Engineer
     company: 'The Clinician'
     company_logo: clinician
@@ -55,10 +30,11 @@ experience:
     date_start: '2022-09-13'
     date_end: '2023-08-31'
     description: |2-
-      Working remotely as a SRE/DevOps engineer.
-      * Grafana, Prometheus monitoring
-      * AWS, Terraform, Kubernetes
-      * Gitlab pipelines, Python/Bash automations
+      Engaged by Brainstation-23 in a strategic outsourcing arrangement to contribute to The Clinician's DevOps team. Key responsibilities-
+      * Used Kubernetes to orchestrate, auto scale & deploy containerized apps in enterprise-level microservices in over 20+ clusters.
+      * Created dashboards and alerts in Grafana to provide real-time insights into application health to enhance proactive identification and resolution of issues.
+      * Automated e2e cloud infrastructure (AWS) provisioning and config management using Terraform, fully eliminating manual operations, ensuring consistent deployment across environments
+      * Automated routine tasks using Python, Bash & AWS Lambda to improve operational efficiency
 
   - title: DevOps Engineer
     company: 'Brainstation-23'
@@ -68,19 +44,10 @@ experience:
     date_start: '2022-07-01'
     date_end: '2023-08-31'
     description: |2-
-      DevOps Engineer in multiple cross-border teams. Working with
-      * AWS, Terraform
-      * Kubernetes
-      * CI/CD pipelines, Azure Devops
-
-  - title: Python Mentor / Section Leader
-    company: Code in Place - Stanford University
-    company_logo: stanford
-    company_url: https://codeinplace.stanford.edu/
-    location: Stanford, California
-    date_start: '2023-04-27'
-    date_end: '2023-06-01'
-    description: Taught Python, in a free, human-centered, intro-to-coding course from Stanford University. More [here](/event/2023-code-in-place/).
+      Collaborated with multiple clients ([Oslofjord](https://www.oslofjorden.org/), [Persomic](https://persomic.com/), [Fitsomnia](https://fitsomnia.com/), Kortfilm) for their DevOps needs. Key responsibilities-
+      * Designed & maintained CI/CD pipelines using Github actions, GitLab CI/CD & Azure DevOps for reproducible builds across development, testing, and production environments.
+      * Enhanced system security by implementing DevSecOps practices using tools like Sonarqube & trivy
+      * Became the primary contact for incident response and server outage mitigation in the team.
 
   - title: Associate Software Engineer
     company: 'Brainstation-23'
@@ -90,22 +57,10 @@ experience:
     date_start: '2021-03-01'
     date_end: '2022-06-30'
     description: |2-
-      Part of TEQ team and contributing to many other teams. Working as a-
-      * Backend Engineer (Python, Django)
-      * DevOps Engineer (AWS, Kubernetes, CI/CD)
-
-  - title: Short Course Instructor
-    company: Institute of Information Technology (IIT), University of Dhaka
-    company_logo: iit
-    company_url: 'https://iit.du.ac.bd'
-    location: Dhaka
-    date_start: '2019-01-01'
-    date_end: '2021-04-30'
-    description: |2-
-      Responsibilities include:
-      * Teach Web Design (HTML, CSS, Javascript)
-      * Teach Web Programming (PHP, MySQL)
-      * Teach Microsoft Office Applications
+      Part of [TEQ/Ferdia](https://www.ferdia.no/) team and collaborating with many other teams. Key responsbilities-
+      * Contributed over 20+ features and bug fixes in Python/Django applications.
+      * Configured and managed several AWS services, including EC2, S3, RDS, Lambda, VPC, IAM, EKS.
+      * Actively discussed with cross-border clients/teams to discuss/negotiate project functionalities.
         
   - title: Intern
     company: FoxAI
