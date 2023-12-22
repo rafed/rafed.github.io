@@ -48,8 +48,13 @@
 </div>
 <div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
 <ul class="navbar-nav d-md-inline-flex">
-<li class=nav-item>
-<a class=nav-link href=/experience><span>Experience</span></a>
+<li class="nav-item dropdown">
+<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Experiences</span><span class=caret></span>
+</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=/experience/teaching><span>🟢 Teaching Experience</span></a>
+<a class=dropdown-item href=/experience/industry><span>🔴 Industrial Experience</span></a>
+</div>
 </li>
 <li class=nav-item>
 <a class=nav-link href=/achievements><span>Achievements</span></a>
@@ -73,12 +78,6 @@
 <a class=dropdown-item href=/publication><span>🖊 Publications</span></a>
 </div>
 </li>
-<li class=nav-item>
-<a class=nav-link href=/event><span>Events</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=/#recent-news><span>News</span></a>
-</li>
 <li class="nav-item dropdown">
 <a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Blogs</span><span class=caret></span>
 </a>
@@ -87,8 +86,14 @@
 <a class=dropdown-item href=/blog/><span>👤 Personal Blog</span></a>
 </div>
 </li>
-<li class=nav-item>
-<a class=nav-link href=/other><span>Others</span></a>
+<li class="nav-item dropdown">
+<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>Others</span><span class=caret></span>
+</a>
+<div class=dropdown-menu>
+<a class=dropdown-item href=/#recent-news><span>📰 Recent News</span></a>
+<a class=dropdown-item href=/event/><span>📆 Events</span></a>
+<a class=dropdown-item href=/hobbies/><span>🎸 Hobbies</span></a>
+</div>
 </li>
 <li class=nav-item>
 <a class=nav-link href=/#contact><span>Contact</span></a>
@@ -133,8 +138,6 @@
 <div class=col-auto>
 <select class="pub-filters pubtype-select form-control form-control-sm" data-filter-group=pubtype><option value=*>Type</option><option value=.pubtype-1>
 Conference paper
-</option><option value=.pubtype-3>
-Preprint
 </option></select>
 </div>
 <div class=col-auto>
@@ -243,51 +246,6 @@ DOI
 </p>
 </div>
 </div>
-<div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2019">
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/author/rafed-muhammad-yasir/>Rafed Muhammad Yasir</a></span>, <span>
-<a href=/author/moumita-asad/>Moumita Asad</a></span>, <span>
-<a href=/author/dr.-ahmedul-kabir/>Dr. Ahmedul Kabir</a></span>
-</span>
-(2019).
-<a href=/publication/05-defect-prediction/>Defect Prediction Using Stylistic Metrics</a>.
-arXiv.
-<p>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/05-defect-prediction/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.48550/arXiv.2206.10959 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-</div>
-<div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2019">
-<div class=pub-list-item style=margin-bottom:1rem>
-<i class="far fa-file-alt pub-icon" aria-hidden=true></i>
-<span class="article-metadata li-cite-author">
-<span>
-<a href=/author/moumita-asad/>Moumita Asad</a></span>, <span>
-<a href=/author/rafed-muhammad-yasir/>Rafed Muhammad Yasir</a></span>, <span>
-<a href=/author/dr.-nowshin-nower/>Dr. Nowshin Nower</a></span>, <span>
-<a href=/author/dr.-mohammad-shoyaib/>Dr. Mohammad Shoyaib</a></span>
-</span>
-(2019).
-<a href=/publication/01-traffic-congestion/>Traffic Congestion Prediction Using Machine Learning Techniques</a>.
-arXiv.
-<p>
-<a href=# class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal" data-filename=/publication/01-traffic-congestion/cite.bib>
-Cite
-</a>
-<a class="btn btn-outline-primary btn-page-header btn-sm" href=https://doi.org/10.48550/arXiv.2206.10983 target=_blank rel=noopener>
-DOI
-</a>
-</p>
-</div>
-</div>
 <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2019">
 <div class=pub-list-item style=margin-bottom:1rem>
 <i class="far fa-file-alt pub-icon" aria-hidden=true></i>
@@ -330,7 +288,7 @@ DOI
 <div class=container>
 <footer class=site-footer>
 <p class=powered-by>
-© 2023 Rafed Muhammad Yasir
+© 2024 Rafed Muhammad Yasir
 </p>
 <p class=powered-by>
 Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-modules target=_blank rel=noopener>open source</a> website builder that empowers creators.
