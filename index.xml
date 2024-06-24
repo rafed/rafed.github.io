@@ -18,12 +18,63 @@
 &lt;li>Blockchain (decentralized record of transactions)&lt;/li>
 &lt;/ol></description></item><item><title>Containerizing an App</title><link>https://rafed.github.io/courses/distributed-systems/lab/containerization/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/containerization/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
 &lt;p>You will build a simple web application and containerize it with docker.&lt;/p>
-&lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/docker-intro" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Creating a pipeline</title><link>https://rafed.github.io/courses/distributed-systems/lab/pipeline/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/pipeline/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+&lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/docker-intro" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Lecture 1: CourseIntro-Teamwork</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture01/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/16W-GAsZXwcR2t386quXTSnCedSkcEy3k/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Week 1</title><link>https://rafed.github.io/courses/ethics-tech-design/f23/week1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/ethics-tech-design/f23/week1/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Assignment: Ethical Tech Starts With Addressing Ethical Debt&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Ethics Defined&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: The A.I. Dilemma - Full Video&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Zoombombing, Technology Ethics &amp;amp; Awful People Being Awful | An Introduction to Ethical Debt in Tech&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Cat Pictures Please&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: The Trolley Problem, Part 1&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: The Trolley Problem, Part 2&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Creating a pipeline</title><link>https://rafed.github.io/courses/distributed-systems/lab/pipeline/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/pipeline/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
 &lt;p>You will learn to build a CI/CD pipeline using git, Github actions and Heroku.&lt;/p>
 &lt;h2 id="instructions">Instructions&lt;/h2>
 &lt;p>Follow the instructions in this &lt;a href="https://github.com/rafed/ci-cd-pipeline" target="_blank" rel="noopener">Github repo&lt;/a> to complete this task.&lt;/p></description></item><item><title>Introduction to Microservices</title><link>https://rafed.github.io/courses/distributed-systems/theory/010-intro-microservices/</link><pubDate>Sun, 07 Feb 2021 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/010-intro-microservices/</guid><description>&lt;div class="responsive-wrap">
 &lt;iframe src="https://docs.google.com/presentation/d/1Sm-buXQKPJdvfuZLOxKzMbIJ0C4mYZ2hyk_Ike6aClU/edit?usp=sharing" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
-&lt;/div></description></item><item><title>System Design Golden Rules</title><link>https://rafed.github.io/courses/distributed-systems/theory/020-sys-design-golden-rules/</link><pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/020-sys-design-golden-rules/</guid><description>&lt;ol>
+&lt;/div></description></item><item><title>Lecture 2: Intro to RE</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture02/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/12YeMk--MkU6psgOZhThIx7VwIeg84uPu/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Week 2</title><link>https://rafed.github.io/courses/ethics-tech-design/f23/week2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/ethics-tech-design/f23/week2/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Assignment: Deontology&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Moral Relativism&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Superhuman Ethics Class With The Avengers Prime&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Utilitarianism&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Virtue Ethics&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: A Designer’s Code of Ethics&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: The Technology Facebook and Google Didn’t Dare Release&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Using Persuasive Design Responsibly&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>System Design Golden Rules</title><link>https://rafed.github.io/courses/distributed-systems/theory/020-sys-design-golden-rules/</link><pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/theory/020-sys-design-golden-rules/</guid><description>&lt;ol>
 &lt;li>
 &lt;p>If we are dealing with a read-heavy system, it&amp;rsquo;s good to consider using a Cache.&lt;/p>
 &lt;/li>
@@ -261,7 +312,22 @@ CC --- CSC
 &lt;li>a &amp;ldquo;send email function&amp;rdquo; that periodically sends emails to the addresses stored in the message broker&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ol></description></item><item><title>Facebook backend: From monolith to microservices</title><link>https://rafed.github.io/courses/distributed-systems/lab/microservice-facebook/</link><pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/microservice-facebook/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+&lt;/ol></description></item><item><title>Lecture 3: RE Fundamentals</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture03/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture03/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1TlDXthDk8H3ORZfkjq2Rr6oU8uM3q1NY/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Week 3</title><link>https://rafed.github.io/courses/ethics-tech-design/f23/week3/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/ethics-tech-design/f23/week3/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Assignment: How China Is Using A.I. to Profile a Minority&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: My Journey Down the Rabbit Hole of Every Journalist’s Favorite App&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Courts and Predictive Algorithms&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Policing the Future**&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Facebook backend: From monolith to microservices</title><link>https://rafed.github.io/courses/distributed-systems/lab/microservice-facebook/</link><pubDate>Sat, 20 Aug 2022 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/microservice-facebook/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
 &lt;p>Your task is to build a monolithic web based system. Then, break down the system into microservices following the microservice architecture. To acheive this follow the steps below.&lt;/p>
 &lt;h2 id="step-1-build-a-server-and-a-client">Step 1: Build a server and a client&lt;/h2>
 &lt;p>You will build a rudimentary version of &lt;strong>Facebook&lt;/strong>. The app itself should not be complex as we are here to build a distributed system and not a full featured social media app.&lt;/p>
@@ -437,7 +503,19 @@ $ docker node ls
 $ docker info # check current swarm status
 $ docker stack deploy --compose-file docker-compose.yml bsse07xx
 $ docker stack services bsse07xx
-&lt;/code>&lt;/pre></description></item><item><title>LinkedIn backend: From monolith to microservices</title><link>https://rafed.github.io/courses/distributed-systems/lab/microservice-linkedin/</link><pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/microservice-linkedin/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
+&lt;/code>&lt;/pre></description></item><item><title>Lecture 4: Product Vision</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture04/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture04/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1Q9sbLYbs5THvaSTh1ud7Mj_EkiHkZyra/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Week 4</title><link>https://rafed.github.io/courses/ethics-tech-design/f23/week4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/ethics-tech-design/f23/week4/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Assignment: Big Data and Its Exclusions&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Big Data in 5 Minutes&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Gender Shades&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>LinkedIn backend: From monolith to microservices</title><link>https://rafed.github.io/courses/distributed-systems/lab/microservice-linkedin/</link><pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/distributed-systems/lab/microservice-linkedin/</guid><description>&lt;h2 id="goal">Goal&lt;/h2>
 &lt;p>Your task is to build a monolithic web based system. Then, break down the system into microservices following the microservice architecture. To acheive this follow the steps below.&lt;/p>
 &lt;h2 id="step-1-build-a-server-and-a-client">Step 1: Build a server and a client&lt;/h2>
 &lt;p>You will create a basic version of &lt;strong>LinkedIn&lt;/strong>. The app itself should not be complex as we are here to build a distributed system and not a full featured social media app.&lt;/p>
@@ -575,7 +653,80 @@ NOTIFICATION--&amp;gt;USER
 &lt;/li>
 &lt;li>For inspiration, you can check out &lt;a href="https://github.com/rafed/nginx-flask-docker" target="_blank" rel="noopener">this repo&lt;/a> for a demo web app that&amp;rsquo;s load balanced, containerized and orchestrated with docker.&lt;/li>
 &lt;/ol>
-&lt;p>Good Luck!&lt;/p></description></item><item><title>Code in Place: A free, human-centered, intro-to-coding course from Stanford University</title><link>https://rafed.github.io/event/2023-code-in-place/</link><pubDate>Thu, 27 Apr 2023 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2023-code-in-place/</guid><description>&lt;!-- &lt;div class="alert alert-note">
+&lt;p>Good Luck!&lt;/p></description></item><item><title>Lecture 5: Stakeholders + Elicitation - part 1</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture05/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1QX53YFfCCbRBISES7fSVht5IG5m_B2Qr/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Week 5</title><link>https://rafed.github.io/courses/ethics-tech-design/f23/week5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/ethics-tech-design/f23/week5/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Assignment: Ethics Unwrapped: Implicit Bias&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Ethics, Geography, and Mapping&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Mapping Justice As Transportation&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: A Data Designer’s Responsibility During a Global Crisis&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: The Future of Free Speech, Trolls, Anonymity and Fake News Online&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Lecture 6: Elicitation - part 2</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture06/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture06/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1i7R8H2Ob8605sFEA6ctQjxA-QSM-OANb/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Week 6</title><link>https://rafed.github.io/courses/ethics-tech-design/f23/week6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/ethics-tech-design/f23/week6/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Assignment: How Dating Apps Became a Paradise for Predators&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: How Hinge&amp;rsquo;s Algorithm Picks Your Dates&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Encode Justice&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Meta’s Censorship of Health Ads for Women and People of Diverse Genders&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Young People Lobby Congress for More Online Protections&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Lecture 7: Documenting Requirements</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture07/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture07/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/12klrbBvG5B32GQuFvl0NqDdNy54lWUPD/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Week 7</title><link>https://rafed.github.io/courses/ethics-tech-design/f23/week7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/ethics-tech-design/f23/week7/</guid><description>&lt;ul>
+&lt;li>
+&lt;p>Assignment: Building Consentful Tech&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: In Our Own Words&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: Something is Wrong on the Internet&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Assignment: The Touchpoint Collective&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>Lecture 8: Specifying with Natural Language</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture08/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1xF3WrbpNGyLVCPYawZ22PinuSVgB6O7D/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Week 8</title><link>https://rafed.github.io/courses/ethics-tech-design/f23/week8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/ethics-tech-design/f23/week8/</guid><description>&lt;ul>
+&lt;li>Assignment: #Gamergate and The Fappening: How Reddit’s Algorithm, Governance, and Culture Support Toxic Technocultures&lt;/li>
+&lt;li>Assignment: The Secret Rules of the Internet: The Murky History of Moderation and How It Is Shaping the Future of Free Speech&lt;/li>
+&lt;li>Assignment: Thoughts and Prayers: A Short Story About Trolling&lt;/li>
+&lt;/ul></description></item><item><title>Lecture 9: RE Processes</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture09/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture09/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1v10TjVKj8O9Xd7bRcrQMUixKbWUPQdOn/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Lecture 10: Use Cases</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture10/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture10/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/12d8R_R4D-lWcHcgbkqchpjvgid-JVRue/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Lecture 11: Management and Traceability</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture11/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture11/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1KUzG4ThrGxgqcUz0MNhfkdAES_g9GbpV/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Lecture 12: RE for AI</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture12/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture12/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1kqjMM0D6CDE-p35grYK0b4HCIGwaiQzj/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Lecture 13: RE Guidance</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture13/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture13/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1NWx_QRISgXk_-X9TRKF-arLBiy80vyxA/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Lecture 14: Validation</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture14/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture14/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1_ELG3S-FRXTOY8hnUzl28wO9UcDXU9bi/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Lecture 15: Agile RE</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture15/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture15/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1w9Sc5S7QrCMh79SuXUexMApsqtJGirbO/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Lecture 16: Conclusion</title><link>https://rafed.github.io/courses/requirements-engineering/sp24/lecture16/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://rafed.github.io/courses/requirements-engineering/sp24/lecture16/</guid><description>&lt;div class="responsive-wrap">
+&lt;iframe src="https://docs.google.com/presentation/d/1eRJmBX54CjNxfHWKKiRZk_FpAnBiN93S/edit?usp=drive_link&amp;amp;ouid=107390574922219604139&amp;amp;rtpof=true&amp;amp;sd=true" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">&lt;/iframe>
+&lt;/div></description></item><item><title>Code in Place: A free, human-centered, intro-to-coding course from Stanford University</title><link>https://rafed.github.io/event/2023-code-in-place/</link><pubDate>Thu, 27 Apr 2023 11:00:00 +0000</pubDate><guid>https://rafed.github.io/event/2023-code-in-place/</guid><description>&lt;!-- &lt;div class="alert alert-note">
 &lt;div>
 Click on the &lt;strong>Slides&lt;/strong> button above to view the built-in slides feature.
 &lt;/div>
