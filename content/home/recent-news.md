@@ -67,6 +67,10 @@ design:
 
 <tbody>
   <tr>
+    <td><i class="fas fa-users pr-1 fa-fw"></i> 24 Jun 2024:</td>
+    <td>Started a summer internship at <a href="https://www.resmed.com/en-us/">ResMed</a> as a Platform Engineer!</td>
+  </tr>
+  <tr>
     <td><i class="fas fa-users pr-1 fa-fw"></i> 06 Dec 2022:</td>
     <td>Presented our <a href="/publication/03-code-style/">paper</a> at <a href="http://quasoq2022.swc-rwth.de/">QuASoQ</a> and was also a discussant.</td>
   </tr>
@@ -110,10 +114,10 @@ design:
     <td><i class="fas fa-book pr-1 fa-fw"></i> 05 Mar 2019:</td>
     <td>Our paper titled <a href="/publication/02-godexpo/">GodExpo: an automated god structure detection tool for Golang</a> has been accepted at <a href="https://iwor.github.io/iwor2019/">IWoR</a>!</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td><i class="fas fa-graduation-cap pr-1 fa-fw"></i> 30 Dec 2018:</td>
     <td>Completed my BSc in Software Engineering (BSSE) from IIT, University of Dhaka.</td>
-  </tr>
+  </tr> -->
 
 </tbody>
 

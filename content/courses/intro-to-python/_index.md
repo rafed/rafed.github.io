@@ -34,6 +34,10 @@ Code in Place: A free, human-centered, intro-to-coding course from Stanford Univ
 
 {{< mention "admin" >}}
 
+## Link to Course Website
+
+https://codeinplace.stanford.edu/
+
 <!-- ## FAQs
 
 {{< spoiler text="Are there prerequisites?" >}}

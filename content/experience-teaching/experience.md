@@ -32,7 +32,7 @@ experience:
     description: |2-
       Courses:
       * [IN4MATX H81. Ethics, Technology, and Design](/courses/ethics-tech-design/)
-      * [IN4MATX 113. Requirements Analysis and Engineering](/requirements-engineering/)
+      * [IN4MATX 113. Requirements Analysis and Engineering](/courses/requirements-engineering/)
 
   - title: Guest Lecturer
     company: Institute of Information Technology (IIT), University of Dhaka

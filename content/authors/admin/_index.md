@@ -12,6 +12,8 @@ role: Grad Student
 organizations:
 - name: University of California, Irvine
   url: https://uci.edu/
+- name: ResMed
+  url: https://www.resmed.com/en-us/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My interests include Software Engineering, DevOps Lifecycle, Cybersecurity and  Machine Learning.
@@ -96,6 +98,6 @@ highlight_name: false
 # {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
 ---
 
-Rafed is a software engineering grad student at the [Department of Informatics](https://www.informatics.uci.edu/), [University of California, Irvine](https://uci.edu/). He is a former DevOps engineer at [Brainstation-23](https://brainstation-23.com/). His interests include DevOps, software engineering, software security, and machine learning. He is currently bored so consult him on software development or research work. If you're bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he writes about his perspectives, techniques and skills in software engineering.
+Rafed is a [software engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/) grad student at the [Department of Informatics](https://www.informatics.uci.edu/), [University of California, Irvine](https://uci.edu/). He is currently doing a summer internship as a Platform Engineer at [ResMed](https://www.resmed.com/en-us/) and previously worked as a DevOps engineer at [Brainstation-23](https://brainstation-23.com/). His interests include DevOps, software engineering, software security, and machine learning. He is currently bored so consult him on software development or research work. If you're bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he writes about his perspectives, techniques and skills in software engineering.
 
 <!-- Rafed is a DevOps engineer at Brainstation-23. His interests include DevOps, software engineering, software security, and machine learning. He is currently bored so consult him on software development or research work. If you're bored, then consider reading his [tech blog](https://rafed.github.io/devra/) where he writes about his perspectives, techniques and skills in software engineering. -->

@@ -22,6 +22,16 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
+  - title: Platform Engineer
+    company: 'ResMed'
+    company_logo: resmed
+    company_url: 'https://www.resmed.com/en-us/'
+    location: San Diego, CA, USA
+    date_start: '2024-06-24'
+    # date_end: '2024-09-06'
+    description: |2-
+      Summer internship during MS @UC Irvine.
+
   - title: DevOps Engineer
     company: 'The Clinician'
     company_logo: clinician

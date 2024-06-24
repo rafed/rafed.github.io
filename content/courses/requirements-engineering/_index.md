@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
 linktitle: "Requirements Analysis and Engineering"
-summary: "University of California, Irvine (W24)"
+summary: "University of California, Irvine (W24, Sp24)"
 weight: 10
 
 # Page metadata.
