@@ -28,9 +28,12 @@ experience:
     company_url: 'https://www.resmed.com/en-us/'
     location: San Diego, CA, USA
     date_start: '2024-06-24'
-    # date_end: '2024-09-06'
+    date_end: '2024-09-06'
     description: |2-
-      Summer internship during MS @UC Irvine.
+      Summer internship during MS @UC Irvine. Key responsibilities-
+      * Add features, fix bugs, address security concerns in helm charts that deploy to EKS.
+      * Add, update, fix Github Action pipelines.
+      * Address logging issues in Datadog.
 
   - title: DevOps Engineer
     company: 'The Clinician'
