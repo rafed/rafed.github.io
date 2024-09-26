@@ -31,9 +31,9 @@ experience:
     date_end: '2024-09-06'
     description: |2-
       Summer internship during MS @UC Irvine. Key responsibilities-
-      * Add features, fix bugs, address security concerns in helm charts that deploy to EKS.
-      * Add, update, fix Github Action pipelines.
-      * Address logging issues in Datadog.
+      * Enhanced and optimized Helm charts for EKS, improving deployment efficiency.
+      * Developed, updated, and debugged GitHub Action pipelines, streamlining CI/CD processes.
+      * Diagnosed and resolved logging issues in Datadog, ensuring robust monitoring and system reliability.
 
   - title: DevOps Engineer
     company: 'The Clinician'
