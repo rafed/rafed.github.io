@@ -9,7 +9,7 @@ design:
 # This file represents a page section.
 # headless: true
 
-title: Industrial Experience
+title: Industry Experience
 subtitle:
 
 # Date format for experience
