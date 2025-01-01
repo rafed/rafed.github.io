@@ -35,6 +35,7 @@ experience:
       * [IN4MATX 113. Requirements Analysis and Engineering](/courses/requirements-engineering/)
       * [SWE 246P. Mobile Programming](/courses/mobile-programming)
       * [SWE 248P. Neural Network Programming](/courses/neural-network-programming)
+      * [SWE 267P. Cloud and Security Foundations](/courses/cloud-secure-found)
 
   - title: Guest Lecturer
     company: Institute of Information Technology (IIT), University of Dhaka
