@@ -98,22 +98,22 @@ design:
     <td><i class="fas fa-book pr-1 fa-fw"></i> 21 Apr 2021:</td>
     <td>Our paper titled <a href="/publication/06-comprego/">Analyzing Program Comprehensibility of Go Projects</a> has been accepted at <a href="https://ksiresearch.org/seke/seke21.html">SEKE</a>!</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td><i class="fas fa-briefcase pr-1 fa-fw"></i> 01 Mar 2021:</td>
     <td>Joined Brainstation-23 as an Associate Software Engineer.</td>
-  </tr>
-  <tr>
+  </tr> -->
+  <!-- <tr>
     <td><i class="fas fa-graduation-cap pr-1 fa-fw"></i> 30 Jan 2021:</td>
     <td>Completed my MSc in Software Engineering (MSSE) from IIT, University of Dhaka.</td>
-  </tr>
-  <tr>
+  </tr> -->
+  <!-- <tr>
     <td><i class="fas fa-book pr-1 fa-fw"></i> 05 Dec 2020:</td>
     <td>Our paper titled <a href="/publication/04-how-well-does-undergraduate-education/">How Well Does Undergraduate Education Prepare Software Engineers? Perspectives of Practitioners in Bangladesh</a> has been accepted at CSEE&T!</td>
-  </tr>
-  <tr>
+  </tr> -->
+  <!-- <tr>
     <td><i class="fas fa-book pr-1 fa-fw"></i> 05 Mar 2019:</td>
     <td>Our paper titled <a href="/publication/02-godexpo/">GodExpo: an automated god structure detection tool for Golang</a> has been accepted at <a href="https://iwor.github.io/iwor2019/">IWoR</a>!</td>
-  </tr>
+  </tr> -->
   <!-- <tr>
     <td><i class="fas fa-graduation-cap pr-1 fa-fw"></i> 30 Dec 2018:</td>
     <td>Completed my BSc in Software Engineering (BSSE) from IIT, University of Dhaka.</td>

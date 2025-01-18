@@ -16,14 +16,14 @@ organizations:
   url: https://www.resmed.com/en-us/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include Software Engineering, DevOps Lifecycle, Cybersecurity and  Machine Learning.
+bio: My interests include Automated Software Engineering, DevOps Engineering, LLMs & Agentic Workflows and Penetration Testing.
 
 # Interests to show in About widget
 interests:
-- Software Engineering
-- DevOps Lifecycle
-- Cybersecurity
-- Machine Learning
+- Automated Software Engineering
+- DevOps Engineering
+- LLMs & Agentic Workflows
+- Penetration Testing
 
 # Education to show in About widget
 education:
