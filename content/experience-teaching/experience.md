@@ -28,7 +28,7 @@ experience:
     company_url: 'https://uci.edu'
     location: Irvine, California
     date_start: '2023-09-25'
-    # date_end: '2023-09-03'
+    date_end: '2025-06-13'
     description: |2-
       Courses:
       * [IN4MATX H81. Ethics, Technology, and Design](/courses/ethics-tech-design/)
@@ -36,6 +36,7 @@ experience:
       * [SWE 246P. Mobile Programming](/courses/mobile-programming)
       * [SWE 248P. Neural Network Programming](/courses/neural-network-programming)
       * [SWE 267P. Cloud and Security Foundations](/courses/cloud-secure-found)
+      * [IN4MATX 121. Software Design: Applications](/courses/software-design/)
 
   - title: Guest Lecturer
     company: Institute of Information Technology (IIT), University of Dhaka

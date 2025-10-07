@@ -27,6 +27,17 @@ experience:
     company_logo: resmed
     company_url: 'https://www.resmed.com/en-us/'
     location: San Diego, CA, USA
+    date_start: '2025-07-14'
+    # date_end: '2024-09-06'
+    description: |2-
+      Working in the Developer Experience team (DevX). Key responsibilities-
+      * Automated AWS account provisioning/maintenance
+
+  - title: Platform Engineer Intern
+    company: 'ResMed'
+    company_logo: resmed
+    company_url: 'https://www.resmed.com/en-us/'
+    location: San Diego, CA, USA
     date_start: '2024-06-24'
     date_end: '2024-09-06'
     description: |2-

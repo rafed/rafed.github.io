@@ -68,20 +68,28 @@ design:
 <tbody>
   <tr>
     <td><i class="fas fa-users pr-1 fa-fw"></i> 24 Jun 2024:</td>
-    <td>Started a summer internship at <a href="https://www.resmed.com/en-us/">ResMed</a> as a Platform Engineer!</td>
+    <td>Started a full time role at <a href="https://www.resmed.com/en-us/">Resmed</a> as a Platform Engineer.</td>
+  </tr>
+  <tr>
+    <td><i class="fas fa-graduation-cap pr-1 fa-fw"></i>10 Sep 2025:</td>
+    <td>Completed my MSc in Software Engineering (MSSE) from UC Irvine.</td>
+  </tr>
+  <tr>
+    <td><i class="fas fa-users pr-1 fa-fw"></i> 24 Jun 2024:</td>
+    <td>Started a summer internship at <a href="https://www.resmed.com/en-us/">Resmed</a> as a Platform Engineer.</td>
   </tr>
   <tr>
     <td><i class="fas fa-users pr-1 fa-fw"></i> 06 Dec 2022:</td>
     <td>Presented our <a href="/publication/03-code-style/">paper</a> at <a href="http://quasoq2022.swc-rwth.de/">QuASoQ</a> and was also a discussant.</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td><i class="fas fa-book pr-1 fa-fw"></i> 12 Nov 2022:</td>
     <td>Our paper titled <a href="/publication/03-code-style/">Exploring the Impact of Code Style in Identifying Good Programmers</a> has been accepted at <a href="http://quasoq2022.swc-rwth.de/">QuASoQ</a>!</td>
-  </tr>
-  <tr>
+  </tr> -->
+  <!-- <tr>
     <td><i class="fas fa-chalkboard-teacher pr-1 fa-fw"></i> 30 Oct 2022:</td>
     <td>Conducted a <a href="/event/2022-software-maintenance/">session on software maintenance</a> at IIT, University of Dhaka.</td>
-  </tr>
+  </tr> -->
   <tr>
     <td><i class="fas fa-trophy pr-1 fa-fw"></i> 20 Sep 2022:</td>
     <td>Received <a href="/achievement/certifications/azure-data-fundamentals/">Azure Data Fundamentals certification</a> from Microsoft.</td>
@@ -94,10 +102,10 @@ design:
     <td><i class="fas fa-trophy pr-1 fa-fw"></i> 09 Mar 2022:</td>
     <td>Received <a href="/achievement/certifications/azure-fundamentals/">Azure Fundamentals certification</a> from Microsoft.</td>
   </tr>
-  <tr>
+  <!-- <tr>
     <td><i class="fas fa-book pr-1 fa-fw"></i> 21 Apr 2021:</td>
     <td>Our paper titled <a href="/publication/06-comprego/">Analyzing Program Comprehensibility of Go Projects</a> has been accepted at <a href="https://ksiresearch.org/seke/seke21.html">SEKE</a>!</td>
-  </tr>
+  </tr> -->
   <!-- <tr>
     <td><i class="fas fa-briefcase pr-1 fa-fw"></i> 01 Mar 2021:</td>
     <td>Joined Brainstation-23 as an Associate Software Engineer.</td>

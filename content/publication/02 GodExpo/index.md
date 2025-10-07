@@ -6,7 +6,7 @@ authors:
 - Asadullah Hill Galib
 - Kishan Kumar Ganguly
 - Md Saeed Siddik
-date: "2019-03-051T00:00:00Z"
+date: "2019-03-05T00:00:00Z"
 doi: "10.1109/IWoR.2019.00016"
 
 # Schedule page publish date (NOT publication's date).

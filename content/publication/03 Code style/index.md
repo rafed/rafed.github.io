@@ -3,7 +3,7 @@ title: "Exploring the Impact of Code Style in Identifying Good Programmers"
 authors:
 - admin
 - Dr. Ahmedul Kabir
-date: "2022-12-061T00:00:00Z"
+date: "2022-12-06T00:00:00Z"
 # doi: "10.48550/arXiv.2206.10891"
 
 # Schedule page publish date (NOT publication's date).
