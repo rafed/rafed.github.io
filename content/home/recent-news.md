@@ -67,12 +67,12 @@ design:
 
 <tbody>
   <tr>
-    <td><i class="fas fa-users pr-1 fa-fw"></i> 24 Jun 2024:</td>
+    <td><i class="fas fa-users pr-1 fa-fw"></i> 14 Jul 2025:</td>
     <td>Started a full time role at <a href="https://www.resmed.com/en-us/">Resmed</a> as a Platform Engineer.</td>
   </tr>
   <tr>
     <td><i class="fas fa-graduation-cap pr-1 fa-fw"></i>10 Sep 2025:</td>
-    <td>Completed my MSc in Software Engineering (MSSE) from UC Irvine.</td>
+    <td>Graduated UC Irvine with an my MSc in Software Engineering (MSSE).</td>
   </tr>
   <tr>
     <td><i class="fas fa-users pr-1 fa-fw"></i> 24 Jun 2024:</td>
